@@ -2,26 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+  font-family: "Outfit", sans-serif;
+  cursor: pointer;
+  
+}
+body{
+  overflow-x: hidden;
+}
+.nav ul li {
+  padding: 10px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
+.linearbggreen {
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    0deg,
+    #d7ffe0 0px,
+    rgba(251, 251, 251, 0) 91.45%
+  );
+}
+
+.gradienttextbg {
+  background: linear-gradient(90deg, #00D842 0px, rgba(54, 109, 253, 0.87) 98.96%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+text-transform: capitalize;
+
+}
+.sidebar{
+  position: absolute;
+  height: 100vh;
+  top:0;
+  background: white;
+  right: 0;
+}
+
+.bs{
+  background: linear-gradient(149.9deg, #38D26F 12.85%, #357AFF 130.19%);
+}
+
+.list-story li:first-child p:first-child{
+  margin-top: 0.8rem;
+}
+
+.list-story li p:first-child{
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 2rem;
+}
+.list-story li p:nth-child(2){
+  margin-top: 2px;
+  margin-bottom: 4px;
+  color: white;
+}
+.list-story li {
+  border-bottom: 0.8px solid white ;
+  padding: 4px;
 }
