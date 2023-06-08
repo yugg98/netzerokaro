@@ -7,6 +7,7 @@ import Roadnz from '@/components/Roadnz'
 import Story from '@/components/Story'
 import Challenges from '@/components/Challenges'
 import Solutions from '@/components/Solutions'
+import { Footer } from '@/components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <Story/>
       <Challenges/>
       <Solutions/>
+      <Footer/>
    </div>
   )
 }

@@ -10,7 +10,7 @@ const NzkCatalyst = () => {
                 <br/>
                 <br/>
 
-                At the heart of the academy's story is the profound understanding that the challenges we face are not insurmountable but require a united effort.
+                At the heart of the academy&apos;s story is the profound understanding that the challenges we face are not insurmountable but require a united effort.
                 <br/>
                 <br/>
 

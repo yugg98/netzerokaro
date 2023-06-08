@@ -7,6 +7,7 @@ import arrow from '../assets/arrow.png'
 import earth from '../assets/earth1.png'
 import comma from '../assets/comma3.png'
 import comma2 from '../assets/comma4.png'
+import Link from 'next/link'
 const Solutions = () => {
   return (
     <>
@@ -16,22 +17,22 @@ const Solutions = () => {
           <div className='bg-white mx-2  rounded-[12px] max-w-[300px] mt-10 h-[450px]  '>
             <Image src={aslap} className='relative top-[-80px] w-[250px] mx-auto ' />
             <p className="text-xl text-center text-fblack ">Climate Skilling</p>
-            <p className="text-sm text-center px-4 mt-6">At the heart of the academy's story is the profound understanding that the challenges we face are not insurmountable but require a united effort.</p>
-            <p className='text-center  gradienttextbg mt-10'><a href="/">Explore More <span><Image src={arrow} className='inline max-w-[50px]' /></span></a></p>
+            <p className="text-sm text-center px-4 mt-6">At the heart of the academy&apos;s story is the profound understanding that the challenges we face are not insurmountable but require a united effort.</p>
+            <p className='text-center  gradienttextbg mt-10'><Link href="/">Explore More <span><Image src={arrow} className='inline max-w-[50px]' /></span></Link></p>
           </div>
           <div className='bg-white mx-2  rounded-[12px] max-w-[300px] mt-10 h-[450px]  '>
             <Image src={aspen} className='relative top-[-80px] w-[144px] mx-auto ' />
             <div className="relative top-[-10px]">
             <p className="text-xl text-center text-fblack ">Climate Skilling</p>
-            <p className="text-sm text-center px-4 mt-6">At the heart of the academy's story is the profound understanding that the challenges we face are not insurmountable but require a united effort.</p>
-            <p className='text-center  gradienttextbg mt-10'><a href="/">Explore More <span><Image src={arrow} className='inline max-w-[50px]' /></span></a></p>
+            <p className="text-sm text-center px-4 mt-6">At the heart of the academy&apos;s story is the profound understanding that the challenges we face are not insurmountable but require a united effort.</p>
+            <p className='text-center  gradienttextbg mt-10'><Link href="/">Explore More <span><Image src={arrow} className='inline max-w-[50px]' /></span></Link></p>
             </div>
           </div>
           <div className='bg-white mx-2  rounded-[12px] max-w-[300px] mt-10 h-[450px]  '>
             <Image src={asro} className='relative top-[-80px] w-[240px] mx-auto ' />
             <p className="text-xl text-center text-fblack relative">Climate Skilling</p>
-            <p className="text-sm text-center px-4 mt-6">At the heart of the academy's story is the profound understanding that the challenges we face are not insurmountable but require a united effort.</p>
-            <p className='text-center  gradienttextbg mt-10'><a href="/">Explore More <span><Image src={arrow} className='inline max-w-[50px]' /></span></a></p>
+            <p className="text-sm text-center px-4 mt-6">At the heart of the academy&apos;s story is the profound understanding that the challenges we face are not insurmountable but require a united effort.</p>
+            <p className='text-center  gradienttextbg mt-10'><Link href="/">Explore More <span><Image src={arrow} className='inline max-w-[50px]' /></span></Link></p>
           </div>
 
         </div>
@@ -66,8 +67,8 @@ const Cards = ({ image }) => {
     <div className='bg-white mx-2  rounded-[12px] max-w-[300px] mt-10 h-[450px]  '>
       <Image src={image} className='relative top-[-80px] w-[250px] mx-auto ' />
       <p className="text-xl text-center text-fblack relative">Climate Skilling</p>
-      <p className="text-sm text-center px-4 mt-6">At the heart of the academy's story is the profound understanding that the challenges we face are not insurmountable but require a united effort.</p>
-      <p className='text-center  gradienttextbg mt-10'><a href="/">Explore More <span><Image src={arrow} className='inline max-w-[50px]' /></span></a></p>
+      <p className="text-sm text-center px-4 mt-6">At the heart of the academy&apos;s story is the profound understanding that the challenges we face are not insurmountable but require a united effort.</p>
+      <p className='text-center  gradienttextbg mt-10'><Link href="/">Explore More <span><Image src={arrow} className='inline max-w-[50px]' /></span></Link></p>
     </div>
   )
 }

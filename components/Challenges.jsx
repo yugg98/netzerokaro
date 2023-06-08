@@ -14,7 +14,7 @@ const Challenges = () => {
                         <Image src={comma2} />
                     </span>
                     <p className="text-green text-2xl font-semibold capitalize text-center	 mb-4">There is a green skills emergency.</p>
-                    <p className='text-lg font-extralight text-center px-5 sm:px-16 mt-2 text-fblack'>30 million more green workers are needed globally by 2030 for us to reach net-zero and prevent catastrophic climate breakdown. Without these workers, we won't be able to build the critical green infrastructure that we need for renewable power, energy efficiency and electric vehicles.</p>
+                    <p className='text-lg font-extralight text-center px-5 sm:px-16 mt-2 text-fblack'>30 million more green workers are needed globally by 2030 for us to reach net-zero and prevent catastrophic climate breakdown. Without these workers, we won&apos;t be able to build the critical green infrastructure that we need for renewable power, energy efficiency and electric vehicles.</p>
                     <span className="relative left-[40%]">
                         <Image src={comma} />
                     </span>

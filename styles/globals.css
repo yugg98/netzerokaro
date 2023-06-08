@@ -28,7 +28,6 @@ body{
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
-text-fill-color: transparent;
 text-transform: capitalize;
 
 }
@@ -61,4 +60,55 @@ text-transform: capitalize;
 .list-story li {
   border-bottom: 0.8px solid white ;
   padding: 4px;
+}    .rotating-text {
+  display: inline-block;
+  position: relative;
+  width: 100%; /* Adjust the width as needed */
+  height: 1em; /* Adjust the height as needed */
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.text-container {
+  position: absolute;
+  top: 0;
+  animation: rotateContainer 9s linear infinite;
+}
+
+.text-container span {
+  display: inline-block;
+  opacity: 0;
+  margin-right: 10px; /* Adjust the spacing between words as needed */
+  animation: rotateText 9s linear infinite;
+}
+
+@keyframes rotateContainer {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.slide-text {
+  width: 100%;
+  
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap; /* important */
+}
+
+.slide-text span {
+  display: inline-block;
+  font-weight: normal;
+  /* width: 100%; */
+}
+.footer ul li{
+  color:#5D6180;
+  margin: 5px 0px;
+}
+.footer ul{
+  margin-top: 10px;
 }
