@@ -52,13 +52,13 @@ function OurApproach() {
                             <Image src={icon1} className='h-[84px] w-[84px]' />
                             <div>
                                 <p className="text-2xl text-semibold mt-2">Why Now ?</p>
-                                <p className='font-extralight mt-2 text-greyf'>
+                                <p className=' mt-2 text-greyf text-sm '>
                                     They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
                                 </p>
-                                <p className='font-extralight mt-2 text-greyf'>
+                                <p className=' mt-2 text-greyf text-sm '>
                                     They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
                                 </p>
-                                <p className='font-extralight mt-2 text-greyf'>
+                                <p className=' mt-2 text-greyf text-sm '>
                                     They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
                                 </p>
                             </div>
@@ -69,13 +69,13 @@ function OurApproach() {
                             <Image src={icon2} className='h-[84px] w-[84px]' />
                             <div>
                                 <p className="text-2xl text-semibold mt-2">Why Now ?</p>
-                                <p className='font-extralight mt-2 text-greyf'>
+                                <p className=' mt-2 text-greyf text-sm '>
                                     They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
                                 </p>
-                                <p className='font-extralight mt-2 text-greyf'>
+                                <p className=' mt-2 text-greyf text-sm '>
                                     They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
                                 </p>
-                                <p className='font-extralight mt-2 text-greyf'>
+                                <p className=' mt-2 text-greyf text-sm '>
                                     They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
                                 </p>
                             </div>
@@ -83,16 +83,16 @@ function OurApproach() {
                     </li>
                     <li className='my-10'>
                         <div className='flex justify-center '>
-                            <Image src={icon3} className='h-[84px] w-[84px]' />
+                            <Image src={icon3} className='h-[64px] w-[84px]' />
                             <div>
                                 <p className="text-2xl text-semibold mt-2">Why Now ?</p>
-                                <p className='font-extralight mt-2 text-greyf'>
+                                <p className=' mt-2 text-greyf text-sm '>
                                     They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
                                 </p>
-                                <p className='font-extralight mt-2 text-greyf'>
+                                <p className=' mt-2 text-greyf text-sm '>
                                     They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
                                 </p>
-                                <p className='font-extralight mt-2 text-greyf'>
+                                <p className=' mt-2 text-greyf text-sm '>
                                     They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
                                 </p>
                             </div>
