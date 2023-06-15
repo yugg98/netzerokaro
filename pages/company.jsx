@@ -157,8 +157,8 @@ const Platform = () => {
             <div className='flex justify-center items-center flex-col w-[90%] mx-auto my-10 mt-12 mb-0 sm:px-20 pb-0'>
                 <p className="text-4xl mb-6 text-green font-semibold">The Platform</p>
                 <motion.p variants={textVariant(0.2)} initial="hidden" whileInView="show" className="text-fblack text-center " >
-                    Net Zero Karo (NZK), a platform dedicated to driving India's transition towards a net-zero economy.
-                    “KARO” which means "TO DO" in Hindi, reflects our commitment to action and direction towards achieving carbon neutrality.
+                    Net Zero Karo (NZK), a platform dedicated to driving India&apos;s transition towards a net-zero economy.
+                    KARO which means TO DO in Hindi, reflects our commitment to action and direction towards achieving carbon neutrality.
                     <br />
                     <br />
                     Net Zero Karo is a leading climate and sustainability education platform. Our comprehensive curriculum and specialized training programs address the urgent need for climate and ESG skills.
