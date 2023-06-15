@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import earth from '../assets/earth.png'
+import earth from '@/assets/earth.png'
 import {motion} from 'framer-motion'
 import { slideIn ,textVariant} from '@/utils/motion'
 const HeroHome = () => {

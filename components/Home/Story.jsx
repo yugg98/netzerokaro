@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
-import mountain from '../assets/mountain.png'
-import comma1 from '../assets/comma.png'
-import comma2 from '../assets/comma2.png'
+import mountain from '@/assets/mountain.png'
+import comma1 from '@/assets/comma.png'
+import comma2 from '@/assets/comma2.png'
 
 
 const Story = () => {

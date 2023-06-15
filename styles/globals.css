@@ -112,3 +112,32 @@ text-transform: capitalize;
 .footer ul{
   margin-top: 10px;
 }
+.bg-img{
+  background-image: url('../assets/approach.png');
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+
+.list-values li:first-child p:first-child{
+  margin-top: 1rem;
+}
+
+.list-values li p:first-child{
+  font-size: 1.3rem;
+  color: white;
+  margin-top: 2rem;
+}
+.list-values li p:nth-child(2){
+  margin-top: 2px;
+  margin-bottom: 4px;
+  color: white;
+}
+.list-values li {
+  border-bottom: 0.8px solid white ;
+  padding: 4px;
+}   
+.approach-bg {
+  background: url('../assets/img2.png');
+  height: 100vh;
+}

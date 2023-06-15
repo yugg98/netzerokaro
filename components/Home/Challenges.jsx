@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
-import check from '../assets/check.png'
-import earthhand from '../assets/earthhand.png'
-import comma from '../assets/comma5.png'
-import comma2 from '../assets/comma6.png'
+import check from '@/assets/check.png'
+import earthhand from '@/assets/earthhand.png'
+import comma from '@/assets/comma5.png'
+import comma2 from '@/assets/comma6.png'
 const Challenges = () => {
     return (
         <div className='w-full linearbggreen'>
