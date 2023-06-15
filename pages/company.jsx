@@ -8,6 +8,11 @@ import Image from 'next/image'
 import tech from '@/assets/tech.svg'
 import { Footer } from '@/components/Footer'
 import img1 from '@/assets/img1.png'
+import CallToAction from '@/components/CallToAction'
+import icon1 from '@/assets/icon1.png'
+import icon2 from '@/assets/icon2.png'
+import icon3 from '@/assets/icon3.png'
+
 const company = () => {
     return (
         <div>
@@ -18,6 +23,7 @@ const company = () => {
             <Approach />
             <CoreValues />
             <OurApproach />
+            <CallToAction />
             <Footer />
         </div>
     )
@@ -32,31 +38,66 @@ function Vision() {
 function OurApproach() {
     return (
         <div className="w-full flex flex-row-reverse linearbggreen">
-            <div className="w-[40%] approach-bg h-[100vh] flex justify-center flex-col items-center">
-                <p className="text-4xl text-white text-center font-semibold leading-12 ">Our Approach<br/>
-                    Towards<br/>
+            <div className="w-[35%] approach-bg h-[100vh] flex justify-center flex-col items-center">
+                <p className="text-4xl text-white text-center font-semibold leading-12 ">Our Approach<br />
+                    Towards<br />
                     Net Zero </p>
                 <button className="rounded-full bg-green text-white px-6 py-3">Explore</button>
 
             </div>
-            <div className="w-[60%]  list-values sm:px-24 flex flex-col justify-center">
-                <p className="text-5xl text-white font-semibold">Our Core Values</p>
+            <div className="w-[65%]  sm:px-24 flex flex-col justify-center">
                 <ul>
-
-                    <li className=''>
-                        <p>Sustainability</p>
-                        <p>196 countries adopted the historic Paris. Its overall goal: limit warming to no more than 1.5 degrees Celsius.</p>
+                    <li className='my-10'>
+                        <div className='flex justify-center '>
+                            <Image src={icon1} className='h-[84px] w-[84px]' />
+                            <div>
+                                <p className="text-2xl text-semibold mt-2">Why Now ?</p>
+                                <p className='font-extralight mt-2 text-greyf'>
+                                    They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
+                                </p>
+                                <p className='font-extralight mt-2 text-greyf'>
+                                    They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
+                                </p>
+                                <p className='font-extralight mt-2 text-greyf'>
+                                    They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
+                                </p>
+                            </div>
+                        </div>
                     </li>
-
-                    <li className=''>
-                        <p>Sustainability</p>
-                        <p>196 countries adopted the historic Paris. Its overall goal: limit warming to no more than 1.5 degrees Celsius.</p>
+                    <li className='my-10'>
+                        <div className='flex justify-center '>
+                            <Image src={icon2} className='h-[84px] w-[84px]' />
+                            <div>
+                                <p className="text-2xl text-semibold mt-2">Why Now ?</p>
+                                <p className='font-extralight mt-2 text-greyf'>
+                                    They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
+                                </p>
+                                <p className='font-extralight mt-2 text-greyf'>
+                                    They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
+                                </p>
+                                <p className='font-extralight mt-2 text-greyf'>
+                                    They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
+                                </p>
+                            </div>
+                        </div>
                     </li>
-                    <li className=''>
-                        <p>Sustainability</p>
-                        <p>196 countries adopted the historic Paris. Its overall goal: limit warming to no more than 1.5 degrees Celsius.</p>
+                    <li className='my-10'>
+                        <div className='flex justify-center '>
+                            <Image src={icon3} className='h-[84px] w-[84px]' />
+                            <div>
+                                <p className="text-2xl text-semibold mt-2">Why Now ?</p>
+                                <p className='font-extralight mt-2 text-greyf'>
+                                    They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
+                                </p>
+                                <p className='font-extralight mt-2 text-greyf'>
+                                    They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
+                                </p>
+                                <p className='font-extralight mt-2 text-greyf'>
+                                    They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
+                                </p>
+                            </div>
+                        </div>
                     </li>
-                  
                 </ul>
             </div>
         </div>

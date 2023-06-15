@@ -15,8 +15,8 @@ const Navbar = () => {
             <div className='flex justify-between px-4 items-center nav'>
                 <Image className='' src={logo} />
                 <ul className='sm:flex hidden'>
-                    <motion.li variants={item} initial="hidden"  whileInView="show">Company</motion.li>
-                    <li><Link href="/company">Academy</Link></li>
+                    <motion.li variants={item} initial="hidden"  whileInView="show"><Link  href="/company">Company</Link></motion.li>
+                    <li><Link href="/">Academy</Link></li>
                     <li><Link href="/">Market Place</Link></li>
                     <li><Link href="/">Green Store</Link></li>
                     <li><Link href="/">Media Center </Link></li>
