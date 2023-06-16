@@ -17,9 +17,9 @@ const company = () => {
     return (
         <div>
             <Navbar />
-            <Hero />
+            <Hero Title="Net Zero Karo (NZK)" Desc="a platform dedicated to driving India&apos;s transition towards a net-zero economy."/>
             <Platform />
-            <Vision />
+            {/* <Vision /> */}
             <Approach />
             <CoreValues />
             <OurApproach />
@@ -34,7 +34,6 @@ function Vision() {
         <div className='bs'>Vision</div>
     )
 }
-
 function OurApproach() {
     return (
         <div className="w-full flex flex-row-reverse linearbggreen">
@@ -142,11 +141,28 @@ function CoreValues() {
 }
 function Approach() {
     return (
-        <div className="bg-img">
-            <div className="border-green p-4 flex flex-col justify-center items-center">
+        <div className="linearbggreen  flex items-end justify-center my-10">
+            <div className="flex">
+            <div className="border-green bg-gradientg border-[1px] bg-white rounded-lg mx-10 max-w-[250px] min-h-[300px] p-4 flex flex-col justify-center items-center">
                 <Image src={tech} alt="" />
-                <p className="text-lg font-semibold hover:text-white">Learning</p>
-                <p className="text-sm hover:text-white">Empowering Individuals through Education</p>
+                <p className="text-lg font-[550] mt-8">Learning</p>
+                <p className="text-sm text-center mt-2">Empowering Individuals through Education</p>
+            </div>
+            <div className="border-green bg-gradientg border-[1px] bg-white rounded-lg mx-10 max-w-[250px] min-h-[300px] p-4 flex flex-col justify-center items-center">
+                <Image src={tech} alt="" />
+                <p className="text-lg font-[550] mt-8">Learning</p>
+                <p className="text-sm text-center mt-2">Empowering Individuals through Education</p>
+            </div>
+            <div className="border-green bg-gradientg border-[1px] bg-white rounded-lg mx-10 max-w-[250px] min-h-[300px] p-4 flex flex-col justify-center items-center">
+                <Image src={tech} alt="" />
+                <p className="text-lg font-[550] mt-8">Learning</p>
+                <p className="text-sm text-center mt-2">Empowering Individuals through Education</p>
+            </div>
+            <div className="border-green bg-gradientg border-[1px] bg-white rounded-lg mx-10 max-w-[250px] min-h-[300px] p-4 flex flex-col justify-center items-center">
+                <Image src={tech} alt="" />
+                <p className="text-lg font-[550] mt-8">Learning</p>
+                <p className="text-sm text-center mt-2">Empowering Individuals through Education</p>
+            </div>
             </div>
         </div>
     )

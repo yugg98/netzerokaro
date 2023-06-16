@@ -1,0 +1,136 @@
+import Hero from '@/components/Hero'
+import Navbar from '@/components/Navbar'
+import React from 'react'
+import laptop from '@/assets/img3.png'
+import Image from 'next/image'
+import c1 from '@/assets/comma3.png'
+import c2 from '@/assets/comma4.png'
+import img1 from '@/assets/img4.png'
+import plus from '@/assets/plus.png'
+import img2 from '@/assets/img5.png'
+import img3 from '@/assets/img6.png'
+
+
+const academy = () => {
+    return (
+        <div>
+            <Navbar />
+            <Hero Title="Climate education with a difference." Desc="a platform dedicated to driving India's transition towards a net-zero economy." />
+            <div className="w-full flex flex-wrap p-10 sm:h-[80vh] pb-10 ">
+                <div className="sm:w-1/2 mb-10 ">
+                    <Image src={laptop} className=' sm:max-w-[500px] mx-auto' />
+                </div>
+                <div className="sm:w-1/2 sm:px-10 px-2">
+                    <p className="text-green sm:text-5xl text-3xl font-semibold mt-10 sm:leading-[60px] text-center sm:text-left capitalize ">Invest in your team’s capacity to respond to our changing world</p>
+                    <Image src={c1} className='w-[40px] relative opacity-40 left-[-40px] mt-5' />
+                    <p className=' text-xl mt-5 text-[#5D6180]'>We are entering into a values-based, circular and green economy. Companies that upskill their employees with the tools of transformation will be at the forefront of adapting to the changing business landscape.</p>
+                    <p className=' text-xl mt-10 text-[#5D6180]'>But, there is a significant sustainability skills gap in most workforces.<span className='font-semibold'> Net Zero Karo </span>is the capacity-building educational platform equipping the global workforce with actionable sustainability skills for this changing business landscape.</p>
+                    <Image src={c2} className='w-[40px] opacity-40 relative  mt-5 right-[-90%]' />
+                </div>
+            </div>
+            <div className="bs mt-10 p-6 rounded-lg ">
+                <p className=" text-white capitalize text-center text-4xl mt-10">Core Learning Programs</p>
+                <p className="text-white text-center mt-4">Are you motivated to take climate action at work, but don’t know where to start? Do you want to use your job to tackle the challenge of climate change, but don't want to switch careers? Are you ready to become a ‘Climate Intrapreneur’, and learn what it takes to influence and lead critical initiatives inside of businesses? Regardless of your role, this course could be for you – you don’t need to be a CEO or executive to drive change.</p>
+                <div className="flex justify-between flex-wrap p-4 mt-8">
+                    <div className="flex flex-row justify-center max-w-[380px] items-center">
+                        <div className="bg-white rounded-lg p-4">
+                            <Image src={img1} className='w-[350px]' />
+                            <div className="flex justify-between mt-6 px-2">
+                                <div >
+                                    <p className="text-sm text-green">Part One</p>
+                                    <p className="font-semibold ">Sustainability</p>
+                                </div>
+                                <div className='bg-green rounded-full p-2 '>
+                                    <Image src={plus} className='w-[28px]' />
+                                </div>
+                            </div>
+                            <div className='px-2 mt-2'>
+                                <p className="text-sm text-green">Key Content</p>
+                                <p className="text-[#08103A] mb-4">Sustainability terminology, how to take accountability and maintain integrity in business, and application to sustainability in the business context</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flex flex-row justify-center max-w-[380px] items-center">
+                        <div className="bg-white rounded-lg p-4">
+                            <Image src={img1} className='w-[350px]' />
+                            <div className="flex justify-between mt-6 px-2">
+                                <div >
+                                    <p className="text-sm text-green">Part One</p>
+                                    <p className="font-semibold ">Sustainability</p>
+                                </div>
+                                <div className='bg-green rounded-full p-2 '>
+                                    <Image src={plus} className='w-[28px]' />
+                                </div>
+                            </div>
+                            <div className='px-2 mt-2'>
+                                <p className="text-sm text-green">Key Content</p>
+                                <p className="text-[#08103A] mb-4">Sustainability terminology, how to take accountability and maintain integrity in business, and application to sustainability in the business context</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flex flex-row justify-center max-w-[380px] items-center">
+                        <div className="bg-white rounded-lg p-4">
+                            <Image src={img1} className='w-[350px]' />
+                            <div className="flex justify-between mt-6 px-2">
+                                <div >
+                                    <p className="text-sm text-green">Part One</p>
+                                    <p className="font-semibold ">Sustainability</p>
+                                </div>
+                                <div className='bg-green rounded-full p-2 '>
+                                    <Image src={plus} className='w-[28px]' />
+                                </div>
+                            </div>
+                            <div className='px-2 mt-2'>
+                                <p className="text-sm text-green">Key Content</p>
+                                <p className="text-[#08103A] mb-4">Sustainability terminology, how to take accountability and maintain integrity in business, and application to sustainability in the business context</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='p-12'>
+                <p className="text-center text-5xl text-green capitalize">The Learning Experience</p>
+                <p className='text-sm text-center mt-2'>The Net Zero Karo academy Core Sustainability Training Program is a three-part comprehensive learning experience covering <br /> Sustainability, Climate Literacy and the Circular Economy.</p>
+                <div className="flex mt-6 w-full justify-between items-center">
+                    <div className='w-[40%]'>
+                    <Image src={img2} className='w-full' />
+                    </div>
+
+                    <div className='w-[55%]'>
+                        <p className="text-2xl">The Program</p>
+                        <p className='mt-2'>
+                        Jump start your sustainability, climate literacy and circular economy skill set with our comprehensive core learning experience. This program is designed for all professionals, providing the most up-to-date understanding and actions to integrate these three areas into your role with any company, organisation or industry.
+                        </p>
+                        <p className='mt-2'>
+                        Designed to fill the global sustainability skills gap and support companies with the growing demand for sincere, company-wide sustainability actions, the Swivel Skills Core Learning Experiences transfers knowledge from a leading expert in the field.
+                        </p>
+                        <p className='mt-2'>
+                        The program offers best-practice examples and provides the framework to develop applicable green skills, which ultimately supports you and your company in building a healthier, more innovative, environmentally-responsible, socially-equitable and future-focused workforce.
+                        </p>
+                    </div>
+                </div>
+                <div className="flex flex-row-reverse mt-6 w-full justify-between items-center">
+                    <div className='w-[40%]'>
+                    <Image src={img3} className='w-full' />
+                    </div>
+
+                    <div className='w-[55%]'>
+                        <p className="text-2xl">The Program</p>
+                        <p className='mt-2'>
+                        Jump start your sustainability, climate literacy and circular economy skill set with our comprehensive core learning experience. This program is designed for all professionals, providing the most up-to-date understanding and actions to integrate these three areas into your role with any company, organisation or industry.
+                        </p>
+                        <p className='mt-2'>
+                        Designed to fill the global sustainability skills gap and support companies with the growing demand for sincere, company-wide sustainability actions, the Swivel Skills Core Learning Experiences transfers knowledge from a leading expert in the field.
+                        </p>
+                        <p className='mt-2'>
+                        The program offers best-practice examples and provides the framework to develop applicable green skills, which ultimately supports you and your company in building a healthier, more innovative, environmentally-responsible, socially-equitable and future-focused workforce.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    )
+}
+
+export default academy
