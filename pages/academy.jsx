@@ -6,9 +6,18 @@ import Image from 'next/image'
 import c1 from '@/assets/comma3.png'
 import c2 from '@/assets/comma4.png'
 import img1 from '@/assets/img4.png'
+import img4 from '@/assets/img7.png'
 import plus from '@/assets/plus.png'
 import img2 from '@/assets/img5.png'
 import img3 from '@/assets/img6.png'
+import CallToAction from '@/components/CallToAction'
+import { Footer } from '@/components/Footer'
+import comma from '@/assets/comma.png'
+import comma1 from '@/assets/comma2.png'
+import book from '@/assets/icon4.png'
+import feature from '@/assets/icon5.png'
+
+
 
 
 const academy = () => {
@@ -88,47 +97,87 @@ const academy = () => {
                     </div>
                 </div>
             </div>
-            <div className='p-12'>
+            <div className='sm:p-12 sm:px-[120px] p-8'>
                 <p className="text-center text-5xl text-green capitalize">The Learning Experience</p>
                 <p className='text-sm text-center mt-2'>The Net Zero Karo academy Core Sustainability Training Program is a three-part comprehensive learning experience covering <br /> Sustainability, Climate Literacy and the Circular Economy.</p>
-                <div className="flex mt-6 w-full justify-between items-center">
-                    <div className='w-[40%]'>
-                    <Image src={img2} className='w-full' />
+                <div className="flex flex-wrap mt-6 w-full justify-between items-center">
+                    <div className='sm:w-[40%]'>
+                        <Image src={img2} className='w-full' />
                     </div>
 
-                    <div className='w-[55%]'>
-                        <p className="text-2xl">The Program</p>
+                    <div className='sm:w-[55%] w-full'>
+                        <p className="text-3xl">The Program</p>
                         <p className='mt-2'>
-                        Jump start your sustainability, climate literacy and circular economy skill set with our comprehensive core learning experience. This program is designed for all professionals, providing the most up-to-date understanding and actions to integrate these three areas into your role with any company, organisation or industry.
+                            Jump start your sustainability, climate literacy and circular economy skill set with our comprehensive core learning experience. This program is designed for all professionals, providing the most up-to-date understanding and actions to integrate these three areas into your role with any company, organisation or industry.
                         </p>
                         <p className='mt-2'>
-                        Designed to fill the global sustainability skills gap and support companies with the growing demand for sincere, company-wide sustainability actions, the Swivel Skills Core Learning Experiences transfers knowledge from a leading expert in the field.
+                            Designed to fill the global sustainability skills gap and support companies with the growing demand for sincere, company-wide sustainability actions, the Swivel Skills Core Learning Experiences transfers knowledge from a leading expert in the field.
                         </p>
                         <p className='mt-2'>
-                        The program offers best-practice examples and provides the framework to develop applicable green skills, which ultimately supports you and your company in building a healthier, more innovative, environmentally-responsible, socially-equitable and future-focused workforce.
+                            The program offers best-practice examples and provides the framework to develop applicable green skills, which ultimately supports you and your company in building a healthier, more innovative, environmentally-responsible, socially-equitable and future-focused workforce.
                         </p>
                     </div>
                 </div>
-                <div className="flex flex-row-reverse mt-6 w-full justify-between items-center">
-                    <div className='w-[40%]'>
-                    <Image src={img3} className='w-full' />
+                <div className="flex flex-wrap flex-row-reverse mt-6 w-full justify-between items-center">
+                    <div className='sm:w-[40%]'>
+                        <Image src={img3} className='w-full' />
                     </div>
 
-                    <div className='w-[55%]'>
-                        <p className="text-2xl">The Program</p>
+                    <div className='sm:w-[55%]'>
+                        <p className="text-3xl">The Program</p>
                         <p className='mt-2'>
-                        Jump start your sustainability, climate literacy and circular economy skill set with our comprehensive core learning experience. This program is designed for all professionals, providing the most up-to-date understanding and actions to integrate these three areas into your role with any company, organisation or industry.
+                            Jump start your sustainability, climate literacy and circular economy skill set with our comprehensive core learning experience. This program is designed for all professionals, providing the most up-to-date understanding and actions to integrate these three areas into your role with any company, organisation or industry.
                         </p>
                         <p className='mt-2'>
-                        Designed to fill the global sustainability skills gap and support companies with the growing demand for sincere, company-wide sustainability actions, the Swivel Skills Core Learning Experiences transfers knowledge from a leading expert in the field.
+                            Designed to fill the global sustainability skills gap and support companies with the growing demand for sincere, company-wide sustainability actions, the Swivel Skills Core Learning Experiences transfers knowledge from a leading expert in the field.
                         </p>
                         <p className='mt-2'>
-                        The program offers best-practice examples and provides the framework to develop applicable green skills, which ultimately supports you and your company in building a healthier, more innovative, environmentally-responsible, socially-equitable and future-focused workforce.
+                            The program offers best-practice examples and provides the framework to develop applicable green skills, which ultimately supports you and your company in building a healthier, more innovative, environmentally-responsible, socially-equitable and future-focused workforce.
                         </p>
                     </div>
                 </div>
             </div>
-            
+            <div className="bs p-10">
+                <Image src={comma1} className='w-[40px] relative left-[-10px]' />
+                <p className='mx-10 text-white text-2xl'>This interactive online training will guide you and your organization step-by-step through the why and how-to of the global transformation to a circular economy.<br/>
+                    The main difference Net Zero Karo offers compared to other sustainability training platforms is the quality and ease of content, learner flow and meeting the targeted needs of the business community.</p>
+                <Image src={comma} className='w-[40px] relative right-[-68%] top-[-20px]' />
+                <div className="flex justify-between mx-20 my-10">
+                <div className="bg-white p-10 rounded-lg">
+                    <Image src={book} className='w-[60px]'/>
+                    <p className='text-lg mt-4 '>Learning format</p>
+                    <ul className='card-list'>
+                        <li>Voiceovers and closed captions</li>
+                        <li>Scientifically validated resource links for further research</li>
+                        <li>Self-paced online learning</li>
+                        <li>Engaging & interactive graphics</li>
+                        <li>80+ Interactive quizzes</li>
+                    </ul>
+                </div>
+                <div className="bg-white p-10 rounded-lg">
+                    <Image src={book} className='w-[60px]'/>
+                    <p className='text-lg mt-4 '>Learning format</p>
+                    <ul className='card-list'>
+                        <li>Voiceovers and closed captions</li>
+                        <li>Scientifically validated resource links for further research</li>
+                        <li>Self-paced online learning</li>
+                        <li>Engaging & interactive graphics</li>
+                        <li>80+ Interactive quizzes</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <div className="lineorbggreen">
+                <p className="text-center text-5xl text-green">USP of Academy</p>
+            <div className="sm:w-1/2 mb-10 ">
+                    <Image src={img4} className=' sm:max-w-[500px] mx-auto' />
+                </div>
+                <div className="sm:w-1/2 sm:px-10 px-2">
+
+                </div>
+            </div>
+            <CallToAction />
+            <Footer />
         </div>
     )
 }

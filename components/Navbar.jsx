@@ -13,13 +13,13 @@ const Navbar = () => {
             whileInView="show"
         >
             <div className='flex justify-between px-4 items-center nav'>
-                <Image className='' src={logo} />
+                <Link href="/"><Image className='' src={logo} /></Link>
                 <ul className='sm:flex hidden'>
                     <motion.li variants={item} initial="hidden"  whileInView="show"><Link  href="/company">Company</Link></motion.li>
-                    <li><Link href="/">Academy</Link></li>
-                    <li><Link href="/">Market Place</Link></li>
-                    <li><Link href="/">Green Store</Link></li>
-                    <li><Link href="/">Media Center </Link></li>
+                    <li><Link href="/academy">Academy</Link></li>
+                    <li><Link href="/marketplace">Market Place</Link></li>
+                    <li><Link href="/greenstore">Green Store</Link></li>
+                    <li><Link href="/media center">Media Center </Link></li>
                     <li><Link href="/">Get Envolved</Link></li>
                 </ul>
                 <button className= "bg-[#363636] hidden text-white px-5 py-2 rounded-full sm:block ">Get Started</button>
