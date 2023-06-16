@@ -148,3 +148,7 @@ text-transform: capitalize;
 .card-list li{
     margin: 10px 20px;
 }
+.bg-img1{
+  background: url('../assets/bg1.png');
+  
+}

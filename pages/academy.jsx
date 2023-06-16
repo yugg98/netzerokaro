@@ -39,7 +39,7 @@ const academy = () => {
             </div>
             <div className="bs mt-10 p-6 rounded-lg ">
                 <p className=" text-white capitalize text-center text-4xl mt-10">Core Learning Programs</p>
-                <p className="text-white text-center mt-4">Are you motivated to take climate action at work, but don’t know where to start? Do you want to use your job to tackle the challenge of climate change, but don't want to switch careers? Are you ready to become a ‘Climate Intrapreneur’, and learn what it takes to influence and lead critical initiatives inside of businesses? Regardless of your role, this course could be for you – you don’t need to be a CEO or executive to drive change.</p>
+                <p className="text-white text-center mt-4">Are you motivated to take climate action at work, but don&apos;t know where to start? Do you want to use your job to tackle the challenge of climate change, but don&apos;t want to switch careers? Are you ready to become a ‘Climate Intrapreneur’, and learn what it takes to influence and lead critical initiatives inside of businesses? Regardless of your role, this course could be for you – you don’t need to be a CEO or executive to drive change.</p>
                 <div className="flex justify-between flex-wrap p-4 mt-8">
                     <div className="flex flex-row justify-center max-w-[380px] items-center">
                         <div className="bg-white rounded-lg p-4">
