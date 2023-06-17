@@ -22,43 +22,43 @@ const greenstore = () => {
             <Hero Title={"Our purpose lies in our name"} showQues={true} SuperTitle={"Why Net Zero"} Desc={"NET ZERO: It is a state where we add no incremental greenhouse gases to the atmosphere. <br/> <br/> KARO = TO DO, means to act. It reflects our commitment to action and direction towards achieving carbon neutrality."} />
             <div className='linearbggreen py-20'>
                 <div className="text-5xl text-green font-semibold text-center">Who we are ?</div>
-            <div className=" rounded-sm grid grid-cols-2 row-span-2 px-20 gap-2 justify-center items-center w-full mt-10">
-                <div className="flex w-[500px] bg-white my-4 mx-4 ">
+            <div className=" rounded-sm grid sm:grid-cols-2 row-span-2 sm:px-20 px-4 gap-2 justify-center items-center w-full mt-10">
+                <div className="flex sm:w-[500px] w-full bg-white my-4 sm:mx-4 ">
                     <div className='p-4'>
                         <Image src={icon1} />
                         <p className="text-2xl">Passion For the Environment</p>
                         <div className='w-[110px] bg-green h-[6px] rounded-full mt-2'></div>
-                        <p className='mt-2'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
+                        <p className='mt-2 sm:text-md text-sm'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                     </div>
                     <Image src={img3} />
 
                 </div>
-                <div className="flex w-[500px] bg-white my-4 mx-4 ">
+                <div className="flex sm:w-[500px] w-full bg-white my-4 sm:mx-4 ">
                     <div className='p-4'>
                         <Image src={icon1} />
                         <p className="text-2xl">Passion For the Environment</p>
                         <div className='w-[110px] bg-green h-[6px] rounded-full mt-2'></div>
-                        <p className='mt-2'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
+                        <p className='mt-2 sm:text-md text-sm'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                     </div>
                     <Image src={img3} />
 
-                </div> 
-                <div className="flex w-[500px] bg-white my-4 mx-4 ">
+                </div>
+                <div className="flex sm:w-[500px] w-full bg-white my-4 sm:mx-4 ">
                     <div className='p-4'>
                         <Image src={icon1} />
                         <p className="text-2xl">Passion For the Environment</p>
                         <div className='w-[110px] bg-green h-[6px] rounded-full mt-2'></div>
-                        <p className='mt-2'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
+                        <p className='mt-2 sm:text-md text-sm'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                     </div>
                     <Image src={img3} />
 
-                </div> 
-                <div className="flex w-[500px] bg-white my-4 mx-4 ">
+                </div>
+                <div className="flex sm:w-[500px] w-full bg-white my-4 sm:mx-4 ">
                     <div className='p-4'>
                         <Image src={icon1} />
                         <p className="text-2xl">Passion For the Environment</p>
                         <div className='w-[110px] bg-green h-[6px] rounded-full mt-2'></div>
-                        <p className='mt-2'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
+                        <p className='mt-2 sm:text-md text-sm'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                     </div>
                     <Image src={img3} />
 
@@ -67,12 +67,12 @@ const greenstore = () => {
             </div>
 
 
-            <div className="p-10 flex justify-center items-center linearbggreen">
+            <div className="sm:p-10 p-2 flex flex-wrap justify-center items-center linearbggreen">
                 <div className="sm:w-1/2 p-8">
                     <Image src={img2} />
                 </div>
-                <div className="sm:w-1/2 px-16 flex">
-                    <div className='w-1/2'>
+                <div className="sm:w-1/2 sm:px-16 px-2 flex">
+                    <div className='sm:w-1/2 '>
                         <div className='flex items-center my-4'>
                             <Image src={icon} className='w-[70px]' />
                             <p className="ml-4 text-xl">Cement</p>
@@ -94,8 +94,8 @@ const greenstore = () => {
                             <p className="ml-4 text-xl">Cement</p>
                         </div>
                     </div>
-                    <div className='w-1/2'>
-                        <div className='flex items-center my-4'>
+                    <div className='sm:w-1/2'>
+                        <div className='flex items-center my-4 ml-2'>
                             <Image src={icon} className='w-[70px]' />
                             <p className="ml-4 text-xl">Cement</p>
                         </div>

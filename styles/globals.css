@@ -116,6 +116,7 @@ text-transform: capitalize;
   background-image: url('../assets/approach.png');
   background-repeat: no-repeat;
   height: 100vh;
+  background-size: 58%;
 }
 
 

@@ -137,12 +137,12 @@ const academy = () => {
                     </div>
                 </div>
             </div>
-            <div className="bs p-10">
+            <div className="bs sm:p-10 p-4">
                 <Image src={comma1} className='w-[40px] relative left-[-10px]' />
-                <p className='mx-10 text-white text-2xl'>This interactive online training will guide you and your organization step-by-step through the why and how-to of the global transformation to a circular economy.<br/>
+                <p className='mx-10 text-white sm:text-2xl text-xl'>This interactive online training will guide you and your organization step-by-step through the why and how-to of the global transformation to a circular economy.<br/>
                     The main difference Net Zero Karo offers compared to other sustainability training platforms is the quality and ease of content, learner flow and meeting the targeted needs of the business community.</p>
                 <Image src={comma} className='w-[40px] relative right-[-68%] top-[-20px]' />
-                <div className="flex justify-between mx-20 my-10">
+                <div className="flex flex-wrap justify-between sm:mx-20 sm:my-10">
                 <div className="bg-white p-10 rounded-lg">
                     <Image src={book} className='w-[60px]'/>
                     <p className='text-lg mt-4 '>Learning format</p>
@@ -154,7 +154,7 @@ const academy = () => {
                         <li>80+ Interactive quizzes</li>
                     </ul>
                 </div>
-                <div className="bg-white p-10 rounded-lg">
+                <div className="bg-white p-10 rounded-lg mt-4">
                     <Image src={book} className='w-[60px]'/>
                     <p className='text-lg mt-4 '>Learning format</p>
                     <ul className='card-list'>
@@ -167,7 +167,7 @@ const academy = () => {
                 </div>
                 </div>
             </div>
-            <div className="lineorbggreen">
+            <div className="linearbggreen">
                 <p className="text-center text-5xl text-green">USP of Academy</p>
             <div className="sm:w-1/2 mb-10 ">
                     <Image src={img4} className=' sm:max-w-[500px] mx-auto' />

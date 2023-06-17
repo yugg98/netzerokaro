@@ -7,6 +7,9 @@ import icon1 from '@/assets/media/icon1.png'
 import img3 from '@/assets/media/img1.png'
 import Image from 'next/image'
 import bulb from '@/assets/bulb.png'
+import hire from '@/assets/hire.png'
+import tick from '@/assets/icons/icon11.png'
+import icon from '@/assets/icons/icon12.png'
 const getinvolved = () => {
     return (
         <div>
@@ -18,48 +21,94 @@ const getinvolved = () => {
                 <div className=" rounded-sm grid grid-cols-2 row-span-2 px-20 gap-2 justify-center items-center w-full mt-10">
                     <div className=" w-[500px] my-4 mx-4 ">
                         <div className='p-4 flex'>
-                            <Image src={bulb} className='h-[80px]'/>
+                            <Image src={bulb} className='h-[80px]' />
                             <div className=' px-4'>
-                            <p className="text-2xl text-green mt-1">Innovation & IP <br/> Development</p>
-                            <p className='mt-2 text-[#5D6180]'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
+                                <p className="text-2xl text-green mt-1">Innovation & IP <br /> Development</p>
+                                <p className='mt-2 text-[#5D6180]'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                             </div>
                         </div>
 
                     </div>
                     <div className=" w-[500px] my-4 mx-4 ">
                         <div className='p-4 flex'>
-                            <Image src={bulb} className='h-[80px]'/>
+                            <Image src={bulb} className='h-[80px]' />
                             <div className=' px-4'>
-                            <p className="text-2xl text-green mt-1">Innovation & IP <br/> Development</p>
-                            <p className='mt-2 text-[#5D6180]'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
+                                <p className="text-2xl text-green mt-1">Innovation & IP <br /> Development</p>
+                                <p className='mt-2 text-[#5D6180]'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                             </div>
                         </div>
 
                     </div>
                     <div className=" w-[500px] my-4 mx-4 ">
                         <div className='p-4 flex'>
-                            <Image src={bulb} className='h-[80px]'/>
+                            <Image src={bulb} className='h-[80px]' />
                             <div className=' px-4'>
-                            <p className="text-2xl text-green mt-1">Innovation & IP <br/> Development</p>
-                            <p className='mt-2 text-[#5D6180]'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
+                                <p className="text-2xl text-green mt-1">Innovation & IP <br /> Development</p>
+                                <p className='mt-2 text-[#5D6180]'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                             </div>
                         </div>
 
                     </div>
                     <div className=" w-[500px] my-4 mx-4 ">
                         <div className='p-4 flex'>
-                            <Image src={bulb} className='h-[80px]'/>
+                            <Image src={bulb} className='h-[80px]' />
                             <div className=' px-4'>
-                            <p className="text-2xl text-green mt-1">Innovation & IP <br/> Development</p>
-                            <p className='mt-2 text-[#5D6180]'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
+                                <p className="text-2xl text-green mt-1">Innovation & IP <br /> Development</p>
+                                <p className='mt-2 text-[#5D6180]'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                             </div>
                         </div>
 
+                    </div>
+
+                </div>
+            </div>
+            <div className="bs flex flex-wrap p-20 pb-0">
+                <div className="sm:w-1/2">
+                    <p className="text-5xl text-white">Hire</p>
+                    <p className='text-lg text-white font-extralight mt-10 '>Diverse, innovative talent for your teams by assessing them for varied skill-set</p>
+                    <p className='text-lg text-white font-extralight mt-2 '>Reach out to a large set of participants, assess using a customisable platform and hire the best of the best</p>
+                    <div>
+                        <div className='flex border-b-[1px] border-b-white mt-10 pb-8'>
+                            <Image src={tick} className='w-[28px] h-[28px] mr-3' />
+                            <p className="text-lg text-white">Challenge the participants with problems that they would tackle on the job</p>
+                        </div>
+                        <div className='flex border-b-[1px] border-b-white mt-10 pb-8'>
+                            <Image src={tick} className='w-[28px] h-[28px] mr-3' />
+                            <p className="text-lg text-white">Challenge the participants with problems that they would tackle on the job</p>
+                        </div>
+                        <div className='flex  mt-10 pb-8'>
+                            <Image src={tick} className='w-[28px] h-[28px] mr-3' />
+                            <p className="text-lg text-white">Challenge the participants with problems that they would tackle on the job</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div className="sm:w-1/2 p-4 pb-0">
+                    <div className='flex justify-end'>
+                        <Image src={hire} className='h-[600px] w-[400px]' />
+                    </div>
+                </div>
+            </div>
+            <div className="linearbggreen sm:py-20 py-8">
+                <p className="sm:text-5xl text-3xl text-green mb-10 text-center">What We Offer ?</p>
+                <div className=" rounded-sm grid grid-flow-row	 grid-cols-2 row-span-2 px-20 gap-2 justify-center items-center w-full mt-10">
+                    <div className=" sm:w-[600px] my-4 sm:mx-4 bg-white p-6 border-[1px] border-[#BBE7CA] rounded-lg">
+                            <div className=' px-4 flex ' >
+                                <Image src={icon} className='h-[50px] w-[50px]' />
+                                <p className="text-2xl  mt-1 ml-5">Dedicated community <br /> platform</p>
+                            </div>
+                            <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
+                    </div>
+                    <div className=" sm:w-[600px] my-4 sm:mx-4 bg-white p-6 border-[1px] border-[#BBE7CA] rounded-lg">
+                            <div className=' px-4 flex ' >
+                                <Image src={icon} className='h-[50px] w-[50px]' />
+                                <p className="text-2xl  mt-1 ml-5">Dedicated community <br /> platform</p>
+                            </div>
+                            <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                     </div>
                   
                 </div>
             </div>
-            <Form />
             <Footer />
         </div>
     )

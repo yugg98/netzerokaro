@@ -20,7 +20,7 @@ const company = () => {
             <Navbar />
             <Hero Title="Net Zero Karo (NZK)" Desc="a platform dedicated to driving India&apos;s transition towards a net-zero economy." />
             <Platform />
-            {/* <Vision /> */}
+            <Vision />
             <Approach />
             <CoreValues />
             <OurApproach />
@@ -37,7 +37,7 @@ function Vision() {
 }
 function OurApproach() {
     return (
-        <div className="w-full flex flex-row-reverse linearbggreen">
+        <div className="w-full flex flex-row-reverse linearbggreen ">
             <div className="w-[35%] approach-bg h-[100vh] flex justify-center flex-col items-center">
                 <p className="text-4xl text-white text-center font-semibold leading-12 ">Our Approach<br />
                     Towards<br />
@@ -142,7 +142,7 @@ function CoreValues() {
 }
 function Approach() {
     return (
-        <div className="linearbggreen  flex items-end justify-center my-10">
+        <div className="linearbggreen  flex items-end justify-center my-10 bg-img">
             <div className="flex">
                 <div className="border-green bg-gradientg border-[1px] bg-white rounded-lg mx-10 max-w-[250px] min-h-[300px] p-4 flex flex-col justify-center items-center">
                     <Image src={tech} alt="" />
