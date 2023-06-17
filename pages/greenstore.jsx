@@ -6,7 +6,10 @@ import img1 from '@/assets/img10.png'
 import img2 from '@/assets/img11.png'
 import CallToAction from '@/components/CallToAction'
 import { Footer } from '@/components/Footer'
-import icon from '@/assets/icons/icon.png'
+import o1 from '@/assets/o1.png'
+import o2 from '@/assets/o2.png'
+import img3 from '@/assets/windmill.png'
+
 const greenstore = () => {
   return (
     <div>
@@ -21,59 +24,42 @@ const greenstore = () => {
                 <Image src={img1}/>
             </div>
         </div>
-        <div className="p-10 flex justify-center items-center linearbggreen">
-        <div className="sm:w-1/2 p-8">
-                <Image src={img2}/>
+       
+        <div className="sm:p-10 p-2 flex justify-center items-center bs flex-wrap">
+                <div className="sm:w-1/2 p-8 w-full">
+                    <Image src={img3} />
+                </div>
+                <div className="sm:w-1/2 sm:px-16 px-4 w-full">
+                    <p className="sm:text-5xl text-3xl  mt-4  mb-2 sm:leading-[60px] text-white">NET ZERO SERVICES</p>
+                    <p className='text-xl mt-10 text-white'>Whether your business fits the criteria for mandatory carbon reporting, or you’ve decided to voluntarily demonstrate your environmental sustainability from a corporate social responsibility perspective, we have a carbon strategy for you.</p>
+                    <p className='text-xl mt-4 text-white'>Achieving your carbon reduction targets and maintaining your profit margins isn’t easy. Disclosing Environment, Social and Governance (ESG) data can take a huge amount of effort in time and resource, especially if your business is geographically large with multiple sites.</p>
+                </div>
+
             </div>
-            <div className="sm:w-1/2 px-16 flex">
-              <div className='w-1/2'>
-                <div className='flex items-center my-4'>
-                    <Image src={icon} className='w-[70px]'/>
-                    <p className="ml-4 text-xl">Cement</p>
+            <div className='p-4'>
+                <div className='flex justify-center items-center p-4'>
+                    <div className="w-[40%]">
+                    <Image src={o1} className='w-[80%] mx-auto'/>
+
+                    </div>
+                    <div className='w-[60%] px-20'>
+                        <p className="text-3xl text-green">Carbon Consulting and Certification</p>
+                        <div className='w-[110px] bg-green h-[6px] rounded-full mt-2'></div>
+                        <p className="text-lg mt-4">Our carbon consulting helps you first understand your carbon footprint. Keeping things simple, we give you the tools and help to calculate carbon impact easily and confidently and then act. Our integrated approach means we go onto certify you as Carbon Balanced, offsetting your footprint with the world’s most holistic projects powered by nature and communities.</p>
+                    </div>
                 </div>
-                <div className='flex items-center my-4'>
-                    <Image src={icon} className='w-[70px]'/>
-                    <p className="ml-4 text-xl">Cement</p>
+                <div className='flex flex-row-reverse justify-center items-center p-4'>
+                    <div className="w-[40%]">
+                    <Image src={o2} className='w-[80%] mx-auto'/>
+
+                    </div>
+                    <div className='w-[60%] px-20'>
+                        <p className="text-3xl text-green">Carbon Consulting and Certification</p>
+                        <div className='w-[110px] bg-green h-[6px] rounded-full mt-2'></div>
+                        <p className="text-lg mt-4">Our carbon consulting helps you first understand your carbon footprint. Keeping things simple, we give you the tools and help to calculate carbon impact easily and confidently and then act. Our integrated approach means we go onto certify you as Carbon Balanced, offsetting your footprint with the world’s most holistic projects powered by nature and communities.</p>
+                    </div>
                 </div>
-                <div className='flex items-center my-4'>
-                    <Image src={icon} className='w-[70px]'/>
-                    <p className="ml-4 text-xl">Cement</p>
-                </div>
-                <div className='flex items-center my-4'>
-                    <Image src={icon} className='w-[70px]'/>
-                    <p className="ml-4 text-xl">Cement</p>
-                </div>
-                <div className='flex items-center my-4'>
-                    <Image src={icon} className='w-[70px]'/>
-                    <p className="ml-4 text-xl">Cement</p>
-                </div>
-              </div>
-              <div className='w-1/2'>
-                <div className='flex items-center my-4'>
-                    <Image src={icon} className='w-[70px]'/>
-                    <p className="ml-4 text-xl">Cement</p>
-                </div>
-                <div className='flex items-center my-4'>
-                    <Image src={icon} className='w-[70px]'/>
-                    <p className="ml-4 text-xl">Cement</p>
-                </div>
-                <div className='flex items-center my-4'>
-                    <Image src={icon} className='w-[70px]'/>
-                    <p className="ml-4 text-xl">Cement</p>
-                </div>
-                <div className='flex items-center my-4'>
-                    <Image src={icon} className='w-[70px]'/>
-                    <p className="ml-4 text-xl">Cement</p>
-                </div>
-                <div className='flex items-center my-4'>
-                    <Image src={icon} className='w-[70px]'/>
-                    <p className="ml-4 text-xl">Cement</p>
-                </div>
-              </div>
             </div>
-           
-        </div>
-        
         <CallToAction/>
         <Footer/>
     </div>
