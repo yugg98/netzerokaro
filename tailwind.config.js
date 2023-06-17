@@ -15,12 +15,17 @@ module.exports = {
       fblack:"#08103A",
       headcolor:"#5D6180"
     },
+
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      gridTemplateColumns: {
+        '16': 'repeat(16, minmax(0, 1fr))',
+
+      }
     },
   },
   plugins: [],
