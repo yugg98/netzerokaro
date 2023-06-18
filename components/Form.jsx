@@ -8,7 +8,7 @@ const Form = () => {
             <p className="text-white mt-10 sm:text-left text-center mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at odio ligula. Aenean eu urna a leo interdum venenatis. Suspendisse potenti. Vivamus id magna ac dui fringilla pharetra quis vitae mauris. </p>
         </div>
         <div className='sm:w-[40%]'>
-            <div className="bg-white rounded-lg sm:p-14 p-6">
+            <div className="bg-white rounded-lg sm:p-14 p-4">
                 <p className="text-center text-green  text-2xl">Send Us Your Message</p>
                 <p className="mt-2 text-center">Help your organisation get to Net Zero, faster!</p>
                 <form action="" className='flex  items-center flex-col'>
