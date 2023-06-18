@@ -38,7 +38,7 @@ const Solutions = () => {
         </div>
       </div>
       <div className="linearbggreen  overflow-hidden ">
-        <Image src={earth} className='absolute left-[50%] w-[800px] ' />
+        <Image src={earth} className='sm:absolute hidden left-[50%] w-[800px] ' />
         <div className='p-6 sm:px-14 px-8 mt-4'>
           <span className="relative md:left-[25%] left-[-5%]">
             <Image src={comma} className="md:w-[45px] w-[30px]" />
