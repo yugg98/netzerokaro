@@ -115,7 +115,7 @@ text-transform: capitalize;
 .bg-img{
   background-image: url('../assets/approach.png');
   background-repeat: no-repeat;
-  height: 100vh;
+  /* height: 100vh; */
   background-size: 58%;
 }
 

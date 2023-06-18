@@ -11,8 +11,8 @@ const Hero = ({Title,Desc,CalltoAction,SuperTitle,showQues}) => {
     <div  className=' w-full sm:h-[80vh] h-full flex sm:flex-row flex-col justify-center items-center  linearbggreen sm:px-20'>
       <motion.div variants={slideIn('left', 'tween', 0.2, 1)} initial="hidden"  whileInView="show" className="sm:w-[50%] w-full flex justify-center mt-10">
         <div className='p-2 sm:pl-8 sm:p-4 sm:px-20'>
-          <div className='flex  items-center'>
-        <p className="text-green text-3xl sm:text-left text-center">{SuperTitle}</p>
+          <div className='flex  items-center mx-auto'>
+        <p className="text-green text-2xl  text-center sm:mb-0 mb-2 mr-2">{SuperTitle}</p>
         {showQues ? 
         <motion.div variants={textVariant(0.8)} className='text-black text-center sm:text-left sm:text-6xl text-4xl font-[800]'>
             <Image src={ques} className='w-[40px]'/>
