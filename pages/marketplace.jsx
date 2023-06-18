@@ -23,7 +23,7 @@ function marketplace() {
                     <Image src={dashboardimg} className='relative' />
                 </div>
             </div>
-            <div className='bs flex flex-wrap '>
+            <div className='bg-img2 flex flex-wrap '>
                 <Image src={women} className='max-h-[80%] ' />
                 <div className='sm:w-1/2 w-full py-10 sm:px-0 px-10'>
                     <div className="bg-white p-8 rounded-lg my-4">
@@ -47,7 +47,7 @@ function marketplace() {
                 </div>
             </div>
             <Courses/>
-            <div className='sm:p-20 bs'>
+            <div className='sm:p-20 bg-img2'>
                 <p className="text-5xl text-center font-semibold text-white">Net Zero Karo at Glance</p>
                 <div className=" grid sm:grid-cols-3	row-span-3 p-10 gap-6 justify-center items-center w-full mt-10">
                     <Cards />

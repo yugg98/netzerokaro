@@ -58,7 +58,7 @@ const getinvolved = () => {
 
                 </div>
             </div>
-            <div className="bs flex flex-wrap sm:p-20 p-4 pb-0">
+            <div className="bg-img2 flex flex-wrap sm:p-20 p-4 pb-0">
                 <div className="sm:w-1/2">
                     <p className="text-5xl text-white">Hire</p>
                     <p className='text-lg text-white font-extralight mt-10 '>Diverse, innovative talent for your teams by assessing them for varied skill-set</p>

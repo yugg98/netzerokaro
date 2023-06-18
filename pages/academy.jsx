@@ -37,7 +37,7 @@ const academy = () => {
                     <Image src={c2} className='w-[40px] opacity-40 relative  mt-5 right-[-90%]' />
                 </div>
             </div>
-            <div className="bs mt-10 p-6 rounded-lg ">
+            <div className="bg-img2 mt-10 p-6 rounded-lg ">
                 <p className=" text-white capitalize text-center text-4xl mt-10">Core Learning Programs</p>
                 <p className="text-white text-center mt-4">Are you motivated to take climate action at work, but don&apos;t know where to start? Do you want to use your job to tackle the challenge of climate change, but don&apos;t want to switch careers? Are you ready to become a ‘Climate Intrapreneur’, and learn what it takes to influence and lead critical initiatives inside of businesses? Regardless of your role, this course could be for you – you don’t need to be a CEO or executive to drive change.</p>
                 <div className="flex justify-between flex-wrap p-4 mt-8">
@@ -137,7 +137,7 @@ const academy = () => {
                     </div>
                 </div>
             </div>
-            <div className="bs sm:p-10 p-4">
+            <div className="bg-img2 sm:p-10 p-4">
                 <Image src={comma1} className='w-[40px] relative left-[-10px]' />
                 <p className='mx-10 text-white sm:text-2xl text-xl'>This interactive online training will guide you and your organization step-by-step through the why and how-to of the global transformation to a circular economy.<br/>
                     The main difference Net Zero Karo offers compared to other sustainability training platforms is the quality and ease of content, learner flow and meeting the targeted needs of the business community.</p>

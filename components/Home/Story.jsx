@@ -6,9 +6,9 @@ import comma2 from '@/assets/comma2.png'
 
 
 const Story = () => {
-    const comma = " relative bg-white rounded-full opacity-0.5"
+    const comma = " relative bg-white rounded-full opacity-0.5 sm:mt-0 mt-20"
     return (
-        <div className='bs  sm:p-14 p-10 rounded-md'>
+        <div className='bg-img2 bs   sm:p-14 p-10 rounded-md'>
             <p className="text-center font-semibolf text-white text-4xl">Net Zero Story So Far ?</p>
             <div className="sm:flex mt-6">
                 <div className="sm:w-1/2 w-full">

@@ -6,7 +6,7 @@ import img1 from '@/assets/courses/img1.png';
 export default function Courses() {
   return (
       <div className="mx-auto ">
-        <div className="p-8  shadow-lg linearbggreen rounded-lg">
+        <div className="sm:p-8 p-2  shadow-lg linearbggreen rounded-lg">
           <div className="bg-white rounded-xl py-20">
           <h3 className="text-green text-5xl text-center text-gray-900 tracking-tight font-semibold mb-8">
           Our Tailored Courses for you          </h3>
@@ -17,7 +17,7 @@ export default function Courses() {
                   <button
                     className={
                       selected
-                        ? "px-5 py-3 rounded-full mr-4 bg-green text-white outline-none "
+                        ? "px-5 py-3 rounded-full mr-4 bg-green text-white outline-none my-2 "
                         : "bg-white rounded-full mr-4 text-gray-600 px-5 py-3 border-green border-[1px] "
                     }
                   >

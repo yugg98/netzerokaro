@@ -149,7 +149,27 @@ text-transform: capitalize;
 .card-list li{
     margin: 10px 20px;
 }
+
 .bg-img1{
   background: url('../assets/bg1.png');
-  
+}
+
+.bg-img2{
+  background: linear-gradient(149.9deg, #38D26F 12.85%, #357AFF 130.19%);
+}
+
+@media screen and (min-width: 768px){
+  .bg-img2{
+  background: url('../assets/bg/bg1.png');
+  }
+}
+
+.bg-img3{
+  background: linear-gradient(149.9deg, #38D26F 12.85%, #357AFF 130.19%);
+}
+
+@media screen and (min-width: 768px){
+  .bg-img3{
+  background: url('../assets/bg/bg2.png');
+  }
 }

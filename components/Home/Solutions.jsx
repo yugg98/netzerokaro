@@ -11,7 +11,7 @@ import Link from 'next/link'
 const Solutions = () => {
   return (
     <>
-      <div className='bs p-8 rounded-lg'>
+      <div className='bg-img3 p-8 rounded-lg'>
         <p className="text-white text-4xl text-center font-semibold">Our Solutions</p>
         <div className="flex justify-between items-center mt-16 sm:w-[80%] w-full mx-auto flex-wrap">
           <div className='bg-white mx-2  rounded-[12px] max-w-[300px] mt-10 h-[450px]  '>
@@ -38,7 +38,7 @@ const Solutions = () => {
         </div>
       </div>
       <div className="linearbggreen  overflow-hidden ">
-        <Image src={earth} className='sm:absolute hidden left-[50%] w-[800px] ' />
+        <Image src={earth} className=' absolute  left-[50%] w-[800px] ' />
         <div className='p-6 sm:px-14 px-8 mt-4'>
           <span className="relative md:left-[25%] left-[-5%]">
             <Image src={comma} className="md:w-[45px] w-[30px]" />

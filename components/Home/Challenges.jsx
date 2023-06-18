@@ -7,7 +7,7 @@ import comma2 from '@/assets/comma6.png'
 const Challenges = () => {
     return (
         <div className='w-full linearbggreen'>
-            <p className="text-4xl text-center font-semibold text-green mt-4">Current Challenges</p>
+            <p className="text-4xl text-center font-semibold text-green pt-4">Current Challenges</p>
             <div className="flex sm:flex-row flex-col">
                 <div className="sm:w-1/2 w-full flex justify-center items-center flex-col px-6 mt-20">
                     <span className="relative left-[-40%]">
