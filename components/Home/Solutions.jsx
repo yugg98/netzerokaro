@@ -38,14 +38,14 @@ const Solutions = () => {
         </div>
       </div>
       <div className="linearbggreen  overflow-hidden ">
-        <Image src={earth} className='absolute left-[640px] w-[800px] ' />
+        <Image src={earth} className='absolute left-[50%] w-[800px] ' />
         <div className='p-6 sm:px-14 px-8 mt-4'>
-          <span className="relative sm:left-[25%] left-[-14%]">
-            <Image src={comma} className="w-[45px]" />
+          <span className="relative md:left-[25%] left-[-5%]">
+            <Image src={comma} className="md:w-[45px] w-[30px]" />
           </span>
           <p className="text-3xl font-semibold text-green text-center z-[12] sticky tracking-wider ">Building The Net Zero Work force</p>
-          <span className="relative sm:left-[70%] left-[100%] ">
-            <Image src={comma2} className="w-[45px]" />
+          <span className="relative md:left-[70%] left-[90%] ">
+            <Image src={comma2} className="md:w-[45px] w-[35px]" />
           </span>
           <p className='text-4xl leading-[3rem] mt-20 font-semibold text-fblack'><span className='font-extralight'>Take the first step towards a </span><br />
             carbon-neutral world with Zero <br /> Carbon Net.</p>
@@ -65,7 +65,7 @@ const Solutions = () => {
 const Cards = ({ image }) => {
   return (
     <div className='bg-white mx-2  rounded-[12px] max-w-[300px] mt-10 h-[450px]  '>
-      <Image src={image} className='relative top-[-80px] w-[250px] mx-auto ' />
+      <Image src={image} className='sm:relative hidden top-[-80px] w-[250px] mx-auto ' />
       <p className="text-xl text-center text-fblack relative">Climate Skilling</p>
       <p className="text-sm text-center px-4 mt-6">At the heart of the academy&apos;s story is the profound understanding that the challenges we face are not insurmountable but require a united effort.</p>
       <p className='text-center  gradienttextbg mt-10'><Link href="/">Explore More <span><Image src={arrow} className='inline max-w-[50px]' /></span></Link></p>

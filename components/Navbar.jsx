@@ -33,19 +33,19 @@ const Navbar = () => {
                         </li>
                         <li>
                             
-                            <Link href="/" className='flex text-xl hover:bg-grey rounded-lg text-center items-center p-4'> <AcademicCapIcon className='w-[36px] mr-2 text-green' /> Company  </Link>
+                            <Link href="/academy" className='flex text-xl hover:bg-grey rounded-lg text-center items-center p-4'> <AcademicCapIcon className='w-[36px] mr-2 text-green' /> Company  </Link>
                         </li>
                         <li>
                             
-                            <Link href="/" className='flex text-xl hover:bg-grey rounded-lg text-center items-center p-4'> <AcademicCapIcon className='w-[36px] mr-2 text-green' /> Company  </Link>
+                            <Link href="/marketplace" className='flex text-xl hover:bg-grey rounded-lg text-center items-center p-4'> <AcademicCapIcon className='w-[36px] mr-2 text-green' /> Company  </Link>
                         </li>
                         <li>
                             
-                            <Link href="/" className='flex text-xl hover:bg-grey rounded-lg text-center items-center p-4'> <AcademicCapIcon className='w-[36px] mr-2 text-green' /> Company  </Link>
+                            <Link href="/greenstore" className='flex text-xl hover:bg-grey rounded-lg text-center items-center p-4'> <AcademicCapIcon className='w-[36px] mr-2 text-green' /> Company  </Link>
                         </li>
                         <li>
                             
-                            <Link href="/" className='flex text-xl hover:bg-grey rounded-lg text-center items-center p-4'> <AcademicCapIcon className='w-[36px] mr-2 text-green' /> Company  </Link>
+                            <Link href="/greenstore" className='flex text-xl hover:bg-grey rounded-lg text-center items-center p-4'> <AcademicCapIcon className='w-[36px] mr-2 text-green' /> Company  </Link>
                         </li>
                     </ul>
                 </div>
