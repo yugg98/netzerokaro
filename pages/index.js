@@ -14,7 +14,7 @@ export default function Home() {
   return (
    <div className='max-w-full overflow-x-hidden'>
       <Navbar/>
-      <HeroHome/>
+      {/* <HeroHome/> */}
       <NzkCatalyst/>
       <Roadnz/>
       <Story/>
