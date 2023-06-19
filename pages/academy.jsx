@@ -16,6 +16,7 @@ import comma from '@/assets/comma.png'
 import comma1 from '@/assets/comma2.png'
 import book from '@/assets/icon4.png'
 import feature from '@/assets/icon5.png'
+import icon from '@/assets/icons/icon12.png'
 
 
 
@@ -167,13 +168,38 @@ const academy = () => {
                 </div>
                 </div>
             </div>
-            <div className="linearbggreen">
-                <p className="text-center text-5xl text-green">USP of Academy</p>
-            <div className="sm:w-1/2 mb-10 ">
-                    <Image src={img4} className=' sm:max-w-[500px] mx-auto' />
-                </div>
-                <div className="sm:w-1/2 sm:px-10 px-2">
-
+            <div className="linearbggreen sm:py-20 py-4">
+                <p className="sm:text-5xl text-3xl text-green mb-4 text-center mt-4 sm:mt-0"> USP of Academy</p>
+                <p className="text-black text-center sm:max-w-[50%] mx-auto mb-10">Our in-house team make sure everything is set up and configured for you to use. From data availability and completeness through to portal logins and training, we’ve got it covered.</p>
+                <div className=" rounded-sm grid grid-flow-row	 sm:grid-cols-2 row-span-2 sm:px-20 px-4 gap-2 justify-center items-center w-full mt-10">
+                    <div className=" sm:w-[600px] w-full my-4 sm:mx-4 bg-white sm:p-6 p-4 border-[1px] border-[#BBE7CA] rounded-lg">
+                            <div className=' px-4 flex ' >
+                                <Image src={icon} className='h-[50px] w-[50px]' />
+                                <p className="text-2xl  mt-1 ml-5">Dedicated community <br /> platform</p>
+                            </div>
+                            <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
+                    </div>
+                    <div className=" sm:w-[600px] w-full my-4 sm:mx-4 bg-white sm:p-6 p-4 border-[1px] border-[#BBE7CA] rounded-lg">
+                            <div className=' px-4 flex ' >
+                                <Image src={icon} className='h-[50px] w-[50px]' />
+                                <p className="text-2xl  mt-1 ml-5">Dedicated community <br /> platform</p>
+                            </div>
+                            <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
+                    </div>
+                    <div className=" sm:w-[600px] w-full my-4 sm:mx-4 bg-white sm:p-6 p-4 border-[1px] border-[#BBE7CA] rounded-lg">
+                            <div className=' px-4 flex ' >
+                                <Image src={icon} className='h-[50px] w-[50px]' />
+                                <p className="text-2xl  mt-1 ml-5">Dedicated community <br /> platform</p>
+                            </div>
+                            <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
+                    </div>
+                    <div className=" sm:w-[600px] w-full my-4 sm:mx-4 bg-white sm:p-6 p-4 border-[1px] border-[#BBE7CA] rounded-lg">
+                            <div className=' px-4 flex ' >
+                                <Image src={icon} className='h-[50px] w-[50px]' />
+                                <p className="text-2xl  mt-1 ml-5">Dedicated community <br /> platform</p>
+                            </div>
+                            <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
+                    </div>
                 </div>
             </div>
             <CallToAction />

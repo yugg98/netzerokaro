@@ -35,7 +35,7 @@ const company = () => {
 
 function Vision() {
     return (
-        <div className='bs sm:max-h-screen flex sm:flex-row flex-col '>
+        <div className='bg-img2 sm:max-h-screen flex sm:flex-row flex-col '>
             <Image src={earth} className='sm:max-h-screen sm:flex hidden'/>
             <div className='sm:px-[100px] p-8 flex  flex-col justify-center '>
             <div className='sm:max-w-[600px] mt-10'>
@@ -141,11 +141,11 @@ function OurApproach() {
 }
 function CoreValues() {
     return (
-        <div className="w-full flex bs flex-wrap">
+        <div className="w-full flex bg-img2 flex-wrap">
             <div className="sm:w-[40%]">
                 <Image src={img1} />
             </div>
-            <div className="sm:w-[60%] bs list-values sm:px-24  p-4 py-8 flex flex-col justify-center">
+            <div className="sm:w-[60%] bg-img2 list-values sm:px-24  p-4 py-8 flex flex-col justify-center">
                 <p className="text-5xl text-white font-semibold">Our Core Values</p>
                 <ul>
 
