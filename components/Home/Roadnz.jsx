@@ -6,7 +6,7 @@ const Roadnz = () => {
         <motion.div
             variants={slideIn}
             initial="hidden"  whileInView="show"
-            className='linearbggreen sm:h-[500px] h-[900px] '>
+            className='linearbggreen sm:h-[500px] md:h-[900px] '>
             <p className="text-4xl mb-6 text-green font-[600] text-center">Road to Net Zero</p>
             <div className=" ">
                 <div className="w-[90%] flex sm:flex-row flex-col mx-auto justify-between ">
@@ -19,7 +19,7 @@ const Roadnz = () => {
                             Net zero is when greenhouse gas (GHG) emission removals balance out the amount of GHG emissions in the atmosphere.
                         </p>
                     </motion.div>
-                    <motion.div variants={slideIn('right', 'tween', 0.1, 1)} initial="hidden"  whileInView="show" className="sm:w-[58%] sm:mt-2 bg-white p-8  rounded-[12px] mt-10">
+                    <motion.div variants={slideIn('right', 'tween', 0.1, 1)} initial="hidden"  whileInView="show" className="sm:w-[58%] sm:mt-2 sm:mb-0 mb-4  bg-white p-8  rounded-[12px] mt-10">
                         <p className="text-xl font-[500px] mt-2"> Why Net Zero ?</p>
                         <p className="text-md text-[#5D6180] mt-2">
                             As the world is facing an unprecedented climate crisis, there is an urgent need to reduce greenhouse gas emissions and mitigate the impacts of climate change.

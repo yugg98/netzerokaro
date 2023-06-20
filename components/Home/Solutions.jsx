@@ -11,11 +11,11 @@ import Link from 'next/link'
 const Solutions = () => {
   return (
     <>
-      <div className='bg-img3 p-8 rounded-lg overflow-hidden'>
+      <div className='bg-img3 sm:p-8 p-4 rounded-lg overflow-hidden '>
         <p className="text-white text-4xl text-center font-semibold">Our Solutions</p>
         <div className="flex justify-between flex-wrap mt-8">
-          <div className="flex flex-row justify-center max-w-[380px] items-center">
-            <div className="bg-white rounded-lg  overflow-hidden">
+          <div className="flex flex-row justify-center max-w-[380px]  items-center md:mb-0 mb-4">
+            <div className="bg-white rounded-lg  overflow-hidden h-[530px]">
               <Image src={base1} className='' />
               <div className="flex justify-between px-8 py-5">
                 <div >
@@ -27,10 +27,10 @@ const Solutions = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-row justify-center max-w-[380px] items-center">
-            <div className="bg-white rounded-lg  overflow-hidden">
+          <div className="flex flex-row justify-center max-w-[380px]  items-center md:mb-0 mb-4">
+            <div className="bg-white rounded-lg  overflow-hidden h-[530px]">
               <Image src={base1} className='' />
-              <div className="flex justify-between px-8 py-5">
+              <div className="flex justify-between sm:px-8 px-6 py-5">
                 <div >
                   <p className="font-semibold text-lg ">Climate Literacy</p>
                   <p className="text-greyf mb-4 mt-2">Elevate your climate IQ with our comprehensive resources, empowering you to understand and communicate the science, impacts, and solutions of climate change effectively.</p>
@@ -40,8 +40,8 @@ const Solutions = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-row justify-center max-w-[380px] items-center">
-            <div className="bg-white rounded-lg  overflow-hidden">
+          <div className="flex flex-row justify-center max-w-[380px]  items-center md:mb-0 mb-4">
+            <div className="bg-white rounded-lg  overflow-hidden h-[530px] ">
               <Image src={base1} className='' />
               <div className="flex justify-between px-8 py-5">
                 <div >

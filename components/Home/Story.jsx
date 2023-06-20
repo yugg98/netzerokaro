@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 import { slideIn, staggerContainer, fadeIn,textVariant2, textVariant } from '@/utils/motion'
 
 const Story = () => {
-    const comma = " relative bg-white rounded-full opacity-0.5 sm:mt-0 mt-20"
+    const comma = " relative bg-white rounded-full opacity-0.5 sm:mt-0 md:mt-20 mt-8"
     return (
         <div 
             className='bg-img2 bs   sm:p-14 p-10 rounded-md'>
@@ -17,10 +17,10 @@ const Story = () => {
                     <Image src={mountain} className='max-w-full sm:w-[550px] w-[100%] mt-5 mx-auto' />
 
                     <div className='mt-2'>
-                        <span className={`${comma} `} >
+                        <span className={`${comma} sm:left-0 left-[-10%]`} >
                             <Image src={comma2} className='bg-white w-[50px] rounded-full bg-opacity-5 m-2 px-2 py-3' />
                         </span>
-                        <motion.p variants={slideIn('right', 'tween', 0.1, 1)} className='text-white text-xl font-extralight sm:px-10 pl-10 mt-4 leading-8 '>To secure a sustainable future for our planet and all its people, the world must reach net zero – cutting greenhouse gases as close to zero as possible.</motion.p>
+                        <motion.p variants={slideIn('right', 'tween', 0.1, 1)} className='text-white text-xl font-extralight sm:px-10 sm:pl-10 mt-4 leading-8 '>To secure a sustainable future for our planet and all its people, the world must reach net zero – cutting greenhouse gases as close to zero as possible.</motion.p>
                         <span className={`${comma} left-[90%] `} >
                             <Image src={comma1} className='bg-white w-[50px] rounded-[99%] bg-opacity-5 m-2 px-2 py-3' />
                         </span>

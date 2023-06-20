@@ -25,7 +25,6 @@ const Challenges = () => {
                         
                         <Tick title="Lack of Climate Change Awareness"/>
                         <Tick title="Insufficient Technical Knowledge"/>
-
                         <Tick title="Limited Understanding of Climate Policies and Regulations"/>
                         <Tick title="Integration of Climate Considerations into Different Sectors"/>
                         <Tick title="Limited Capacity for Green Financing and Investment"/>
@@ -45,7 +44,7 @@ const Tick = ({title}) => {
         <div className='sm:mt-16 mt-10 sm:pr-20'>
             <li className='flex  items-center mt-6'>
                 <span className='border-2 border-green p-1.5 py-2 rounded-full'>
-                    <Image src={check} className='w-[18px] h-[14px] ' />
+                    <Image src={check} className='min-w-[18px] min-h-[14px] ' />
                 </span>
                 <p className='ml-2 sm:text-xl text-lg font-extralight text-fblack '>{title}</p>
             </li>
