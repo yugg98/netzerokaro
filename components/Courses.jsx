@@ -7,7 +7,7 @@ export default function Courses() {
   return (
       <div className="mx-auto ">
         <div className="sm:p-8 p-2  shadow-lg linearbggreen rounded-lg">
-          <div className="bg-white rounded-xl py-20">
+          <div className=" rounded-xl py-20">
           <h3 className="text-green text-5xl text-center text-gray-900 tracking-tight font-semibold mb-8">
           Our Tailored Courses for you          </h3>
           <Tab.Group >

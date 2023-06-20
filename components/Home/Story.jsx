@@ -5,13 +5,14 @@ import comma1 from '@/assets/comma.png'
 import comma2 from '@/assets/comma2.png'
 import { motion } from 'framer-motion'
 import { slideIn, staggerContainer, fadeIn,textVariant2, textVariant } from '@/utils/motion'
+import Heading from '../Heading'
 
 const Story = () => {
     const comma = " relative bg-white rounded-full opacity-0.5 sm:mt-0 md:mt-20 mt-8"
     return (
         <div 
-            className='bg-img2 bs   sm:p-14 p-10 rounded-md'>
-            <p className="text-center font-semibolf text-white text-4xl">Net Zero Story So Far ?</p>
+            className='bg-img2 bs   sm:p-14 p-10 sm:pt-0 rounded-md'>
+            <Heading text="Net Zero Story So Far ?" color='true'/>
             <div className="sm:flex mt-6">
                 <div className="sm:w-1/2 w-full">
                     <Image src={mountain} className='max-w-full sm:w-[550px] w-[100%] mt-5 mx-auto' />

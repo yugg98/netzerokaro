@@ -4,12 +4,13 @@ import check from '@/assets/check.png'
 import earthhand from '@/assets/earthhand.png'
 import comma from '@/assets/comma5.png'
 import comma2 from '@/assets/comma6.png'
+import Heading from '../Heading'
 const Challenges = () => {
     return (
-        <div className='w-full linearbggreen'>
-            <p className="text-4xl text-center font-semibold text-green pt-4">Current Challenges</p>
+        <div className='w-full linearbggreen sm:h-[95vh] overflow-hidden'>
+            <Heading text="Current Challenges"/>
             <div className="flex sm:flex-row flex-col">
-                <div className="sm:w-1/2 w-full flex justify-center items-center flex-col px-6 mt-20">
+                <div className="sm:w-1/2 w-full flex justify-center items-center flex-col px-6 mt-8">
                     <span className="relative left-[-40%]">
                         <Image src={comma2} />
                     </span>
@@ -18,10 +19,10 @@ const Challenges = () => {
                     <span className="relative left-[40%]">
                         <Image src={comma} />
                     </span>
-                    <Image src={earthhand} className='w-[450px]'/>
+                    <Image src={earthhand} className='w-[380px]'/>
                 </div>
-                <div className="sm:w-1/2 w-full flex justify-center items-center ">
-                    <ul className='sm:ml-20  mt-26 sm:p-0 p-8'>
+                <div className="sm:w-1/2 w-full flex justify-center items-center max-h-screen ">
+                    <ul className=' sm:pl-20  sm:pb-20 px-6 mt-4 sm:mb-0 mb-6 '>
                         
                         <Tick title="Lack of Climate Change Awareness"/>
                         <Tick title="Insufficient Technical Knowledge"/>
@@ -41,8 +42,8 @@ const Challenges = () => {
 
 const Tick = ({title}) => {
     return (
-        <div className='sm:mt-16 mt-10 sm:pr-20'>
-            <li className='flex  items-center mt-6'>
+        <div className='sm:mt-4  sm:pr-20'>
+            <li className='flex  items-center sm:mt-12 mt-4'>
                 <span className='border-2 border-green p-1.5 py-2 rounded-full'>
                     <Image src={check} className='min-w-[18px] min-h-[14px] ' />
                 </span>

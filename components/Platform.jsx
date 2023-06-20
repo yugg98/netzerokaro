@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion'
 import { textVariant, staggerContainer } from '@/utils/motion'
 import approach from '@/assets/approach.png'
+import Heading from './Heading';
 const Platform = () => {
     const calculateRemainingTime = () => {
         const now = new Date();
@@ -48,8 +49,8 @@ const Platform = () => {
 
     return (
         <div>
-            <div className='flex justify-center items-center flex-col w-[90%] mx-auto my-10 mt-12 mb-0 sm:px-20 pb-0'>
-                <p className="text-4xl mb-6 text-green font-semibold">The Platform</p>
+            <div className='flex justify-center items-center flex-col w-[90%] mx-auto my-10 mt-12 sm:px-20 '>
+                <Heading text={"The Platform"}/>
                 <motion.p variants={textVariant(0.2)} initial="hidden" whileInView="show" className="text-fblack text-center " >
                     Net Zero Karo (NZK), a platform dedicated to driving India&apos;s transition towards a net-zero economy.
                     KARO which means TO DO in Hindi, reflects our commitment to action and direction towards achieving carbon neutrality.

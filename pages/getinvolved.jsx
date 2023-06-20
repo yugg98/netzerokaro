@@ -17,7 +17,9 @@ const getinvolved = () => {
             <Hero SuperTitle="Net Zero Karo Hackathon " Title="Virtual Hackathon Specialists" Desc="Hire, engage and innovate with top diverse talent to accelerate your business roadmap" />
             <div className='linearbggreen sm:py-20 p-4 '>
                 <div className="sm:text-5xl text-3xl text-green font-semibold text-center sm:leading-[60px]">Connecting brands and talent through <br /> innovation</div>
-                <p className="text-lg text-greyf sm:px-[100px] px- text-center mt-3">Our knowledge spans the complex field of sustainability. Our teams include data analysts, strategy experts, energy management experts, compliance wizards and project developers out in the field.</p>
+                <p className=" text-greyf sm:px-[100px] px- text-center mt-3">Innovation Hackathons are extensively used by some of the most innovative organizations across the globe to innovate faster where an idea or a business problem involving niche skill sets is given to the technology professionals and students to solve within 24-48 hours.
+Over 80% of Fortune 500 companies have hosted or sponsored hackathons to accelerate their innovation processes.
+Net Zero Karo specializes in conducting personalized innovation hackathons for organizations, thereby enabling them to accelerate their innovation reliably and with agility.</p>
                 <div className=" rounded-sm grid sm:grid-cols-2 row-span-2 sm:px-20 px-4 gap-2 justify-center items-center w-full mt-10">
                         <div className='sm:p-4 p-2 flex'>
                             <Image src={bulb} className='h-[80px]' />
@@ -47,18 +49,11 @@ const getinvolved = () => {
                                 <p className='mt-2 text-[#5D6180]'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                             </div>
                         </div>
-                        <div className='sm:p-4 p-2 flex'>
-                            <Image src={bulb} className='h-[80px]' />
-                            <div className=' px-4'>
-                                <p className="text-2xl  text-green mt-1">Innovation & IP <br /> Development</p>
-                                <p className='mt-2 text-[#5D6180]'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
-                            </div>
-                    </div>
-                  
+                       
 
                 </div>
             </div>
-            <div className="bg-img2 flex flex-wrap sm:p-20 p-4 pb-0">
+            <div className="bg-img2 flex flex-wrap sm:p-20 p-4 sm:pb-0 pb-4">
                 <div className="sm:w-1/2">
                     <p className="text-5xl text-white">Hire</p>
                     <p className='text-lg text-white font-extralight mt-10 '>Diverse, innovative talent for your teams by assessing them for varied skill-set</p>
@@ -70,16 +65,16 @@ const getinvolved = () => {
                         </div>
                         <div className='flex border-b-[1px] border-b-white mt-10 pb-8'>
                             <Image src={tick} className='w-[28px] h-[28px] mr-3' />
-                            <p className="text-lg text-white">Challenge the participants with problems that they would tackle on the job</p>
+                            <p className="text-lg text-white">Assess domain understanding, business acumen and coding prowess</p>
                         </div>
                         <div className='flex  mt-10 pb-8'>
                             <Image src={tick} className='w-[28px] h-[28px] mr-3' />
-                            <p className="text-lg text-white">Challenge the participants with problems that they would tackle on the job</p>
+                            <p className="text-lg text-white">Assess situational judgment skills and ability to work in teams</p>
                         </div>
                     </div>
 
                 </div>
-                <div className="sm:w-1/2 p-4 pb-0">
+                <div className="sm:w-1/2  pb-0">
                     <div className='flex justify-end'>
                         <Image src={hire} className='sm:h-[600px] sm:w-[400px] w-full h-full' />
                     </div>

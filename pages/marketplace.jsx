@@ -15,7 +15,7 @@ function marketplace() {
         <div>
             <Navbar />
             <Hero Title="Acquire, Develop and Retain Sustainability" Desc="a platform dedicated to driving India's transition towards a net-zero economy." />
-            <div className='p-20 sm:px-[120px] px-4 linearbggreen pb-0'>
+            <div className='p-20 sm:px-[120px] px-4 linearbggreen pb-0 '>
                 <p className="sm:text-5xl text-3xl text-center text-green font-semibold sm:leading-[60px]">Discover the versatility of our
                     Net Zero Karo Academy</p>
                 <p className="text-center mt-4">Sustainability, Climate Literacy and Circular Economy are among the most important future fields of our time. They form the basis for the innovative strength and competitiveness of the economy and for the work of tomorrow</p>
@@ -23,8 +23,8 @@ function marketplace() {
                     <Image src={dashboardimg} className='relative' />
                 </div>
             </div>
-            <div className='bg-img2 flex flex-wrap '>
-                <Image src={women} className='max-h-[80%] ' />
+            <div className='bg-img2 flex flex-wrap  sm:max-h-screen overflow-hidden'>
+                <Image src={women} className='max-h-[60%] ' />
                 <div className='sm:w-1/2 w-full py-10 sm:px-0 px-10'>
                     <div className="bg-white p-8 rounded-lg my-4">
                         <Image src={icon1} />

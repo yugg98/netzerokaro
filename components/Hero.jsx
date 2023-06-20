@@ -21,9 +21,9 @@ const Hero = ({Title,Desc,CalltoAction,SuperTitle,showQues}) => {
           <motion.div variants={textVariant(0.8)} className='text-black text-center sm:text-left sm:text-6xl text-4xl font-[800] gradienttextbg'>{Title}</motion.div>
           
           <motion.p variants={textVariant(0.6)} className=" leading-6 mt-4 text-center sm:text-left">{Parser().parse(Desc)}</motion.p>
-          <div className="flex items-center mt-8 sm:justify-start justify-center">
+          {/* <div className="flex items-center mt-8 sm:justify-start justify-center">
             <button className="rounded-full bg-green text-white px-12 text-lg py-3">Explore</button>
-          </div>
+          </div> */}
         </div>
       </motion.div>
       <div className="sm:w-[50%] flex justify-end py-20 w-full">

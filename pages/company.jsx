@@ -5,7 +5,13 @@ import { motion } from 'framer-motion'
 import { textVariant, staggerContainer } from '@/utils/motion'
 import approach from '@/assets/approach.png'
 import Image from 'next/image'
-import tech from '@/assets/tech.svg'
+import tech from '@/assets/company/tech.jpg'
+import dia from '@/assets/company/dia.svg'
+import note from '@/assets/company/note.png'
+import learn from '@/assets/company/learn.svg'
+
+
+
 import { Footer } from '@/components/Footer'
 import img1 from '@/assets/img1.png'
 import CallToAction from '@/components/CallToAction'
@@ -13,7 +19,7 @@ import icon1 from '@/assets/icon1.png'
 import icon2 from '@/assets/icon2.png'
 import icon3 from '@/assets/icon3.png'
 import Platform from '@/components/Platform'
-import earth from '@/assets/courses/Africa.png'
+import earth from '@/assets/Africa.png'
 import earth1 from '@/assets/earth1.png'
 
 import comma1 from '@/assets/comma.png'
@@ -38,7 +44,7 @@ const company = () => {
 function Vision() {
     return (
         <div className='bg-img2 sm:max-h-screen flex sm:flex-row flex-col '>
-            <Image src={earth} className='sm:max-h-screen sm:flex hidden'/>
+            <Image src={earth} className=' w-[50%] sm:flex hidden'/>
             <div className='sm:px-[100px] p-8 flex  flex-col justify-center '>
             <div className='sm:max-w-[600px] mt-10'>
                 <Image src={comma} className=' relative sm:left-[-50px] bottom-[-30px] w-[40px]' />
@@ -77,11 +83,10 @@ function OurApproach() {
                                     They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
                                 </p>
                                 <p className=' mt-2 text-greyf sm:text-sm text-md '>
-                                    They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
+                                Multiple studies* state that climate change is the highest concern for Millenial and GenZ employees, and they want to contribute to action at work. (Deloitte Global 2021 Survey)
                                 </p>
                                 <p className=' mt-2 text-greyf sm:text-sm text-md '>
-                                    They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
-                                </p>
+                                As the world strives to meet the net zero targets outlined in the Paris Agreement, regulation will force corporations to move faster on climate.                                </p>
                             </div>
                         </div>
                     </li>
@@ -92,40 +97,34 @@ function OurApproach() {
                                 <div className="flex">
                             <Image src={icon2} className='h-[48px] w-[48px] sm:hidden flex' />
 
-                                <p className="text-2xl text-semibold mt-2">Why Now ?</p>
+                                <p className="text-2xl text-semibold mt-2">Why You ?</p>
                                 </div>
 
                                 <p className=' mt-2 text-greyf sm:text-sm text-md '>
-                                    They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
-                                </p>
+                                Utilise your existing professional skills and apply them to your company’s climate transformation – no matter your current job title or position.                                </p>
                                 <p className=' mt-2 text-greyf sm:text-sm text-md '>
-                                    They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
-                                </p>
+                                Harness your passion and dedication to implementing climate solutions – you have the skills, experience, and you’re prepared to act. Give yourself permission to lead change.                                </p>
                                 <p className=' mt-2 text-greyf sm:text-sm text-md '>
-                                    They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
-                                </p>
+                                The world has enough experts. You just need to learn enough to become a translator - the people who can bridge the gap between information and action.                                </p>
                             </div>
                         </div>
                     </li>
                     <li className='sm:my-10 my-4'>
                         <div className='sm:flex justify-center '>
-                            <Image src={icon3} className='h-[84px] w-[84px] sm:flex hidden' />
+                            <Image src={icon3} className='h-[84px] w-[100px] sm:flex hidden' />
                             <div className='sm:p-0 p-4'>
                                 <div className="flex">
                             <Image src={icon3} className='h-[48px] w-[60px] sm:hidden flex' />
 
-                                <p className="text-2xl text-semibold mt-2">Why Now ?</p>
+                                <p className="text-2xl text-semibold mt-2">Why Us ?</p>
                                 </div>
 
                                 <p className=' mt-2 text-greyf sm:text-sm text-md '>
-                                    They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
-                                </p>
+                                We don’t just teach the what and the why, we show you how to lead change in your company through a unique curriculum that combines technical knowledge with leadership.                                </p>
                                 <p className=' mt-2 text-greyf sm:text-sm text-md '>
-                                    They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
-                                </p>
+                                Our focused commitments give you a blueprint that closes the gap between information and action, so you can be sure you are focusing your efforts on the most impactful goals.                                </p>
                                 <p className=' mt-2 text-greyf sm:text-sm text-md '>
-                                    They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
-                                </p>
+                                We’re here for the long haul. Once you’ve joined the WorkforClimate community, you’ll have ongoing access to all of our coaches and community members.                                </p>
                             </div>
                         </div>
                     </li>
@@ -152,20 +151,20 @@ function CoreValues() {
                     </li>
 
                     <li className=''>
-                        <p>Sustainability</p>
-                        <p>196 countries adopted the historic Paris. Its overall goal: limit warming to no more than 1.5 degrees Celsius.</p>
+                        <p>Integrity</p>
+                        <p> We uphold the highest standards of honesty, transparency, and ethical conduct in all our operations and interactions</p>
                     </li>
                     <li className=''>
-                        <p>Sustainability</p>
-                        <p>196 countries adopted the historic Paris. Its overall goal: limit warming to no more than 1.5 degrees Celsius.</p>
+                        <p>Innovation</p>
+                        <p>We embrace innovation as a driving force for finding creative and impactful solutions to climate and sustainability challenges.</p>
                     </li>
                     <li className=''>
-                        <p>Sustainability</p>
-                        <p>196 countries adopted the historic Paris. Its overall goal: limit warming to no more than 1.5 degrees Celsius.</p>
+                        <p>Collaboration</p>
+                        <p>We believe in the power of collaboration and partnerships to foster collective action and maximise our impact in creating a sustainable future.</p>
                     </li>
                     <li className=''>
-                        <p>Sustainability</p>
-                        <p>196 countries adopted the historic Paris. Its overall goal: limit warming to no more than 1.5 degrees Celsius.</p>
+                        <p>Empowerment</p>
+                        <p>We empower individuals and organizations with the knowledge, skills, and resources to take meaningful action towards achieving net-zero emissions and sustainability goals.</p>
                     </li>
 
                 </ul>
@@ -177,25 +176,25 @@ function Approach() {
     return (
         <div className="linearbggreen sm:h-screen  flex sm:items-end items-center justify-center my-10 bg-img">
             <div className="flex flex-wrap items-center justify-center w-full">
-                <div className="border-green bg-gradientg border-[1px] bg-white rounded-lg mx-10 max-w-[250px] min-h-[300px] p-4 flex flex-col justify-center items-center">
-                    <Image src={tech} alt="" />
+                <div className="border-green bg-gradientg border-[1px] bg-white rounded-lg mx-10 w-[250px] h-[300px] p-4 flex flex-col justify-center items-center mt-4">
+                    <Image src={learn} alt="" />
                     <p className="text-lg font-[550] mt-8">Learning</p>
                     <p className="text-sm text-center mt-2">Empowering Individuals through Education</p>
                 </div>
-                <div className="border-green bg-gradientg border-[1px] bg-white rounded-lg mx-10 max-w-[250px] min-h-[300px] p-4 flex flex-col justify-center items-center mt-4">
-                    <Image src={tech} alt="" />
-                    <p className="text-lg font-[550] mt-8">Learning</p>
-                    <p className="text-sm text-center mt-2">Empowering Individuals through Education</p>
+                <div className="border-green bg-gradientg border-[1px] bg-white rounded-lg mx-10 w-[250px] h-[300px] p-4 flex flex-col justify-center items-center mt-4">
+                    <Image src={dia} alt="" />
+                    <p className="text-lg font-[550] mt-8">Dialogue</p>
+                    <p className="text-sm text-center mt-2">Collaborative Engagement for Change</p>
                 </div>
-                <div className="border-green bg-gradientg border-[1px] bg-white rounded-lg mx-10 max-w-[250px] min-h-[300px] p-4 flex flex-col justify-center items-center mt-4">
+                <div className="border-green bg-gradientg border-[1px] bg-white rounded-lg mx-10 w-[250px] h-[300px] p-4 flex flex-col justify-center items-center mt-4">
                     <Image src={tech} alt="" />
-                    <p className="text-lg font-[550] mt-8">Learning</p>
-                    <p className="text-sm text-center mt-2">Empowering Individuals through Education</p>
+                    <p className="text-lg font-[550] mt-8">Technology</p>
+                    <p className="text-sm text-center mt-2">Innovating for a Sustainable Future</p>
                 </div>
-                <div className="border-green bg-gradientg border-[1px] bg-white rounded-lg mx-10 max-w-[250px] min-h-[300px] p-4 flex flex-col justify-center items-center mt-4">
-                    <Image src={tech} alt="" />
-                    <p className="text-lg font-[550] mt-8">Learning</p>
-                    <p className="text-sm text-center mt-2">Empowering Individuals through Education</p>
+                <div className="border-green bg-gradientg border-[1px] bg-white rounded-lg mx-10 w-[250px] h-[300px] p-4 flex flex-col justify-center items-center mt-4">
+                    <Image src={note} alt="" />
+                    <p className="text-lg font-[550] mt-8">Content</p>
+                    <p className="text-sm text-center mt-2">Comprehensive and Relevant Knowledge</p>
                 </div>
             </div>
         </div>

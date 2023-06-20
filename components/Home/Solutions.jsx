@@ -8,12 +8,13 @@ import earth from '@/assets/earth1.png'
 import comma from '@/assets/comma3.png'
 import comma2 from '@/assets/comma4.png'
 import Link from 'next/link'
+import Heading from '../Heading'
 const Solutions = () => {
   return (
     <>
-      <div className='bg-img3 sm:p-10 sm:py-24 p-4 rounded-lg overflow-hidden '>
-        <p className="text-white sm:text-5xl text-3xl  text-center font-semibold">Our Solutions</p>
-        <div className="flex justify-between flex-wrap mt-10 sm:px-10">
+      <div className='bg-img3 sm:p-10 sm:py-24 p-4 sm:pt-0 rounded-lg overflow-hidden '>
+        <Heading text="Our Solutions" color={true}/>
+        <div className="flex justify-between flex-wrap sm:mt-20 mt-10 sm:px-10 ">
           <div className="flex flex-row justify-center max-w-[380px]  items-center md:mb-0 mb-4">
             <div className="bg-white rounded-lg  overflow-hidden h-[530px]">
               <Image src={base1} className='' />
@@ -58,11 +59,11 @@ const Solutions = () => {
       <div className="linearbggreen  overflow-hidden ">
         <Image src={earth} className='sm:flex absolute hidden  left-[50%] w-[800px] ' />
         <div className='p-6 sm:px-14 px-8 mt-4'>
-          <span className="relative md:left-[25%] left-[-5%]">
+          <span className="relative md:left-[10%] left-[-5%]">
             <Image src={comma} className="md:w-[45px] w-[30px]" />
           </span>
-          <p className="text-3xl font-semibold text-green text-center z-[12] sticky tracking-wider ">Building The Net Zero Work force</p>
-          <span className="relative md:left-[70%] left-[90%] ">
+          <p className="sm:text-5xl text-3xl font-semibold text-green text-center z-[12] sticky tracking-wider ">Building The Net Zero Work force</p>
+          <span className="relative md:left-[85%] left-[90%] ">
             <Image src={comma2} className="md:w-[45px] w-[35px]" />
           </span>
           <p className='text-4xl leading-[3rem] mt-20 font-semibold text-fblack'><span className='font-extralight'>Take the first step towards a </span><br />

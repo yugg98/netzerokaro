@@ -1,13 +1,15 @@
 import { slideIn, staggerContainer } from '@/utils/motion'
 import React from 'react'
 import { motion } from 'framer-motion'
+import Heading from '../Heading'
 const Roadnz = () => {
     return (
         <motion.div
             variants={slideIn}
             initial="hidden"  whileInView="show"
             className='linearbggreen sm:h-[500px]  '>
-            <p className="text-4xl mb-6 text-green font-[600] text-center">Road to Net Zero</p>
+            <p className="text-4xl mb-6 text-green font-[600] text-center"></p>
+            <Heading text="Road to Net Zero"/>
             <div className=" ">
                 <div className="w-[90%] flex sm:flex-row flex-col mx-auto justify-between ">
                     <motion.div variants={slideIn('left', 'tween', 0.1, 1)} initial="hidden"  whileInView="show" className="sm:w-[38%] w-full bg-white p-8  rounded-[12px]">
