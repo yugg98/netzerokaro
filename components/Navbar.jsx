@@ -24,7 +24,7 @@ const Navbar = () => {
                     <li><Link href="/getinvolved">Get Envolved</Link></li>
                 </ul>
                 {open ? <XMarkIcon className='sm:hidden relative w-[35px] z-[2010]' onClick={() => setOpen(false)} /> : <Bars3Icon className='sm:hidden relative w-[35px] z-[100]' onClick={() => setOpen(true)} />}
-                <button className="bg-[#363636] hidden text-white px-5 py-2 rounded-full sm:block ">Get Started</button>
+                <button className="bg-[#363636]  text-white px-5 py-2 rounded-full hidden">Get Started</button>
                 <div className={open ? "sidebar z-[200] w-[90%] py-12 px-5  bg-white" : "hidden"}>
                     <ul className='sm:hidden flex flex-col'>
                         <li>

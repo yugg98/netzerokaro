@@ -6,7 +6,7 @@ const Roadnz = () => {
         <motion.div
             variants={slideIn}
             initial="hidden"  whileInView="show"
-            className='linearbggreen sm:h-[500px] md:h-[900px] '>
+            className='linearbggreen sm:h-[500px]  '>
             <p className="text-4xl mb-6 text-green font-[600] text-center">Road to Net Zero</p>
             <div className=" ">
                 <div className="w-[90%] flex sm:flex-row flex-col mx-auto justify-between ">

@@ -11,9 +11,9 @@ import Link from 'next/link'
 const Solutions = () => {
   return (
     <>
-      <div className='bg-img3 sm:p-8 p-4 rounded-lg overflow-hidden '>
-        <p className="text-white text-4xl text-center font-semibold">Our Solutions</p>
-        <div className="flex justify-between flex-wrap mt-8">
+      <div className='bg-img3 sm:p-10 sm:py-24 p-4 rounded-lg overflow-hidden '>
+        <p className="text-white sm:text-5xl text-3xl  text-center font-semibold">Our Solutions</p>
+        <div className="flex justify-between flex-wrap mt-10 sm:px-10">
           <div className="flex flex-row justify-center max-w-[380px]  items-center md:mb-0 mb-4">
             <div className="bg-white rounded-lg  overflow-hidden h-[530px]">
               <Image src={base1} className='' />
@@ -27,7 +27,7 @@ const Solutions = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-row justify-center max-w-[380px]  items-center md:mb-0 mb-4">
+          <div className="flex flex-row justify-center max-w-[380px]  items-center md:mb-0 mb-4 ">
             <div className="bg-white rounded-lg  overflow-hidden h-[530px]">
               <Image src={base1} className='' />
               <div className="flex justify-between sm:px-8 px-6 py-5">

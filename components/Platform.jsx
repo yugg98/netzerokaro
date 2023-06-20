@@ -63,7 +63,7 @@ const Platform = () => {
                 </motion.p>
                 <div className='bs w-full px-10 py-6 rounded-lg mt-10 relative bottom-[-10px] z-[-1]'>
                     <p className="text-center text-2xl font-semibold text-white">The Carbon Clock is ticking! Time to meet the <br /> two-degree target</p>
-                    <div className="flex justify-between  w-[50%] mx-auto mt-10">
+                    <div className="flex justify-between flex-wrap  sm:w-[60%] sm:mx-auto mt-10">
 
                         <Cricular text="Years" time={remainingTime.years} style={' px-5 py-4 '}/>
                         <Cricular text="Months" time={remainingTime.months} style={' px-3 py-4 '}/>
@@ -83,8 +83,8 @@ const Platform = () => {
 
 const Cricular = ({ text, time,style }) => {
     return (
-        <div className={"rounded-full bg-white max-w-[100px]"+style}>
-            <p className="text-sm text-center text-greyf">{text}</p>
+        <div className={"rounded-lg my-2 bg-white sm:w-[100px] max-w-[80px]"+style}>
+            <p className=" text-center text-greyf">{text}</p>
             <p className="text-sm text-center">{time}</p>
         </div>
     )
