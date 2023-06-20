@@ -9,7 +9,7 @@ const HeroHome = () => {
       <motion.div variants={slideIn('left', 'tween', 0.2, 1)} initial="hidden"  whileInView="show" className="sm:w-[50%] w-full flex justify-center">
         <div className='p-2 sm:pl-8 sm:p-4'>
           <motion.p variants={textVariant(0.8)} className='gradienttextbg sm:text-5xl text-3xl font-[800] sm:text-left text-center'>Empowering the Future with Climate and Sustainability Education. </motion.p>
-          <motion.p variants={textVariant(0.6)} className=" leading-6 mt-4 sm:text-left text-center text-greyf text-xl">Workplace climate action made simple.</motion.p>
+          <motion.p variants={textVariant(0.6)} className=" leading-6 mt-4 sm:text-left text-center text-greyf">Workplace climate action made simple.</motion.p>
           <div className="flex items-center mt-8 sm:justify-start justify-center">
           </div>
         </div>
