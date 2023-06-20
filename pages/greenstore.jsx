@@ -25,7 +25,7 @@ const greenstore = () => {
             </div>
         </div>
        
-        <div className="sm:p-10 p-2 flex justify-center items-center bs flex-wrap">
+        <div className="sm:p-10 p-2 flex  items-center bs flex-wrap">
                 <div className="sm:w-1/2 p-8 w-full">
                     <Image src={img3} />
                 </div>
@@ -43,8 +43,8 @@ const greenstore = () => {
 
                     </div>
                     <div className='sm:w-[60%] sm:px-20'>
-                        <p className="sm:text-3xl text-2xl sm:text-center text-green mt-2">Carbon Consulting and Certification</p>
-                        <div className='w-[110px] bg-green h-[6px] rounded-full mt-2 sm:mx-auto'></div>
+                        <p className="sm:text-3xl text-2xl sm:text-left text-center text-green mt-2">Carbon Consulting and Certification</p>
+                        <div className='w-[110px] bg-green h-[6px] rounded-full mt-2 '></div>
                         <p className="text-lg mt-4 sm:text-left text-center">Our carbon consulting helps you first understand your carbon footprint. Keeping things simple, we give you the tools and help to calculate carbon impact easily and confidently and then act. Our integrated approach means we go onto certify you as Carbon Balanced, offsetting your footprint with the world’s most holistic projects powered by nature and communities.</p>
                     </div>
                 </div>
@@ -54,8 +54,8 @@ const greenstore = () => {
 
                     </div>
                     <div className='sm:w-[60%] sm:px-20'>
-                        <p className="sm:text-3xl text-2xl text-center text-green mt-2">Carbon Consulting and Certification</p>
-                        <div className='w-[110px] bg-green h-[6px] rounded-full mt-2 sm:mx-auto'></div>
+                        <p className="sm:text-3xl text-2xl text-left text-green mt-2">Carbon Consulting and Certification</p>
+                        <div className='w-[110px] bg-green h-[6px] rounded-full mt-2 '></div>
                         <p className="text-lg mt-4 sm:text-left text-center">Our carbon consulting helps you first understand your carbon footprint. Keeping things simple, we give you the tools and help to calculate carbon impact easily and confidently and then act. Our integrated approach means we go onto certify you as Carbon Balanced, offsetting your footprint with the world’s most holistic projects powered by nature and communities.</p>
                     </div>
                 </div>

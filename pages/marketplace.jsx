@@ -15,9 +15,9 @@ function marketplace() {
         <div>
             <Navbar />
             <Hero Title="Acquire, Develop and Retain Sustainability" Desc="a platform dedicated to driving India's transition towards a net-zero economy." />
-            <div className='p-20 sm:px-[120px] px-4 linearbggreen pb-0 '>
+            <div className='p-20 pt-4 sm:px-[120px] px-4 linearbggreen pb-0 '>
                 <p className="sm:text-5xl text-3xl text-center text-green font-semibold sm:leading-[60px]">Discover the versatility of our
-                    Net Zero Karo Academy</p>
+                    Academy</p>
                 <p className="text-center mt-4">Sustainability, Climate Literacy and Circular Economy are among the most important future fields of our time. They form the basis for the innovative strength and competitiveness of the economy and for the work of tomorrow</p>
                 <div className="mx-auto sm:mt-0 mt-4">
                     <Image src={dashboardimg} className='relative' />
@@ -47,7 +47,7 @@ function marketplace() {
                 </div>
             </div>
             <Courses/>
-            <div className='sm:p-20 bg-img2'>
+            {/* <div className='sm:p-20 bg-img2'>
                 <p className="text-5xl text-center font-semibold text-white">Net Zero Karo at Glance</p>
                 <div className=" grid sm:grid-cols-3	row-span-3 p-10 gap-6 justify-center items-center w-full mt-10">
                     <Cards />
@@ -57,13 +57,12 @@ function marketplace() {
                     <Cards />
                     <Cards />
                 </div>
-            </div>
+            </div> */}
 
-            <div className="flex flex-wrap sm:p-20 p-4 linearbggreen">
+            <div className="flex flex-wrap sm:p-20 sm:pt-4 p-4 linearbggreen">
                 <div className="sm:w-1/2 sm:px-[100px]">
-                    <p className="text-lg text-green sm:text-left text-center">FAQ’S</p>
-                    <p className="sm:text-5xl text-3xl text-black sm:leading-[60px] sm:text-left text-center">What our Students 
-                        <span className='font-semibold'> Frequently Asked</span>  Us  ?</p>
+                    <p className="sm:text-5xl text-3xl text-green sm:leading-[60px] sm:text-left text-center">
+                        <span className='font-semibold'> Frequently Asked  Us  ?</span></p>
                       <p className="text-l sm:mt-0 mt-3">Your questions answered on our approach, our team, our values, our process, costs, timeline and more.</p>
                 </div>
                 <div className="sm:w-1/2">

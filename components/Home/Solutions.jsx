@@ -59,13 +59,13 @@ const Solutions = () => {
       <div className="linearbggreen  overflow-hidden ">
         <Image src={earth} className='sm:flex absolute hidden  left-[50%] w-[800px] ' />
         <div className='p-6 sm:px-14 px-8 mt-4'>
-          <span className="relative md:left-[10%] left-[-5%]">
+          {/* <span className="relative md:left-[10%] left-[-5%]">
             <Image src={comma} className="md:w-[45px] w-[30px]" />
-          </span>
+          </span> */}
           <p className="sm:text-5xl text-3xl font-semibold text-green text-center z-[12] sticky tracking-wider ">Building The Net Zero Work force</p>
-          <span className="relative md:left-[85%] left-[90%] ">
+          {/* <span className="relative md:left-[85%] left-[90%] ">
             <Image src={comma2} className="md:w-[45px] w-[35px]" />
-          </span>
+          </span> */}
           <p className='text-4xl leading-[3rem] mt-20 font-semibold text-fblack'><span className='font-extralight'>Take the first step towards a </span><br />
             carbon-neutral world with Zero <br /> Carbon Net.</p>
           <p className='text-fblack text-lg mt-6'>*we will not disseminate your email and so you avoid spam</p>

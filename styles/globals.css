@@ -152,7 +152,8 @@ text-transform: capitalize;
   margin-left: 0 10px;
 }
 .card-list li{
-    margin: 10px 20px;
+    margin: 0px 20px;
+    color: #5D6180;
 }
 
 .bg-img1{

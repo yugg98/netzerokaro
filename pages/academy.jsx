@@ -29,19 +29,20 @@ const academy = () => {
         <div>
             <Navbar />
             <Hero Title="Climate education with a difference." Desc="a platform dedicated to driving India's transition towards a net-zero economy." />
-            <div className="w-full flex flex-wrap p-10  pb-10 ">
+            <div className="w-full flex flex-wrap p-10  pb-10 mt-10">
                 <div className="sm:w-1/2 ">
-                    <Image src={laptop} className=' sm:max-w-[500px] mx-auto' />
+                    <Image src={laptop} className=' sm:max-w-[400px] mx-auto' />
                 </div>
                 <div className="sm:w-1/2 sm:px-10 px-2 sm:pt-0">
-                    <p className="text-green sm:text-5xl text-3xl font-semibold  text-center sm:text-left capitalize ">Invest in your team’s capacity to respond to our changing world</p>
+                    <p className="text-green sm:text-5xl text-3xl font-semibold  text-center sm:text-left  ">Invest in your team’s capacity to respond to our changing world</p>
                     <Image src={c1} className='w-[40px] relative opacity-40 left-[-40px] mt-10' />
                     <p className=' text-xl mt-5 text-[#5D6180]'>We are entering into a values-based, circular and green economy. Companies that upskill their employees with the tools of transformation will be at the forefront of adapting to the changing business landscape.</p>
                     <p className=' text-xl mt-10 text-[#5D6180]'>But, there is a significant sustainability skills gap in most workforces.<span className='font-semibold'> Net Zero Karo </span>is the capacity-building educational platform equipping the global workforce with actionable sustainability skills for this changing business landscape.</p>
                     <Image src={c2} className='w-[40px] opacity-40 relative  mt-5 right-[-90%]' />
                 </div>
             </div>
-            <div className="bg-img2 mt-10 md:p-6 rounded-lg ">
+
+            <div className="bg-img2 mt-0 md:p-6 rounded-lg ">
                 <Heading text="Core Learning Programs" color={true} />
                 <p className="text-white text-center mt-4 md:px-20 md:mb-10 px-4">Are you motivated to take climate action at work, but don&apos;t know where to start? Do you want to use your job to tackle the challenge of climate change, but don&apos;t want to switch careers? Are you ready to become a ‘Climate Intrapreneur’, and learn what it takes to influence and lead critical initiatives inside of businesses? Regardless of your role, this course could be for you – you don’t need to be a CEO or executive to drive change.</p>
                 <div className="flex justify-between flex-wrap  mt-8 overflow-hidden md:px-10 px-4">
@@ -101,8 +102,9 @@ const academy = () => {
                     </div>
                 </div>
             </div>
+            <Nzkacademy/>
          
-            <div className="bg-img2 sm:p-10 p-4 flex flex-wrap">
+            {/* <div className="bg-img2 sm:p-10 p-4 flex flex-wrap">
                 <div className="flex flex-col  sm:px-20 sm:my-10 md:w-[60%]">
                     <div className="bg-white md:p-10 p-6 rounded-lg md:w-[600px] w-full">
                         <Image src={book} className='w-[60px] ' />
@@ -124,11 +126,11 @@ const academy = () => {
                     </div>
                 </div>
                 <Image src={windmill} className='md:h-[500px] md:w-[40%] md:my-auto mx-auto sm:my-0 my-6' />
-            </div>
-            <Nzkacademy/>
-            <div className="linearbggreen sm:py-20 py-4">
-                <p className="sm:text-5xl text-3xl text-green mb-4 text-center mt-4 sm:mt-0"> USP of Academy</p>
-                <p className="text-black text-center sm:max-w-[50%] mx-auto mb-10">Our in-house team make sure everything is set up and configured for you to use. From data availability and completeness through to portal logins and training, we’ve got it covered.</p>
+            </div> */}
+            
+            <div className="bs sm:py-20 sm:pt-4 py-4">
+                <Heading text={"Academy USP  "} color={true}/>
+                <p className="text-white mt-2 text-center sm:max-w-[50%] mx-auto mb-10">Our in-house team make sure everything is set up and configured for you to use. From data availability and completeness through to portal logins and training, we’ve got it covered.</p>
                 <div className=" rounded-sm grid grid-flow-row	 sm:grid-cols-2 row-span-2 sm:px-20 px-4 gap-2 justify-center items-center w-full mt-10">
                     <div className=" sm:w-[600px] w-full my-4 sm:mx-4 bg-white sm:p-6 p-4 border-[1px] border-[#BBE7CA] rounded-lg">
                         <div className=' px-4 flex ' >

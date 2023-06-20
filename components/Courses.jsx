@@ -6,8 +6,8 @@ import img1 from '@/assets/courses/img1.png';
 export default function Courses() {
   return (
       <div className="mx-auto ">
-        <div className="sm:p-8 p-2  shadow-lg linearbggreen rounded-lg">
-          <div className=" rounded-xl py-20">
+        <div className="sm:p-8 sm:pt-4 p-2  shadow-lg linearbggreen rounded-lg">
+          <div className=" rounded-xl py-20 pt-4">
           <h3 className="text-green text-5xl text-center text-gray-900 tracking-tight font-semibold mb-8">
           Our Tailored Courses for you          </h3>
           <Tab.Group >
@@ -90,6 +90,7 @@ export default function Courses() {
                   </button>
                 )}
               </Tab>
+              
             </Tab.List>
             <Tab.Panels >
               <Tab.Panel>
@@ -101,6 +102,10 @@ export default function Courses() {
                         <p className="text-greyf text-lg text-center">An Introduction to Sustainability</p>
                       </div>
                       <div className="max-w-[300px] mx-10 my-2">
+                        <Image src={img1}/>
+                        <p className="text-sm text-center text-greyf mt-2">Sustainability</p>
+                        <p className="text-greyf text-lg text-center">An Introduction to Sustainability</p>
+                      </div><div className="max-w-[300px] mx-10 my-2">
                         <Image src={img1}/>
                         <p className="text-sm text-center text-greyf mt-2">Sustainability</p>
                         <p className="text-greyf text-lg text-center">An Introduction to Sustainability</p>

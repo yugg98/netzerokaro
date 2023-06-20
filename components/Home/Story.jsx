@@ -22,7 +22,7 @@ const Story = () => {
                             <Image src={comma2} className='bg-white w-[50px] rounded-full bg-opacity-5 m-2 px-2 py-3' />
                         </span>
                         <motion.p variants={slideIn('right', 'tween', 0.1, 1)} className='text-white text-xl font-extralight sm:px-10 sm:pl-10 mt-4 leading-8 '>To secure a sustainable future for our planet and all its people, the world must reach net zero – cutting greenhouse gases as close to zero as possible.</motion.p>
-                        <span className={`${comma} left-[90%] `} >
+                        <span className={`${comma} left-[80%] `} >
                             <Image src={comma1} className='bg-white w-[50px] rounded-[99%] bg-opacity-5 m-2 px-2 py-3' />
                         </span>
                     </div>
