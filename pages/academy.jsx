@@ -44,7 +44,7 @@ const academy = () => {
                 <div className="flex justify-between flex-wrap p-4 mt-8">
                     <div className="flex flex-row justify-center max-w-[380px] items-center">
                         <div className="bg-white rounded-lg p-4">
-                            <Image src={img1} className='w-[350px]' />
+                            <Image src={img1} className='' />
                             <div className="flex justify-between mt-6 px-2">
                                 <div >
                                     <p className="text-sm text-green">Part One</p>

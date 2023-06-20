@@ -14,6 +14,8 @@ import icon2 from '@/assets/icon2.png'
 import icon3 from '@/assets/icon3.png'
 import Platform from '@/components/Platform'
 import earth from '@/assets/courses/Africa.png'
+import earth1 from '@/assets/earth1.png'
+
 import comma1 from '@/assets/comma.png'
 import comma from '@/assets/comma2.png'
 
@@ -57,15 +59,8 @@ function Vision() {
 }
 function OurApproach() {
     return (
-        <div className="w-full flex flex-wrap flex-row-reverse linearbggreen ">
-            <div className="sm:w-[35%] w-full approach-bg h-[100vh] flex justify-center flex-col items-center">
-                <p className="text-4xl text-white text-center font-semibold leading-12 ">Our Approach<br />
-                    Towards<br />
-                    Net Zero </p>
-                <button className="rounded-full bg-green text-white px-16 py-3 mt-3">Explore</button>
-
-            </div>
-            <div className="sm:w-[65%]  sm:px-24 flex flex-col justify-center p-6 px-4">
+        <div className="w-full flex flex-wrap  linearbggreen ">           
+            <div className="sm:w-[60%]  sm:px-24 flex flex-col justify-center p-6 px-4">
                 <ul>
                     
                     <li className='sm:my-10 my-4'>
@@ -136,6 +131,8 @@ function OurApproach() {
                     </li>
                 </ul>
             </div>
+        <Image src={earth1} className=' sm:w-[40%] h-[40%]  sm:flex hidden ' />
+
         </div>
     )
 }

@@ -60,7 +60,12 @@ text-transform: capitalize;
 .list-story li {
   border-bottom: 0.8px solid white ;
   padding: 4px;
-}    .rotating-text {
+}    
+.list-story li:nth-child(5) {
+  border-bottom:none;
+  padding: 4px;
+}   
+.rotating-text {
   display: inline-block;
   position: relative;
   width: 100%; /* Adjust the width as needed */

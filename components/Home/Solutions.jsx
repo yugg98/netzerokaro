@@ -1,7 +1,7 @@
 import React from 'react'
-import aslap from '@/assets/aslap.png'
-import asro from '@/assets/asro.png'
-import aspen from '@/assets/aspen.png'
+import base1 from '@/assets/Base.png'
+import base2 from '@/assets/Base1.png'
+import base3 from '@/assets/Base2.png'
 import Image from 'next/image'
 import arrow from '@/assets/arrow.png'
 import earth from '@/assets/earth1.png'
@@ -11,34 +11,52 @@ import Link from 'next/link'
 const Solutions = () => {
   return (
     <>
-      <div className='bg-img3 p-8 rounded-lg'>
+      <div className='bg-img3 p-8 rounded-lg overflow-hidden'>
         <p className="text-white text-4xl text-center font-semibold">Our Solutions</p>
-        <div className="flex justify-between items-center mt-16 sm:w-[80%] w-full mx-auto flex-wrap">
-          <div className='bg-white mx-2  rounded-[12px] max-w-[300px] mt-10 h-[450px]  '>
-            <Image src={aslap} className='relative top-[-80px] w-[250px] mx-auto ' />
-            <p className="text-xl text-center text-fblack ">Climate Skilling</p>
-            <p className="text-sm text-center px-4 mt-6">At the heart of the academy&apos;s story is the profound understanding that the challenges we face are not insurmountable but require a united effort.</p>
-            <p className='text-center  gradienttextbg mt-10'><Link href="/">Explore More <span><Image src={arrow} className='inline max-w-[50px]' /></span></Link></p>
-          </div>
-          <div className='bg-white mx-2  rounded-[12px] max-w-[300px] mt-10 h-[450px]  '>
-            <Image src={aspen} className='relative top-[-80px] w-[144px] mx-auto ' />
-            <div className="relative top-[-10px]">
-            <p className="text-xl text-center text-fblack ">Climate Skilling</p>
-            <p className="text-sm text-center px-4 mt-6">At the heart of the academy&apos;s story is the profound understanding that the challenges we face are not insurmountable but require a united effort.</p>
-            <p className='text-center  gradienttextbg mt-10'><Link href="/">Explore More <span><Image src={arrow} className='inline max-w-[50px]' /></span></Link></p>
+        <div className="flex justify-between flex-wrap mt-8">
+          <div className="flex flex-row justify-center max-w-[380px] items-center">
+            <div className="bg-white rounded-lg  overflow-hidden">
+              <Image src={base1} className='' />
+              <div className="flex justify-between px-8 py-5">
+                <div >
+                  <p className="font-semibold text-lg ">Climate Skilling</p>
+                  <p className="text-greyf mb-4 mt-2">Acquire the essential skills and expertise needed to tackle climate challenges head-on, with our range of immersive and practical learning opportunities designed to empower you to make a positive impact in the fight against climate change.</p>
+                  <p className='  gradienttextbg mt-4'><Link href="/">Explore More <span><Image src={arrow} className='inline max-w-[50px]' /></span></Link></p>
+                </div>
+
+              </div>
             </div>
           </div>
-          <div className='bg-white mx-2  rounded-[12px] max-w-[300px] mt-10 h-[450px]  '>
-            <Image src={asro} className='relative top-[-80px] w-[240px] mx-auto ' />
-            <p className="text-xl text-center text-fblack relative">Climate Skilling</p>
-            <p className="text-sm text-center px-4 mt-6">At the heart of the academy&apos;s story is the profound understanding that the challenges we face are not insurmountable but require a united effort.</p>
-            <p className='text-center  gradienttextbg mt-10'><Link href="/">Explore More <span><Image src={arrow} className='inline max-w-[50px]' /></span></Link></p>
-          </div>
+          <div className="flex flex-row justify-center max-w-[380px] items-center">
+            <div className="bg-white rounded-lg  overflow-hidden">
+              <Image src={base1} className='' />
+              <div className="flex justify-between px-8 py-5">
+                <div >
+                  <p className="font-semibold text-lg ">Climate Literacy</p>
+                  <p className="text-greyf mb-4 mt-2">Elevate your climate IQ with our comprehensive resources, empowering you to understand and communicate the science, impacts, and solutions of climate change effectively.</p>
+                  <p className='  gradienttextbg mt-4'><Link href="/">Explore More <span><Image src={arrow} className='inline max-w-[50px]' /></span></Link></p>
+                </div>
 
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-row justify-center max-w-[380px] items-center">
+            <div className="bg-white rounded-lg  overflow-hidden">
+              <Image src={base1} className='' />
+              <div className="flex justify-between px-8 py-5">
+                <div >
+                  <p className="font-semibold text-lg "> Market Place</p>
+                  <p className="text-greyf mb-4 mt-2">Elevate your climate IQ with our comprehensive resources, empowering you to understand and communicate the science, impacts, and solutions of climate change effectively.</p>
+                  <p className='  gradienttextbg mt-4'><Link href="/">Explore More <span><Image src={arrow} className='inline max-w-[50px]' /></span></Link></p>
+                </div>
+
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div className="linearbggreen  overflow-hidden ">
-        <Image src={earth} className=' absolute  left-[50%] w-[800px] ' />
+        <Image src={earth} className='sm:flex absolute hidden  left-[50%] w-[800px] ' />
         <div className='p-6 sm:px-14 px-8 mt-4'>
           <span className="relative md:left-[25%] left-[-5%]">
             <Image src={comma} className="md:w-[45px] w-[30px]" />
