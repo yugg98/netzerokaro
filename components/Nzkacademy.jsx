@@ -7,7 +7,7 @@ import comma2 from '@/assets/comma6.png'
 import Heading from './Heading'
 const Nzkacademy = () => {
     return (
-        <div className='w-full linearbggreen sm:h-[80vh] overflow-hidden'>
+        <div className='w-full linearbggreen  overflow-hidden'>
             <Heading text="NET ZERO KARO ACADEMY"/>
             <div className="flex sm:flex-row flex-col">
                 <div className="sm:w-1/2 w-full flex justify-center items-center flex-col sm:p-20 p-4 mt-8">
