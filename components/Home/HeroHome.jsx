@@ -15,7 +15,7 @@ const HeroHome = () => {
         </div>
       </motion.div>
       <div className="sm:w-[50%] flex justify-end py-20 ">
-        <Image src={earth} className='md:h-[600px] md:w-[550px] w-[80%]' />
+        <Image src={earth} className='md:h-[600px] md:w-[550px] ' />
       </div>
     </div>
   )
