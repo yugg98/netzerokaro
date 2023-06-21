@@ -99,7 +99,7 @@ Net Zero Karo specializes in conducting personalized innovation hackathons for o
                                 <Image src={icon} className='h-[50px] w-[50px]' />
                                 <p className="text-2xl  mt-1 ml-5">Documents & Design</p>
                             </div>
-                            <p className='mt-2 text-greyf'>Updates of all relevant participant resources, rules and guidelines, with bespoke designs and graphics based on your organisation's needs.</p>
+                            <p className='mt-2 text-greyf'>Updates of all relevant participant resources, rules and guidelines, with bespoke designs and graphics based on your organisation&apos;s needs.</p>
                     </div>
                     <div className=" sm:w-[600px] h-[180px] w-full my-4 sm:mx-4 bg-white sm:p-6 p-4 border-[1px] border-[#BBE7CA] rounded-lg">
                             <div className=' px-4 flex ' >
@@ -133,7 +133,7 @@ Net Zero Karo specializes in conducting personalized innovation hackathons for o
             </div>
             <div className="bg-green p-10 flex flex-wrap  items-center">
                 <div>
-                    <p className="md:text-5xl text-3xl md:text-left text-center text-white font-semibold">Let's innovate together</p>
+                    <p className="md:text-5xl text-3xl md:text-left text-center text-white font-semibold">Let&apos;s innovate together</p>
                     <div className='mt-6'>
                     <Tick title="Strong linkages with other sponsors and hacker community."/>
                     <Tick title="Dedicated participant and mentor organisers for all of our sponsorship packages."/>
@@ -142,7 +142,7 @@ Net Zero Karo specializes in conducting personalized innovation hackathons for o
                     </div>
                 </div>
                 <div className='md:mx-0 mx-auto mt-4'>
-                    <button className="rounded-full px-8 py-4 text-green bg-white mx-auto">Let's connect together</button>
+                    <button className="rounded-full px-8 py-4 text-green bg-white mx-auto">Let&apos;s connect together</button>
                    
 
                 </div>
