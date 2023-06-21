@@ -69,7 +69,31 @@ const academy = () => {
                 <Image src={windmill} className='md:h-[500px] md:w-[40%] md:my-auto mx-auto sm:my-0 my-6' />
             </div> */}
             
-            {/* <div className="bs sm:py-20 sm:pt-4 py-4">
+           
+            <Popup/>
+            <div className="linearbggreen mt-0 md:p-6 rounded-lg ">
+                <Heading text="Who is the academy for?"  />
+                <div className="flex justify-between flex-wrap  mt-8 overflow-hidden md:px-10 px-4">
+                    <div className="flex flex-row justify-center max-w-[380px] items-center">
+                        <div className="bg-white rounded-xl ">
+                            <Image src={img1} className='' />
+                            <div className="flex justify-between mt-2 p-6 pb-0">
+                                <div >
+                                    <p className="font-semibold text-lg">Sustainability</p>
+                                </div>
+                                <div className='bg-green rounded-full p-2 '>
+                                    <Image src={plus} className='w-[28px]' />
+                                </div>
+                            </div>
+                            <div className='p-6 pt-1'>
+                                <p className="text-[#08103A] mb-4">Sustainability terminology, how to take accountability and maintain integrity in business, and application to sustainability in the business context</p>
+                            </div>
+                        </div>
+                    </div>
+                  
+                </div>
+            </div>
+            <div className="bs sm:py-20 sm:pt-4 py-4">
                 <Heading text={"Academy USP  "} color={true}/>
                 <p className="text-white mt-2 text-center sm:max-w-[50%] mx-auto mb-10">Our in-house team make sure everything is set up and configured for you to use. From data availability and completeness through to portal logins and training, we’ve got it covered.</p>
                 <div className=" rounded-sm grid grid-flow-row	 sm:grid-cols-2 row-span-2 sm:px-20 px-4 gap-2 justify-center items-center w-full mt-10">
@@ -101,29 +125,13 @@ const academy = () => {
                         </div>
                         <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                     </div>
-                </div>
-            </div> */}
-            <Popup/>
-            <div className="linearbggreen mt-0 md:p-6 rounded-lg ">
-                <Heading text="Who is the academy for?"  />
-                <div className="flex justify-between flex-wrap  mt-8 overflow-hidden md:px-10 px-4">
-                    <div className="flex flex-row justify-center max-w-[380px] items-center">
-                        <div className="bg-white rounded-xl ">
-                            <Image src={img1} className='' />
-                            <div className="flex justify-between mt-2 p-6 pb-0">
-                                <div >
-                                    <p className="font-semibold text-lg">Sustainability</p>
-                                </div>
-                                <div className='bg-green rounded-full p-2 '>
-                                    <Image src={plus} className='w-[28px]' />
-                                </div>
-                            </div>
-                            <div className='p-6 pt-1'>
-                                <p className="text-[#08103A] mb-4">Sustainability terminology, how to take accountability and maintain integrity in business, and application to sustainability in the business context</p>
-                            </div>
+                    <div className=" sm:w-[600px] w-full my-4 sm:mx-4 bg-white sm:p-6 p-4 border-[1px] border-[#BBE7CA] rounded-lg">
+                        <div className=' px-4 flex ' >
+                            <Image src={icon} className='h-[50px] w-[50px]' />
+                            <p className="text-2xl  mt-1 ml-5">Dedicated community <br /> platform</p>
                         </div>
+                        <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                     </div>
-                  
                 </div>
             </div>
             <CallToAction />

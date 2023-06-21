@@ -74,7 +74,7 @@ const Popup = () => {
             <Dialog
                 open={isOpen}
                 onClose={() => setIsOpen(false)}
-                className="relative z-50  "
+                className="relative z-50"
             >
                 {/* The backdrop, rendered as a fixed sibling to the panel container */}
                 <div className="fixed inset-0 bg-black/30" aria-hidden="true" />
@@ -82,44 +82,42 @@ const Popup = () => {
                 {/* Full-screen scrollable container */}
                 <div className="fixed inset-0 overflow-y-auto">
                     {/* Container to center the panel */}
-                    <div className="flex min-h-full items-center justify-center p-4">
+                    <div className="flex min-h-full items-center justify-center  ">
                         {/* The actual dialog panel  */}
-                        <Dialog.Title className=" text-3xl">Complete your order</Dialog.Title>
+                        <Dialog.Panel className="w-full md:max-w-[80%] max-w-[99%] rounded bg-white md:p-10 p-2">
+                            <Dialog.Title className=" text-3xl">+ Sustainability Skills</Dialog.Title>
 
-                        <Dialog.Panel className="mx-auto max-w-sm rounded bg-white  ">
-                            <div className="fixed inset-0 flex items-center justify-center overflow-y-auto max-h-[300px] ">
-                                <Dialog.Panel className="w-full md:max-w-[80%] max-w-[95%] rounded bg-white md:p-10">
-                                    <div className='w-full h-full overflow-scroll'>
-                                        <div className="flex w-full flex-wrap overflow-y-scroll">
-                                            <div className='sm:w-1/2 mt-6 md:border-r-[1px] p-6 border-[#CECECE]'>
-                                                <Image src={modal1} />
-                                                <p className="text-lg text-greyf mt-4">
-                                                    From the basic vocabulary to actionable how-to tools, learn the practical application of sustainability in all its forms, as a technical skill set as it relates to your day-to-day business operations and workplace role. <br />
-                                                    Learn what sustainability is and how it applies to all businesses, understand core concepts and approaches, gain general skills for applying sustainability such as impact assessment.
-                                                </p>
-                                            </div>
-                                            <div className='sm:w-1/2 p-10 py-5'>
-                                                <p className="text-2xl mx-auto">Sustainability Foundations Program</p>
-                                                <ul className='mt-4'>
-                                                    <li> <span className='font-semibold'>Chapter 1:</span> Introduction to Sustainability</li>
-                                                    <li> <span className='font-semibold'>Chapter 1:</span> Introduction to Sustainability</li>
-                                                    <li> <span className='font-semibold'>Chapter 1:</span> Introduction to Sustainability</li>
-                                                    <li> <span className='font-semibold'>Chapter 1:</span> Introduction to Sustainability</li>
-
-                                                </ul>
-                                                <p className=" text-greyf mt-4">Through distinct, dedicated learning experiences, you will first dive into ensuring your foundational understanding of sustainability is solid -- examining what it is, what it is not, the four different dimensions of sustainability, planetary boundaries, externalities of pollution, emerging global sustainability regulations, green myths, and greenwashing, and so much more.</p>
-                                                <button className='text-green text-lg mt-6'>Get your Certificate of Completion</button>
-
-                                                <p className=" text-greyf mt-4">You can earn a skill badge. To do so, make sure to successfully complete the quiz at the end of each module within every chapter, as well as the 5-part quiz at the end of each chapter. Then, upon completion of the entire Core Learning Experience, you will gain your certificate of completion.</p>
-                                            </div>
-                                        </div>
-                                        <button className="mx-auto bg-green rounded-full px-8 text-white py-4">Get Started Now</button>
+                            <div className='w-full h-full overflow-scroll'>
+                                <div className="flex w-full flex-wrap overflow-y-scroll">
+                                    <div className='sm:w-1/2 mt-2 md:border-r-[1px] p-6 border-[#CECECE]'>
+                                        <Image src={modal1} />
+                                        <p className="text-lg text-greyf mt-2">
+                                            From the basic vocabulary to actionable how-to tools, learn the practical application of sustainability in all its forms, as a technical skill set as it relates to your day-to-day business operations and workplace role. <br />
+                                            Learn what sustainability is and how it applies to all businesses, understand core concepts and approaches, gain general skills for applying sustainability such as impact assessment.
+                                        </p>
                                     </div>
-                                    {/* ... */}
-                                </Dialog.Panel>
+                                    <div className='sm:w-1/2 md:p-10 py-5 p-2'>
+                                        <p className="text-2xl mx-auto">Sustainability Foundations Program</p>
+                                        <ul className='mt-4'>
+                                            <li> <span className='font-semibold'>Chapter 1:</span> Introduction to Sustainability</li>
+                                            <li> <span className='font-semibold'>Chapter 1:</span> Introduction to Sustainability</li>
+                                            <li> <span className='font-semibold'>Chapter 1:</span> Introduction to Sustainability</li>
+                                            <li> <span className='font-semibold'>Chapter 1:</span> Introduction to Sustainability</li>
+
+                                        </ul>
+                                        <p className=" text-greyf mt-4">Through distinct, dedicated learning experiences, you will first dive into ensuring your foundational understanding of sustainability is solid -- examining what it is, what it is not, the four different dimensions of sustainability, planetary boundaries, externalities of pollution, emerging global sustainability regulations, green myths, and greenwashing, and so much more.</p>
+                                        <button className='text-green text-lg mt-6'>Get your Certificate of Completion</button>
+
+                                        <p className=" text-greyf mt-4">You can earn a skill badge. To do so, make sure to successfully complete the quiz at the end of each module within every chapter, as well as the 5-part quiz at the end of each chapter. Then, upon completion of the entire Core Learning Experience, you will gain your certificate of completion.</p>
+                                    </div>
+                                </div>
+                                <div className="flex justify-center">
+                                <button className=" bg-green rounded-full px-8 text-white py-4 mx-auto mt-4">Get Started Now</button>
+                                </div>
                             </div>
                             {/* ... */}
                         </Dialog.Panel>
+
                     </div>
                 </div>
             </Dialog>
