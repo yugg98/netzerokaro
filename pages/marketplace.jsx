@@ -16,7 +16,7 @@ function marketplace() {
     return (
         <div>
             <Navbar />
-            <Hero Title="Acquire, Develop and Retain Sustainability" Desc="a platform dedicated to driving India's transition towards a net-zero economy." />
+            <Hero Title="Innovating for a Net Zero Economy" Desc="A Platform dedicated to driving India’s transition to a Net Zero Economy" />
             <div className='p-20 pt-4 sm:px-[120px] px-4 linearbggreen pb-0 '>
                 <p className="sm:text-5xl text-3xl text-center text-green font-semibold sm:leading-[60px]">Discover the versatility of our
                     Academy</p>
@@ -61,44 +61,56 @@ function marketplace() {
                 </div>
             </div> */}
             <div className='bg-img2 flex flex-wrap  sm:max-h-screen overflow-hidden p-8 pt-4'>
-                <div className="md:w-1/2 md:p-14 p-4">
+                <div className="md:w-[40%] md:p-14 p-4 ">
                     <p className="sm:text-5xl text-3xl text-white font-semibold md:mt-10">How academy is solving the climate skilling crisis</p>
                     <p className="text-white text-xl mt-10">diverse, innovative talent for your teams by assessing them for varied skill-set</p>
                 </div>
-                <div className='md:w-1/2 w-full py-4 '>
-                    <div className="bg-white p-5 px-8 rounded-lg my-4 md:flex justify-center items-start">
-                        <Image src={icon1} className='mr-2 w-[45px] h-[45px]'/>
-                        <div>
-                        <p className='text-lg mt-2 '>Climate and ESG Skills Gap: </p>
-                        <p className='mt-1 text-greyf text-sm'>The academy aims to address the existing skills gap in climate and Environmental, Social, and Governance (ESG) areas by providing comprehensive training and upskilling opportunities.</p>
-                            </div>
-                    </div>
-                    <div className="bg-white p-5 px-8 rounded-lg my-4 md:flex justify-center items-start">
-                        <Image src={icon1} className='mr-2 w-[45px] h-[45px]'/>
-                        <div>
-                        <p className='text-lg mt-2 '>Meeting the Demand for Climate Skilling:</p>
-                        <p className='mt-1 text-greyf text-sm'>As climate change becomes a pressing issue, there is a growing demand for professionals equipped with the knowledge and skills to tackle climate-related challenges. The academy aims to meet this demand by offering a platform for climate skilling.</p>
-                            </div>
-                    </div>
-                    <div className="bg-white p-5 px-8 rounded-lg my-4 md:flex justify-center items-start">
-                        <Image src={icon1} className='mr-2 w-[45px] h-[45px]'/>
-                        <div>
-                        <p className='text-lg mt-2 '>Engaging and Attracting Younger Talent:</p>
-                        <p className='mt-1 text-greyf text-sm'> Younger talent is increasingly seeking purpose, values-alignment, and engagement in their learning and development (L&D) experiences. The academy recognizes this and strives to provide a platform that appeals to younger individuals who are passionate about addressing climate change.</p>
-                            </div>
-                    </div>
-                    <div className="bg-white p-5 px-8 rounded-lg my-4 md:flex justify-center items-start">
-                        <Image src={icon1} className='mr-2 w-[45px] h-[45px]'/>
-                        <div>
-                        <p className='text-lg mt-2 '>Aligning Skills with Net Zero Goals: </p>
-                        <p className='mt-1 text-greyf text-sm'>The academy focuses on aligning skills development with the goal of achieving net-zero emissions. It aims to equip individuals with the knowledge and tools necessary to contribute to sustainability efforts and the transition to a net-zero future.</p>
-                            </div>
-                    </div>
+                <div className="sm:w-[60%]  list-values sm:px-24  p-4 py-8 pt-4 flex flex-col justify-center">
+                <ul>
+
+                    <li className=''>
+                        <p>Climate and ESG Skills Gap: </p>
+                        <p className=''> The academy aims to address the existing skills gap in climate and Environmental, Social, and Governance (ESG) areas by providing comprehensive training and upskilling opportunities.e</p>
+                    </li>
+
+                    <li className=''>
+                        <p>Meeting the Demand for Climate Skilling:</p>
+                        <p> As climate change becomes a pressing issue, there is a growing demand for professionals equipped with the knowledge and skills to tackle climate-related challenges. The academy aims to meet this demand by offering a platform for climate skilling.</p>
+                    </li>
+                    <li className=''>
+                        <p>Meeting the Demand for Climate Skilling:</p>
+                        <p> Younger talent is increasingly seeking purpose, values-alignment, and engagement in their learning and development (L&D) experiences. The academy recognizes this and strives to provide a platform that appeals to younger individuals who are passionate about addressing climate change.</p>
+                    </li>
+                    <li className=''>
+                        <p>Aligning Skills with Net Zero Goals: </p>
+                        <p>The academy focuses on aligning skills development with the goal of achieving net-zero emissions. It aims to equip individuals with the knowledge and tools necessary to contribute to sustainability efforts and the transition to a net-zero future.</p>
+                    </li>
+                    <li className=''>
+                        <p>Keeping Up with the Next L&D Wave:</p>
+                        <p>The academy recognizes that climate skilling is the next wave in learning and development. By offering a platform that addresses this emerging trend, it seeks to stay ahead and provide relevant and impactful learning opportunities.</p>
+                    </li>
+
+                </ul>
                 </div>
             </div>
-            <div className="p-10 linearbggreen">
+            <div className="p-10 pt-0 linearbggreen">
                 <Heading text="We’ve Got your back, every step of the way"/>
-                <div className="flex ">
+                <div className="flex mt-10 justify-between ">
+                    <div className="bg-white p-6 w-[300px] h-[400px] rounded-lg">
+                        <Image src={icon} className='mx-auto w-[120px]'/>
+                        <p className="text-xl text-center mt-6 ">Onboarding Support</p>
+                        <p className="text-center mt-2">Our in-house team make sure everything is set up and configured for you to use. From data availability and completeness through to portal logins and training, we’ve got it covered.</p>
+                    </div>
+                    <div className="bg-white p-6 w-[300px] h-[400px] rounded-lg">
+                        <Image src={icon} className='mx-auto w-[120px]'/>
+                        <p className="text-xl text-center mt-6 ">Onboarding Support</p>
+                        <p className="text-center mt-2">Our in-house team make sure everything is set up and configured for you to use. From data availability and completeness through to portal logins and training, we’ve got it covered.</p>
+                    </div>
+                    <div className="bg-white p-6 w-[300px] h-[400px] rounded-lg">
+                        <Image src={icon} className='mx-auto w-[120px]'/>
+                        <p className="text-xl text-center mt-6 ">Onboarding Support</p>
+                        <p className="text-center mt-2">Our in-house team make sure everything is set up and configured for you to use. From data availability and completeness through to portal logins and training, we’ve got it covered.</p>
+                    </div>
                     <div className="bg-white p-6 w-[300px] h-[400px] rounded-lg">
                         <Image src={icon} className='mx-auto w-[120px]'/>
                         <p className="text-xl text-center mt-6 ">Onboarding Support</p>
@@ -118,7 +130,7 @@ function marketplace() {
 
             </div>
 
-            <Form />
+            <CallToAction />
             <Footer />
         </div>
     )

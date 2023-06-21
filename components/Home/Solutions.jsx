@@ -57,20 +57,18 @@ const Solutions = () => {
         </div>
       </div>
       <div className="linearbggreen  overflow-hidden ">
-        <Image src={earth} className='sm:flex absolute hidden  left-[50%] w-[800px] ' />
+        <Image src={earth} className='sm:flex absolute hidden  left-[70%] w-[600px] ' />
         <div className='p-6 sm:px-14 px-8 mt-4'>
           {/* <span className="relative md:left-[10%] left-[-5%]">
             <Image src={comma} className="md:w-[45px] w-[30px]" />
           </span> */}
-          <p className="sm:text-5xl text-3xl font-semibold text-green text-center z-[12] sticky tracking-wider ">Building The Net Zero Work force</p>
+          <p className="sm:text-5xl text-3xl font-semibold text-green text-center z-[12] sticky  ">Building The Net Zero Work force</p>
           {/* <span className="relative md:left-[85%] left-[90%] ">
             <Image src={comma2} className="md:w-[45px] w-[35px]" />
           </span> */}
           <p className='text-4xl leading-[3rem] mt-20 font-semibold text-fblack'><span className='font-extralight'>Take the first step towards a </span><br />
             carbon-neutral world with Zero <br /> Carbon Net.</p>
-          <p className='text-fblack text-lg mt-6'>*we will not disseminate your email and so you avoid spam</p>
           <div className="flex flex-col sm:w-[400px] w-full mt-4 mb-10">
-            <input type="email" name="" placeholder='Enter your business email' id="" className='bg-grey px-4 py-3 outline-none text-[#5D6180] w-full font-extralight rounded-full ' />
             <button className="bg-green text-center px-4 py-3 text-white w-full rounded-full mt-4">Get Started now</button>
           </div>
         </div>

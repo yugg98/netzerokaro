@@ -5,7 +5,7 @@ import {motion} from 'framer-motion'
 import { slideIn ,textVariant} from '@/utils/motion'
 const HeroHome = () => {
   return (
-    <div    className=' w-screen sm:h-[80vh] h-full flex sm:flex-row flex-col justify-center items-center  linearbggreen'>
+    <div    className='linearbggreen w-screen sm:h-[80vh] h-full flex sm:flex-row flex-col justify-center items-center   '>
       <motion.div variants={slideIn('left', 'tween', 0.2, 1)} initial="hidden"  whileInView="show" className="sm:w-[50%] w-full flex justify-center">
         <div className='p-2 sm:pl-8 sm:p-4'>
           <motion.p variants={textVariant(0.8)} className='gradienttextbg sm:text-5xl text-3xl font-[800] sm:text-left text-center md:leading-[60px]'>Empowering the Future with Climate and Sustainability Education. </motion.p>
@@ -15,7 +15,7 @@ const HeroHome = () => {
         </div>
       </motion.div>
       <div className="sm:w-[50%] flex justify-end ">
-        <Image src={earth} className='md:h-[600px] md:w-[550px] ' />
+        <Image src={earth} width={500} height={64} className='px-6 pr-0' />
       </div>
     </div>
   )

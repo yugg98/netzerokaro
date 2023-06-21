@@ -5,7 +5,6 @@ import laptop from '@/assets/img3.png'
 import Image from 'next/image'
 import c1 from '@/assets/comma3.png'
 import c2 from '@/assets/comma4.png'
-import img1 from '@/assets/img4.png'
 import img4 from '@/assets/img7.png'
 import plus from '@/assets/plus.png'
 import img2 from '@/assets/img5.png'
@@ -15,11 +14,12 @@ import { Footer } from '@/components/Footer'
 import windmill from '@/assets/media/img2.png'
 import book from '@/assets/icon4.png'
 import script from '@/assets/script.png'
-
+import img1 from '@/assets/img4.png'
 import feature from '@/assets/icon5.png'
 import icon from '@/assets/icons/icon12.png'
 import Heading from '@/components/Heading'
 import Nzkacademy from '@/components/Nzkacademy'
+import Popup from '@/components/Popup'
 
 
 
@@ -42,66 +42,7 @@ const academy = () => {
                 </div>
             </div>
 
-            <div className="bg-img2 mt-0 md:p-6 rounded-lg ">
-                <Heading text="Core Learning Programs" color={true} />
-                <p className="text-white text-center mt-4 md:px-20 md:mb-10 px-4">Are you motivated to take climate action at work, but don&apos;t know where to start? Do you want to use your job to tackle the challenge of climate change, but don&apos;t want to switch careers? Are you ready to become a ‘Climate Intrapreneur’, and learn what it takes to influence and lead critical initiatives inside of businesses? Regardless of your role, this course could be for you – you don’t need to be a CEO or executive to drive change.</p>
-                <div className="flex justify-between flex-wrap  mt-8 overflow-hidden md:px-10 px-4">
-                    <div className="flex flex-row justify-center max-w-[380px] items-center">
-                        <div className="bg-white rounded-xl ">
-                            <Image src={img1} className='' />
-                            <div className="flex justify-between mt-2 p-6 pb-0">
-                                <div >
-                                    <p className="text-sm text-green">Part One</p>
-                                    <p className="font-semibold ">Sustainability</p>
-                                </div>
-                                <div className='bg-green rounded-full p-2 '>
-                                    <Image src={plus} className='w-[28px]' />
-                                </div>
-                            </div>
-                            <div className='p-6 pt-4'>
-                                <p className="text-sm text-green">Key Content</p>
-                                <p className="text-[#08103A] mb-4">Sustainability terminology, how to take accountability and maintain integrity in business, and application to sustainability in the business context</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-row justify-center max-w-[380px] items-center sm:mt-0 mt-4">
-                        <div className="bg-white rounded-xl ">
-                            <Image src={img1} className='' />
-                            <div className="flex justify-between mt-2 p-6 pb-0">
-                                <div >
-                                    <p className="text-sm text-green">Part Two</p>
-                                    <p className="font-semibold ">Climate Literacy</p>
-                                </div>
-                                <div className='bg-green rounded-full p-2 '>
-                                    <Image src={plus} className='w-[28px]' />
-                                </div>
-                            </div>
-                            <div className='p-6 pt-4'>
-                                <p className="text-sm text-green">Key Content</p>
-                                <p className="text-[#08103A] mb-4">Climate key terms and concepts, measuring impacts, and approaches on taking action. Case studies and an accompanying regulation guide are included</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-row justify-center max-w-[380px] items-center sm:mt-0 mt-4 sm:mb-0 mb-8">
-                        <div className="bg-white rounded-xl ">
-                            <Image src={img1} className='' />
-                            <div className="flex justify-between mt-2 p-6 pb-0">
-                                <div >
-                                    <p className="text-sm text-green">Part Three</p>
-                                    <p className="font-semibold ">The Circular Economy</p>
-                                </div>
-                                <div className='bg-green rounded-full p-2 '>
-                                    <Image src={plus} className='w-[28px]' />
-                                </div>
-                            </div>
-                            <div className='p-6 pt-4'>
-                                <p className="text-sm text-green">Key Content</p>
-                                <p className="text-[#08103A] mb-4">What the circular economy is, benefits and opportunities, the transition from a linear to circular economy. Case studies and an acronym decoder are included</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          
             <Nzkacademy/>
          
             {/* <div className="bg-img2 sm:p-10 p-4 flex flex-wrap">
@@ -128,7 +69,7 @@ const academy = () => {
                 <Image src={windmill} className='md:h-[500px] md:w-[40%] md:my-auto mx-auto sm:my-0 my-6' />
             </div> */}
             
-            <div className="bs sm:py-20 sm:pt-4 py-4">
+            {/* <div className="bs sm:py-20 sm:pt-4 py-4">
                 <Heading text={"Academy USP  "} color={true}/>
                 <p className="text-white mt-2 text-center sm:max-w-[50%] mx-auto mb-10">Our in-house team make sure everything is set up and configured for you to use. From data availability and completeness through to portal logins and training, we’ve got it covered.</p>
                 <div className=" rounded-sm grid grid-flow-row	 sm:grid-cols-2 row-span-2 sm:px-20 px-4 gap-2 justify-center items-center w-full mt-10">
@@ -161,7 +102,8 @@ const academy = () => {
                         <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
+            <Popup/>
             <div className="linearbggreen mt-0 md:p-6 rounded-lg ">
                 <Heading text="Who is the academy for?"  />
                 <div className="flex justify-between flex-wrap  mt-8 overflow-hidden md:px-10 px-4">

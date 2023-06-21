@@ -30,23 +30,23 @@ const Navbar = () => {
                     <ul className='sm:hidden flex flex-col'>
                         <li>
                             
-                            <Link href="/" className='flex text-xl hover:bg-grey rounded-lg text-center items-center p-4'> <AcademicCapIcon className='w-[36px] mr-2 text-green' /> Company  </Link>
+                            <Link href="/" className='flex text-xl hover:bg-grey rounded-lg text-center items-center p-4'> <AcademicCapIcon className='w-[36px] mr-2 text-green' /> Home  </Link>
                         </li>
                         <li>
                             
-                            <Link href="/academy" className='flex text-xl hover:bg-grey rounded-lg text-center items-center p-4'> <AcademicCapIcon className='w-[36px] mr-2 text-green' /> Company  </Link>
+                            <Link href="/academy" className='flex text-xl hover:bg-grey rounded-lg text-center items-center p-4'> <AcademicCapIcon className='w-[36px] mr-2 text-green' /> Academy  </Link>
                         </li>
                         <li>
                             
-                            <Link href="/marketplace" className='flex text-xl hover:bg-grey rounded-lg text-center items-center p-4'> <AcademicCapIcon className='w-[36px] mr-2 text-green' /> Company  </Link>
+                            <Link href="/marketplace" className='flex text-xl hover:bg-grey rounded-lg text-center items-center p-4'> <AcademicCapIcon className='w-[36px] mr-2 text-green' /> Marketplace  </Link>
                         </li>
                         <li>
                             
-                            <Link href="/greenstore" className='flex text-xl hover:bg-grey rounded-lg text-center items-center p-4'> <AcademicCapIcon className='w-[36px] mr-2 text-green' /> Company  </Link>
+                            <Link href="/aboutus" className='flex text-xl hover:bg-grey rounded-lg text-center items-center p-4'> <AcademicCapIcon className='w-[36px] mr-2 text-green' /> Aboutus  </Link>
                         </li>
                         <li>
                             
-                            <Link href="/greenstore" className='flex text-xl hover:bg-grey rounded-lg text-center items-center p-4'> <AcademicCapIcon className='w-[36px] mr-2 text-green' /> Company  </Link>
+                            <Link href="/greenstore" className='flex text-xl hover:bg-grey rounded-lg text-center items-center p-4'> <AcademicCapIcon className='w-[36px] mr-2 text-green' /> Hackathon  </Link>
                         </li>
                     </ul>
                 </div>

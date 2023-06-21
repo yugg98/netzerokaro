@@ -29,7 +29,7 @@ const greenstore = () => {
     return (
         <div>
             <Navbar />
-            <Hero Title={"Our purpose lies in our name"} showQues={true} SuperTitle={"Why Net Zero"} Desc={"NET ZERO: It is a state where we add no incremental greenhouse gases to the atmosphere. <br/> <br/> KARO = TO DO, means to act. It reflects our commitment to action and direction towards achieving carbon neutrality."} />
+            <Hero Title={"Our purpose lies in our name"}  Desc={"NET ZERO: It is a state where we add no incremental greenhouse gases to the atmosphere. <br/> <br/> KARO = TO DO, means to act. It reflects our commitment to action and direction towards achieving carbon neutrality."} />
             <div className='linearbggreen py-20'>
                 <div className="text-5xl text-green font-semibold text-center">Who we are ?</div>
                 <div className=" rounded-sm grid sm:grid-cols-2 row-span-2 sm:px-20 px-4 gap-2 justify-center items-center w-full mt-10">

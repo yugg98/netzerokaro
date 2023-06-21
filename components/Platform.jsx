@@ -49,9 +49,9 @@ const Platform = () => {
 
     return (
         <div>
-            <div className='flex justify-center items-center flex-col w-[90%] mx-auto my-10 mt-12 sm:px-20 '>
+            <div className='flex justify-center items-center flex-col w-[90%] mx-auto my-10 mt-4 sm:px-20 '>
                 <Heading text={"The Platform"}/>
-                <motion.p variants={textVariant(0.2)} initial="hidden" whileInView="show" className="text-fblack text-center " >
+                <motion.p variants={textVariant(0.2)} initial="hidden" whileInView="show" className="text-fblack text-center mt-4" >
                     Net Zero Karo (NZK), a platform dedicated to driving India&apos;s transition towards a net-zero economy.
                     KARO which means TO DO in Hindi, reflects our commitment to action and direction towards achieving carbon neutrality.
                     <br />
@@ -63,7 +63,7 @@ const Platform = () => {
                     We empower individuals and organizations to navigate the transition to a net-zero future by providing in-depth knowledge, practical tools, and industry insights. With a focus on innovative learning, collaborative engagement, and cutting-edge technology, we inspire and equip climate leaders to drive meaningful change.
                 </motion.p>
                 <div className='bs w-full px-10 py-6 rounded-lg mt-10 relative bottom-[-10px] z-[-1]'>
-                    <p className="text-center text-2xl font-semibold text-white">The Carbon Clock is ticking! Time to meet the <br /> two-degree target</p>
+                    <p className="text-center text-2xl font-semibold text-white">The Carbon Clock is ticking! <br /> Time to meet the  two-degree target</p>
                     <div className="flex justify-between flex-wrap  sm:w-[60%] sm:mx-auto mt-10">
 
                         <Cricular text="Years" time={remainingTime.years} style={' px-5 py-4 '}/>

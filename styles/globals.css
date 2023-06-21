@@ -132,7 +132,9 @@ text-transform: capitalize;
 .list-values li p:first-child{
   font-size: 1.3rem;
   color: white;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
+  font-size: 1.875rem;
+
 }
 .list-values li p:nth-child(2){
   margin-top: 2px;
@@ -140,9 +142,11 @@ text-transform: capitalize;
   color: white;
 }
 .list-values li {
+  font-size: 1.25rem;
   border-bottom: 0.8px solid white ;
-  padding: 4px;
+  padding: 0px;
 }   
+
 .approach-bg {
   background: url('../assets/img2.png');
   height: 100vh;

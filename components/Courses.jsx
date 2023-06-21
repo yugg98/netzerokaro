@@ -25,6 +25,7 @@ export default function Courses() {
                   </button>
                 )}
               </Tab>
+            
               <Tab as={Fragment}>
                 {({ selected }) => (
                   <button
@@ -34,7 +35,7 @@ export default function Courses() {
                         : "bg-white rounded-full mr-4 text-gray-600 px-5 py-3 border-green border-[1px] "
                     }
                   >
-                    Sustainability
+                    Net Zero Essentials
                   </button>
                 )}
               </Tab>
@@ -47,7 +48,7 @@ export default function Courses() {
                         : "bg-white rounded-full mr-4 text-gray-600 px-5 py-3 border-green border-[1px] "
                     }
                   >
-                    Sustainability
+                    Climate Change 101
                   </button>
                 )}
               </Tab>
@@ -60,7 +61,7 @@ export default function Courses() {
                         : "bg-white rounded-full mr-4 text-gray-600 px-5 py-3 border-green border-[1px] "
                     }
                   >
-                    Sustainability
+                    ABCs of Circular Economy
                   </button>
                 )}
               </Tab>
@@ -73,7 +74,7 @@ export default function Courses() {
                         : "bg-white rounded-full mr-4 text-gray-600 px-5 py-3 border-green border-[1px] "
                     }
                   >
-                    Sustainability
+                    e-Mobility 
                   </button>
                 )}
               </Tab>
@@ -86,11 +87,10 @@ export default function Courses() {
                         : "bg-white rounded-full mr-4 text-gray-600 px-5 py-3 border-green border-[1px] "
                     }
                   >
-                    Sustainability
+                    Green Digitization 
                   </button>
                 )}
               </Tab>
-              
             </Tab.List>
             <Tab.Panels >
               <Tab.Panel>
