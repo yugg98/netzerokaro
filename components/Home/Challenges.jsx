@@ -7,7 +7,7 @@ import comma2 from '@/assets/comma6.png'
 import Heading from '../Heading'
 const Challenges = () => {
     return (
-        <div className='w-full linearbggreen sm:h-[95vh] overflow-hidden'>
+        <div className='w-full linearbggreen  overflow-hidden'>
             <Heading text="Current Challenges" />
             <div className="flex sm:flex-row flex-col">
                 <div className="sm:w-1/2 w-full flex justify-center items-center flex-col px-6 mt-8">

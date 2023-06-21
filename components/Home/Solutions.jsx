@@ -30,7 +30,7 @@ const Solutions = () => {
           </div>
           <div className="flex flex-row justify-center max-w-[380px]  items-center md:mb-0 mb-4 ">
             <div className="bg-white rounded-lg  overflow-hidden h-[530px]">
-              <Image src={base1} className='' />
+              <Image src={base2} className='' />
               <div className="flex justify-between sm:px-8 px-6 py-5">
                 <div >
                   <p className="font-semibold text-lg ">Climate Literacy</p>
@@ -43,7 +43,7 @@ const Solutions = () => {
           </div>
           <div className="flex flex-row justify-center max-w-[380px]  items-center md:mb-0 mb-4">
             <div className="bg-white rounded-lg  overflow-hidden h-[530px] ">
-              <Image src={base1} className='' />
+              <Image src={base3} className='' />
               <div className="flex justify-between px-8 py-5">
                 <div >
                   <p className="font-semibold text-lg "> Market Place</p>

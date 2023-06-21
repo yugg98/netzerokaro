@@ -162,6 +162,28 @@ const academy = () => {
                     </div>
                 </div>
             </div>
+            <div className="linearbggreen mt-0 md:p-6 rounded-lg ">
+                <Heading text="Who is the academy for?"  />
+                <div className="flex justify-between flex-wrap  mt-8 overflow-hidden md:px-10 px-4">
+                    <div className="flex flex-row justify-center max-w-[380px] items-center">
+                        <div className="bg-white rounded-xl ">
+                            <Image src={img1} className='' />
+                            <div className="flex justify-between mt-2 p-6 pb-0">
+                                <div >
+                                    <p className="font-semibold text-lg">Sustainability</p>
+                                </div>
+                                <div className='bg-green rounded-full p-2 '>
+                                    <Image src={plus} className='w-[28px]' />
+                                </div>
+                            </div>
+                            <div className='p-6 pt-1'>
+                                <p className="text-[#08103A] mb-4">Sustainability terminology, how to take accountability and maintain integrity in business, and application to sustainability in the business context</p>
+                            </div>
+                        </div>
+                    </div>
+                  
+                </div>
+            </div>
             <CallToAction />
             <Footer />
         </div>

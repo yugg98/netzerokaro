@@ -10,6 +10,8 @@ import icon1 from '@/assets/icon8.png'
 import Form from '@/components/Form'
 import Accordian from '@/components/Accordian'
 import Courses from '@/components/Courses'
+import Heading from '@/components/Heading'
+import icon from '@/assets/customer/icon.png'
 function marketplace() {
     return (
         <div>
@@ -46,7 +48,7 @@ function marketplace() {
                     </div>
                 </div>
             </div>
-            <Courses/>
+            <Courses />
             {/* <div className='sm:p-20 bg-img2'>
                 <p className="text-5xl text-center font-semibold text-white">Net Zero Karo at Glance</p>
                 <div className=" grid sm:grid-cols-3	row-span-3 p-10 gap-6 justify-center items-center w-full mt-10">
@@ -58,18 +60,64 @@ function marketplace() {
                     <Cards />
                 </div>
             </div> */}
-
-            <div className="flex flex-wrap sm:p-20 sm:pt-4 p-4 linearbggreen">
+            <div className='bg-img2 flex flex-wrap  sm:max-h-screen overflow-hidden p-8 pt-4'>
+                <div className="md:w-1/2 md:p-14 p-4">
+                    <p className="sm:text-5xl text-3xl text-white font-semibold md:mt-10">How academy is solving the climate skilling crisis</p>
+                    <p className="text-white text-xl mt-10">diverse, innovative talent for your teams by assessing them for varied skill-set</p>
+                </div>
+                <div className='md:w-1/2 w-full py-4 '>
+                    <div className="bg-white p-5 px-8 rounded-lg my-4 md:flex justify-center items-start">
+                        <Image src={icon1} className='mr-2 w-[45px] h-[45px]'/>
+                        <div>
+                        <p className='text-lg mt-2 '>Climate and ESG Skills Gap: </p>
+                        <p className='mt-1 text-greyf text-sm'>The academy aims to address the existing skills gap in climate and Environmental, Social, and Governance (ESG) areas by providing comprehensive training and upskilling opportunities.</p>
+                            </div>
+                    </div>
+                    <div className="bg-white p-5 px-8 rounded-lg my-4 md:flex justify-center items-start">
+                        <Image src={icon1} className='mr-2 w-[45px] h-[45px]'/>
+                        <div>
+                        <p className='text-lg mt-2 '>Meeting the Demand for Climate Skilling:</p>
+                        <p className='mt-1 text-greyf text-sm'>As climate change becomes a pressing issue, there is a growing demand for professionals equipped with the knowledge and skills to tackle climate-related challenges. The academy aims to meet this demand by offering a platform for climate skilling.</p>
+                            </div>
+                    </div>
+                    <div className="bg-white p-5 px-8 rounded-lg my-4 md:flex justify-center items-start">
+                        <Image src={icon1} className='mr-2 w-[45px] h-[45px]'/>
+                        <div>
+                        <p className='text-lg mt-2 '>Engaging and Attracting Younger Talent:</p>
+                        <p className='mt-1 text-greyf text-sm'> Younger talent is increasingly seeking purpose, values-alignment, and engagement in their learning and development (L&D) experiences. The academy recognizes this and strives to provide a platform that appeals to younger individuals who are passionate about addressing climate change.</p>
+                            </div>
+                    </div>
+                    <div className="bg-white p-5 px-8 rounded-lg my-4 md:flex justify-center items-start">
+                        <Image src={icon1} className='mr-2 w-[45px] h-[45px]'/>
+                        <div>
+                        <p className='text-lg mt-2 '>Aligning Skills with Net Zero Goals: </p>
+                        <p className='mt-1 text-greyf text-sm'>The academy focuses on aligning skills development with the goal of achieving net-zero emissions. It aims to equip individuals with the knowledge and tools necessary to contribute to sustainability efforts and the transition to a net-zero future.</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div className="p-10 linearbggreen">
+                <Heading text="We’ve Got your back, every step of the way"/>
+                <div className="flex ">
+                    <div className="bg-white p-6 w-[300px] h-[400px] rounded-lg">
+                        <Image src={icon} className='mx-auto w-[120px]'/>
+                        <p className="text-xl text-center mt-6 ">Onboarding Support</p>
+                        <p className="text-center mt-2">Our in-house team make sure everything is set up and configured for you to use. From data availability and completeness through to portal logins and training, we’ve got it covered.</p>
+                    </div>
+                </div>
+            </div>
+            <div className="flex flex-wrap sm:p-20 sm:pt-4 p-4 pt-8 linearbggreen">
                 <div className="sm:w-1/2 sm:px-[100px]">
                     <p className="sm:text-5xl text-3xl text-green sm:leading-[60px] sm:text-left text-center">
                         <span className='font-semibold'> Frequently Asked  Us  ?</span></p>
-                      <p className="text-l sm:mt-0 mt-3">Your questions answered on our approach, our team, our values, our process, costs, timeline and more.</p>
+                    <p className="text-l sm:mt-0 mt-3">Your questions answered on our approach, our team, our values, our process, costs, timeline and more.</p>
                 </div>
                 <div className="sm:w-1/2">
-                    <Accordian/>
+                    <Accordian />
                 </div>
 
             </div>
+
             <Form />
             <Footer />
         </div>

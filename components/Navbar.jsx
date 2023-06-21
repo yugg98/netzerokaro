@@ -16,12 +16,13 @@ const Navbar = () => {
             <div className='flex justify-between px-4 py-3 items-center nav 	 top-0 left-0'>
                 <Link href="/"><Image className='w-[180px]' src={logo} /></Link>
                 <ul className='sm:flex hidden'>
-                    <motion.li variants={item} initial="hidden" whileInView="show"><Link href="/company">Company</Link></motion.li>
+                <li><Link href="/">Home</Link></li>
+                    <li><Link href="company">Company</Link></li>
                     <li><Link href="academy">Academy</Link></li>
+                    <li><Link href="greenstore">Skilling Course</Link></li>
                     <li><Link href="marketplace">Market Place</Link></li>
-                    <li><Link href="greenstore">Green Store</Link></li>
-                    <li><Link href="mediacenter">Media Center </Link></li>
-                    <li><Link href="/getinvolved">Get Envolved</Link></li>
+                    <li><Link href="aboutus">About us </Link></li>
+                    <li><Link href="hackathon">Hackathon</Link></li>
                 </ul>
                 {open ? <XMarkIcon className='sm:hidden relative w-[35px] z-[2010]' onClick={() => setOpen(false)} /> : <Bars3Icon className='sm:hidden relative w-[35px] z-[100]' onClick={() => setOpen(true)} />}
                 <button className="  text-white px-5 py-2 rounded-full ">Get Started</button>
