@@ -1,137 +1,109 @@
-import CallToAction from '@/components/CallToAction'
-import { Footer } from '@/components/Footer'
 import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar'
 import Image from 'next/image'
 import React from 'react'
-import dashboardimg from '@/assets/img8.png'
-import women from '@/assets/img9.png'
-import icon1 from '@/assets/icon8.png'
-import Form from '@/components/Form'
-import Accordian from '@/components/Accordian'
-import Courses from '@/components/Courses'
-import Heading from '@/components/Heading'
-import icon from '@/assets/customer/icon.png'
-import icons1 from '@/assets/customer/icon2.png'
-import icon2 from '@/assets/customer/icon3.png'
-import icon3 from '@/assets/customer/icon4.png'
+import img1 from '@/assets/world.png'
+import img2 from '@/assets/img11.png'
+import CallToAction from '@/components/CallToAction'
+import { Footer } from '@/components/Footer'
+import o1 from '@/assets/o1.png'
+import o2 from '@/assets/o2.png'
+import o3 from '@/assets/o3.png'
+import o4 from '@/assets/o4.png'
 
-function marketplace() {
+import img3 from '@/assets/windmill.png'
+import Heading from '@/components/Heading'
+
+const greenstore = () => {
     return (
         <div>
             <Navbar />
-            <Hero Title="Innovating for a Net Zero Economy" Desc="A Platform dedicated to driving India’s transition to a Net Zero Economy" />
-            <div className='p-20 pt-4 sm:px-[120px] px-4 linearbggreen pb-0 '>
-                <p className="sm:text-5xl text-3xl text-center text-green font-semibold sm:leading-[60px]">Discover the versatility of our
-                    Academy</p>
-                <p className="text-center mt-4">Sustainability, Climate Literacy and Circular Economy are among the most important future fields of our time. They form the basis for the innovative strength and competitiveness of the economy and for the work of tomorrow</p>
-                <div className="mx-auto sm:mt-0 mt-4">
-                    <Image src={dashboardimg} className='relative' />
+            <Hero Title={"Empower your team with the tools for a sustainable tomorrow! "} Desc={"Overall emissions reduction is the most direct way for any organisation to start working in favour of the planet. With our help, you’ll be able to do just that."} />
+            <div className="p-10 flex justify-center items-center linearbggreen">
+                <div className="sm:w-1/2 px-16">
+                    <p className="text-5xl text-green mb-2 sm:leading-[60px]">From understanding your Carbon Footprint to reducing your emissions, we&apos;ll be there.</p>
+                    <p className='text-2xl mt-10'>We have the roadmap to your company’s zero-carbon future, and the expertise and platform to get you there</p>
+                </div>
+                <div className="sm:w-1/2 p-8">
+                    <Image src={img1} />
                 </div>
             </div>
-            <div className='bg-img2 flex flex-wrap  sm:max-h-screen overflow-hidden'>
-                <Image src={women} className='max-h-[60%] ' />
-                <div className='sm:w-1/2 w-full py-10 sm:px-0 px-10'>
-                    <div className="bg-white p-8 rounded-lg my-4">
-                        <Image src={icon1} />
-                        <p className='text-lg mt-2 font-semibold'>Upskilling & reskilling</p>
-                        <p className='mt-2'>in the future fields of Sustainability, Climate Literacy and Circular Economy.
-                            e-mobility and green digitization next.</p>
+            <div className='bg-img2'>
+                <Heading text="NET ZERO SERVICES" color={true}/>
+
+                <div className="sm:p-4 p-2 flex  items-center  flex-wrap">
+                    <div className="sm:w-1/2 p-8 w-full">
+                        <Image src={img3} />
                     </div>
-                    <div className="bg-white p-8 rounded-lg my-4">
-                        <Image src={icon1} />
-                        <p className='text-lg mt-2 font-semibold'>Upskilling & reskilling</p>
-                        <p className='mt-2'>in the future fields of Sustainability, Climate Literacy and Circular Economy.
-                            e-mobility and green digitization next.</p>
+                    <div className="sm:w-1/2 sm:px-12 px-4 w-full">
+
+                        <p className='text-xl mt-10 text-white'>Are you struggling to meet your carbon reduction goals without compromising your profit margins? Whether your company is required to report carbon emissions or you choose to showcase your environmental sustainability as part of your corporate social responsibility, we have a tailored carbon plan just for you.
+                            <br />
+                            <br />
+
+                            Managing and disclosing Environment, Social, and Governance (ESG) data can be a time-consuming and resource-intensive process, especially for companies operating across multiple locations.
+                            <br />
+                            <br />
+
+                            Our services include precise carbon measurement, accurate carbon reporting and compliance evaluation, and the development of a personalized carbon plan that aligns with your company&apos;s unique needs and goals.
+                            <br />
+                            <br />
+
+                            Let us assist you in navigating the complexities of carbon management while driving sustainability and success for your business.</p>
                     </div>
-                    <div className="bg-white p-8 rounded-lg my-4">
-                        <Image src={icon1} />
-                        <p className='text-lg mt-2 font-semibold'>Upskilling & reskilling</p>
-                        <p className='mt-2'>in the future fields of Sustainability, Climate Literacy and Circular Economy.
-                            e-mobility and green digitization next.</p>
-                    </div>
+
                 </div>
             </div>
-            <Courses />
-            {/* <div className='sm:p-20 bg-img2'>
-                <p className="text-5xl text-center font-semibold text-white">Net Zero Karo at Glance</p>
-                <div className=" grid sm:grid-cols-3	row-span-3 p-10 gap-6 justify-center items-center w-full mt-10">
-                    <Cards />
-                    <Cards />
-                    <Cards />
-                    <Cards />
-                    <Cards />
-                    <Cards />
-                </div>
-            </div> */}
-            <div className='bg-img2 flex flex-wrap  sm:max-h-screen overflow-hidden p-8 pt-4'>
-                <div className="md:w-[40%] md:p-14 p-4 ">
-                    <p className="sm:text-5xl text-3xl text-white font-semibold md:mt-10">How academy is solving the climate skilling crisis</p>
-                    <p className="text-white text-xl mt-10">diverse, innovative talent for your teams by assessing them for varied skill-set</p>
-                </div>
-                <div className="sm:w-[60%]  list-values sm:px-24  p-4 py-8 pt-4 flex flex-col justify-center">
-                <ul>
+            <div className='p-4'>
+                <div className='flex flex-wrap justify-center items-center p-4'>
+                    <div className="sm:w-[40%]">
+                        <Image src={o1} className='sm:w-[80%] mx-auto' />
 
-                    <li className=''>
-                        <p>Climate and ESG Skills Gap: </p>
-                        <p className=''> The academy aims to address the existing skills gap in climate and Environmental, Social, and Governance (ESG) areas by providing comprehensive training and upskilling opportunities.e</p>
-                    </li>
-
-                    <li className=''>
-                        <p>Meeting the Demand for Climate Skilling:</p>
-                        <p> As climate change becomes a pressing issue, there is a growing demand for professionals equipped with the knowledge and skills to tackle climate-related challenges. The academy aims to meet this demand by offering a platform for climate skilling.</p>
-                    </li>
-                    <li className=''>
-                        <p>Meeting the Demand for Climate Skilling:</p>
-                        <p> Younger talent is increasingly seeking purpose, values-alignment, and engagement in their learning and development (L&D) experiences. The academy recognizes this and strives to provide a platform that appeals to younger individuals who are passionate about addressing climate change.</p>
-                    </li>
-                    <li className=''>
-                        <p>Aligning Skills with Net Zero Goals: </p>
-                        <p>The academy focuses on aligning skills development with the goal of achieving net-zero emissions. It aims to equip individuals with the knowledge and tools necessary to contribute to sustainability efforts and the transition to a net-zero future.</p>
-                    </li>
-                    <li className=''>
-                        <p>Keeping Up with the Next L&D Wave:</p>
-                        <p>The academy recognizes that climate skilling is the next wave in learning and development. By offering a platform that addresses this emerging trend, it seeks to stay ahead and provide relevant and impactful learning opportunities.</p>
-                    </li>
-
-                </ul>
-                </div>
-            </div>
-            <div className="p-10 pt-0 linearbggreen">
-                <Heading text="We’ve Got your back, every step of the way"/>
-                <div className="flex flex-wrap md:mt-20 justify-between ">
-                    <div className="bg-white p-6 w-[300px] h-[400px] rounded-lg my-4">
-                        <Image src={icon} className='mx-auto w-[120px]'/>
-                        <p className="text-xl text-center mt-6 ">Onboarding Support</p>
-                        <p className="text-center mt-2">Our in-house team make sure everything is set up and configured for you to use. From data availability and completeness through to portal logins and training, we’ve got it covered.</p>
                     </div>
-                    <div className="bg-white p-6 w-[300px] h-[400px] rounded-lg my-4">
-                        <Image src={icons1} className='mx-auto w-[120px]'/>
-                        <p className="text-xl text-center mt-6 ">Account Managed Services</p>
-                        <p className="text-center mt-2">Your account will be managed by a named individual, so you know where to go for additional support. Our team of account managers are focussed on helping you meet your objectives.</p>
-                    </div>
-                    <div className="bg-white p-6 w-[300px] h-[400px] rounded-lg my-4">
-                        <Image src={icon2} className='mx-auto w-[120px]'/>
-                        <p className="text-xl text-center mt-6 "> Access to Expertise</p>
-                        <p className="text-center mt-2">Our analysts and engineers are not just there to help you achieve your objectives but also to give you access to their knowledge and expertise and improve the level of understanding that your team has.</p>
-                    </div>
-                    <div className="bg-white p-6 w-[300px] h-[400px] rounded-lg my-4">
-                        <Image src={icon3} className='mx-auto w-[120px]'/>
-                        <p className="text-xl text-center mt-6 "> Subscription-based pricing model</p>
-                        <p className="text-center mt-2">No upfront fees</p>
+                    <div className='sm:w-[60%] sm:px-20'>
+                        <p className="sm:text-3xl text-2xl sm:text-left text-center text-green mt-2">Carbon Consulting and Certification</p>
+                        <div className='w-[110px] bg-green h-[6px] rounded-full mt-2 sm:mx-0 mx-auto'></div>
+                        <p className="text-lg mt-4 sm:text-left text-center">Our carbon consulting services simplify the process of understanding and calculating your carbon footprint. We provide user-friendly tools and expert guidance to ensure accurate measurements. Additionally, we certify you as Carbon Balanced by offsetting your footprint through nature-powered projects. Take meaningful action towards carbon neutrality and make a positive impact on the environment. Empower yourself today with our comprehensive services. Contact us to learn more.</p>
                     </div>
                 </div>
-            </div>
-            <div className="flex flex-wrap sm:p-20 sm:pt-6 p-4 pt-8 linearbggreen">
-                <div className="sm:w-1/2 sm:px-[100px]">
-                    <p className="sm:text-5xl text-3xl text-green sm:leading-[60px] sm:text-left text-center">
-                        <span className='font-semibold'> Frequently Asked  Us  ?</span></p>
-                    <p className="text-l sm:mt-0 mt-3">Your questions answered on our approach, our team, our values, our process, costs, timeline and more.</p>
-                </div>
-                <div className="sm:w-1/2">
-                    <Accordian />
-                </div>
+                <div className='flex flex-wrap flex-row-reverse justify-center items-center p-4'>
+                    <div className="sm:w-[40%]">
+                        <Image src={o2} className='sm:w-[80%] mx-auto' />
 
+                    </div>
+                    <div className='sm:w-[60%] sm:px-20'>
+                        <p className="sm:text-3xl text-2xl  text-green mt-2 sm:text-left text-center">Emissions Measurement & Net-Zero Strategy</p>
+                        <div className='w-[110px] bg-green h-[6px] rounded-full mt-2 sm:mx-0 mx-auto'></div>
+                        <p className="text-lg mt-4 sm:text-left text-center">At NetZeroKaro, we specialize in helping you create a comprehensive net-zero plan. Our services include precise carbon footprint calculations, including challenging tasks like measuring Scope 3 and supply chain emissions, as well as emissions from investment portfolios. With our expert guidance, you can establish clear climate ambitions, set boundaries, and develop a robust strategy for impactful action. Start your journey towards a sustainable future with us today. Contact us to learn more.
+
+                         .</p>
+                    </div>
+                </div>
+                <div className='flex flex-wrap justify-center items-center p-4'>
+                    <div className="sm:w-[40%]">
+                        <Image src={o3} className='sm:w-[80%] mx-auto' />
+
+                    </div>
+                    <div className='sm:w-[60%] sm:px-20'>
+                        <p className="sm:text-3xl text-2xl sm:text-left text-center text-green mt-2">Carbon reduction training</p>
+                        <div className='w-[110px] bg-green h-[6px] rounded-full mt-2 sm:mx-0 mx-auto'></div>
+                        <p className="text-lg mt-4 sm:text-left text-center">Our carbon management specialists offer comprehensive low carbon training for stakeholders at all levels. We collaborate closely with clients to customize training programs that align with their organization, projects, and objectives. Our seminars and workshops provide inspirational insights, strategic goal setting, and practical advice on environmental best practices. By participating in our training, clients can future-proof their projects and navigate towards a net-zero carbon future while demonstrating tangible sustainability progress and cost-efficiency.
+
+
+                        </p>
+                    </div>
+                </div>
+                <div className='flex flex-wrap flex-row-reverse justify-center items-center p-4'>
+                    <div className="sm:w-[40%]">
+                        <Image src={o4} className='sm:w-[80%] mx-auto' />
+
+                    </div>
+                    <div className='sm:w-[60%] sm:px-20'>
+                        <p className="sm:text-3xl text-2xl md:text-left text-center text-green mt-2">Voluntary Carbon Offsetting</p>
+                        <div className='w-[110px] bg-green h-[6px] rounded-full mt-2 sm:mx-0 mx-auto'></div>
+                        <p className="text-lg mt-4 sm:text-left text-center">Our expertise extends beyond emission reduction to effective management of remaining emissions through credible offsetting programs. With extensive knowledge of the international carbon market, we guide you through various types of credits, aligning them with your net-zero aspirations and global sustainable development goals. By partnering with us, you'll gain a comprehensive understanding of offsetting strategies that not only support your journey to net-zero but also contribute to broader sustainability objectives.</p>
+                    </div>
+                </div>
             </div>
 
             <CallToAction />
@@ -140,4 +112,4 @@ function marketplace() {
     )
 }
 
-export default marketplace
+export default greenstore

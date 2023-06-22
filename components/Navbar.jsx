@@ -19,7 +19,7 @@ const Navbar = () => {
                 <li><Link href="/">Home</Link></li>
                     <li><Link href="company">Company</Link></li>
                     <li><Link href="academy">Academy</Link></li>
-                    <li><Link href="skillingcourse">Skilling Course</Link></li>
+                    <li><Link href="climateskilling"> Climate Skilling</Link></li>
                     <li><Link href="marketplace">Market Place</Link></li>
                     <li><Link href="aboutus">About us </Link></li>
                     <li><Link href="hackathon">Hackathon</Link></li>

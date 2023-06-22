@@ -8,7 +8,7 @@ import { Parser } from 'html-to-react'
 import ques from '@/assets/ques.png'
 const Hero = ({Title,Desc,CalltoAction,SuperTitle,showQues}) => {
   return (
-    <div  className=' w-full sm:h-[80vh] h-full flex sm:flex-row flex-col justify-center items-center  linearbggreen sm:px-20'>
+    <div  className=' w-full sm:h-[80vh] h-full flex sm:flex-row flex-col justify-center items-center  linearbggreen sm:px-0'>
       <motion.div variants={slideIn('left', 'tween', 0.2, 1)} initial="hidden"  whileInView="show" className="sm:w-[50%] w-full flex justify-center mt-10">
         <div className='p-2 sm:pl-8 sm:p-4 sm:px-20'>
           <div className='flex  items-center mx-auto'>

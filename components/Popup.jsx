@@ -18,7 +18,7 @@ const Popup = () => {
     return (
         <div>  <div className="bg-img2 mt-0 md:p-6  ">
             <Heading text="Core Learning Programs" color={true} />
-            <p className="text-white text-center mt-4 md:px-20 md:mb-10 px-4">Are you motivated to take climate action at work, but don&apos;t know where to start? Do you want to use your job to tackle the challenge of climate change, but don&apos;t want to switch careers? Are you ready to become a ‘Climate Intrapreneur’, and learn what it takes to influence and lead critical initiatives inside of businesses? Regardless of your role, this course could be for you – you don’t need to be a CEO or executive to drive change.</p>
+            <p className="text-white text-center mt-4 md:px-20 md:mb-10 px-4">Are you eager to make a difference in the fight against climate change within your workplace? Are you seeking ways to leverage your current job to address this pressing challenge without having to change careers? If so, our course is designed for you. Become a 'Climate Intrapreneur' and discover the essential skills needed to drive and influence critical initiatives within businesses. This course is open to anyone who is passionate about driving change and making a positive impact.</p>
             <div className="flex justify-between flex-wrap  mt-8 overflow-hidden md:px-10 px-4">
                 <div className="flex flex-row justify-center max-w-[380px] items-center">
                     <div className="bg-white rounded-xl ">
