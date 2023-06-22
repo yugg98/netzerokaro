@@ -20,7 +20,8 @@ import icon from '@/assets/icons/icon12.png'
 import Heading from '@/components/Heading'
 import Nzkacademy from '@/components/Nzkacademy'
 import Popup from '@/components/Popup'
-
+import { motion } from 'framer-motion'
+import { slideIn } from '@/utils/motion'
 
 
 
@@ -30,9 +31,9 @@ const academy = () => {
             <Navbar />
             <Hero Title="Climate education with a difference." Desc="a platform dedicated to driving India's transition towards a net-zero economy." />
             <div className="w-full flex flex-wrap p-10  pb-10 mt-10">
-                <div className="sm:w-1/2 ">
+                <motion.div className="sm:w-1/2 " variants={slideIn('left', 'tween', 0.1, 1)} initial="hidden"  whileInView="show">
                     <Image src={laptop} className=' sm:max-w-[400px] mx-auto' />
-                </div>
+                </motion.div>
                 <div className="sm:w-1/2 sm:px-10 px-2 sm:pt-0">
                     <p className="text-green sm:text-5xl text-3xl font-semibold  text-center sm:text-left  ">Invest in your team’s capacity to respond to our changing world</p>
                     <Image src={c1} className='w-[40px] relative opacity-40 left-[-40px] mt-10' />

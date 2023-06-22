@@ -2,7 +2,7 @@ import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar'
 import Image from 'next/image'
 import React from 'react'
-import img1 from '@/assets/img10.png'
+import img1 from '@/assets/world.png'
 import img2 from '@/assets/img11.png'
 import CallToAction from '@/components/CallToAction'
 import { Footer } from '@/components/Footer'
@@ -21,24 +21,38 @@ const greenstore = () => {
             <Hero Title={"Help your organisation get to Net Zero, faster!"} Desc={"Overall emissions reduction is the most direct way for any organisation to start working in favour of the planet. With our help, you’ll be able to do just that."} />
             <div className="p-10 flex justify-center items-center linearbggreen">
                 <div className="sm:w-1/2 px-16">
-                    <p className="text-5xl text-green mb-2 sm:leading-[60px]">Helping you deliver a  credible net zero  strategy”</p>
-                    <p className='text-2xl mt-10'>We have the roadmap to your company’s zero-carbon future, and the expertise and platform to get you there.</p>
+                    <p className="text-5xl text-green mb-2 sm:leading-[60px]">From understanding your Carbon Footprint to reducing your emissions, we'll be there.</p>
+                    <p className='text-2xl mt-10'>We have the roadmap to your company’s zero-carbon future, and the expertise and platform to get you there</p>
                 </div>
                 <div className="sm:w-1/2 p-8">
                     <Image src={img1} />
                 </div>
             </div>
+            <div className='bg-img2'>
+                <Heading text="NET ZERO SERVICES" color={true}/>
 
-            <div className="sm:p-10 p-2 flex  items-center bs flex-wrap">
-                <div className="sm:w-1/2 p-8 w-full">
-                    <Image src={img3} />
-                </div>
-                <div className="sm:w-1/2 sm:px-16 px-4 w-full">
-                    <p className="sm:text-5xl text-3xl  mt-4  mb-2 sm:leading-[60px] text-white">NET ZERO SERVICES</p>
-                    <p className='text-xl mt-10 text-white'>Whether your business fits the criteria for mandatory carbon reporting, or you’ve decided to voluntarily demonstrate your environmental sustainability from a corporate social responsibility perspective, we have a carbon strategy for you.</p>
-                    <p className='text-xl mt-4 text-white'>Achieving your carbon reduction targets and maintaining your profit margins isn’t easy. Disclosing Environment, Social and Governance (ESG) data can take a huge amount of effort in time and resource, especially if your business is geographically large with multiple sites.</p>
-                </div>
+                <div className="sm:p-4 p-2 flex  items-center  flex-wrap">
+                    <div className="sm:w-1/2 p-8 w-full">
+                        <Image src={img3} />
+                    </div>
+                    <div className="sm:w-1/2 sm:px-12 px-4 w-full">
 
+                        <p className='text-xl mt-10 text-white'>Are you struggling to meet your carbon reduction goals without compromising your profit margins? Whether your company is required to report carbon emissions or you choose to showcase your environmental sustainability as part of your corporate social responsibility, we have a tailored carbon plan just for you.
+                            <br />
+                            <br />
+
+                            Managing and disclosing Environment, Social, and Governance (ESG) data can be a time-consuming and resource-intensive process, especially for companies operating across multiple locations.
+                            <br />
+                            <br />
+
+                            Our services include precise carbon measurement, accurate carbon reporting and compliance evaluation, and the development of a personalized carbon plan that aligns with your company's unique needs and goals.
+                            <br />
+                            <br />
+
+                            Let us assist you in navigating the complexities of carbon management while driving sustainability and success for your business.</p>
+                    </div>
+
+                </div>
             </div>
             <div className='p-4'>
                 <div className='flex flex-wrap justify-center items-center p-4'>
@@ -100,7 +114,7 @@ const greenstore = () => {
                     </div>
                 </div>
             </div>
-           
+
             <CallToAction />
             <Footer />
         </div>

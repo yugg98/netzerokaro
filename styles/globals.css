@@ -117,12 +117,7 @@ text-transform: capitalize;
 .footer ul{
   margin-top: 10px;
 }
-.bg-img{
-  background-image: url('../assets/approach.png');
-  background-repeat: no-repeat;
-  /* height: 100vh; */
-  background-size: 58%;
-}
+
 
 
 .list-values li:first-child p:first-child{
@@ -167,10 +162,22 @@ text-transform: capitalize;
 .bg-img2{
   background: linear-gradient(149.9deg, #38D26F 12.85%, #357AFF 130.19%);
 }
-
+.bg-img{
+  background: linear-gradient(
+  0deg,
+  #d7ffe0 0px,
+  rgba(251, 251, 251, 0) 91.45%
+);
+}
 @media screen and (min-width: 768px){
   .bg-img2{
   background: url('../assets/bg/bg1.png');
+  }
+  .bg-img{
+    background-image: url('../assets/approach.png');
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    background-size: 58%;
   }
 }
 

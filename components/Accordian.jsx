@@ -7,7 +7,7 @@ function Accordian() {
             <Disclosure className="bg-white sm:p-4 p-2 my-10" defaultOpen>
                 {({ open }) => (
                     /* Use the `open` state to conditionally change the direction of an icon. */
-                    <div className='my-10 rounded-lg'>
+                    <div className='my-4 rounded-lg'>
                         <Disclosure.Button className='flex bg-white sm:p-4 p-2'>
                             <p className='text-left '>What will it cost and how long will it take to to Get Your Service For my company Bill Board ?</p>
                             <ChevronRightIcon className={open ? 'rotate-90 transform w-[40px]' : 'w-[40px]'} />
@@ -32,7 +32,7 @@ function Accordian() {
                 
 
             </Disclosure>
-            <Disclosure className="bg-white sm:p-4 p-2 my-10" >
+            <Disclosure className="bg-white sm:p-4 p-2 my-4" >
                 {({ open }) => (
                     /* Use the `open` state to conditionally change the direction of an icon. */
                     <div className='my-10 rounded-lg'>
@@ -60,7 +60,7 @@ function Accordian() {
                 
 
             </Disclosure>
-            <Disclosure className="bg-white sm:p-4 p-2 my-10" >
+            <Disclosure className="bg-white sm:p-4 p-2 my-4" >
                 {({ open }) => (
                     /* Use the `open` state to conditionally change the direction of an icon. */
                     <div className='my-10 rounded-lg'>

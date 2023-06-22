@@ -1,4 +1,3 @@
-import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar'
 import Image from 'next/image'
 import React from 'react'
@@ -25,6 +24,9 @@ import Heading from '@/components/Heading'
 import base1 from '@/assets/faces/img.png'
 import Link from 'next/link'
 import linkedin from '@/assets/faces/icon.svg'
+import zero from '@/assets/zero.png'
+import { Parser } from 'html-to-react'
+
 const greenstore = () => {
     return (
         <div>
@@ -123,8 +125,9 @@ const greenstore = () => {
                         </div>
                         <div className='flex items-center my-4 ml-10'>
                             <Image src={ecom} className='md:w-[70px] w-[45px]' />
-                            <p className="ml-4 md:text-xl text-md">Information Technology</p>
+                            <p className="ml-4 md:text-xl text-md">I.T</p>
                         </div>
+                        
                     </div>
                 </div>
 
@@ -132,8 +135,50 @@ const greenstore = () => {
             <div className='linearbggreen p-4'>
                 <Heading text="Leadership Team" />
                 <div className="flex justify-between flex-wrap sm:mt-20 mt-10 sm:px-10 ">
-                    <div className="flex flex-row justify-center max-w-[350px]  items-center md:mb-0 mb-4">
-                        <div className="bg-white rounded-lg  overflow-hidden h-[580px]">
+                    <div className="flex flex-row justify-center max-w-[320px]  items-center md:mb-0 mb-4">
+                        <div className=" rounded-lg  overflow-hidden h-[580px]">
+                            <Image src={base1} className='mx-auto' />
+                            <div className="flex justify-between px-8 py-5">
+                                <div >
+                                    <p className="font-semibold text-lg ">Sunil Batra</p>
+                                    <p className="text-green">Founder</p>
+                                    <p className="text-greyf mb-4 mt-2">Climate key terms and concepts, measuring impacts, and approaches on taking action. Case studies and an accompanying regulation guide are included</p>
+                                    <Image src={linkedin} />
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flex flex-row justify-center max-w-[320px]  items-center md:mb-0 mb-4">
+                        <div className=" rounded-lg  overflow-hidden h-[580px]">
+                            <Image src={base1} className='mx-auto' />
+                            <div className="flex justify-between px-8 py-5">
+                                <div >
+                                    <p className="font-semibold text-lg ">Sonia Batra</p>
+                                    <p className="text-green">Founder</p>
+                                    <p className="text-greyf mb-4 mt-2">Climate key terms and concepts, measuring impacts, and approaches on taking action. Case studies and an accompanying regulation guide are included</p>
+                                    <Image src={linkedin} />
+                                </div>
+
+                            </div>
+                        </div>
+                    </div> 
+                    <div className="flex flex-row justify-center max-w-[320px]  items-center md:mb-0 mb-4">
+                        <div className=" rounded-lg  overflow-hidden h-[580px]">
+                            <Image src={base1} className='mx-auto' />
+                            <div className="flex justify-between px-8 py-5">
+                                <div >
+                                    <p className="font-semibold text-lg ">Sunil Batra</p>
+                                    <p className="text-green">Founder</p>
+                                    <p className="text-greyf mb-4 mt-2">Climate key terms and concepts, measuring impacts, and approaches on taking action. Case studies and an accompanying regulation guide are included</p>
+                                    <Image src={linkedin} />
+                                </div>
+
+                            </div>
+                        </div>
+                    </div> 
+                    <div className="flex flex-row justify-center max-w-[320px]  items-center md:mb-0 mb-4">
+                        <div className=" rounded-lg  overflow-hidden h-[580px]">
                             <Image src={base1} className='mx-auto' />
                             <div className="flex justify-between px-8 py-5">
                                 <div >
@@ -147,6 +192,67 @@ const greenstore = () => {
                         </div>
                     </div>
 
+                </div>
+            </div>
+            <div className='linearbggreen p-4'>
+                <Heading text="Board Advisiors" />
+                <div className="flex justify-between flex-wrap sm:mt-20 mt-10 sm:px-10 ">
+                    <div className="flex flex-row justify-center max-w-[320px]  items-center md:mb-0 mb-4">
+                        <div className=" rounded-lg  overflow-hidden h-[580px]">
+                            <Image src={base1} className='mx-auto' />
+                            <div className="flex justify-between px-8 py-5">
+                                <div >
+                                    <p className="font-semibold text-lg ">Sunil Batra</p>
+                                    <p className="text-green">Founder</p>
+                                    <p className="text-greyf mb-4 mt-2">Climate key terms and concepts, measuring impacts, and approaches on taking action. Case studies and an accompanying regulation guide are included</p>
+                                    <Image src={linkedin} />
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flex flex-row justify-center max-w-[320px]  items-center md:mb-0 mb-4">
+                        <div className=" rounded-lg  overflow-hidden h-[580px]">
+                            <Image src={base1} className='mx-auto' />
+                            <div className="flex justify-between px-8 py-5">
+                                <div >
+                                    <p className="font-semibold text-lg ">Sunil Batra</p>
+                                    <p className="text-green">Founder</p>
+                                    <p className="text-greyf mb-4 mt-2">Climate key terms and concepts, measuring impacts, and approaches on taking action. Case studies and an accompanying regulation guide are included</p>
+                                    <Image src={linkedin} />
+                                </div>
+
+                            </div>
+                        </div>
+                    </div> 
+                    <div className="flex flex-row justify-center max-w-[320px]  items-center md:mb-0 mb-4">
+                        <div className=" rounded-lg  overflow-hidden h-[580px]">
+                            <Image src={base1} className='mx-auto' />
+                            <div className="flex justify-between px-8 py-5">
+                                <div >
+                                    <p className="font-semibold text-lg ">Sunil Batra</p>
+                                    <p className="text-green">Founder</p>
+                                    <p className="text-greyf mb-4 mt-2">Climate key terms and concepts, measuring impacts, and approaches on taking action. Case studies and an accompanying regulation guide are included</p>
+                                    <Image src={linkedin} />
+                                </div>
+
+                            </div>
+                        </div>
+                    </div> 
+                    <div className="flex flex-row justify-center max-w-[320px]  items-center md:mb-0 mb-4">
+                        <div className=" rounded-lg  overflow-hidden h-[580px]">
+                            <Image src={base1} className='mx-auto' />
+                            <div className="flex justify-between px-8 py-5">
+                                <div >
+                                    <p className="font-semibold text-lg ">Sunil Batra</p>
+                                    <p className="text-green">Founder</p>
+                                    <p className="text-greyf mb-4 mt-2">Climate key terms and concepts, measuring impacts, and approaches on taking action. Case studies and an accompanying regulation guide are included</p>
+                                    <Image src={linkedin} />
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
@@ -155,5 +261,27 @@ const greenstore = () => {
         </div>
     )
 }
+const Hero = ({Title,Desc,CalltoAction,SuperTitle,showQues}) => {
+    return (
+      <div  className=' w-full sm:h-[80vh] h-full flex sm:flex-row flex-col justify-center items-center  linearbggreen sm:px-20'>
+        <motion.div variants={slideIn('left', 'tween', 0.2, 1)} initial="hidden"  whileInView="show" className="sm:w-[50%] w-full flex justify-center mt-10">
+          <div className='p-2 sm:pl-8 sm:p-4 sm:px-20'>
+            
+          
+            <motion.div variants={textVariant(0.8)} className='text-black text-center sm:text-left sm:text-6xl text-4xl font-[800] gradienttextbg'>{Title}</motion.div>
+            
+            <motion.p variants={textVariant(0.6)} className=" leading-6 mt-4 text-center sm:text-left">{Parser().parse(Desc)}</motion.p>
+            <div className="flex items-center mt-8 sm:justify-start justify-center">
+              <button className="rounded-full bg-green text-white px-12 text-lg py-3">Explore</button>
+            </div>
+          </div>
+        </motion.div>
+        <div className="sm:w-[50%] flex justify-end ">
+      
+        <Image src={zero} width={500} height={64} className='px-6 pr-0' />
+      </div>
+      </div>
+    )
+  }
 
 export default greenstore

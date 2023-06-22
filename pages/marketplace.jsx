@@ -12,6 +12,10 @@ import Accordian from '@/components/Accordian'
 import Courses from '@/components/Courses'
 import Heading from '@/components/Heading'
 import icon from '@/assets/customer/icon.png'
+import icons1 from '@/assets/customer/icon2.png'
+import icon2 from '@/assets/customer/icon3.png'
+import icon3 from '@/assets/customer/icon4.png'
+
 function marketplace() {
     return (
         <div>
@@ -95,26 +99,26 @@ function marketplace() {
             </div>
             <div className="p-10 pt-0 linearbggreen">
                 <Heading text="We’ve Got your back, every step of the way"/>
-                <div className="flex mt-10 justify-between ">
+                <div className="flex md:mt-20 justify-between ">
                     <div className="bg-white p-6 w-[300px] h-[400px] rounded-lg">
                         <Image src={icon} className='mx-auto w-[120px]'/>
                         <p className="text-xl text-center mt-6 ">Onboarding Support</p>
                         <p className="text-center mt-2">Our in-house team make sure everything is set up and configured for you to use. From data availability and completeness through to portal logins and training, we’ve got it covered.</p>
                     </div>
                     <div className="bg-white p-6 w-[300px] h-[400px] rounded-lg">
-                        <Image src={icon} className='mx-auto w-[120px]'/>
-                        <p className="text-xl text-center mt-6 ">Onboarding Support</p>
-                        <p className="text-center mt-2">Our in-house team make sure everything is set up and configured for you to use. From data availability and completeness through to portal logins and training, we’ve got it covered.</p>
+                        <Image src={icons1} className='mx-auto w-[120px]'/>
+                        <p className="text-xl text-center mt-6 ">Account Managed Services</p>
+                        <p className="text-center mt-2">Your account will be managed by a named individual, so you know where to go for additional support. Our team of account managers are focussed on helping you meet your objectives.</p>
                     </div>
                     <div className="bg-white p-6 w-[300px] h-[400px] rounded-lg">
-                        <Image src={icon} className='mx-auto w-[120px]'/>
-                        <p className="text-xl text-center mt-6 ">Onboarding Support</p>
-                        <p className="text-center mt-2">Our in-house team make sure everything is set up and configured for you to use. From data availability and completeness through to portal logins and training, we’ve got it covered.</p>
+                        <Image src={icon2} className='mx-auto w-[120px]'/>
+                        <p className="text-xl text-center mt-6 "> Access to Expertise</p>
+                        <p className="text-center mt-2">Our analysts and engineers are not just there to help you achieve your objectives but also to give you access to their knowledge and expertise and improve the level of understanding that your team has.</p>
                     </div>
                     <div className="bg-white p-6 w-[300px] h-[400px] rounded-lg">
-                        <Image src={icon} className='mx-auto w-[120px]'/>
-                        <p className="text-xl text-center mt-6 ">Onboarding Support</p>
-                        <p className="text-center mt-2">Our in-house team make sure everything is set up and configured for you to use. From data availability and completeness through to portal logins and training, we’ve got it covered.</p>
+                        <Image src={icon3} className='mx-auto w-[120px]'/>
+                        <p className="text-xl text-center mt-6 "> Subscription-based pricing model</p>
+                        <p className="text-center mt-2">No upfront fees</p>
                     </div>
                 </div>
             </div>

@@ -2,16 +2,13 @@ import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import React from 'react'
 import { motion } from 'framer-motion'
-import { textVariant, staggerContainer } from '@/utils/motion'
+import { textVariant, staggerContainer,slideIn } from '@/utils/motion'
 import approach from '@/assets/approach.png'
 import Image from 'next/image'
 import tech from '@/assets/company/tech.jpg'
 import dia from '@/assets/company/dia.svg'
 import note from '@/assets/company/note.png'
 import learn from '@/assets/company/learn.svg'
-
-
-
 import { Footer } from '@/components/Footer'
 import img1 from '@/assets/img1.png'
 import CallToAction from '@/components/CallToAction'
@@ -45,7 +42,7 @@ const company = () => {
 function Vision() {
     return (
         <div className='bg-img2  flex sm:flex-row flex-col '>
-            <div className='w-[40%]'>
+            <motion.div className='sm:w-[40%]' variants={slideIn('left', 'tween', 0.2, 1)} initial="hidden" whileInView="show">
                 <div className='sm:px-[80px] p-8 flex  flex-col justify-center '>
                     <div className=' mt-10'>
                         <p className="text-3xl text-white sm:text-left text-center">Our Vision</p>
@@ -57,15 +54,15 @@ function Vision() {
                         <p className="text-xl text-white mt-4 sm:text-left text-center">Our mission is to accelerate the transition to a sustainable & net-zero economy by enabling stakeholders to reduce their carbon footprint, embrace sustainable practices, and embrace a more resilient future for our planet and future generations.</p>
                     </div>
                 </div>
-            </div>
-            <div className="sm:w-[60%]  sm:px-24 flex flex-col justify-center p-6 px-4">
+            </motion.div>
+            <motion.div className="sm:w-[60%]  sm:px-24 flex flex-col justify-center p-6 px-4" variants={slideIn('right', 'tween', 0.2, 1)} initial="hidden" whileInView="show">
                 <ul>
                     <li className='sm:my-10 my-4'>
                         <div className='sm:flex justify-center '>
-                            <Image src={icon1} className='h-[50px] w-[50px] sm:flex hidden' />
+                            <Image src={icon1} className='h-[50px] w-[50px] sm:flex hidden mr-2' />
                             <div className='sm:p-0 p-4'>
                                 <div className="flex">
-                                    <Image src={icon1} className='h-[30px] w-[30px] sm:hidden flex' />
+                                    <Image src={icon1} className='h-[40px] w-[40px] sm:hidden flex mr-2' />
 
                                     <p className="text-3xl text-semibold mt-2 text-white">Why Now ?</p>
                                 </div>
@@ -80,10 +77,10 @@ function Vision() {
                     </li>
                     <li className='sm:my-10 my-4'>
                         <div className='sm:flex justify-center '>
-                            <Image src={icon2} className='h-[50px] w-[50px] sm:flex hidden' />
+                            <Image src={icon2} className='h-[44px] w-[44px] sm:flex hidden mr-2' />
                             <div className='sm:p-0 p-4'>
                                 <div className="flex">
-                                    <Image src={icon2} className='h-[48px] w-[48px] sm:hidden flex' />
+                                    <Image src={icon2} className='h-[40px] w-[40px] sm:hidden flex mr-2' />
 
                                     <p className="text-3xl text-semibold mt-2 text-white">Why You ?</p>
                                 </div>
@@ -97,10 +94,10 @@ function Vision() {
                     </li>
                     <li className='sm:my-10 my-4'>
                         <div className='sm:flex justify-center '>
-                            <Image src={icon3} className='h-[44px] w-[60px] sm:flex hidden' />
+                            <Image src={icon3} className='h-[34px] w-[44px] sm:flex hidden mr-2' />
                             <div className='sm:p-0 p-4'>
                                 <div className="flex">
-                                    <Image src={icon3} className='h-[48px] w-[40px] sm:hidden flex' />
+                                    <Image src={icon3} className='h-[40px] w-[50px] sm:hidden flex mr-2' />
 
                                     <p className="text-3xl text-semibold mt-2 text-white">Why Us ?</p>
                                 </div>
@@ -113,27 +110,19 @@ function Vision() {
                         </div>
                     </li>
                 </ul>
-            </div>
+            </motion.div>
         </div>
     )
 }
 
-function OurApproach() {
-    return (
-        <div className="w-full flex flex-wrap  linearbggreen ">
 
-            <Image src={earth1} className=' sm:w-[40%] h-[40%]  sm:flex hidden ' />
-
-        </div>
-    )
-}
 function CoreValues() {
     return (
-        <div className="w-full flex bg-img2 flex-wrap">
-            <div className="sm:w-[40%]">
+        <div className="w-full flex bg-img2 flex-wrap mb-0">
+            <motion.div className="sm:w-[40%]" variants={slideIn('left', 'tween', 0.2, 1)} initial="hidden" whileInView="show">
                 <Image src={img1} />
-            </div>
-            <div className="sm:w-[60%] bg-img2 list-values sm:px-24  p-4 py-8 pt-4 flex flex-col justify-center">
+            </motion.div>
+            <motion.div className="sm:w-[60%]  list-values sm:px-24  p-4 py-8 pt-4 flex flex-col justify-center" variants={slideIn('right', 'tween', 0.1, 1)} initial="hidden" whileInView="show">
                 <p className="sm:text-5xl text-3xl text-white font-semibold">Our Core Values</p>
                 <ul>
 
@@ -160,16 +149,17 @@ function CoreValues() {
                     </li>
 
                 </ul>
-            </div>
+            </motion.div>
         </div>
     )
 }
 function Approach() {
     return (
-        <div className='sm:h-screen linearbggreen bg-img'>
+        <div className='sm:h-screen  bg-img linearbggreen'>
             <Heading text="Our Approach"/>
         <div className="   flex sm:items-end items-center justify-center my-10 md:h-[80%]">
             <div className="flex flex-wrap items-center justify-center w-full">
+                
                 <div className="border-green bg-gradientg border-[1px] bg-white rounded-lg mx-10 w-[250px] h-[300px] p-4 flex flex-col justify-center items-center mt-4">
                     <Image src={learn} alt="" />
                     <p className="text-lg font-[550] mt-8 text-green">Learning</p>
