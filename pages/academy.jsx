@@ -22,6 +22,7 @@ import Nzkacademy from '@/components/Nzkacademy'
 import Popup from '@/components/Popup'
 import { motion } from 'framer-motion'
 import { slideIn } from '@/utils/motion'
+import img from '@/assets/g10.png'
 
 
 
@@ -29,9 +30,9 @@ const academy = () => {
     return (
         <div>
             <Navbar />
-            <Hero Title="Climate education with a difference." Desc="a platform dedicated to driving India's transition towards a net-zero economy." />
+            <Hero Title="Climate education with a difference." Desc="A platform dedicated to driving India's transition towards a net-zero economy." />
             <div className="w-full flex flex-wrap p-10  pb-10 mt-10">
-                <motion.div className="sm:w-1/2 " variants={slideIn('left', 'tween', 0.1, 1)} initial="hidden"  whileInView="show">
+                <motion.div className="sm:w-1/2 " variants={slideIn('left', 'tween', 0.1, 1)} initial="hidden" whileInView="show">
                     <Image src={laptop} className=' sm:max-w-[400px] mx-auto' />
                 </motion.div>
                 <div className="sm:w-1/2 sm:px-10 px-2 sm:pt-0">
@@ -43,9 +44,9 @@ const academy = () => {
                 </div>
             </div>
 
-          
-            <Nzkacademy/>
-         
+
+            <Nzkacademy />
+
             {/* <div className="bg-img2 sm:p-10 p-4 flex flex-wrap">
                 <div className="flex flex-col  sm:px-20 sm:my-10 md:w-[60%]">
                     <div className="bg-white md:p-10 p-6 rounded-lg md:w-[600px] w-full">
@@ -69,11 +70,11 @@ const academy = () => {
                 </div>
                 <Image src={windmill} className='md:h-[500px] md:w-[40%] md:my-auto mx-auto sm:my-0 my-6' />
             </div> */}
-            
-           
-            <Popup/>
+
+
+            <Popup />
             <div className="linearbggreen mt-0 md:p-6 rounded-lg ">
-                <Heading text="Who is the academy for?"  />
+                <Heading text="Who is the academy for?" />
                 <div className="flex justify-between flex-wrap  mt-8 overflow-hidden md:px-10 px-4">
                     <div className="flex flex-row justify-center max-w-[380px] items-center">
                         <div className="bg-white rounded-xl ">
@@ -91,11 +92,11 @@ const academy = () => {
                             </div>
                         </div>
                     </div>
-                  
+
                 </div>
             </div>
             <div className="bs sm:py-20 sm:pt-4 py-4">
-                <Heading text={"Academy USP  "} color={true}/>
+                <Heading text={"Academy USP  "} color={true} />
                 <p className="text-white mt-2 text-center sm:max-w-[50%] mx-auto mb-10">Our in-house team make sure everything is set up and configured for you to use. From data availability and completeness through to portal logins and training, we’ve got it covered.</p>
                 <div className=" rounded-sm grid grid-flow-row	 sm:grid-cols-2 row-span-2 sm:px-20 px-4 gap-2 justify-center items-center w-full mt-10">
                     <div className=" sm:w-[600px] w-full my-4 sm:mx-4 bg-white sm:p-6 p-4 border-[1px] border-[#BBE7CA] rounded-lg">
@@ -135,7 +136,12 @@ const academy = () => {
                     </div>
                 </div>
             </div>
-            <CallToAction />
+            <div className="bg-[#D7FFE4] flex justify-center items-center flex-col sm:m-10 m-4 rounded-xl sm:p-12 p-8">
+                <p className="text-uppercase sm:text-4xl text-3xl text-center font-semibold">Make Contact </p>
+                <p className="font-extralight text-center mt-2"> Connect for a free Introduction Call</p>
+                <button className='bg-green text-white sm:px-20 px-6 py-4 rounded-full mt-6'>Contact us </button>
+                <Image src={img} className='sm:absolute   right-[40px] w-[180px]' />
+            </div>
             <Footer />
         </div>
     )

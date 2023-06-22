@@ -59,10 +59,8 @@ function Vision() {
                 <ul>
                     <li className='sm:my-10 my-4'>
                         <div className='sm:flex justify-center '>
-                            <Image src={icon1} className='h-[50px] w-[50px] sm:flex hidden mr-2' />
                             <div className='sm:p-0 p-4'>
                                 <div className="flex">
-                                    <Image src={icon1} className='h-[40px] w-[40px] sm:hidden flex mr-2' />
 
                                     <p className="text-3xl text-semibold mt-2 text-white">Why Now ?</p>
                                 </div>
@@ -77,10 +75,8 @@ function Vision() {
                     </li>
                     <li className='sm:my-10 my-4'>
                         <div className='sm:flex justify-center '>
-                            <Image src={icon2} className='h-[44px] w-[44px] sm:flex hidden mr-2' />
                             <div className='sm:p-0 p-4'>
                                 <div className="flex">
-                                    <Image src={icon2} className='h-[40px] w-[40px] sm:hidden flex mr-2' />
 
                                     <p className="text-3xl text-semibold mt-2 text-white">Why You ?</p>
                                 </div>
@@ -94,10 +90,8 @@ function Vision() {
                     </li>
                     <li className='sm:my-10 my-4'>
                         <div className='sm:flex justify-center '>
-                            <Image src={icon3} className='h-[34px] w-[44px] sm:flex hidden mr-2' />
                             <div className='sm:p-0 p-4'>
                                 <div className="flex">
-                                    <Image src={icon3} className='h-[40px] w-[50px] sm:hidden flex mr-2' />
 
                                     <p className="text-3xl text-semibold mt-2 text-white">Why Us ?</p>
                                 </div>

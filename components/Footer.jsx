@@ -27,9 +27,8 @@ export const Footer = () => {
       <div className="flex justify-between footer flex-wrap">
         <div className="">
           <Image src={Logo} />
-          <p className="text-sm text-greyf my-2">X Y Z  Locality ,<br />
-            Bengaluru , 201033 India</p>
-          <p className="text-sm text-greyf">copyright @ Netzeroakaro.com</p>
+          <p className="text-sm text-greyf my-2">GURGAON, HARYANA 122018,India</p>
+          <p className="text-sm text-greyf">Copyright@netzerokaro.earth</p>
           <p className=" text-lg mt-2 text-green mb-2 sm:text-left text-center">Follow us on Social</p>
           <div className="flex w-full ">
             <Image src={smm1} className='mx-4'/>

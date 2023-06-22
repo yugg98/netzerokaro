@@ -17,15 +17,15 @@ const HeroCompany = () => {
                     <motion.div variants={textVariant(0.8)} className='text-black text-center sm:text-left sm:text-6xl text-4xl font-[800] gradienttextbg'>Accelerating the transition to a greener world </motion.div>
 
                     <motion.p variants={textVariant(0.6)} className=" leading-6 mt-4 text-center sm:text-left">A platform designed for Net Zero Transition
-                        Helping to create a better world for 
+                        Helping to create a better world ! 
                     </motion.p>
-                   <Typewriter
+                   {/* <Typewriter
                         options={{
                             strings: ['You', 'Me','Us','Earth'],
                             autoStart: true,
                             loop: true,
                         }}
-                    />
+                    /> */}
                     <div className="flex items-center mt-8 sm:justify-start justify-center">
             <button className="rounded-full bg-green text-white px-12 text-lg py-3">Explore</button>
           </div>

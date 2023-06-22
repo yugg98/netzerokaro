@@ -22,7 +22,7 @@ const Solutions = () => {
                 <div >
                   <p className="font-semibold text-lg ">Climate Skilling</p>
                   <p className="text-greyf mb-4 mt-2">Acquire the essential skills and expertise needed to tackle climate challenges head-on, with our range of immersive and practical learning opportunities designed to empower you to make a positive impact in the fight against climate change.</p>
-                  <p className='relative b-2  gradienttextbg mt-4'><Link href="/academy">Explore More <span><Image src={arrow} className='inline max-w-[50px]' /></span></Link></p>
+                  <p className='relative b-2  gradienttextbg mt-4'><Link href="/marketplace">Explore More <span><Image src={arrow} className='inline max-w-[50px]' /></span></Link></p>
                 </div>
 
               </div>
@@ -35,7 +35,7 @@ const Solutions = () => {
                 <div >
                   <p className="font-semibold text-lg ">Climate Literacy</p>
                   <p className="text-greyf mb-4 mt-2">Elevate your climate IQ with our comprehensive resources, empowering you to understand and communicate the science, impacts, and solutions of climate change effectively.</p>
-                  <p className='relative bottom-[-19px]  gradienttextbg mt-4'><Link href="/academy">Explore More <span><Image src={arrow} className='inline max-w-[50px]' /></span></Link></p>
+                  <p className='relative bottom-[-19px]  gradienttextbg mt-4'><Link href="/marketplace">Explore More <span><Image src={arrow} className='inline max-w-[50px]' /></span></Link></p>
                 </div>
 
               </div>
@@ -48,7 +48,7 @@ const Solutions = () => {
                 <div >
                   <p className="font-semibold text-lg "> Market Place</p>
                   <p className="text-greyf mb-4 mt-2">Elevate your climate IQ with our comprehensive resources, empowering you to understand and communicate the science, impacts, and solutions of climate change effectively.</p>
-                  <p className=' relative bottom-[-19px] gradienttextbg mt-4'><Link href="/academy">Explore More <span><Image src={arrow} className='inline max-w-[50px]' /></span></Link></p>
+                  <p className=' relative bottom-[-19px] gradienttextbg mt-4'><Link href="/marketplace">Explore More <span><Image src={arrow} className='inline max-w-[50px]' /></span></Link></p>
                 </div>
 
               </div>

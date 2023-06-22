@@ -12,7 +12,7 @@ import { slideIn ,textVariant} from '@/utils/motion'
 const Nzkacademy = () => {
     return (
         <div className='w-full linearbggreen  overflow-hidden'>
-            <Heading text="NET ZERO KARO ACADEMY" />
+            <Heading text="Academy facts & key features" />
             <div className="flex sm:flex-row flex-col">
             <div className="sm:w-1/2 w-full flex justify-center items-center max-h-screen ">
                     <ul className=' sm:pl-20  sm:pb-20 px-6 mt-4 sm:mb-0 mb-6 '>

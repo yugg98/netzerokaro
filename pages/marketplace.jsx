@@ -101,7 +101,7 @@ const greenstore = () => {
                     <div className='sm:w-[60%] sm:px-20'>
                         <p className="sm:text-3xl text-2xl md:text-left text-center text-green mt-2">Voluntary Carbon Offsetting</p>
                         <div className='w-[110px] bg-green h-[6px] rounded-full mt-2 sm:mx-0 mx-auto'></div>
-                        <p className="text-lg mt-4 sm:text-left text-center">Our expertise extends beyond emission reduction to effective management of remaining emissions through credible offsetting programs. With extensive knowledge of the international carbon market, we guide you through various types of credits, aligning them with your net-zero aspirations and global sustainable development goals. By partnering with us, you'll gain a comprehensive understanding of offsetting strategies that not only support your journey to net-zero but also contribute to broader sustainability objectives.</p>
+                        <p className="text-lg mt-4 sm:text-left text-center">Our expertise extends beyond emission reduction to effective management of remaining emissions through credible offsetting programs. With extensive knowledge of the international carbon market, we guide you through various types of credits, aligning them with your net-zero aspirations and global sustainable development goals. By partnering with us, you&apos;ll gain a comprehensive understanding of offsetting strategies that not only support your journey to net-zero but also contribute to broader sustainability objectives.</p>
                     </div>
                 </div>
             </div>

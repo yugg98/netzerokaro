@@ -76,10 +76,10 @@ function marketplace() {
                         <p className=''> The academy aims to address the existing skills gap in climate and Environmental, Social, and Governance (ESG) areas by providing comprehensive training and upskilling opportunities.e</p>
                     </li>
 
-                    <li className=''>
+                    {/* <li className=''>
                         <p>Meeting the Demand for Climate Skilling:</p>
                         <p> As climate change becomes a pressing issue, there is a growing demand for professionals equipped with the knowledge and skills to tackle climate-related challenges. The academy aims to meet this demand by offering a platform for climate skilling.</p>
-                    </li>
+                    </li> */}
                     <li className=''>
                         <p>Meeting the Demand for Climate Skilling:</p>
                         <p> Younger talent is increasingly seeking purpose, values-alignment, and engagement in their learning and development (L&D) experiences. The academy recognizes this and strives to provide a platform that appeals to younger individuals who are passionate about addressing climate change.</p>

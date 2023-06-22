@@ -18,7 +18,7 @@ const hackathon = () => {
     return (
         <div>
             <Navbar />
-            <Hero SuperTitle="Net Zero Karo Hackathon " Title="Virtual Hackathon Specialists" Desc="Hire, engage and innovate with top diverse talent to accelerate your business roadmap" />
+            <Hero Title="Virtual Hackathon Specialists" Desc="Hire, engage and innovate with top diverse talent to accelerate your business roadmap" />
             <div className='linearbggreen sm:py-20 p-4 sm:pt-4'>
                 <Heading text="Ignite innovation, collaborate, and elevate your brand through impactful hackathons."/>
                 <p className=" text-greyf sm:px-[100px] px- text-center mt-3">Innovation Hackathons are extensively used by some of the most innovative organizations across the globe to innovate faster where an idea or a business problem involving niche skill sets is given to the technology professionals and students to solve within 24-48 hours.
@@ -43,7 +43,7 @@ const hackathon = () => {
                         <Image src={group} className='h-[60px]' />
                         <div className=' px-4'>
                             <p className="text-2xl   text-black mt-1">Branding </p>
-                            <p className='mt-2 text-[#5D6180]'> Elevate your company's brand by associating with hackathons, positioning yourself as an industry expert committed to driving positive social change.</p>
+                            <p className='mt-2 text-[#5D6180]'> Elevate your company&apos;s brand by associating with hackathons, positioning yourself as an industry expert committed to driving positive social change.</p>
                         </div>
                     </div>
                     <div className='sm:p-4 p-2 flex'>
@@ -69,7 +69,7 @@ const hackathon = () => {
                         </div>
                         <div className='flex border-b-[1px] border-b-white mt-10 pb-8'>
                             <Image src={tick} className='w-[28px] h-[28px] mr-3' />
-                            <p className="text-lg text-white">Evaluate candidates' business acumen, coding prowess, situational judgment skills, and teamwork capabilities.</p>
+                            <p className="text-lg text-white">Evaluate candidates&apos; business acumen, coding prowess, situational judgment skills, and teamwork capabilities.</p>
                         </div>
                         {/* <div className='flex  mt-10 pb-8'>
                             <Image src={tick} className='w-[28px] h-[28px] mr-3' />
