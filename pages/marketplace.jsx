@@ -99,30 +99,30 @@ function marketplace() {
             </div>
             <div className="p-10 pt-0 linearbggreen">
                 <Heading text="We’ve Got your back, every step of the way"/>
-                <div className="flex md:mt-20 justify-between ">
-                    <div className="bg-white p-6 w-[300px] h-[400px] rounded-lg">
+                <div className="flex flex-wrap md:mt-20 justify-between ">
+                    <div className="bg-white p-6 w-[300px] h-[400px] rounded-lg my-4">
                         <Image src={icon} className='mx-auto w-[120px]'/>
                         <p className="text-xl text-center mt-6 ">Onboarding Support</p>
                         <p className="text-center mt-2">Our in-house team make sure everything is set up and configured for you to use. From data availability and completeness through to portal logins and training, we’ve got it covered.</p>
                     </div>
-                    <div className="bg-white p-6 w-[300px] h-[400px] rounded-lg">
+                    <div className="bg-white p-6 w-[300px] h-[400px] rounded-lg my-4">
                         <Image src={icons1} className='mx-auto w-[120px]'/>
                         <p className="text-xl text-center mt-6 ">Account Managed Services</p>
                         <p className="text-center mt-2">Your account will be managed by a named individual, so you know where to go for additional support. Our team of account managers are focussed on helping you meet your objectives.</p>
                     </div>
-                    <div className="bg-white p-6 w-[300px] h-[400px] rounded-lg">
+                    <div className="bg-white p-6 w-[300px] h-[400px] rounded-lg my-4">
                         <Image src={icon2} className='mx-auto w-[120px]'/>
                         <p className="text-xl text-center mt-6 "> Access to Expertise</p>
                         <p className="text-center mt-2">Our analysts and engineers are not just there to help you achieve your objectives but also to give you access to their knowledge and expertise and improve the level of understanding that your team has.</p>
                     </div>
-                    <div className="bg-white p-6 w-[300px] h-[400px] rounded-lg">
+                    <div className="bg-white p-6 w-[300px] h-[400px] rounded-lg my-4">
                         <Image src={icon3} className='mx-auto w-[120px]'/>
                         <p className="text-xl text-center mt-6 "> Subscription-based pricing model</p>
                         <p className="text-center mt-2">No upfront fees</p>
                     </div>
                 </div>
             </div>
-            <div className="flex flex-wrap sm:p-20 sm:pt-4 p-4 pt-8 linearbggreen">
+            <div className="flex flex-wrap sm:p-20 sm:pt-6 p-4 pt-8 linearbggreen">
                 <div className="sm:w-1/2 sm:px-[100px]">
                     <p className="sm:text-5xl text-3xl text-green sm:leading-[60px] sm:text-left text-center">
                         <span className='font-semibold'> Frequently Asked  Us  ?</span></p>
@@ -139,12 +139,5 @@ function marketplace() {
         </div>
     )
 }
-const Cards = () => {
-    return (
-        <div className='bg-white rounded-lg flex justify-center items-center flex-col p-8 w-[350px] h-[250px] mx-auto'>
-            <p className="text-green text-3xl font-semibold">120+</p>
-            <p className="text-black text-center mt-4">Corporate Customers from industry and business</p>
-        </div>
-    )
-}
+
 export default marketplace
