@@ -21,7 +21,7 @@ const greenstore = () => {
             <Hero Title={"Help your organisation get to Net Zero, faster!"} Desc={"Overall emissions reduction is the most direct way for any organisation to start working in favour of the planet. With our help, you’ll be able to do just that."} />
             <div className="p-10 flex justify-center items-center linearbggreen">
                 <div className="sm:w-1/2 px-16">
-                    <p className="text-5xl text-green mb-2 sm:leading-[60px]">From understanding your Carbon Footprint to reducing your emissions, we'll be there.</p>
+                    <p className="text-5xl text-green mb-2 sm:leading-[60px]">From understanding your Carbon Footprint to reducing your emissions, we&apos;ll be there.</p>
                     <p className='text-2xl mt-10'>We have the roadmap to your company’s zero-carbon future, and the expertise and platform to get you there</p>
                 </div>
                 <div className="sm:w-1/2 p-8">
@@ -45,7 +45,7 @@ const greenstore = () => {
                             <br />
                             <br />
 
-                            Our services include precise carbon measurement, accurate carbon reporting and compliance evaluation, and the development of a personalized carbon plan that aligns with your company's unique needs and goals.
+                            Our services include precise carbon measurement, accurate carbon reporting and compliance evaluation, and the development of a personalized carbon plan that aligns with your company&apos;s unique needs and goals.
                             <br />
                             <br />
 
