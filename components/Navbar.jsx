@@ -25,7 +25,7 @@ const Navbar = () => {
                     <li><Link href="hackathon">Hackathon</Link></li>
                 </ul>
                 {open ? <XMarkIcon className='sm:hidden relative w-[35px] z-[2010]' onClick={() => setOpen(false)} /> : <Bars3Icon className='sm:hidden relative w-[35px] z-[100]' onClick={() => setOpen(true)} />}
-                <button className="  text-white px-5 py-2 rounded-full md:flex hidden ">Get Started</button>
+                <button className="  text-white bg-black px-5 py-2 rounded-full md:flex hidden ">Get Started</button>
                 <div className={open ? "sidebar z-[200] w-[90%] py-12 px-5  bg-white" : "hidden"}>
                     <ul className='sm:hidden flex flex-col'>
                         <li>
