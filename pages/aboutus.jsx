@@ -91,7 +91,7 @@ const aboutus = () => {
                     <div className='sm:p-4 p-2 flex'>
                         <Image src={icon1} className='h-[80px] md:flex hidden' />
                         <div className=' px-4'>
-                            <div className='flex justify-center items-center '>
+                            <div className='md:block flex justify-center items-center '>
                                 <Image src={icon1} className='md:hidden flex h-[60px] w-[60px] mr-2' />
                                 <p className="text-2xl   text-black mt-1">Passion for the environment</p>
                             </div>
@@ -100,9 +100,9 @@ const aboutus = () => {
                         </div>
                     </div>
                     <div className='sm:p-4 p-2 flex '>
-                    <Image src={icon2} className='h-[80px] md:flex hidden' />
+                        <Image src={icon2} className='h-[80px] md:flex hidden' />
                         <div className=' px-4'>
-                            <div className='flex justify-center items-center'>
+                            <div className='md:block  flex justify-center items-center'>
                                 <Image src={icon2} className='md:hidden flex h-[60px] w-[60px] mr-2' />
                                 <p className="text-2xl   text-black mt-1">Extensive expertise</p>
                             </div>
@@ -110,9 +110,9 @@ const aboutus = () => {
                         </div>
                     </div>
                     <div className='sm:p-4 p-2 flex'>
-                    <Image src={icon3} className='h-[80px] md:flex  hidden' />
+                        <Image src={icon3} className='h-[80px] md:flex  hidden' />
                         <div className=' px-4'>
-                            <div className='flex justify-center items-center '>
+                            <div className='md:block flex justify-center items-center '>
                                 <Image src={icon3} className='md:hidden flex h-[60px] w-[60px] mr-2' />
                                 <p className="text-2xl   text-black mt-1">A unique culture experience</p>
                             </div>
@@ -120,9 +120,9 @@ const aboutus = () => {
                         </div>
                     </div>
                     <div className='sm:p-4 p-2 flex '>
-                    <Image src={icon4} className='h-[80px] md:flex hidden' />
+                        <Image src={icon4} className='h-[80px] md:flex hidden' />
                         <div className=' px-4'>
-                            <div className='flex justify-center items-center'>
+                            <div className='md:block flex justify-center items-center'>
                                 <Image src={icon4} className='md:hidden flex h-[60px] w-[60px] mr-2' />
                                 <p className="text-2xl   text-black mt-1">A global community</p>
                             </div>
@@ -133,58 +133,62 @@ const aboutus = () => {
 
                 </div>
             </div>
-            <div className="sm:p-10 p-2 flex flex-wrap justify-center items-center linearbggreen">
-                <div className="sm:w-1/2 p-8">
-                    <Image src={img2} />
-                </div>
-                <div className="sm:w-1/2 sm:px-16 px-2 flex">
-                    <div className='sm:w-1/2 '>
-                        <div className='flex items-center my-4 '>
-                            <Image src={icon} className='md:w-[70px] w-[45px]' />
-                            <p className="ml-4 md:text-xl text-md">Cement</p>
+            <div>
+                <Heading text="Industries we work with" />
+
+                <div className="sm:p-4 p-2 flex flex-wrap justify-center items-center linearbggreen">
+
+                    <div className="sm:w-1/2 p-8">
+                        <Image src={img2} />
+                    </div>
+                    <div className="sm:w-1/2 sm:px-16 px-2 flex">
+                        <div className='sm:w-1/2 '>
+                            <div className='flex items-center my-4 '>
+                                <Image src={icon} className='md:w-[70px] w-[45px]' />
+                                <p className="ml-4 md:text-xl text-md">Cement</p>
+                            </div>
+                            <div className='flex items-center my-4 '>
+                                <Image src={finan} className='md:w-[70px] w-[45px]' />
+                                <p className="ml-4 md:text-xl text-md">Financial </p>
+                            </div>
+                            <div className='flex items-center my-4 '>
+                                <Image src={auto} className='md:w-[70px] w-[45px]' />
+                                <p className="ml-4 md:text-xl text-md">Automobile</p>
+                            </div>
+                            <div className='flex items-center my-4 '>
+                                <Image src={icon} className='md:w-[70px] w-[45px]' />
+                                <p className="ml-4 md:text-xl text-md">Education</p>
+                            </div>
+                            <div className='flex items-center my-4 '>
+                                <Image src={icon} className='md:w-[70px] w-[45px]' />
+                                <p className="ml-4 md:text-xl text-md">Pharma</p>
+                            </div>
                         </div>
-                        <div className='flex items-center my-4 '>
-                            <Image src={finan} className='md:w-[70px] w-[45px]' />
-                            <p className="ml-4 md:text-xl text-md">Financial </p>
-                        </div>
-                        <div className='flex items-center my-4 '>
-                            <Image src={auto} className='md:w-[70px] w-[45px]' />
-                            <p className="ml-4 md:text-xl text-md">Automobile</p>
-                        </div>
-                        <div className='flex items-center my-4 '>
-                            <Image src={icon} className='md:w-[70px] w-[45px]' />
-                            <p className="ml-4 md:text-xl text-md">Education</p>
-                        </div>
-                        <div className='flex items-center my-4 '>
-                            <Image src={icon} className='md:w-[70px] w-[45px]' />
-                            <p className="ml-4 md:text-xl text-md">Pharma</p>
+                        <div className='sm:w-1/2'>
+                            <div className='flex items-center my-4  ml-10'>
+                                <Image src={avi} className='md:w-[70px] w-[45px]' />
+                                <p className="ml-4 md:text-xl text-md">Aviation</p>
+                            </div>
+                            <div className='flex items-center my-4 ml-10'>
+                                <Image src={fmcg} className='md:w-[70px] w-[45px]' />
+                                <p className="ml-4 md:text-xl text-md">FMCG</p>
+                            </div>
+                            <div className='flex items-center my-4 ml-10'>
+                                <Image src={manu} className='md:w-[70px] w-[45px]' />
+                                <p className="ml-4 md:text-xl text-md">Manufacturing</p>
+                            </div>
+                            <div className='flex items-center my-4 ml-10'>
+                                <Image src={ecom} className='md:w-[70px] w-[45px]' />
+                                <p className="ml-4 md:text-xl text-md">Ecommerce</p>
+                            </div>
+                            <div className='flex items-center my-4 ml-10'>
+                                <Image src={ecom} className='md:w-[70px] w-[45px]' />
+                                <p className="ml-4 md:text-xl text-md">I.T</p>
+                            </div>
+
                         </div>
                     </div>
-                    <div className='sm:w-1/2'>
-                        <div className='flex items-center my-4  ml-10'>
-                            <Image src={avi} className='md:w-[70px] w-[45px]' />
-                            <p className="ml-4 md:text-xl text-md">Aviation</p>
-                        </div>
-                        <div className='flex items-center my-4 ml-10'>
-                            <Image src={fmcg} className='md:w-[70px] w-[45px]' />
-                            <p className="ml-4 md:text-xl text-md">FMCG</p>
-                        </div>
-                        <div className='flex items-center my-4 ml-10'>
-                            <Image src={manu} className='md:w-[70px] w-[45px]' />
-                            <p className="ml-4 md:text-xl text-md">Manufacturing</p>
-                        </div>
-                        <div className='flex items-center my-4 ml-10'>
-                            <Image src={ecom} className='md:w-[70px] w-[45px]' />
-                            <p className="ml-4 md:text-xl text-md">Ecommerce</p>
-                        </div>
-                        <div className='flex items-center my-4 ml-10'>
-                            <Image src={ecom} className='md:w-[70px] w-[45px]' />
-                            <p className="ml-4 md:text-xl text-md">I.T</p>
-                        </div>
-
-                    </div>
                 </div>
-
             </div>
             <div className='linearbggreen p-4'>
                 <Heading text="Leadership Team" />

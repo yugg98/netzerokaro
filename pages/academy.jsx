@@ -14,13 +14,14 @@ import img from '@/assets/g10.png'
 import icon1 from '@/assets/bg/icon2.png'
 import icon2 from '@/assets/bg/icon4.png'
 import icon3 from '@/assets/bg/icon3.png'
-import vec1 from '@/assets/bg/vec1.png'
-import vec2 from '@/assets/bg/vec2.png'
-import vec3 from '@/assets/bg/vec3.png'
-import vec4 from '@/assets/bg/vec4.png'
+import one from '@/assets/1.svg'
+import two from '@/assets/2.svg'
+import three from '@/assets/3.svg'
+import four from '@/assets/4.svg'
+import five from '@/assets/5.svg'
 
 import heroimg from '@/assets/hero1.svg'
-import { slideIn ,textVariant} from '@/utils/motion'
+import { slideIn, textVariant } from '@/utils/motion'
 import { Parser } from 'html-to-react'
 
 
@@ -71,16 +72,16 @@ const academy = () => {
             </div> */}
 
 
-         
+
             <div className="linearbggreen sm:py-20 sm:pt-4 py-4">
                 <Heading text={"Academy USP"} />
                 {/* <p className=" mt-2 text-center sm:max-w-[50%] mx-auto mb-10">Our in-house team make sure everything is set up and configured for you to use. From data availability and completeness through to portal logins and training, we’ve got it covered.</p> */}
                 <div className=" rounded-sm grid grid-flow-row	 sm:grid-cols-2 row-span-2 sm:px-20 px-4 gap-2 justify-center items-center w-full mt-10">
                     <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
-                        <Image src={icon} className='h-[50px] w-[50px] md:flex hidden' />
+                        <Image src={icon1} className='h-[50px] w-[50px] md:flex hidden' />
                         <div className=' px-4 flex flex-col ' >
                             <div className='flex'>
-                                <Image src={icon} className='h-[40px] w-[40px] md:hidden flex' />
+                                <Image src={icon1} className='h-[40px] w-[40px] md:hidden flex' />
                                 <p className="md:text-2xl text-xl md:ml-0 ml-2 ">Comprehensive and Specialized Curriculum</p>
                             </div>
                             <p className='mt-2 text-greyf'>In-depth training on a wide range of topics related to net-zero emissions, climate science, renewable energy, sustainable practices, climate finance, and more</p>
@@ -97,10 +98,10 @@ const academy = () => {
                         </div>
                     </div>
                     <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
-                        <Image src={icon3} className='h-[50px] w-[50px] md:flex hidden' />
+                        <Image src={icon2} className='h-[50px] w-[50px] md:flex hidden' />
                         <div className=' px-4 flex flex-col ' >
                             <div className='flex'>
-                                <Image src={icon3} className='h-[40px] w-[40px] md:hidden flex' />
+                                <Image src={icon2} className='h-[40px] w-[40px] md:hidden flex' />
                                 <p className="md:text-2xl text-xl md:ml-0 ml-2 ">Industry Partnerships and Expert Faculty</p>
                             </div>
                             <p className='mt-2 text-greyf'>The academy collaborates with industry partners, climate experts, and practitioners to deliver high-quality instruction</p>
@@ -127,21 +128,20 @@ const academy = () => {
                         </div>
                     </div>
                     <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
-                        <Image src={icon} className='h-[50px] w-[50px] md:flex hidden' />
+                        <Image src={icon3} className='h-[50px] w-[50px] md:flex hidden' />
                         <div className=' px-4 flex flex-col ' >
                             <div className='flex'>
-                                <Image src={icon} className='h-[40px] w-[40px] md:hidden flex' />
+                                <Image src={icon3} className='h-[40px] w-[40px] md:hidden flex' />
                                 <p className="md:text-2xl text-xl md:ml-0 ml-2 ">Focus on Innovation and Emerging Technologies</p>
                             </div>
                             <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                         </div>
                     </div>
                 </div>
-                
+
             </div>
-            <div className="linearbggreen sm:py-20 sm:pt-4 py-4">
-                <Heading text={"Who is the climate academy for ? "} />
-                {/* <p className=" mt-2 text-center sm:max-w-[50%] mx-auto mb-10">Our in-house team make sure everything is set up and configured for you to use. From data availability and completeness through to portal logins and training, we’ve got it covered.</p> */}
+            {/* <div className="linearbggreen sm:py-20 sm:pt-4 py-4">
+                <p className=" mt-2 text-center sm:max-w-[50%] mx-auto mb-10">Our in-house team make sure everything is set up and configured for you to use. From data availability and completeness through to portal logins and training, we’ve got it covered.</p>
                 <div className=" rounded-sm grid grid-flow-row	 sm:grid-cols-2 row-span-2 sm:px-20 px-4 gap-2 justify-center items-center w-full mt-10">
                     <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
                         <Image src={vec1} className='h-[50px] w-[50px] md:flex hidden' />
@@ -186,6 +186,50 @@ const academy = () => {
                   
                 </div>
                 
+            </div> */}
+            <div className="linearbggreen sm:py-20 py-4 sm:pt-4">
+                <Heading text={"Who is the climate academy for ? "} />
+
+                <div className=" rounded-sm grid grid-flow-row	 sm:grid-cols-2 row-span-2 sm:px-20 px-4  justify-center  w-full md:mt-10 mt-4">
+                <div className='sm:p-4 p-2 flex'>
+                        <Image src={one} className='h-[50px] w-[50px]' />
+                        <div className=' px-4'>
+                            <p className="text-2xl   text-black mt-1">Workshops & Inductions</p>
+                            <p className='mt-2 text-[#5D6180]'>Unlocking potential through structured inductions and workshops for seamless onboarding and up-skilling. With our structured inductions, skill enhancement workshops, and personalized mentor-matching, we foster an environment where mentors and participants can thrive.</p>
+                        </div>
+                    </div>
+                    <div className='sm:p-4 p-2 flex'>
+                        <Image src={two} className='h-[50px] w-[50px]' />
+                        <div className=' px-4'>
+                            <p className="text-2xl   text-black mt-1">Workshops & Inductions</p>
+                            <p className='mt-2 text-[#5D6180]'>Unlocking potential through structured inductions and workshops for seamless onboarding and up-skilling. With our structured inductions, skill enhancement workshops, and personalized mentor-matching, we foster an environment where mentors and participants can thrive.</p>
+                        </div>
+                    </div>
+
+                    <div className='sm:p-4 p-2 flex'>
+                        <Image src={three} className='h-[50px] w-[50px]' />
+                        <div className=' px-4'>
+                            <p className="text-2xl   text-black mt-1">Content Assets & Visual Branding</p>
+                            <p className='mt-2 text-[#5D6180]'>Stay informed and engaged with our organization through tailored updates on participant resources, rules, and guidelines. Experience the power of streamlined communication and visually captivating updates.</p>
+                        </div>
+                    </div>
+                    <div className='sm:p-4 p-2 flex'>
+                        <Image src={four} className='h-[50px] w-[50px]' />
+                        <div className=' px-4'>
+                            <p className="text-2xl   text-black mt-1">Marketing & Schedule</p>
+                            <p className='mt-2 text-[#5D6180]'>Elevate your marketing efforts with our comprehensive support in developing impactful campaigns. Take your marketing initiatives to new heights with our expertise and resources.</p>
+                        </div>
+                    </div>
+                    <div className='sm:p-4 p-2 flex justify-self-end	'>
+                        <Image src={five} className='h-[50px] w-[50px]' />
+                        <div className=' px-4'>
+                            <p className="text-2xl   text-black mt-1">Creative Support for Ideation</p>
+                            <p className='mt-2 text-[#5D6180]'>Ensure clear and effective communication across all channels with our comprehensive announcement services. Empower your communication efforts and accelerate your innovation journey.</p>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
             <div className="bg-[#D7FFE4] flex justify-center items-center flex-col sm:m-10 m-4 rounded-xl sm:p-12 p-8">
                 <p className="text-uppercase sm:text-4xl text-3xl text-center font-semibold">Make Contact </p>
@@ -197,26 +241,26 @@ const academy = () => {
         </div>
     )
 }
-const Hero = ({Title,Desc,SuperTitle}) => {
+const Hero = ({ Title, Desc, SuperTitle }) => {
     return (
-      <div  className=' w-full sm:h-[80vh] h-full flex sm:flex-row flex-col justify-center items-center  linearbggreen sm:px-0'>
-        <motion.div variants={slideIn('left', 'tween', 0.2, 1)} initial="hidden"  whileInView="show" className="sm:w-[50%] w-full flex justify-center mt-10">
-          <div className='p-2 sm:pl-8 sm:p-4 sm:px-20'>
-            <div className='flex  items-center mx-auto'>
-                <p className="text-green text-2xl  text-center sm:mb-0 mb-2 mr-2">{SuperTitle}</p>
+        <div className=' w-full sm:h-[80vh] h-full flex sm:flex-row flex-col justify-center items-center  linearbggreen sm:px-0'>
+            <motion.div variants={slideIn('left', 'tween', 0.2, 1)} initial="hidden" whileInView="show" className="sm:w-[50%] w-full flex justify-center mt-10">
+                <div className='p-2 sm:pl-8 sm:p-4 sm:px-20'>
+                    <div className='flex  items-center mx-auto'>
+                        <p className="text-green text-2xl  text-center sm:mb-0 mb-2 mr-2">{SuperTitle}</p>
+                    </div>
+                    <motion.div variants={textVariant(0.8)} className='text-black text-center sm:text-left sm:text-6xl text-4xl font-[800] gradienttextbg'>{Title}</motion.div>
+
+                    <motion.p variants={textVariant(0.6)} className=" leading-6 mt-4 text-center sm:text-left">{Parser().parse(Desc)}</motion.p>
+                    <div className="flex items-center mt-8 sm:justify-start justify-center">
+                        <button className="rounded-full bg-green text-white px-12 text-lg py-3">Explore</button>
+                    </div>
+                </div>
+            </motion.div>
+            <div className="sm:w-[50%] flex justify-end py-20 w-full">
+                <Image src={heroimg} className='w-[80%] mx-auto' />
             </div>
-            <motion.div variants={textVariant(0.8)} className='text-black text-center sm:text-left sm:text-6xl text-4xl font-[800] gradienttextbg'>{Title}</motion.div>
-            
-            <motion.p variants={textVariant(0.6)} className=" leading-6 mt-4 text-center sm:text-left">{Parser().parse(Desc)}</motion.p>
-            <div className="flex items-center mt-8 sm:justify-start justify-center">
-              <button className="rounded-full bg-green text-white px-12 text-lg py-3">Explore</button>
-            </div>
-          </div>
-        </motion.div>
-        <div className="sm:w-[50%] flex justify-end py-20 w-full">
-          <Image src={heroimg} className='w-[80%] mx-auto' />
         </div>
-      </div>
     )
-  }
+}
 export default academy

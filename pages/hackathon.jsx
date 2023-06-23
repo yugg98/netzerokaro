@@ -71,7 +71,7 @@ const hackathon = () => {
             </div>
             <div className="bg-img2 flex flex-wrap sm:p-20 p-4 sm:pb-0 pb-4">
                 <div className="sm:w-1/2">
-                    <p className="text-5xl text-white">Hire</p>
+                    <p className="text-5xl text-white font-semibold">Hire</p>
                     <p className='text-lg text-white font-extralight mt-10 '>Attract and hire diverse, innovative talent with a customizable platform that assesses varied skill sets. Engage a large pool of participants and identify the top performers for your teams.</p>
                     <p className='text-lg text-white font-extralight mt-2 '>Reach out to a large set of participants, assess using a customisable platform and hire the best of the best</p>
                     <div>
@@ -96,8 +96,8 @@ const hackathon = () => {
                     </div>
                 </div>
             </div>
-            <div className="linearbggreen sm:py-20 py-4">
-                <p className="sm:text-5xl text-3xl text-green mb-10 text-center mt-4 sm:mt-0">What We Offer ?</p>
+            <div className="linearbggreen sm:py-20 py-4 sm:pt-4">
+                <p className="sm:text-5xl font-semibold text-3xl text-green mb-10 text-center mt-4 sm:mt-0">What We Offer ?</p>
                 <div className=" rounded-sm grid grid-flow-row	 sm:grid-cols-2 row-span-2 sm:px-20 px-4 gap-2 justify-center items-center w-full md:mt-10 mt-4">
                     <div className='sm:p-4 p-2 flex'>
                         <Image src={one} className='h-[50px] w-[50px]' />

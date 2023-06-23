@@ -23,17 +23,17 @@ const greenstore = () => {
         <div>
             <Navbar />
             <Hero Title={"Empower your team with the tools for a sustainable tomorrow! "} Desc={"Overall emissions reduction is the most direct way for any organisation to start working in favour of the planet. With our help, you’ll be able to do just that."} />
-            <div className="p-10 flex justify-center items-center linearbggreen">
-                <div className="sm:w-1/2 px-16">
-                    <p className="text-5xl text-green mb-2 sm:leading-[60px]">From understanding your Carbon Footprint to reducing your emissions, we&apos;ll be there.</p>
+            <div className="p-10 flex flex-wrap justify-center items-center linearbggreen">
+                <div className="sm:w-1/2 md:px-16">
+                    <p className="sm:text-5xl text-3xl text-green mb-2 sm:leading-[60px]">From understanding your Carbon Footprint to reducing your emissions, we&apos;ll be there.</p>
                     <p className='text-2xl mt-10'>We have the roadmap to your company’s zero-carbon future, and the expertise and platform to get you there</p>
                 </div>
-                <div className="sm:w-1/2 p-8">
+                <div className="sm:w-1/2 md:p-8">
                     <Image src={img1} />
                 </div>
             </div>
             <div className='bg-img2'>
-                <Heading text="Net zero services" color={true}/>
+                <Heading text="Net Zero Services" color={true}/>
 
                 <div className="sm:p-4 p-2 flex  items-center  flex-wrap">
                     <div className="sm:w-1/2 p-8 w-full">

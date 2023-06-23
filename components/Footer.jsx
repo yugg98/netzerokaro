@@ -11,7 +11,7 @@ import Marquee from "react-fast-marquee";
 export const Footer = () => {
   const slideRef = useRef(null);
 
- 
+
   return (
     <div className=" sm:p-10 p-4 px-16">
       <div className="border-[1px] border-dashed border-green p-3 my-4 max-h-[100px] overflow-hidden ">
@@ -31,26 +31,25 @@ export const Footer = () => {
           <p className="text-sm text-greyf">Copyright@netzerokaro.earth</p>
           <p className=" text-lg mt-2 text-green mb-2 sm:text-left text-center">Follow us on Social</p>
           <div className="flex w-full ">
-            <Image src={smm1} className='mx-4'/>
-            <Image src={smm2} className='mx-4'/>
+            <Image src={smm1} className='mx-4' />
+            <Image src={smm2} className='mx-4' />
             <Image src={smm3} className='mx-4' />
           </div>
         </div>
         <div className="sm:mt-0 mt-6">
           <div className="text-sm text-green">Company</div>
           <ul>
-          <li>
+            <li>
               <Link href="/">Home</Link>
             </li>
             <li>
               <Link href="/aboutus">About us</Link>
             </li>
-          ]
 
           </ul>
         </div>
         <div className="sm:mt-0 mt-6">
-          <div className="text-sm text-green">Links</div>
+          <div className="text-sm text-green">Our Pages</div>
           <ul>
             <li>
               <Link href="/">Home </Link>
@@ -78,7 +77,15 @@ export const Footer = () => {
         <div className="">
           <div className="text-sm text-green">Contact us</div>
           <ul>
-          <li className="">Email us at info@netzerokaro.earth</li>
+            <li>
+            <a href="mailto:info@netzerokaro.earth">Email us at info@netzerokaro.earth</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+            <a href="tel:+919560885856">Call us at +919560885856</a>
+            </li>
+
           </ul>
         </div>
       </div>

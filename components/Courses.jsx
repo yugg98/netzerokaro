@@ -11,7 +11,7 @@ export default function Courses() {
           <h3 className="text-green text-5xl text-center text-gray-900 tracking-tight font-semibold mb-8">
           Our Tailored Courses for you          </h3>
           <Tab.Group >
-            <Tab.List className="text-center mb-4 flex justify-center items-center" >
+            <Tab.List className="text-center mb-4 flex justify-center items-center flex-wrap" >
               
             
               <Tab as={Fragment}>
@@ -19,8 +19,8 @@ export default function Courses() {
                   <button
                     className={
                       selected
-                        ? "px-5 py-3 rounded-full mr-4 bg-green text-white outline-none "
-                        : "bg-white rounded-full mr-4 text-gray-600 px-5 py-3 border-green border-[1px] "
+                        ? "px-5 py-3 rounded-full mr-4 bg-green text-white outline-none my-2"
+                        : "bg-white rounded-full mr-4 text-gray-600 px-5 py-3 border-green border-[1px] my-2"
                     }
                   >
                     Net Zero Essentials
@@ -32,8 +32,8 @@ export default function Courses() {
                   <button
                     className={
                       selected
-                        ? "px-5 py-3 rounded-full mr-4 bg-green text-white outline-none "
-                        : "bg-white rounded-full mr-4 text-gray-600 px-5 py-3 border-green border-[1px] "
+                        ? "px-5 py-3 rounded-full mr-4 bg-green text-white outline-none my-2"
+                        : "bg-white rounded-full mr-4 text-gray-600 px-5 py-3 border-green border-[1px] my-2"
                     }
                   >
                     Climate Change 101
@@ -45,44 +45,19 @@ export default function Courses() {
                   <button
                     className={
                       selected
-                        ? "px-5 py-3 rounded-full mr-4 bg-green text-white outline-none "
-                        : "bg-white rounded-full mr-4 text-gray-600 px-5 py-3 border-green border-[1px] "
+                        ? "px-5 py-3 rounded-full mr-4 bg-green text-white outline-none my-2"
+                        : "bg-white rounded-full mr-4 text-gray-600 px-5 py-3 border-green border-[1px] my-2"
                     }
                   >
                     ABCs of Circular Economy
                   </button>
                 )}
               </Tab>
-              {/* <Tab as={Fragment}>
-                {({ selected }) => (
-                  <button
-                    className={
-                      selected
-                        ? "px-5 py-3 rounded-full mr-4 bg-green text-white pt-0 outline-none "
-                        : ""
-                    }
-                  >
-                   
-                  </button>
-                )}
-              </Tab> */}
-              <button className="bg-white rounded-full mr-4 text-gray-600 px-5 py-3 pt-0 border-green border-[1px] "> <p className="text-[8px] text-[red]">Comming soon</p>
+              
+              <button className="md:block hidden bg-white rounded-full mr-4 text-gray-600 px-5 py-3 pt-0 border-green border-[1px] my-2"> <p className="text-[8px] text-[red]">Coming soon</p>
                     e-Mobility </button>
-                    
-              {/* <Tab as={Fragment}>
-                {({ selected }) => (
-                  <button
-                    className={
-                      selected
-                        ? "px-5 py-3 rounded-full mr-4 bg-green text-white outline-none "
-                        : "bg-white rounded-full mr-4 text-gray-600 px-5 py-3 border-green border-[1px] "
-                    }
-                  >
-                    Green Digitization 
-                  </button>
-                )}
-              </Tab> */}
-              <button className="bg-white rounded-full mr-4 text-gray-600 px-5 py-3 pt-0 border-green border-[1px] "> <p className="text-[8px] text-[red]">Comming soon</p>
+             
+              <button className="md:block hidden bg-white rounded-full mr-4 text-gray-600 px-5 py-3 pt-0 border-green border-[1px] my-2"> <p className="text-[8px] text-[red]">Coming soon</p>
               Green Digitization </button>
             </Tab.List>
             <Tab.Panels >

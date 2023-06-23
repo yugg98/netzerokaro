@@ -5,7 +5,7 @@ import aslen from '@/assets/aslap.png'
 import asro from '@/assets/asro.png'
 import aspen from '@/assets/aspen.png'
 import {motion} from 'framer-motion'
-import { slideIn ,textVariant} from '@/utils/motion'
+import { rocket, slideIn ,textVariant} from '@/utils/motion'
 const HeroHome = () => {
   return (
     <div    className='linearbggreen w-screen sm:h-[80vh] h-full flex sm:flex-row flex-col justify-center items-center   '>
@@ -19,7 +19,10 @@ const HeroHome = () => {
         </div>
       </motion.div>
       <div className="sm:w-[50%] flex justify-end ">
-        <motion.div className=" ">
+        <motion.div 
+        transition={{ease:'linear',duration:'10',repeat:Infinity}}
+        animate={{ x: ["100%", "-100%"],y: ["80%", "20%"] }}
+         className=" ">
         <Image src={asro} width={200} height={64} className='px-6 pr-0'  />
         </motion.div>
         <Image src={earth} width={500} height={64} className='px-6 pr-0' />
