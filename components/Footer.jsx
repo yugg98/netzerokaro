@@ -45,10 +45,7 @@ export const Footer = () => {
             <li>
               <Link href="/aboutus">About us</Link>
             </li>
-           
-            <li>
-              <Link href="/">Privacy Policy</Link>
-            </li>
+          ]
 
           </ul>
         </div>
@@ -68,17 +65,20 @@ export const Footer = () => {
               <Link href="/skillingcourse">Courses </Link>
             </li>
             <li>
-              <Link href="/marketplace"> About Us </Link>
+              <Link href="/aboutus"> About Us </Link>
             </li>
             <li>
-              <Link href="/marketplace"> Hackathon Services </Link>
+              <Link href="/marketplace"> Marketplace </Link>
+            </li>
+            <li>
+              <Link href="/marketplace">  </Link>
             </li>
           </ul>
         </div>
         <div className="">
           <div className="text-sm text-green">Contact us</div>
           <ul>
-          <li className="">Email us at sunil@netzerokaro.com</li>
+          <li className="">Email us at info@netzerokaro.earth</li>
           </ul>
         </div>
       </div>
