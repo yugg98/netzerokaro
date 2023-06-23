@@ -82,38 +82,50 @@ const aboutus = () => {
                 </div>
             </div> */}
 
-            <div className='linearbggreen sm:py-20 p-4 sm:pt-4'>
+            <div className='linearbggreen sm:py-20  sm:pt-4'>
                 <Heading text="Who we are ?" />
-                <p className=" text-greyf sm:px-[100px] px- text-center mt-3">These are some of the values and expertise that define us</p>
+                <p className=" text-greyf sm:px-[100px] px- text-center mt-3">Innovation Hackathons are extensively used by some of the most innovative organizations across the globe to innovate faster where an idea or a business problem involving niche skill sets is given to the technology professionals and students to solve within 24-48 hours.
+                    Over 80% of Fortune 500 companies have hosted or sponsored hackathons to accelerate their innovation processes.
+                    Net Zero Karo specializes in conducting personalized innovation hackathons for organizations, thereby enabling them to accelerate their innovation reliably and with agility.</p>
                 <div className=" rounded-sm grid sm:grid-cols-2 row-span-2 sm:px-20 px-4 gap-2 justify-center items-center w-full mt-10">
                     <div className='sm:p-4 p-2 flex'>
-                        <Image src={icon1} className='h-[80px]' />
+                        <Image src={icon1} className='h-[80px] md:flex hidden' />
                         <div className=' px-4'>
-                            <p className="text-2xl   text-black mt-1">Passion for the environment</p>
+                            <div className='flex justify-center items-center '>
+                                <Image src={icon1} className='md:hidden flex h-[60px] w-[60px] mr-2' />
+                                <p className="text-2xl   text-black mt-1">Passion for the environment</p>
+                            </div>
+
                             <p className='mt-2 text-[#5D6180]'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                         </div>
                     </div>
-                    <div className='sm:p-4 p-2 flex'>
-                        <Image src={icon2} className='h-[80px]' />
+                    <div className='sm:p-4 p-2 flex '>
+                    <Image src={icon2} className='h-[80px] md:flex hidden' />
                         <div className=' px-4'>
-                            <p className="text-2xl  text-black mt-1">Extensive
-                                expertise </p>
+                            <div className='flex justify-center items-center'>
+                                <Image src={icon2} className='md:hidden flex h-[60px] w-[60px] mr-2' />
+                                <p className="text-2xl   text-black mt-1">Extensive expertise</p>
+                            </div>
                             <p className='mt-2 text-[#5D6180]'>Our knowledge spans the complex field of sustainability. Our teams include data analysts, strategy experts, energy management experts, compliance wizards and project developers out in the field.</p>
                         </div>
                     </div>
                     <div className='sm:p-4 p-2 flex'>
-                        <Image src={icon3} className='h-[80px]' />
+                    <Image src={icon3} className='h-[80px] md:flex  hidden' />
                         <div className=' px-4'>
-                            <p className="text-2xl   text-black mt-1">A unique
-                                culture </p>
+                            <div className='flex justify-center items-center '>
+                                <Image src={icon3} className='md:hidden flex h-[60px] w-[60px] mr-2' />
+                                <p className="text-2xl   text-black mt-1">A unique culture experience</p>
+                            </div>
                             <p className='mt-2 text-[#5D6180]'> At NetZeroKaro we believe environment and employee well-being are key to sustainability. We deal with serious challenges in our day to day work life but it doesn’t stop us having fun.</p>
                         </div>
                     </div>
-                    <div className='sm:p-4 p-2 flex'>
-                        <Image src={icon4} className='h-[80px]' />
+                    <div className='sm:p-4 p-2 flex '>
+                    <Image src={icon4} className='h-[80px] md:flex hidden' />
                         <div className=' px-4'>
-                            <p className="text-2xl   text-black mt-1">Global
-                                Partnerships</p>
+                            <div className='flex justify-center items-center'>
+                                <Image src={icon4} className='md:hidden flex h-[60px] w-[60px] mr-2' />
+                                <p className="text-2xl   text-black mt-1">A global community</p>
+                            </div>
                             <p className='mt-2 text-[#5D6180]'>NetZeroKaro has grown out of our successful global partnerships. For us collaboration is the key to success in tackling climate change and other environmental challenges. This is what we excel at.</p>
                         </div>
                     </div>

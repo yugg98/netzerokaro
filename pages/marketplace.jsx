@@ -33,7 +33,7 @@ const greenstore = () => {
                 </div>
             </div>
             <div className='bg-img2'>
-                <Heading text="NET ZERO SERVICES" color={true}/>
+                <Heading text="Net zero services" color={true}/>
 
                 <div className="sm:p-4 p-2 flex  items-center  flex-wrap">
                     <div className="sm:w-1/2 p-8 w-full">
