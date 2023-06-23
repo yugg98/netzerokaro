@@ -11,7 +11,7 @@ export default function Courses() {
           <h3 className="text-green text-5xl text-center text-gray-900 tracking-tight font-semibold mb-8">
           Our Tailored Courses for you          </h3>
           <Tab.Group >
-            <Tab.List className="text-center  mb-4" >
+            <Tab.List className="text-center mb-4 flex justify-center items-center" >
               
             
               <Tab as={Fragment}>
@@ -53,21 +53,23 @@ export default function Courses() {
                   </button>
                 )}
               </Tab>
-              <Tab as={Fragment}>
+              {/* <Tab as={Fragment}>
                 {({ selected }) => (
                   <button
                     className={
                       selected
-                        ? "px-5 py-3 rounded-full mr-4 bg-green text-white outline-none "
-                        : "bg-white rounded-full mr-4 text-gray-600 px-5 py-3 border-green border-[1px] "
+                        ? "px-5 py-3 rounded-full mr-4 bg-green text-white pt-0 outline-none "
+                        : ""
                     }
                   >
-                    e-Mobility 
-                    {/* <span className="text-sm text-[red]">Comming soon</span> */}
+                   
                   </button>
                 )}
-              </Tab>
-              <Tab as={Fragment}>
+              </Tab> */}
+              <button className="bg-white rounded-full mr-4 text-gray-600 px-5 py-3 pt-0 border-green border-[1px] "> <p className="text-[8px] text-[red]">Comming soon</p>
+                    e-Mobility </button>
+                    
+              {/* <Tab as={Fragment}>
                 {({ selected }) => (
                   <button
                     className={
@@ -79,7 +81,9 @@ export default function Courses() {
                     Green Digitization 
                   </button>
                 )}
-              </Tab>
+              </Tab> */}
+              <button className="bg-white rounded-full mr-4 text-gray-600 px-5 py-3 pt-0 border-green border-[1px] "> <p className="text-[8px] text-[red]">Comming soon</p>
+              Green Digitization </button>
             </Tab.List>
             <Tab.Panels >
               <Tab.Panel>

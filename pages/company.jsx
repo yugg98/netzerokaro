@@ -18,7 +18,6 @@ import icon3 from '@/assets/icon3.png'
 import Platform from '@/components/Platform'
 import earth from '@/assets/Africa.png'
 import earth1 from '@/assets/earth1.png'
-
 import comma1 from '@/assets/comma.png'
 import comma from '@/assets/comma2.png'
 import Heading from '@/components/Heading'

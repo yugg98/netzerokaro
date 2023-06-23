@@ -1,29 +1,19 @@
-import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar'
 import React from 'react'
 import laptop from '@/assets/img3.png'
 import Image from 'next/image'
 import c1 from '@/assets/comma3.png'
 import c2 from '@/assets/comma4.png'
-import img4 from '@/assets/img7.png'
-import plus from '@/assets/plus.png'
-import img2 from '@/assets/img5.png'
-import img3 from '@/assets/img6.png'
-import CallToAction from '@/components/CallToAction'
 import { Footer } from '@/components/Footer'
-import windmill from '@/assets/media/img2.png'
-import book from '@/assets/icon4.png'
-import script from '@/assets/script.png'
-import img1 from '@/assets/img4.png'
-import feature from '@/assets/icon5.png'
 import icon from '@/assets/icons/icon12.png'
 import Heading from '@/components/Heading'
 import Nzkacademy from '@/components/Nzkacademy'
 import Popup from '@/components/Popup'
 import { motion } from 'framer-motion'
-import { slideIn } from '@/utils/motion'
 import img from '@/assets/g10.png'
-
+import heroimg from '@/assets/hero1.svg'
+import { slideIn ,textVariant} from '@/utils/motion'
+import { Parser } from 'html-to-react'
 
 
 const academy = () => {
@@ -44,6 +34,7 @@ const academy = () => {
                 </div>
             </div>
 
+            <Popup />
 
             <Nzkacademy />
 
@@ -72,69 +63,111 @@ const academy = () => {
             </div> */}
 
 
-            <Popup />
-            <div className="linearbggreen mt-0 md:p-6 rounded-lg ">
-                <Heading text="Who is the academy for?" />
-                <div className="flex justify-between flex-wrap  mt-8 overflow-hidden md:px-10 px-4">
-                    <div className="flex flex-row justify-center max-w-[380px] items-center">
-                        <div className="bg-white rounded-xl ">
-                            <Image src={img1} className='' />
-                            <div className="flex justify-between mt-2 p-6 pb-0">
-                                <div >
-                                    <p className="font-semibold text-lg">Sustainability</p>
-                                </div>
-                                <div className='bg-green rounded-full p-2 '>
-                                    <Image src={plus} className='w-[28px]' />
-                                </div>
-                            </div>
-                            <div className='p-6 pt-1'>
-                                <p className="text-[#08103A] mb-4">Sustainability terminology, how to take accountability and maintain integrity in business, and application to sustainability in the business context</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div className="bs sm:py-20 sm:pt-4 py-4">
-                <Heading text={"Academy USP  "} color={true} />
-                <p className="text-white mt-2 text-center sm:max-w-[50%] mx-auto mb-10">Our in-house team make sure everything is set up and configured for you to use. From data availability and completeness through to portal logins and training, we’ve got it covered.</p>
+         
+            <div className="linearbggreen sm:py-20 sm:pt-4 py-4">
+                <Heading text={"Academy USP  "} />
+                {/* <p className=" mt-2 text-center sm:max-w-[50%] mx-auto mb-10">Our in-house team make sure everything is set up and configured for you to use. From data availability and completeness through to portal logins and training, we’ve got it covered.</p> */}
                 <div className=" rounded-sm grid grid-flow-row	 sm:grid-cols-2 row-span-2 sm:px-20 px-4 gap-2 justify-center items-center w-full mt-10">
-                    <div className=" sm:w-[600px] w-full my-4 sm:mx-4 bg-white sm:p-6 p-4 border-[1px] border-[#BBE7CA] rounded-lg">
-                        <div className=' px-4 flex ' >
-                            <Image src={icon} className='h-[50px] w-[50px]' />
-                            <p className="text-2xl  mt-1 ml-5">Dedicated community <br /> platform</p>
+                    <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
+                        <Image src={icon} className='h-[50px] w-[50px] md:flex hidden' />
+                        <div className=' px-4 flex flex-col ' >
+                            <div className='flex'>
+                                <Image src={icon} className='h-[40px] w-[40px] md:hidden flex' />
+                                <p className="md:text-2xl text-xl md:ml-0 ml-2 ">Dedicated community <br /> platform</p>
+                            </div>
+                            <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                         </div>
-                        <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                     </div>
-                    <div className=" sm:w-[600px] w-full my-4 sm:mx-4 bg-white sm:p-6 p-4 border-[1px] border-[#BBE7CA] rounded-lg">
-                        <div className=' px-4 flex ' >
-                            <Image src={icon} className='h-[50px] w-[50px]' />
-                            <p className="text-2xl  mt-1 ml-5">Dedicated community <br /> platform</p>
+                    <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
+                        <Image src={icon} className='h-[50px] w-[50px] md:flex hidden' />
+                        <div className=' px-4 flex flex-col ' >
+                            <div className='flex'>
+                                <Image src={icon} className='h-[40px] w-[40px] md:hidden flex' />
+                                <p className="md:text-2xl text-xl md:ml-0 ml-2 ">Dedicated community <br /> platform</p>
+                            </div>
+                            <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                         </div>
-                        <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                     </div>
-                    <div className=" sm:w-[600px] w-full my-4 sm:mx-4 bg-white sm:p-6 p-4 border-[1px] border-[#BBE7CA] rounded-lg">
-                        <div className=' px-4 flex ' >
-                            <Image src={icon} className='h-[50px] w-[50px]' />
-                            <p className="text-2xl  mt-1 ml-5">Dedicated community <br /> platform</p>
+                    <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
+                        <Image src={icon} className='h-[50px] w-[50px] md:flex hidden' />
+                        <div className=' px-4 flex flex-col ' >
+                            <div className='flex'>
+                                <Image src={icon} className='h-[40px] w-[40px] md:hidden flex' />
+                                <p className="md:text-2xl text-xl md:ml-0 ml-2 ">Dedicated community <br /> platform</p>
+                            </div>
+                            <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                         </div>
-                        <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                     </div>
-                    <div className=" sm:w-[600px] w-full my-4 sm:mx-4 bg-white sm:p-6 p-4 border-[1px] border-[#BBE7CA] rounded-lg">
-                        <div className=' px-4 flex ' >
-                            <Image src={icon} className='h-[50px] w-[50px]' />
-                            <p className="text-2xl  mt-1 ml-5">Dedicated community <br /> platform</p>
+                    <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
+                        <Image src={icon} className='h-[50px] w-[50px] md:flex hidden' />
+                        <div className=' px-4 flex flex-col ' >
+                            <div className='flex'>
+                                <Image src={icon} className='h-[40px] w-[40px] md:hidden flex' />
+                                <p className="md:text-2xl text-xl md:ml-0 ml-2 ">Dedicated community <br /> platform</p>
+                            </div>
+                            <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                         </div>
-                        <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                     </div>
-                    <div className=" sm:w-[600px] w-full my-4 sm:mx-4 bg-white sm:p-6 p-4 border-[1px] border-[#BBE7CA] rounded-lg">
-                        <div className=' px-4 flex ' >
-                            <Image src={icon} className='h-[50px] w-[50px]' />
-                            <p className="text-2xl  mt-1 ml-5">Dedicated community <br /> platform</p>
+                    <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
+                        <Image src={icon} className='h-[50px] w-[50px] md:flex hidden' />
+                        <div className=' px-4 flex flex-col ' >
+                            <div className='flex'>
+                                <Image src={icon} className='h-[40px] w-[40px] md:hidden flex' />
+                                <p className="md:text-2xl text-xl md:ml-0 ml-2 ">Dedicated community <br /> platform</p>
+                            </div>
+                            <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                         </div>
-                        <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                     </div>
                 </div>
+                
+            </div>
+            <div className="linearbggreen sm:py-20 sm:pt-4 py-4">
+                <Heading text={"Who is the climate academy for ? "} />
+                {/* <p className=" mt-2 text-center sm:max-w-[50%] mx-auto mb-10">Our in-house team make sure everything is set up and configured for you to use. From data availability and completeness through to portal logins and training, we’ve got it covered.</p> */}
+                <div className=" rounded-sm grid grid-flow-row	 sm:grid-cols-2 row-span-2 sm:px-20 px-4 gap-2 justify-center items-center w-full mt-10">
+                    <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
+                        <Image src={icon} className='h-[50px] w-[50px] md:flex hidden' />
+                        <div className=' px-4 flex flex-col ' >
+                            <div className='flex'>
+                                <Image src={icon} className='h-[40px] w-[40px] md:hidden flex' />
+                                <p className="md:text-2xl text-xl md:ml-0 ml-2 ">Dedicated community <br /> platform</p>
+                            </div>
+                            <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
+                        </div>
+                    </div>
+                    <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
+                        <Image src={icon} className='h-[50px] w-[50px] md:flex hidden' />
+                        <div className=' px-4 flex flex-col ' >
+                            <div className='flex'>
+                                <Image src={icon} className='h-[40px] w-[40px] md:hidden flex' />
+                                <p className="md:text-2xl text-xl md:ml-0 ml-2 ">Dedicated community <br /> platform</p>
+                            </div>
+                            <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
+                        </div>
+                    </div>
+                    <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
+                        <Image src={icon} className='h-[50px] w-[50px] md:flex hidden' />
+                        <div className=' px-4 flex flex-col ' >
+                            <div className='flex'>
+                                <Image src={icon} className='h-[40px] w-[40px] md:hidden flex' />
+                                <p className="md:text-2xl text-xl md:ml-0 ml-2 ">Dedicated community <br /> platform</p>
+                            </div>
+                            <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
+                        </div>
+                    </div>
+                    <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
+                        <Image src={icon} className='h-[50px] w-[50px] md:flex hidden' />
+                        <div className=' px-4 flex flex-col ' >
+                            <div className='flex'>
+                                <Image src={icon} className='h-[40px] w-[40px] md:hidden flex' />
+                                <p className="md:text-2xl text-xl md:ml-0 ml-2 ">Dedicated community <br /> platform</p>
+                            </div>
+                            <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
+                        </div>
+                    </div>
+                  
+                </div>
+                
             </div>
             <div className="bg-[#D7FFE4] flex justify-center items-center flex-col sm:m-10 m-4 rounded-xl sm:p-12 p-8">
                 <p className="text-uppercase sm:text-4xl text-3xl text-center font-semibold">Make Contact </p>
@@ -146,5 +179,26 @@ const academy = () => {
         </div>
     )
 }
-
+const Hero = ({Title,Desc,SuperTitle}) => {
+    return (
+      <div  className=' w-full sm:h-[80vh] h-full flex sm:flex-row flex-col justify-center items-center  linearbggreen sm:px-0'>
+        <motion.div variants={slideIn('left', 'tween', 0.2, 1)} initial="hidden"  whileInView="show" className="sm:w-[50%] w-full flex justify-center mt-10">
+          <div className='p-2 sm:pl-8 sm:p-4 sm:px-20'>
+            <div className='flex  items-center mx-auto'>
+                <p className="text-green text-2xl  text-center sm:mb-0 mb-2 mr-2">{SuperTitle}</p>
+            </div>
+            <motion.div variants={textVariant(0.8)} className='text-black text-center sm:text-left sm:text-6xl text-4xl font-[800] gradienttextbg'>{Title}</motion.div>
+            
+            <motion.p variants={textVariant(0.6)} className=" leading-6 mt-4 text-center sm:text-left">{Parser().parse(Desc)}</motion.p>
+            <div className="flex items-center mt-8 sm:justify-start justify-center">
+              <button className="rounded-full bg-green text-white px-12 text-lg py-3">Explore</button>
+            </div>
+          </div>
+        </motion.div>
+        <div className="sm:w-[50%] flex justify-end py-20 w-full">
+          <Image src={heroimg} className='w-[80%] mx-auto' />
+        </div>
+      </div>
+    )
+  }
 export default academy

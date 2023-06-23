@@ -1,6 +1,5 @@
 import CallToAction from '@/components/CallToAction'
 import { Footer } from '@/components/Footer'
-import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar'
 import Image from 'next/image'
 import React from 'react'
@@ -15,6 +14,11 @@ import icon from '@/assets/customer/icon.png'
 import icons1 from '@/assets/customer/icon2.png'
 import icon2 from '@/assets/customer/icon3.png'
 import icon3 from '@/assets/customer/icon4.png'
+import heroimg from '@/assets/hero4.svg'
+
+import { slideIn ,textVariant} from '@/utils/motion'
+import { Parser } from 'html-to-react'
+import { motion } from 'framer-motion'
 
 function marketplace() {
     return (
@@ -63,12 +67,12 @@ function marketplace() {
                     <Cards />
                 </div>
             </div> */}
-            <div className='bg-img2 flex flex-wrap  sm:max-h-screen overflow-hidden p-8 pt-4'>
+            <div className='bg-img2 flex flex-wrap   overflow-hidden p-8 pt-4'>
                 <div className="md:w-[40%] md:p-14 p-4 ">
                     <p className="sm:text-5xl text-3xl text-white font-semibold md:mt-10">How academy is solving the climate skilling crisis</p>
                     <p className="text-white text-xl mt-10">diverse, innovative talent for your teams by assessing them for varied skill-set</p>
                 </div>
-                <div className="sm:w-[60%]  list-values sm:px-24  p-4 py-8 pt-4 flex flex-col justify-center">
+                <div className="sm:w-[60%]  list-values sm:px-24   py-8 pt-4 flex flex-col justify-center">
                 <ul>
 
                     <li className=''>
@@ -76,10 +80,6 @@ function marketplace() {
                         <p className=''> The academy aims to address the existing skills gap in climate and Environmental, Social, and Governance (ESG) areas by providing comprehensive training and upskilling opportunities.e</p>
                     </li>
 
-                    {/* <li className=''>
-                        <p>Meeting the Demand for Climate Skilling:</p>
-                        <p> As climate change becomes a pressing issue, there is a growing demand for professionals equipped with the knowledge and skills to tackle climate-related challenges. The academy aims to meet this demand by offering a platform for climate skilling.</p>
-                    </li> */}
                     <li className=''>
                         <p>Meeting the Demand for Climate Skilling:</p>
                         <p> Younger talent is increasingly seeking purpose, values-alignment, and engagement in their learning and development (L&D) experiences. The academy recognizes this and strives to provide a platform that appeals to younger individuals who are passionate about addressing climate change.</p>
@@ -138,5 +138,26 @@ function marketplace() {
         </div>
     )
 }
+const Hero = ({ Title, Desc, SuperTitle }) => {
+    return (
+        <div className=' w-full sm:h-[80vh] h-full flex sm:flex-row flex-col justify-center items-center  linearbggreen sm:px-0'>
+            <motion.div variants={slideIn('left', 'tween', 0.2, 1)} initial="hidden" whileInView="show" className="sm:w-[50%] w-full flex justify-center mt-10">
+                <div className='p-2 sm:pl-8 sm:p-4 sm:px-20'>
+                    <div className='flex  items-center mx-auto'>
+                        <p className="text-green text-2xl  text-center sm:mb-0 mb-2 mr-2">{SuperTitle}</p>
+                    </div>
+                    <motion.div variants={textVariant(0.8)} className='text-black text-center sm:text-left sm:text-6xl text-4xl font-[800] gradienttextbg'>{Title}</motion.div>
 
+                    <motion.p variants={textVariant(0.6)} className=" leading-6 mt-4 text-center sm:text-left">{Parser().parse(Desc)}</motion.p>
+                    <div className="flex items-center mt-8 sm:justify-start justify-center">
+                        <button className="rounded-full bg-green text-white px-12 text-lg py-3">Explore</button>
+                    </div>
+                </div>
+            </motion.div>
+            <div className="sm:w-[50%] flex justify-end py-20 w-full">
+                <Image src={heroimg} className='w-[80%] mx-auto' />
+            </div>
+        </div>
+    )
+}
 export default marketplace

@@ -2,11 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import earth from '@/assets/earth.png'
 import { motion } from 'framer-motion'
-import heroimg from '@/assets/heroimg.png'
 import { slideIn, textVariant } from '@/utils/motion'
-import { Parser } from 'html-to-react'
-import ques from '@/assets/ques.png'
-import Typewriter from 'typewriter-effect';
+import heroimg from '@/assets/hero5.svg'
 
 const HeroCompany = () => {
     return (
