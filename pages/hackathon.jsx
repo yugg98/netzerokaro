@@ -100,46 +100,46 @@ const hackathon = () => {
                 <p className="sm:text-5xl text-3xl text-green mb-10 text-center mt-4 sm:mt-0">What We Offer ?</p>
                 <div className=" rounded-sm grid grid-flow-row	 sm:grid-cols-2 row-span-2 sm:px-20 px-4 gap-2 justify-center items-center w-full md:mt-10 mt-4">
                     <div className='sm:p-4 p-2 flex'>
-                        <Image src={one} className='w-[50px] h-[80px]' />
+                        <Image src={one} className='h-[50px] w-[50px]' />
                         <div className=' px-4'>
-                            <p className="text-2xl   text-black mt-1">Dedicated community platform</p>
-                            <p className='mt-2 text-[#5D6180]'>Use of our dedicated registration platform, as well as any relevant technology, software and dataset proposed to better capture participants&apos; and mentors&apos; skills and roles.</p>
+                            <p className="text-2xl   text-black mt-1">Community Hub</p>
+                            <p className='mt-2 text-[#5D6180]'>With our dedicated registration platform and cutting-edge technology, we empower organizations to efficiently capture participants&apos; and mentors&apos; skills and roles.</p>
                         </div>
                     </div>
                     <div className='sm:p-4 p-2 flex'>
-                        <Image src={two} className='w-[50px] h-[80px]' />
+                        <Image src={two} className='h-[50px] w-[50px]' />
                         <div className=' px-4'>
-                            <p className="text-2xl   text-black mt-1">Dedicated community platform</p>
-                            {/* <p className='mt-2 text-[#5D6180]'>Use of our dedicated registration platform, as well as any relevant technology, software and dataset proposed to better capture participants' and mentors' skills and roles.</p> */}
+                            <p className="text-2xl   text-black mt-1">Workshops & Inductions</p>
+                            <p className='mt-2 text-[#5D6180]'>Unlocking potential through structured inductions and workshops for seamless onboarding and up-skilling. With our structured inductions, skill enhancement workshops, and personalized mentor-matching, we foster an environment where mentors and participants can thrive.</p>
                         </div>
                     </div>
                 
                     <div className='sm:p-4 p-2 flex'>
-                        <Image src={three} className='w-[50px] h-[100px]' />
+                        <Image src={three} className='h-[50px] w-[50px]' />
                         <div className=' px-4'>
-                            <p className="text-2xl   text-black mt-1">Dedicated community platform</p>
-                            {/* <p className='mt-2 text-[#5D6180]'>Use of our dedicated registration platform, as well as any relevant technology, software and dataset proposed to better capture participants' and mentors' skills and roles.</p> */}
+                            <p className="text-2xl   text-black mt-1">Content Assets & Visual Branding</p>
+                            <p className='mt-2 text-[#5D6180]'>Stay informed and engaged with our organization through tailored updates on participant resources, rules, and guidelines. Experience the power of streamlined communication and visually captivating updates.</p>
                         </div>
                     </div>
                     <div className='sm:p-4 p-2 flex'>
-                        <Image src={four} className='w-[50px] h-[100px]' />
+                        <Image src={four} className='h-[50px] w-[50px]' />
                         <div className=' px-4'>
-                            <p className="text-2xl   text-black mt-1">Dedicated community platform</p>
-                            {/* <p className='mt-2 text-[#5D6180]'>Use of our dedicated registration platform, as well as any relevant technology, software and dataset proposed to better capture participants' and mentors' skills and roles.</p> */}
+                            <p className="text-2xl   text-black mt-1">Marketing & Schedule</p>
+                            <p className='mt-2 text-[#5D6180]'>Elevate your marketing efforts with our comprehensive support in developing impactful campaigns. Take your marketing initiatives to new heights with our expertise and resources.</p>
                         </div>
                     </div>
                     <div className='sm:p-4 p-2 flex'>
-                        <Image src={five} className='w-[50px] h-[100px]' />
+                        <Image src={five} className='h-[50px] w-[50px]' />
                         <div className=' px-4'>
-                            <p className="text-2xl   text-black mt-1">Dedicated community platform</p>
-                            {/* <p className='mt-2 text-[#5D6180]'>Use of our dedicated registration platform, as well as any relevant technology, software and dataset proposed to better capture participants' and mentors' skills and roles.</p> */}
+                            <p className="text-2xl   text-black mt-1">Creative Support for Ideation</p>
+                            <p className='mt-2 text-[#5D6180]'>Ensure clear and effective communication across all channels with our comprehensive announcement services. Empower your communication efforts and accelerate your innovation journey.</p>
                         </div>
                     </div>
                     <div className='sm:p-4 p-2 flex'>
-                        <Image src={six} className='w-[50px] h-[100px]' />
+                        <Image src={six} className='h-[50px] w-[50px]' />
                         <div className=' px-4'>
-                            <p className="text-2xl   text-black mt-1">Dedicated community platform</p>
-                            {/* <p className='mt-2 text-[#5D6180]'>Use of our dedicated registration platform, as well as any relevant technology, software and dataset proposed to better capture participants' and mentors' skills and roles.</p> */}
+                            <p className="text-2xl   text-black mt-1">Evaluation and Insights</p>
+                            <p className='mt-2 text-[#5D6180]'>Benefit from our expert judging assistance, comprehensive surveying, and data analysis services to gain a deeper understanding of the value-add in your hackathon.</p>
                         </div>
                     </div>
                 </div>
