@@ -116,9 +116,9 @@ function CoreValues() {
             <motion.div className="sm:w-[40%]" variants={slideIn('left', 'tween', 0.2, 1)} initial="hidden" whileInView="show">
                 <Image src={img1} />
             </motion.div>
-            <motion.div className="sm:w-[60%]  list-values sm:px-24  p-4 py-8 pt-4 flex flex-col justify-center" variants={slideIn('right', 'tween', 0.1, 1)} initial="hidden" whileInView="show">
+            <motion.div className="sm:w-[60%]  list-values sm:px-24  p-4 py-8 pt-4 flex flex-col justify-center " variants={slideIn('right', 'tween', 0.1, 1)} initial="hidden" whileInView="show">
                 <p className="sm:text-5xl text-3xl text-white font-semibold">Our Core Values</p>
-                <ul>
+                <ul className=''>
 
                     <li className=''>
                         <p>Sustainability</p>

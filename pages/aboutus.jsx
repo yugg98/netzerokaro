@@ -12,6 +12,10 @@ import Form from '@/components/Form'
 import { Footer } from '@/components/Footer'
 import icon from '@/assets/icons/icon.png'
 import icon1 from '@/assets/media/icon1.png'
+import icon2 from '@/assets/media/icon5.png'
+import icon3 from '@/assets/media/icon6.png'
+import icon4 from '@/assets/media/icon7.png'
+
 import finan from '@/assets/icons/finan.png'
 import auto from '@/assets/icons/auto.png'
 import avi from '@/assets/icons/avi.png'
@@ -27,13 +31,13 @@ import linkedin from '@/assets/faces/icon.svg'
 import zero from '@/assets/zero.png'
 import { Parser } from 'html-to-react'
 
-const greenstore = () => {
+const aboutus = () => {
     return (
         <div>
             <Navbar />
-            <Hero Title={"Our purpose lies in our name"}  Desc={"NET ZERO: It is a state where we add no incremental greenhouse gases to the atmosphere. <br/> <br/> KARO = TO DO, means to act. It reflects our commitment to action and direction towards achieving carbon neutrality."} />
-            <div className='linearbggreen py-20'>
-                <div className="text-5xl text-green font-semibold text-center">Who we are ?</div>
+            <Hero Title={"Our purpose lies in our name"} Desc={"NET ZERO: It is a state where we add no incremental greenhouse gases to the atmosphere. <br/> <br/> KARO = TO DO, means to act. It reflects our commitment to action and direction towards achieving carbon neutrality."} />
+            {/* <div className='linearbggreen py-20'>
+                <div className="text-5xl text-green font-semibold text-center"></div>
                 <div className=" rounded-sm grid sm:grid-cols-2 row-span-2 sm:px-20 px-4 gap-2 justify-center items-center w-full mt-10">
                     <div className="flex sm:w-[500px] w-full bg-white my-4 sm:mx-4 ">
                         <div className='p-4'>
@@ -76,9 +80,47 @@ const greenstore = () => {
 
                     </div>
                 </div>
+            </div> */}
+
+            <div className='linearbggreen sm:py-20 p-4 sm:pt-4'>
+                <Heading text="Who we are ?" />
+                <p className=" text-greyf sm:px-[100px] px- text-center mt-3">These are some of the values and expertise that define us</p>
+                <div className=" rounded-sm grid sm:grid-cols-2 row-span-2 sm:px-20 px-4 gap-2 justify-center items-center w-full mt-10">
+                    <div className='sm:p-4 p-2 flex'>
+                        <Image src={icon1} className='h-[80px]' />
+                        <div className=' px-4'>
+                            <p className="text-2xl   text-black mt-1">Passion for the environment</p>
+                            <p className='mt-2 text-[#5D6180]'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
+                        </div>
+                    </div>
+                    <div className='sm:p-4 p-2 flex'>
+                        <Image src={icon2} className='h-[80px]' />
+                        <div className=' px-4'>
+                            <p className="text-2xl  text-black mt-1">Extensive
+                                expertise </p>
+                            <p className='mt-2 text-[#5D6180]'>Our knowledge spans the complex field of sustainability. Our teams include data analysts, strategy experts, energy management experts, compliance wizards and project developers out in the field.</p>
+                        </div>
+                    </div>
+                    <div className='sm:p-4 p-2 flex'>
+                        <Image src={icon3} className='h-[80px]' />
+                        <div className=' px-4'>
+                            <p className="text-2xl   text-black mt-1">A unique
+                                culture </p>
+                            <p className='mt-2 text-[#5D6180]'> At NetZeroKaro we believe environment and employee well-being are key to sustainability. We deal with serious challenges in our day to day work life but it doesn’t stop us having fun.</p>
+                        </div>
+                    </div>
+                    <div className='sm:p-4 p-2 flex'>
+                        <Image src={icon4} className='h-[80px]' />
+                        <div className=' px-4'>
+                            <p className="text-2xl   text-black mt-1">Global
+                                Partnerships</p>
+                            <p className='mt-2 text-[#5D6180]'>NetZeroKaro has grown out of our successful global partnerships. For us collaboration is the key to success in tackling climate change and other environmental challenges. This is what we excel at.</p>
+                        </div>
+                    </div>
+
+
+                </div>
             </div>
-
-
             <div className="sm:p-10 p-2 flex flex-wrap justify-center items-center linearbggreen">
                 <div className="sm:w-1/2 p-8">
                     <Image src={img2} />
@@ -127,7 +169,7 @@ const greenstore = () => {
                             <Image src={ecom} className='md:w-[70px] w-[45px]' />
                             <p className="ml-4 md:text-xl text-md">I.T</p>
                         </div>
-                        
+
                     </div>
                 </div>
 
@@ -162,7 +204,7 @@ const greenstore = () => {
 
                             </div>
                         </div>
-                    </div> 
+                    </div>
                     <div className="flex flex-row justify-center max-w-[320px]  items-center md:mb-0 mb-4">
                         <div className=" rounded-lg  overflow-hidden h-[580px]">
                             <Image src={base1} className='mx-auto' />
@@ -176,7 +218,7 @@ const greenstore = () => {
 
                             </div>
                         </div>
-                    </div> 
+                    </div>
                     <div className="flex flex-row justify-center max-w-[320px]  items-center md:mb-0 mb-4">
                         <div className=" rounded-lg  overflow-hidden h-[580px]">
                             <Image src={base1} className='mx-auto' />
@@ -224,7 +266,7 @@ const greenstore = () => {
 
                             </div>
                         </div>
-                    </div> 
+                    </div>
                     <div className="flex flex-row justify-center max-w-[320px]  items-center md:mb-0 mb-4">
                         <div className=" rounded-lg  overflow-hidden h-[580px]">
                             <Image src={base1} className='mx-auto' />
@@ -238,7 +280,7 @@ const greenstore = () => {
 
                             </div>
                         </div>
-                    </div> 
+                    </div>
                     <div className="flex flex-row justify-center max-w-[320px]  items-center md:mb-0 mb-4">
                         <div className=" rounded-lg  overflow-hidden h-[580px]">
                             <Image src={base1} className='mx-auto' />
@@ -261,27 +303,27 @@ const greenstore = () => {
         </div>
     )
 }
-const Hero = ({Title,Desc,CalltoAction,SuperTitle,showQues}) => {
+const Hero = ({ Title, Desc, CalltoAction, SuperTitle, showQues }) => {
     return (
-      <div  className=' w-full sm:h-[80vh] h-full flex sm:flex-row flex-col justify-center items-center  linearbggreen sm:px-20'>
-        <motion.div variants={slideIn('left', 'tween', 0.2, 1)} initial="hidden"  whileInView="show" className="sm:w-[50%] w-full flex justify-center mt-10">
-          <div className='p-2 sm:pl-8 sm:p-4 sm:px-20'>
-            
-          
-            <motion.div variants={textVariant(0.8)} className='text-black text-center sm:text-left sm:text-6xl text-4xl font-[800] gradienttextbg'>{Title}</motion.div>
-            
-            <motion.p variants={textVariant(0.6)} className=" leading-6 mt-4 text-center sm:text-left">{Parser().parse(Desc)}</motion.p>
-            <div className="flex items-center mt-8 sm:justify-start justify-center">
-              <button className="rounded-full bg-green text-white px-12 text-lg py-3">Explore</button>
-            </div>
-          </div>
-        </motion.div>
-        <div className="sm:w-[50%] flex justify-end ">
-      
-        <Image src={zero} width={500} height={64} className='px-6 pr-0 md:mx-auto mr-5 my-4' />
-      </div>
-      </div>
-    )
-  }
+        <div className=' w-full sm:h-[80vh] h-full flex sm:flex-row flex-col justify-center items-center  linearbggreen sm:px-20'>
+            <motion.div variants={slideIn('left', 'tween', 0.2, 1)} initial="hidden" whileInView="show" className="sm:w-[50%] w-full flex justify-center mt-10">
+                <div className='p-2 sm:pl-8 sm:p-4 sm:px-20'>
 
-export default greenstore
+
+                    <motion.div variants={textVariant(0.8)} className='text-black text-center sm:text-left sm:text-6xl text-4xl font-[800] gradienttextbg'>{Title}</motion.div>
+
+                    <motion.p variants={textVariant(0.6)} className=" leading-6 mt-4 text-center sm:text-left">{Parser().parse(Desc)}</motion.p>
+                    <div className="flex items-center mt-8 sm:justify-start justify-center">
+                        <button className="rounded-full bg-green text-white px-12 text-lg py-3">Explore</button>
+                    </div>
+                </div>
+            </motion.div>
+            <div className="sm:w-[50%] flex justify-end ">
+
+                <Image src={zero} width={500} height={64} className='px-6 pr-0 md:mx-auto mr-5 my-4' />
+            </div>
+        </div>
+    )
+}
+
+export default aboutus

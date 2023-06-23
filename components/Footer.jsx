@@ -53,29 +53,32 @@ export const Footer = () => {
           </ul>
         </div>
         <div className="sm:mt-0 mt-6">
-          <div className="text-sm text-green">Company</div>
+          <div className="text-sm text-green">Links</div>
           <ul>
             <li>
-              <Link href="/">Contact us</Link>
+              <Link href="/">Home </Link>
             </li>
             <li>
-              <Link href="/company">Company</Link>
+              <Link href="/company">Company </Link>
             </li>
             <li>
-              <Link href="/academy">Academy </Link>
+              <Link href="/academy">Academy  </Link>
             </li>
             <li>
-              <Link href="/skillingcourse">Skilling Courses</Link>
+              <Link href="/skillingcourse">Courses </Link>
             </li>
             <li>
-              <Link href="/marketplace">Market Place</Link>
+              <Link href="/marketplace"> About Us </Link>
+            </li>
+            <li>
+              <Link href="/marketplace"> Hackathon Services </Link>
             </li>
           </ul>
         </div>
         <div className="">
-          <div className="text-sm text-green">Company</div>
+          <div className="text-sm text-green">Contact us</div>
           <ul>
-          <li className="">Email us at sunil@netzero.com</li>
+          <li className="">Email us at sunil@netzerokaro.com</li>
           </ul>
         </div>
       </div>
