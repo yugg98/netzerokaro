@@ -103,14 +103,14 @@ const hackathon = () => {
                         <Image src={one} className='w-[50px] h-[80px]' />
                         <div className=' px-4'>
                             <p className="text-2xl   text-black mt-1">Dedicated community platform</p>
-                            <p className='mt-2 text-[#5D6180]'>Use of our dedicated registration platform, as well as any relevant technology, software and dataset proposed to better capture participants' and mentors' skills and roles.</p>
+                            <p className='mt-2 text-[#5D6180]'>Use of our dedicated registration platform, as well as any relevant technology, software and dataset proposed to better capture participants&apos; and mentors&apos; skills and roles.</p>
                         </div>
                     </div>
                     <div className='sm:p-4 p-2 flex'>
                         <Image src={two} className='w-[50px] h-[80px]' />
                         <div className=' px-4'>
                             <p className="text-2xl   text-black mt-1">Dedicated community platform</p>
-                            <p className='mt-2 text-[#5D6180]'>Use of our dedicated registration platform, as well as any relevant technology, software and dataset proposed to better capture participants' and mentors' skills and roles.</p>
+                            {/* <p className='mt-2 text-[#5D6180]'>Use of our dedicated registration platform, as well as any relevant technology, software and dataset proposed to better capture participants' and mentors' skills and roles.</p> */}
                         </div>
                     </div>
                 
@@ -118,28 +118,28 @@ const hackathon = () => {
                         <Image src={three} className='w-[50px] h-[100px]' />
                         <div className=' px-4'>
                             <p className="text-2xl   text-black mt-1">Dedicated community platform</p>
-                            <p className='mt-2 text-[#5D6180]'>Use of our dedicated registration platform, as well as any relevant technology, software and dataset proposed to better capture participants' and mentors' skills and roles.</p>
+                            {/* <p className='mt-2 text-[#5D6180]'>Use of our dedicated registration platform, as well as any relevant technology, software and dataset proposed to better capture participants' and mentors' skills and roles.</p> */}
                         </div>
                     </div>
                     <div className='sm:p-4 p-2 flex'>
                         <Image src={four} className='w-[50px] h-[100px]' />
                         <div className=' px-4'>
                             <p className="text-2xl   text-black mt-1">Dedicated community platform</p>
-                            <p className='mt-2 text-[#5D6180]'>Use of our dedicated registration platform, as well as any relevant technology, software and dataset proposed to better capture participants' and mentors' skills and roles.</p>
+                            {/* <p className='mt-2 text-[#5D6180]'>Use of our dedicated registration platform, as well as any relevant technology, software and dataset proposed to better capture participants' and mentors' skills and roles.</p> */}
                         </div>
                     </div>
                     <div className='sm:p-4 p-2 flex'>
                         <Image src={five} className='w-[50px] h-[100px]' />
                         <div className=' px-4'>
                             <p className="text-2xl   text-black mt-1">Dedicated community platform</p>
-                            <p className='mt-2 text-[#5D6180]'>Use of our dedicated registration platform, as well as any relevant technology, software and dataset proposed to better capture participants' and mentors' skills and roles.</p>
+                            {/* <p className='mt-2 text-[#5D6180]'>Use of our dedicated registration platform, as well as any relevant technology, software and dataset proposed to better capture participants' and mentors' skills and roles.</p> */}
                         </div>
                     </div>
                     <div className='sm:p-4 p-2 flex'>
                         <Image src={six} className='w-[50px] h-[100px]' />
                         <div className=' px-4'>
                             <p className="text-2xl   text-black mt-1">Dedicated community platform</p>
-                            <p className='mt-2 text-[#5D6180]'>Use of our dedicated registration platform, as well as any relevant technology, software and dataset proposed to better capture participants' and mentors' skills and roles.</p>
+                            {/* <p className='mt-2 text-[#5D6180]'>Use of our dedicated registration platform, as well as any relevant technology, software and dataset proposed to better capture participants' and mentors' skills and roles.</p> */}
                         </div>
                     </div>
                 </div>

@@ -11,6 +11,14 @@ import Nzkacademy from '@/components/Nzkacademy'
 import Popup from '@/components/Popup'
 import { motion } from 'framer-motion'
 import img from '@/assets/g10.png'
+import icon1 from '@/assets/bg/icon2.png'
+import icon2 from '@/assets/bg/icon4.png'
+import icon3 from '@/assets/bg/icon3.png'
+import vec1 from '@/assets/bg/vec1.png'
+import vec2 from '@/assets/bg/vec2.png'
+import vec3 from '@/assets/bg/vec3.png'
+import vec4 from '@/assets/bg/vec4.png'
+
 import heroimg from '@/assets/hero1.svg'
 import { slideIn ,textVariant} from '@/utils/motion'
 import { Parser } from 'html-to-react'
@@ -65,7 +73,7 @@ const academy = () => {
 
          
             <div className="linearbggreen sm:py-20 sm:pt-4 py-4">
-                <Heading text={"Academy USP  "} />
+                <Heading text={"Academy USP"} />
                 {/* <p className=" mt-2 text-center sm:max-w-[50%] mx-auto mb-10">Our in-house team make sure everything is set up and configured for you to use. From data availability and completeness through to portal logins and training, we’ve got it covered.</p> */}
                 <div className=" rounded-sm grid grid-flow-row	 sm:grid-cols-2 row-span-2 sm:px-20 px-4 gap-2 justify-center items-center w-full mt-10">
                     <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
@@ -73,9 +81,49 @@ const academy = () => {
                         <div className=' px-4 flex flex-col ' >
                             <div className='flex'>
                                 <Image src={icon} className='h-[40px] w-[40px] md:hidden flex' />
-                                <p className="md:text-2xl text-xl md:ml-0 ml-2 ">Dedicated community <br /> platform</p>
+                                <p className="md:text-2xl text-xl md:ml-0 ml-2 ">Comprehensive and Specialized Curriculum</p>
                             </div>
-                            <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
+                            <p className='mt-2 text-greyf'>In-depth training on a wide range of topics related to net-zero emissions, climate science, renewable energy, sustainable practices, climate finance, and more</p>
+                        </div>
+                    </div>
+                    <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
+                        <Image src={icon1} className='h-[50px] w-[50px] md:flex hidden' />
+                        <div className=' px-4 flex flex-col ' >
+                            <div className='flex'>
+                                <Image src={icon1} className='h-[40px] w-[40px] md:hidden flex' />
+                                <p className="md:text-2xl text-xl md:ml-0 ml-2 ">Practical and Hands-On Learning:</p>
+                            </div>
+                            <p className='mt-2 text-greyf'>Offer real-world case studies, simulations, projects, and workshops that allow participants to apply their knowledge and skills in practical settings, enhancing their understanding and competence in climate-related fields.</p>
+                        </div>
+                    </div>
+                    <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
+                        <Image src={icon3} className='h-[50px] w-[50px] md:flex hidden' />
+                        <div className=' px-4 flex flex-col ' >
+                            <div className='flex'>
+                                <Image src={icon3} className='h-[40px] w-[40px] md:hidden flex' />
+                                <p className="md:text-2xl text-xl md:ml-0 ml-2 ">Industry Partnerships and Expert Faculty</p>
+                            </div>
+                            <p className='mt-2 text-greyf'>The academy collaborates with industry partners, climate experts, and practitioners to deliver high-quality instruction</p>
+                        </div>
+                    </div>
+                    <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
+                        <Image src={icon2} className='h-[50px] w-[50px] md:flex hidden' />
+                        <div className=' px-4 flex flex-col ' >
+                            <div className='flex'>
+                                <Image src={icon2} className='h-[40px] w-[40px] md:hidden flex' />
+                                <p className="md:text-2xl text-xl md:ml-0 ml-2 ">Customization and Flexibility</p>
+                            </div>
+                            <p className='mt-2 text-greyf'>4.Platform provides tailored learning paths or modules to cater to the specific needs and interests of participants</p>
+                        </div>
+                    </div>
+                    <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
+                        <Image src={icon3} className='h-[50px] w-[50px] md:flex hidden' />
+                        <div className=' px-4 flex flex-col ' >
+                            <div className='flex'>
+                                <Image src={icon3} className='h-[40px] w-[40px] md:hidden flex' />
+                                <p className="md:text-2xl text-xl md:ml-0 ml-2 ">Networking and Community Engagement</p>
+                            </div>
+                            <p className='mt-2 text-greyf'>Platform facilitate networking events, online forums, mentorship programs, or collaborations, creating opportunities for knowledge sharing, collaboration, and career advancement</p>
                         </div>
                     </div>
                     <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
@@ -83,37 +131,7 @@ const academy = () => {
                         <div className=' px-4 flex flex-col ' >
                             <div className='flex'>
                                 <Image src={icon} className='h-[40px] w-[40px] md:hidden flex' />
-                                <p className="md:text-2xl text-xl md:ml-0 ml-2 ">Dedicated community <br /> platform</p>
-                            </div>
-                            <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
-                        </div>
-                    </div>
-                    <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
-                        <Image src={icon} className='h-[50px] w-[50px] md:flex hidden' />
-                        <div className=' px-4 flex flex-col ' >
-                            <div className='flex'>
-                                <Image src={icon} className='h-[40px] w-[40px] md:hidden flex' />
-                                <p className="md:text-2xl text-xl md:ml-0 ml-2 ">Dedicated community <br /> platform</p>
-                            </div>
-                            <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
-                        </div>
-                    </div>
-                    <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
-                        <Image src={icon} className='h-[50px] w-[50px] md:flex hidden' />
-                        <div className=' px-4 flex flex-col ' >
-                            <div className='flex'>
-                                <Image src={icon} className='h-[40px] w-[40px] md:hidden flex' />
-                                <p className="md:text-2xl text-xl md:ml-0 ml-2 ">Dedicated community <br /> platform</p>
-                            </div>
-                            <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
-                        </div>
-                    </div>
-                    <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
-                        <Image src={icon} className='h-[50px] w-[50px] md:flex hidden' />
-                        <div className=' px-4 flex flex-col ' >
-                            <div className='flex'>
-                                <Image src={icon} className='h-[40px] w-[40px] md:hidden flex' />
-                                <p className="md:text-2xl text-xl md:ml-0 ml-2 ">Dedicated community <br /> platform</p>
+                                <p className="md:text-2xl text-xl md:ml-0 ml-2 ">Focus on Innovation and Emerging Technologies</p>
                             </div>
                             <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                         </div>
@@ -126,40 +144,40 @@ const academy = () => {
                 {/* <p className=" mt-2 text-center sm:max-w-[50%] mx-auto mb-10">Our in-house team make sure everything is set up and configured for you to use. From data availability and completeness through to portal logins and training, we’ve got it covered.</p> */}
                 <div className=" rounded-sm grid grid-flow-row	 sm:grid-cols-2 row-span-2 sm:px-20 px-4 gap-2 justify-center items-center w-full mt-10">
                     <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
-                        <Image src={icon} className='h-[50px] w-[50px] md:flex hidden' />
+                        <Image src={vec1} className='h-[50px] w-[50px] md:flex hidden' />
                         <div className=' px-4 flex flex-col ' >
                             <div className='flex'>
-                                <Image src={icon} className='h-[40px] w-[40px] md:hidden flex' />
+                                <Image src={vec1} className='h-[40px] w-[40px] md:hidden flex' />
                                 <p className="md:text-2xl text-xl md:ml-0 ml-2 ">Dedicated community <br /> platform</p>
                             </div>
                             <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                         </div>
                     </div>
                     <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
-                        <Image src={icon} className='h-[50px] w-[50px] md:flex hidden' />
+                        <Image src={vec2} className='h-[50px] w-[50px] md:flex hidden' />
                         <div className=' px-4 flex flex-col ' >
                             <div className='flex'>
-                                <Image src={icon} className='h-[40px] w-[40px] md:hidden flex' />
+                                <Image src={vec2} className='h-[40px] w-[40px] md:hidden flex' />
                                 <p className="md:text-2xl text-xl md:ml-0 ml-2 ">Dedicated community <br /> platform</p>
                             </div>
                             <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                         </div>
                     </div>
                     <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
-                        <Image src={icon} className='h-[50px] w-[50px] md:flex hidden' />
+                        <Image src={vec3} className='h-[50px] w-[50px] md:flex hidden' />
                         <div className=' px-4 flex flex-col ' >
                             <div className='flex'>
-                                <Image src={icon} className='h-[40px] w-[40px] md:hidden flex' />
+                                <Image src={vec3} className='h-[40px] w-[40px] md:hidden flex' />
                                 <p className="md:text-2xl text-xl md:ml-0 ml-2 ">Dedicated community <br /> platform</p>
                             </div>
                             <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
                         </div>
                     </div>
                     <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
-                        <Image src={icon} className='h-[50px] w-[50px] md:flex hidden' />
+                        <Image src={vec4} className='h-[50px] w-[50px] md:flex hidden' />
                         <div className=' px-4 flex flex-col ' >
                             <div className='flex'>
-                                <Image src={icon} className='h-[40px] w-[40px] md:hidden flex' />
+                                <Image src={vec4} className='h-[40px] w-[40px] md:hidden flex' />
                                 <p className="md:text-2xl text-xl md:ml-0 ml-2 ">Dedicated community <br /> platform</p>
                             </div>
                             <p className='mt-2 text-greyf'>At NetZeroKaro we are a diverse bunch of people all driven by the same purpose to tackle the world’s environmental challenges. It might be our job but it is also our personal passion.</p>
