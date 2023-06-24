@@ -60,7 +60,12 @@ text-transform: capitalize;
 .list-story li {
   border-bottom: 0.8px solid white ;
   padding: 4px;
-}    .rotating-text {
+}    
+.list-story li:nth-child(5) {
+  border-bottom:none;
+  padding: 4px;
+}   
+.rotating-text {
   display: inline-block;
   position: relative;
   width: 100%; /* Adjust the width as needed */
@@ -112,11 +117,7 @@ text-transform: capitalize;
 .footer ul{
   margin-top: 10px;
 }
-.bg-img{
-  background-image: url('../assets/approach.png');
-  background-repeat: no-repeat;
-  height: 100vh;
-}
+
 
 
 .list-values li:first-child p:first-child{
@@ -124,9 +125,10 @@ text-transform: capitalize;
 }
 
 .list-values li p:first-child{
-  font-size: 1.3rem;
   color: white;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  font-size: 1.25rem;
+
 }
 .list-values li p:nth-child(2){
   margin-top: 2px;
@@ -134,9 +136,11 @@ text-transform: capitalize;
   color: white;
 }
 .list-values li {
+  font-size: 1rem;
   border-bottom: 0.8px solid white ;
-  padding: 4px;
+  padding: 10px;
 }   
+
 .approach-bg {
   background: url('../assets/img2.png');
   height: 100vh;
@@ -146,9 +150,55 @@ text-transform: capitalize;
   margin-left: 0 10px;
 }
 .card-list li{
-    margin: 10px 20px;
+    margin: 0px 20px;
+    color: #5D6180;
 }
+
 .bg-img1{
   background: url('../assets/bg1.png');
+}
+
+.bg-img2{
+  background: linear-gradient(149.9deg, #38D26F 12.85%, #357AFF 130.19%);
+}
+.bg-img{
+  background: linear-gradient(
+  0deg,
+  #d7ffe0 0px,
+  rgba(251, 251, 251, 0) 91.45%
+);
+}
+@media screen and (min-width: 768px){
+  .bg-img2{
+  background: url('../assets/bg/bg1.png');
+  }
+  .bg-img{
+    background-image: url('../assets/approach.png');
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    background-size: 58%;
+  }
+}
+
+.bg-img3{
+  background: linear-gradient(149.9deg, #38D26F 12.85%, #357AFF 130.19%);
+}
+
+@media screen and (min-width: 768px){
+  .bg-img3{
+  background: url('../assets/bg/bg2.png');
+  }
+}
+.course-list{
   
+}
+.course-list li{
+  font-size: 1.2rem;
+  margin: 0px ;
+}
+@media screen and (min-width: 768px){
+  .course-list li{
+    font-size: 1.2rem;
+    margin: 12px ;
+ }
 }

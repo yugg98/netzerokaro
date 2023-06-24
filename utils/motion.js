@@ -167,3 +167,20 @@ export const footerVariants = {
     },
   },
 };
+
+export const rocket = (direction) => ({
+  hidden: {
+    x: direction === 'left' ? '-100%' : '50%',
+    y: direction === 'bottom' ?  '20%' : '50%',
+    rotate: 120,
+  },
+  show: {
+    x: 0,
+    rotate: 0,
+    transition: {
+      type: 'easeinout',
+      duration: 1.8,
+      delay: 0.5,
+    },
+  },
+});
