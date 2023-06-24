@@ -33,10 +33,10 @@ const hackathon = () => {
             <Hero Title="Virtual Hackathon Specialists" Desc="Hire, engage and innovate with top diverse talent to accelerate your business roadmap" />
             <div className='linearbggreen sm:py-20 p-4 sm:pt-4'>
                 <Heading text="Ignite innovation, collaborate, and elevate your brand through impactful hackathons." />
-                <p className=" text-greyf sm:px-[100px] px- text-center mt-3">Innovation Hackathons are extensively used by some of the most innovative organizations across the globe to innovate faster where an idea or a business problem involving niche skill sets is given to the technology professionals and students to solve within 24-48 hours.
+                <p className=" text-greyf sm:px-[100px] md:max-w-[80%] text-center mt-3 mx-auto">Innovation Hackathons are extensively used by some of the most innovative organizations across the globe to innovate faster where an idea or a business problem involving niche skill sets is given to the technology professionals and students to solve within 24-48 hours.
                     Over 80% of Fortune 500 companies have hosted or sponsored hackathons to accelerate their innovation processes.
                     Net Zero Karo specializes in conducting personalized innovation hackathons for organizations, thereby enabling them to accelerate their innovation reliably and with agility.</p>
-                <div className=" rounded-sm grid sm:grid-cols-2 row-span-2 sm:px-20 px-4 gap-2 justify-center items-center w-full mt-10">
+                <div className=" rounded-sm grid sm:grid-cols-2 row-span-2 sm:px-20 px-4 gap-2 justify-center items-center w-full md:mt-20 mt-10">
                     <div className='sm:p-4 p-2 flex'>
                         <Image src={bulb} className='h-[80px]' />
                         <div className=' px-4'>

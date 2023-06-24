@@ -22,7 +22,7 @@ const Solutions = () => {
                 <div >
                   <p className="font-semibold text-lg ">Climate Skilling</p>
                   <p className="text-greyf mb-4 mt-2">Acquire the essential skills and expertise needed to tackle climate challenges head-on, with our range of immersive and practical learning opportunities designed to empower you to make a positive impact in the fight against climate change.</p>
-                  <p className='relative b-2  gradienttextbg mt-4'><Link href="/marketplace">Explore More <span><Image src={arrow} className='inline max-w-[50px]' /></span></Link></p>
+                  <p className='relative b-2  gradienttextbg mt-4'><Link href="/academy">Explore More <span><Image src={arrow} className='inline max-w-[50px]' /></span></Link></p>
                 </div>
 
               </div>
@@ -35,7 +35,7 @@ const Solutions = () => {
                 <div >
                   <p className="font-semibold text-lg ">Climate Literacy</p>
                   <p className="text-greyf mb-4 mt-2">Elevate your climate IQ with our comprehensive resources, empowering you to understand and communicate the science, impacts, and solutions of climate change effectively.</p>
-                  <p className='relative bottom-[-19px]  gradienttextbg mt-4'><Link href="/marketplace">Explore More <span><Image src={arrow} className='inline max-w-[50px]' /></span></Link></p>
+                  <p className='relative bottom-[-19px]  gradienttextbg mt-4'><Link href="/academy">Explore More <span><Image src={arrow} className='inline max-w-[50px]' /></span></Link></p>
                 </div>
 
               </div>
@@ -57,7 +57,7 @@ const Solutions = () => {
         </div>
       </div>
       <div className="linearbggreen  overflow-hidden ">
-        <Image src={earth} className='sm:flex absolute hidden  left-[70%] w-[600px] ' />
+        <Image src={earth} className='sm:flex absolute hidden  left-[70%] w-[450px] ' />
         <div className='p-6 sm:px-14 px-8 mt-4'>
           {/* <span className="relative md:left-[10%] left-[-5%]">
             <Image src={comma} className="md:w-[45px] w-[30px]" />
@@ -67,7 +67,7 @@ const Solutions = () => {
             <Image src={comma2} className="md:w-[45px] w-[35px]" />
           </span> */}
           <p className='text-4xl leading-[3rem] mt-20 font-semibold text-fblack'><span className='font-extralight'>Take the first step towards a </span><br />
-            carbon-neutral world with Zero <br /> Carbon Net.</p>
+          climate awareness with Net Zero Karo!</p>
           <div className="flex flex-col sm:w-[400px] w-full mt-4 mb-10">
             <button className="bg-green text-center px-4 py-3 text-white w-full rounded-full mt-4">Get Started now</button>
           </div>

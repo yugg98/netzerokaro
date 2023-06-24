@@ -20,9 +20,9 @@ const Navbar = () => {
                     <li className='text-[1.15rem] text-green'><Link href="/company">Company</Link></li>
                     <li className='text-[1.15rem] text-green'><Link href="/academy">Academy</Link></li>
                     <li className='text-[1.15rem] text-green'><Link href="/courses"> Courses</Link></li>
-                    <li className='text-[1.15rem] text-green'><Link href="/marketplace">Market Place</Link></li>
-                    <li className='text-[1.15rem] text-green'><Link href="/aboutus">About us </Link></li>
-                    <li className='text-[1.15rem] text-green'><Link href="/hackathon">Hackathon Services</Link></li>
+                    <li className='text-[1.15rem] text-green'><Link href="/marketplace">Marketplace</Link></li>
+                    <li className='text-[1.15rem] text-green'><Link href="/aboutus">Aboutus </Link></li>
+                    <li className='text-[1.15rem] text-green'><Link href="/hackathon">Hackathon</Link></li>
                 </ul>
                 {open ? <XMarkIcon className='sm:hidden relative w-[35px] z-[2010]' onClick={() => setOpen(false)} /> : <Bars3Icon className='sm:hidden relative w-[35px] z-[100]' onClick={() => setOpen(true)} />}
                 <button className="  text-white bg-black px-5 py-2 rounded-full md:flex hidden text-lg">Get Started</button>

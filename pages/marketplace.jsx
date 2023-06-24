@@ -25,7 +25,7 @@ const greenstore = () => {
             <Hero Title={"Empower your team with the tools for a sustainable tomorrow! "} Desc={"Overall emissions reduction is the most direct way for any organisation to start working in favour of the planet. With our help, you’ll be able to do just that."} />
             <div className="p-10 flex flex-wrap justify-center items-center linearbggreen">
                 <div className="sm:w-1/2 md:px-16">
-                    <p className="sm:text-5xl text-3xl text-green mb-2 sm:leading-[60px]">From understanding your Carbon Footprint to reducing your emissions, we&apos;ll be there.</p>
+                    <p className="sm:text-5xl text-3xl font-semibold text-green mb-2 sm:leading-[60px]">From understanding your Carbon Footprint to reducing your emissions, we&apos;ll be there.</p>
                     <p className='text-2xl mt-10'>We have the roadmap to your company’s zero-carbon future, and the expertise and platform to get you there</p>
                 </div>
                 <div className="sm:w-1/2 md:p-8">
@@ -36,12 +36,12 @@ const greenstore = () => {
                 <Heading text="Net Zero Services" color={true}/>
 
                 <div className="sm:p-4 p-2 flex  items-center  flex-wrap">
-                    <div className="sm:w-1/2 p-8 w-full">
-                        <Image src={img3} />
+                    <div className="sm:w-1/2 w-full">
+                        <Image src={img3}  className='md:w-[80%] mx-auto'/>
                     </div>
-                    <div className="sm:w-1/2 sm:px-12 px-4 w-full">
+                    <div className="sm:w-1/2 sm:px-8  px-4 w-full">
 
-                        <p className='text-xl mt-10 text-white'>Are you struggling to meet your carbon reduction goals without compromising your profit margins? Whether your company is required to report carbon emissions or you choose to showcase your environmental sustainability as part of your corporate social responsibility, we have a tailored carbon plan just for you.
+                        <p className='text-xl  text-white'>Are you struggling to meet your carbon reduction goals without compromising your profit margins? Whether your company is required to report carbon emissions or you choose to showcase your environmental sustainability as part of your corporate social responsibility, we have a tailored carbon plan just for you.
                             <br />
                             <br />
 

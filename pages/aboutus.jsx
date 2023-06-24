@@ -10,19 +10,20 @@ import o1 from '@/assets/o1.png'
 import o2 from '@/assets/o2.png'
 import Form from '@/components/Form'
 import { Footer } from '@/components/Footer'
-import icon from '@/assets/icons/icon.png'
+import icon from '@/assets/icons/icon.svg'
 import icon1 from '@/assets/media/icon1.png'
 import icon2 from '@/assets/media/icon5.png'
 import icon3 from '@/assets/media/icon6.png'
 import icon4 from '@/assets/media/icon7.png'
 
-import finan from '@/assets/icons/finan.png'
-import auto from '@/assets/icons/auto.png'
-import avi from '@/assets/icons/avi.png'
-import fmcg from '@/assets/icons/fmcg.png'
-import manu from '@/assets/icons/manu.png'
-import ecom from '@/assets/icons/ecom.png'
+import finan from '@/assets/icons/finan.svg'
+import auto from '@/assets/icons/auto.svg'
+import avi from '@/assets/icons/avi.svg'
+import fmcg from '@/assets/icons/fmcg.svg'
+import manu from '@/assets/icons/manu.svg'
+import ecom from '@/assets/icons/ecom.svg'
 import img3 from '@/assets/media/img1.png'
+
 import CallToAction from '@/components/CallToAction'
 import Heading from '@/components/Heading'
 import base1 from '@/assets/faces/img.png'
@@ -84,10 +85,8 @@ const aboutus = () => {
 
             <div className='linearbggreen sm:py-20  sm:pt-4'>
                 <Heading text="Who we are ?" />
-                <p className=" text-greyf sm:px-[100px] px- text-center mt-3">Innovation Hackathons are extensively used by some of the most innovative organizations across the globe to innovate faster where an idea or a business problem involving niche skill sets is given to the technology professionals and students to solve within 24-48 hours.
-                    Over 80% of Fortune 500 companies have hosted or sponsored hackathons to accelerate their innovation processes.
-                    Net Zero Karo specializes in conducting personalized innovation hackathons for organizations, thereby enabling them to accelerate their innovation reliably and with agility.</p>
-                <div className=" rounded-sm grid sm:grid-cols-2 row-span-2 sm:px-20 px-4 gap-2 justify-center items-center w-full mt-10">
+                <p className=" text-greyf sm:px-[100px] px- text-center mt-3">      These are some of the values and expertise that define us</p>
+                <div className=" rounded-sm grid sm:grid-cols-2 row-span-2 sm:px-20 px-4 gap-2 justify-center items-center w-full md:mt-20 mt-10">
                     <div className='sm:p-4 p-2 flex'>
                         <Image src={icon1} className='h-[80px] md:flex hidden' />
                         <div className=' px-4'>
@@ -144,45 +143,45 @@ const aboutus = () => {
                     <div className="sm:w-1/2 sm:px-16 px-2 flex">
                         <div className='sm:w-1/2 '>
                             <div className='flex items-center my-4 '>
-                                <Image src={icon} className='md:w-[70px] w-[45px]' />
+                                <Image src={icon} className='md:w-[50px] w-[35px]' />
                                 <p className="ml-4 md:text-xl text-md">Cement</p>
                             </div>
                             <div className='flex items-center my-4 '>
-                                <Image src={finan} className='md:w-[70px] w-[45px]' />
+                                <Image src={finan} className='md:w-[50px] w-[35px]' />
                                 <p className="ml-4 md:text-xl text-md">Financial </p>
                             </div>
                             <div className='flex items-center my-4 '>
-                                <Image src={auto} className='md:w-[70px] w-[45px]' />
+                                <Image src={auto} className='md:w-[50px] w-[35px]' />
                                 <p className="ml-4 md:text-xl text-md">Automobile</p>
                             </div>
                             <div className='flex items-center my-4 '>
-                                <Image src={icon} className='md:w-[70px] w-[45px]' />
+                                <Image src={icon} className='md:w-[50px] w-[35px]' />
                                 <p className="ml-4 md:text-xl text-md">Education</p>
                             </div>
                             <div className='flex items-center my-4 '>
-                                <Image src={icon} className='md:w-[70px] w-[45px]' />
+                                <Image src={icon} className='md:w-[50px] w-[35px]' />
                                 <p className="ml-4 md:text-xl text-md">Pharma</p>
                             </div>
                         </div>
                         <div className='sm:w-1/2'>
                             <div className='flex items-center my-4  ml-10'>
-                                <Image src={avi} className='md:w-[70px] w-[45px]' />
+                                <Image src={avi} className='md:w-[50px] w-[35px]' />
                                 <p className="ml-4 md:text-xl text-md">Aviation</p>
                             </div>
                             <div className='flex items-center my-4 ml-10'>
-                                <Image src={fmcg} className='md:w-[70px] w-[45px]' />
+                                <Image src={fmcg} className='md:w-[50px] w-[35px]' />
                                 <p className="ml-4 md:text-xl text-md">FMCG</p>
                             </div>
                             <div className='flex items-center my-4 ml-10'>
-                                <Image src={manu} className='md:w-[70px] w-[45px]' />
+                                <Image src={manu} className='md:w-[50px] w-[35px]' />
                                 <p className="ml-4 md:text-xl text-md">Manufacturing</p>
                             </div>
                             <div className='flex items-center my-4 ml-10'>
-                                <Image src={ecom} className='md:w-[70px] w-[45px]' />
+                                <Image src={ecom} className='md:w-[50px] w-[35px]' />
                                 <p className="ml-4 md:text-xl text-md">Ecommerce</p>
                             </div>
                             <div className='flex items-center my-4 ml-10'>
-                                <Image src={ecom} className='md:w-[70px] w-[45px]' />
+                                <Image src={ecom} className='md:w-[50px] w-[35px]' />
                                 <p className="ml-4 md:text-xl text-md">I.T</p>
                             </div>
 
@@ -235,7 +234,7 @@ const aboutus = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-row justify-center max-w-[320px]  items-center md:mb-0 mb-4">
+                    {/* <div className="flex flex-row justify-center max-w-[320px]  items-center md:mb-0 mb-4">
                         <div className=" rounded-lg  overflow-hidden h-[580px]">
                             <Image src={base1} className='mx-auto' />
                             <div className="flex justify-between px-8 py-5">
@@ -248,11 +247,11 @@ const aboutus = () => {
 
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>
-            <div className='linearbggreen p-4'>
+            {/* <div className='linearbggreen p-4'>
                 <Heading text="Board Advisiors" />
                 <div className="flex justify-between flex-wrap sm:mt-20 mt-10 sm:px-10 ">
                     <div className="flex flex-row justify-center max-w-[320px]  items-center md:mb-0 mb-4">
@@ -313,7 +312,7 @@ const aboutus = () => {
                     </div>
 
                 </div>
-            </div>
+            </div> */}
             <CallToAction />
             <Footer />
         </div>

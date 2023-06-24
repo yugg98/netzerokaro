@@ -64,11 +64,12 @@ export const Footer = () => {
               <Link href="/skillingcourse">Courses </Link>
             </li>
             <li>
-              <Link href="/aboutus"> About Us </Link>
-            </li>
-            <li>
               <Link href="/marketplace"> Marketplace </Link>
             </li>
+            <li>
+              <Link href="/hackathon"> Hackathon </Link>
+            </li>
+           
             <li>
               <Link href="/marketplace">  </Link>
             </li>

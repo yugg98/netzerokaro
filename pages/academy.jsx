@@ -47,36 +47,14 @@ const academy = () => {
 
             <Nzkacademy />
 
-            {/* <div className="bg-img2 sm:p-10 p-4 flex flex-wrap">
-                <div className="flex flex-col  sm:px-20 sm:my-10 md:w-[60%]">
-                    <div className="bg-white md:p-10 p-6 rounded-lg md:w-[600px] w-full">
-                        <Image src={book} className='w-[60px] ' />
-                        <p className='text-lg mt-4 '>Learning format</p>
-                        <ul className='card-list'>
-                            <p className="text-sm text-greyf">Our in-house team make sure everything is set up and configured for you to use. From data availability and completeness through to portal logins and training, we’ve got it covered.</p>
-                        </ul>
-                    </div>
-                    <div className="bg-white md:p-10 p-6 rounded-lg mt-4 sm:w-[600px] w-full">
-                        <Image src={script} className='w-[60px]' />
-                        <p className='text-lg mt-4 '>Learning format</p>
-                        <ul className='card-list'>
-                            <li>Voiceovers and closed captions</li>
-                            <li>Scientifically validated resource links for further research</li>
-                            <li>Self-paced online learning</li>
-                            <li>Engaging & interactive graphics</li>
-                            <li>80+ Interactive quizzes</li>
-                        </ul>
-                    </div>
-                </div>
-                <Image src={windmill} className='md:h-[500px] md:w-[40%] md:my-auto mx-auto sm:my-0 my-6' />
-            </div> */}
+          
 
 
 
             <div className="linearbggreen sm:py-20 sm:pt-4 py-4">
                 <Heading text={"Academy USP"} />
                 {/* <p className=" mt-2 text-center sm:max-w-[50%] mx-auto mb-10">Our in-house team make sure everything is set up and configured for you to use. From data availability and completeness through to portal logins and training, we’ve got it covered.</p> */}
-                <div className=" rounded-sm grid grid-flow-row	 sm:grid-cols-2 row-span-2 sm:px-20 px-4 gap-2 justify-center items-center w-full mt-10">
+                <div className=" rounded-sm grid grid-flow-row	 sm:grid-cols-2 row-span-2 sm:px-10 px-4 gap-4 justify-center items-center w-full mt-10">
                     <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
                         <Image src={icon1} className='h-[50px] w-[50px] md:flex hidden' />
                         <div className=' px-4 flex flex-col ' >
@@ -87,7 +65,7 @@ const academy = () => {
                             <p className='mt-2 text-greyf'>In-depth training on a wide range of topics related to net-zero emissions, climate science, renewable energy, sustainable practices, climate finance, and more</p>
                         </div>
                     </div>
-                    <div className=" sm:w-[600px] flex w-full my-4 sm:mx-4   sm:p-6 p-4  rounded-lg">
+                    <div className=" sm:w-[600px] flex w-full my-4    sm:p-6 p-4  rounded-lg">
                         <Image src={icon1} className='h-[50px] w-[50px] md:flex hidden' />
                         <div className=' px-4 flex flex-col ' >
                             <div className='flex'>
@@ -194,37 +172,37 @@ const academy = () => {
                 <div className='sm:p-4 p-2 flex'>
                         <Image src={one} className='h-[50px] w-[50px]' />
                         <div className=' px-4'>
-                            <p className="text-2xl   text-black mt-1">Workshops & Inductions</p>
-                            <p className='mt-2 text-[#5D6180]'>Unlocking potential through structured inductions and workshops for seamless onboarding and up-skilling. With our structured inductions, skill enhancement workshops, and personalized mentor-matching, we foster an environment where mentors and participants can thrive.</p>
+                            <p className="text-2xl   text-black mt-1">Sustainability Managers +</p>
+                            <p className='mt-2 text-[#5D6180]'>The Net Zero Karo Academy is particularly beneficial for sustainability managers who are responsible for driving sustainability initiatives within their organizations. The academy provides them with the knowledge and skills necessary to develop and implement effective net-zero strategies, measure carbon footprints, and engage stakeholders in sustainability efforts.</p>
                         </div>
                     </div>
                     <div className='sm:p-4 p-2 flex'>
                         <Image src={two} className='h-[50px] w-[50px]' />
                         <div className=' px-4'>
-                            <p className="text-2xl   text-black mt-1">Workshops & Inductions</p>
-                            <p className='mt-2 text-[#5D6180]'>Unlocking potential through structured inductions and workshops for seamless onboarding and up-skilling. With our structured inductions, skill enhancement workshops, and personalized mentor-matching, we foster an environment where mentors and participants can thrive.</p>
+                            <p className="text-2xl   text-black mt-1">Corporate Executives and Leaders + </p>
+                            <p className='mt-2 text-[#5D6180]'>Corporate executives and leaders play a crucial role in shaping the sustainability agenda of their organizations. The Net Zero Karo Academy offers valuable insights and guidance to help them understand the business case for net-zero goals, navigate regulatory landscapes, and make informed decisions to transition to a sustainable and low-carbon future.</p>
                         </div>
                     </div>
 
                     <div className='sm:p-4 p-2 flex'>
                         <Image src={three} className='h-[50px] w-[50px]' />
                         <div className=' px-4'>
-                            <p className="text-2xl   text-black mt-1">Content Assets & Visual Branding</p>
+                            <p className="text-2xl   text-black mt-1">HR and Learning & Development Professionals +</p>
                             <p className='mt-2 text-[#5D6180]'>Stay informed and engaged with our organization through tailored updates on participant resources, rules, and guidelines. Experience the power of streamlined communication and visually captivating updates.</p>
                         </div>
                     </div>
-                    <div className='sm:p-4 p-2 flex'>
+                    {/* <div className='sm:p-4 p-2 flex'>
                         <Image src={four} className='h-[50px] w-[50px]' />
                         <div className=' px-4'>
-                            <p className="text-2xl   text-black mt-1">Marketing & Schedule</p>
-                            <p className='mt-2 text-[#5D6180]'>Elevate your marketing efforts with our comprehensive support in developing impactful campaigns. Take your marketing initiatives to new heights with our expertise and resources.</p>
+                            <p className="text-2xl   text-black mt-1">Environmental and ESG Specialists +</p>
+                            <p className='mt-2 text-[#5D6180]'>Environmental and ESG specialists focus on measuring and managing environmental impacts and integrating sustainability practices into organizations. The Net Zero Karo Academy offers them specialized training on climate science, environmental management, sustainable finance, and ESG reporting, enabling them to enhance their expertise and contribute to their organization's sustainability goals.</p>
                         </div>
-                    </div>
+                    </div> */}
                     <div className='sm:p-4 p-2 flex justify-self-end	'>
-                        <Image src={five} className='h-[50px] w-[50px]' />
+                        <Image src={four} className='h-[50px] w-[50px]' />
                         <div className=' px-4'>
-                            <p className="text-2xl   text-black mt-1">Creative Support for Ideation</p>
-                            <p className='mt-2 text-[#5D6180]'>Ensure clear and effective communication across all channels with our comprehensive announcement services. Empower your communication efforts and accelerate your innovation journey.</p>
+                            <p className="text-2xl   text-black mt-1">Entrepreneurs and Innovators +</p>
+                            <p className='mt-2 text-[#5D6180]'>Entrepreneurs and innovators seeking to develop sustainable business models and products can benefit from the academy's courses on circular economy, sustainable innovation, and climate entrepreneurship. They can gain insights into market trends, disruptive technologies, and sustainable business practices to drive innovation and create a positive environmental impact.</p>
                         </div>
                     </div>
 

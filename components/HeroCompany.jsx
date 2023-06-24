@@ -29,7 +29,7 @@ const HeroCompany = () => {
                 </div>
             </motion.div>
             <div className="sm:w-[50%] flex justify-end py-20 w-full">
-                <Image src={heroimg} className='w-[80%] mx-auto' />
+                <Image src={heroimg} width={500} height={64} className=' mx-auto' />
             </div>
         </div>
     )
