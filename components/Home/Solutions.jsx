@@ -69,7 +69,7 @@ const Solutions = () => {
           <p className='text-4xl leading-[3rem] mt-20 font-semibold text-fblack'><span className='font-extralight'>Take the first step towards a </span><br />
           climate awareness with Net Zero Karo!</p>
           <div className="flex flex-col sm:w-[400px] w-full mt-4 mb-10">
-            <button className="bg-green text-center px-4 py-3 text-white w-full rounded-full mt-4">Get Started now</button>
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeKhKzbkfUpONy24bTzoRY-YELlkcHzMaYCXiI3zNvlZEUosg/viewform" className="bg-green text-center px-4 py-3 text-white w-full rounded-full mt-4">Get&nbsp;Started&nbsp;now</Link>
           </div>
         </div>
 
