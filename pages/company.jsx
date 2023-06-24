@@ -26,9 +26,9 @@ const company = () => {
             <Navbar />
             <HeroCompany/>
             <Platform />
-            <Vision />
-            <Approach />
-            {/* <CoreValues /> */}
+            {/* <Vision />
+            <Approach /> */}
+            <CoreValues />
             <CallToAction />
             <Footer />
         </div>
