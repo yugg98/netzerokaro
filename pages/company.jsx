@@ -16,10 +16,7 @@ import icon1 from '@/assets/icon1.png'
 import icon2 from '@/assets/icon2.png'
 import icon3 from '@/assets/icon3.png'
 import Platform from '@/components/Platform'
-import earth from '@/assets/Africa.png'
-import earth1 from '@/assets/earth1.png'
-import comma1 from '@/assets/comma.png'
-import comma from '@/assets/comma2.png'
+
 import Heading from '@/components/Heading'
 import HeroCompany from '@/components/HeroCompany'
 
@@ -27,12 +24,12 @@ const company = () => {
     return (
         <div>
             <Navbar />
-            {/* <HeroCompany/> */}
+            <HeroCompany/>
             <Platform />
             <Vision />
             <Approach />
             <CoreValues />
-            <CallToAction />
+            {/* <CallToAction /> */}
             <Footer />
         </div>
     )
