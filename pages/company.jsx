@@ -28,8 +28,8 @@ const company = () => {
             <Platform />
             <Vision />
             <Approach />
-            <CoreValues />
-            {/* <CallToAction /> */}
+            {/* <CoreValues /> */}
+            <CallToAction />
             <Footer />
         </div>
     )
