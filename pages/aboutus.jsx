@@ -193,61 +193,69 @@ const aboutus = () => {
                 <Heading text="Leadership Team" />
                 <div className="flex justify-between flex-wrap sm:mt-20 mt-10 sm:px-10 ">
                     <div className="flex flex-row justify-center max-w-[320px]  items-center md:mb-0 mb-4">
-                        <div className=" rounded-lg  overflow-hidden h-[580px]">
+                        <div className=" rounded-lg  overflow-hidden h-[600px]">
                             <Image src={base1} className='mx-auto' />
                             <div className="flex justify-between px-8 py-5">
                                 <div >
                                     <p className="font-semibold text-lg ">Sunil Batra</p>
-                                    <p className="text-green">Founder</p>
-                                    <p className="text-greyf mb-4 mt-2">Climate key terms and concepts, measuring impacts, and approaches on taking action. Case studies and an accompanying regulation guide are included</p>
+                                    <p className="text-green">Founder, Net Zero Karo, Ex-Samsung / Ex-Bharti Group </p>
+                                    <p className="text-greyf mb-4 mt-2">Results-driven professional with over 20 years of experience in corporate roles, including successful entrepreneurship.</p>
+                                    <Link href={'https://www.linkedin.com/in/sunilbatra81/'}>
                                     <Image src={linkedin} />
+                                    </Link>
                                 </div>
 
                             </div>
                         </div>
                     </div>
                     <div className="flex flex-row justify-center max-w-[320px]  items-center md:mb-0 mb-4">
-                        <div className=" rounded-lg  overflow-hidden h-[580px]">
+                        <div className=" rounded-lg  overflow-hidden h-[600px]">
                             <Image src={base1} className='mx-auto' />
                             <div className="flex justify-between px-8 py-5">
                                 <div >
                                     <p className="font-semibold text-lg ">Sonia Batra</p>
-                                    <p className="text-green">Founder</p>
-                                    <p className="text-greyf mb-4 mt-2">Climate key terms and concepts, measuring impacts, and approaches on taking action. Case studies and an accompanying regulation guide are included</p>
+                                    <p className="text-green">Co-Founder, Net Zero Karo , Psychologist & Mental Health Professional</p>
+                                    <p className="text-greyf mb-4 mt-2">Sensitive and motivated professional with 15+ yrs of extensive experience in psychology assistance.</p>
+                                    <Link href={'https://www.linkedin.com/in/sonia-batra-a98b8b11/'}>
                                     <Image src={linkedin} />
+                                    </Link>
                                 </div>
 
                             </div>
                         </div>
                     </div>
                     <div className="flex flex-row justify-center max-w-[320px]  items-center md:mb-0 mb-4">
-                        <div className=" rounded-lg  overflow-hidden h-[580px]">
+                        <div className=" rounded-lg  overflow-hidden h-[600px]">
                             <Image src={base1} className='mx-auto' />
                             <div className="flex justify-between px-8 py-5">
                                 <div >
-                                    <p className="font-semibold text-lg ">Sunil Batra</p>
-                                    <p className="text-green">Founder</p>
-                                    <p className="text-greyf mb-4 mt-2">Climate key terms and concepts, measuring impacts, and approaches on taking action. Case studies and an accompanying regulation guide are included</p>
+                                    <p className="font-semibold text-lg ">Raghav Kumar Sharma</p>
+                                    <p className="text-green">Strategic Advisor, Net Zero Karo , Angel Investor & Entrepreneur</p>
+                                    <p className="text-greyf mb-4 mt-2">A serial entrepreneur & Next-Gen business professional with 13+ years of developing business strategies, hatching new business models, and building out business processes.</p>
+                                    <Link href={'https://www.linkedin.com/in/sunilbatra81/'}>
                                     <Image src={linkedin} />
+                                    </Link>
                                 </div>
 
                             </div>
                         </div>
                     </div>
-                    {/* <div className="flex flex-row justify-center max-w-[320px]  items-center md:mb-0 mb-4">
-                        <div className=" rounded-lg  overflow-hidden h-[580px]">
+                    <div className="flex flex-row justify-center max-w-[320px]  items-center md:mb-0 mb-4">
+                        <div className=" rounded-lg  overflow-hidden h-[600px]">
                             <Image src={base1} className='mx-auto' />
                             <div className="flex justify-between px-8 py-5">
                                 <div >
-                                    <p className="font-semibold text-lg ">Sunil Batra</p>
-                                    <p className="text-green">Founder</p>
-                                    <p className="text-greyf mb-4 mt-2">Climate key terms and concepts, measuring impacts, and approaches on taking action. Case studies and an accompanying regulation guide are included</p>
+                                    <p className="font-semibold text-lg ">Manpreet Sethi</p>
+                                    <p className="text-green">Marketing and Sustainability Strategist, Ex-Jaguar</p>
+                                    <p className="text-greyf mb-4 mt-2">A passionate entrepreneur with 15 Years of rich experience in driving innovative and sustainable strategies. Skilled in forming partnerships and alliances across industries and verticals.</p>
+                                    <Link href={'https://www.linkedin.com/in/manpreetsethi1/'}>
                                     <Image src={linkedin} />
+                                    </Link>
                                 </div>
 
                             </div>
                         </div>
-                    </div> */}
+                    </div>
 
                 </div>
             </div>
@@ -329,8 +337,8 @@ const Hero = ({ Title, Desc, CalltoAction, SuperTitle, showQues }) => {
 
                     <motion.p variants={textVariant(0.6)} className=" leading-6 mt-4 text-center sm:text-left">{Parser().parse(Desc)}</motion.p>
                     <div className="flex items-center mt-8 sm:justify-start justify-center">
-                        <button className="rounded-full bg-green text-white px-12 text-lg py-3">Explore</button>
-                    </div>
+            <Link  className="rounded-full bg-green text-white px-12 text-lg py-3" href="https://docs.google.com/forms/d/e/1FAIpQLSeKhKzbkfUpONy24bTzoRY-YELlkcHzMaYCXiI3zNvlZEUosg/viewform">Explore</Link>
+          </div>
                 </div>
             </motion.div>
             <div className="sm:w-[50%] flex justify-end ">

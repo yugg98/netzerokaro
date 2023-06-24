@@ -4,6 +4,7 @@ import earth from '@/assets/earth.png'
 import { motion } from 'framer-motion'
 import { slideIn, textVariant } from '@/utils/motion'
 import heroimg from '@/assets/hero5.svg'
+import Link from 'next/link'
 
 const HeroCompany = () => {
     return (
@@ -24,7 +25,9 @@ const HeroCompany = () => {
                         }}
                     /> */}
                     <div className="flex items-center mt-8 sm:justify-start justify-center">
-            <button className="rounded-full bg-green text-white px-12 text-lg py-3">Explore</button>
+                    <div className="flex items-center mt-8 sm:justify-start justify-center">
+            <Link  className="rounded-full bg-green text-white px-12 text-lg py-3" href="https://docs.google.com/forms/d/e/1FAIpQLSeKhKzbkfUpONy24bTzoRY-YELlkcHzMaYCXiI3zNvlZEUosg/viewform">Explore</Link>
+          </div>
           </div>
                 </div>
             </motion.div>

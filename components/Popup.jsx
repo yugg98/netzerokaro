@@ -192,7 +192,7 @@ const Popup = () => {
                         {/* The actual dialog panel  */}
                         <Dialog.Panel className="w-full md:max-w-[80%] max-w-[99%] rounded bg-white md:p-10 p-2">
                             <div className="flex w-full justify-between">
-                                <Dialog.Title className=" sm:text-3xl text-2xl my-2 mx-2">+ Climate Change 101</Dialog.Title>
+                                <Dialog.Title className=" sm:text-3xl text-2xl my-2 mx-2">+ ABCs of Circular Economy</Dialog.Title>
                                 <Dialog.Title className=" text-3xl" onClick={() => setIsOpen2(false)}><XMarkIcon className='w-[40px]' /></Dialog.Title>
 
                             </div>
@@ -240,7 +240,7 @@ const MyDialog = () => {
                         /* Use the `open` state to conditionally change the direction of an icon. */
                         <div className=' rounded-lg'>
                             <Disclosure.Button className='flex bg-white items-center justify-between w-full'>
-                                <p className='text-left text-lg'>Understanding Net Zero: </p>
+                                <p className='text-left text-lg text-green'>Understanding Net Zero: </p>
                                 <ChevronRightIcon className={open ? 'rotate-90 transform w-[40px]' : 'w-[40px]'} />
                             </Disclosure.Button>
 
@@ -267,7 +267,7 @@ const MyDialog = () => {
                         /* Use the `open` state to conditionally change the direction of an icon. */
                         <div className=' rounded-lg'>
                             <Disclosure.Button className='flex bg-white items-center justify-between w-full'>
-                                <p className='text-left text-lg'>Developing a Net-Zero Strategy: </p>
+                                <p className='text-left text-lg  text-green'>Developing a Net-Zero Strategy: </p>
                                 <ChevronRightIcon className={open ? 'rotate-90 transform w-[40px]' : 'w-[40px]'} />
                             </Disclosure.Button>
 
@@ -294,7 +294,7 @@ const MyDialog = () => {
                         /* Use the `open` state to conditionally change the direction of an icon. */
                         <div className=' rounded-lg'>
                             <Disclosure.Button className='flex bg-white items-center justify-between w-full'>
-                                <p className='text-left text-lg'>Implementing Sustainable Practices: </p>
+                                <p className='text-left text-lg text-green'>Implementing Sustainable Practices: </p>
                                 <ChevronRightIcon className={open ? 'rotate-90 transform w-[40px]' : 'w-[40px]'} />
                             </Disclosure.Button>
 
@@ -321,7 +321,7 @@ const MyDialog = () => {
                         /* Use the `open` state to conditionally change the direction of an icon. */
                         <div className=' rounded-lg'>
                             <Disclosure.Button className='flex bg-white items-center justify-between w-full'>
-                                <p className='text-left text-lg'>Measuring and Reporting Progress: </p>
+                                <p className='text-left text-lg text-green'>Measuring and Reporting Progress: </p>
                                 <ChevronRightIcon className={open ? 'rotate-90 transform w-[40px]' : 'w-[40px]'} />
                             </Disclosure.Button>
 
@@ -343,33 +343,7 @@ const MyDialog = () => {
 
 
                 </Disclosure>
-                <Disclosure className="bg-white  " >
-                    {({ open }) => (
-                        /* Use the `open` state to conditionally change the direction of an icon. */
-                        <div className=' rounded-lg'>
-                            <Disclosure.Button className='flex bg-white items-center justify-between w-full'>
-                                <p className='text-left text-lg'>Measuring and Reporting Progress: </p>
-                                <ChevronRightIcon className={open ? 'rotate-90 transform w-[40px]' : 'w-[40px]'} />
-                            </Disclosure.Button>
-
-                            <Transition
-                                enter="transition duration-700 ease-out"
-                                enterFrom="transform z-[-100] opacity-0"
-                                enterTo="transform  z-[100] opacity-100"
-                                leave="transition duration-75 ease-out"
-                                leaveFrom="transform scale-100 opacity-100"
-                                leaveTo="transform scale-95 opacity-0"
-                            >
-                                <Disclosure.Panel className={' bg-white rounded-lg text-black'}>
-                                    <p>Participants will learn how to effectively measure, track, and report progress towards their organization&apos;s net-zero goals. The module will cover key performance indicators, data collection methodologies, and reporting frameworks such as the Greenhouse Gas Protocol and CDP</p>
-                                </Disclosure.Panel>
-                            </Transition>
-                        </div>
-
-                    )}
-
-
-                </Disclosure>
+             
             </div>
         </>
     )
@@ -384,7 +358,7 @@ const MyDialog1 = () => {
                         /* Use the `open` state to conditionally change the direction of an icon. */
                         <div className=' rounded-lg'>
                             <Disclosure.Button className='flex bg-white items-center justify-between w-full'>
-                                <p className='text-left text-lg'>Fundamentals of Climate Change: </p>
+                                <p className='text-left text-lg text-green'>Fundamentals of Climate Change: </p>
                                 <ChevronRightIcon className={open ? 'rotate-90 transform w-[40px]' : 'w-[40px]'} />
                             </Disclosure.Button>
 
@@ -411,7 +385,7 @@ const MyDialog1 = () => {
                         /* Use the `open` state to conditionally change the direction of an icon. */
                         <div className=' rounded-lg'>
                             <Disclosure.Button className='flex bg-white items-center justify-between w-full'>
-                                <p className='text-left text-lg'>Developing a Net-Zero Strategy: </p>
+                                <p className='text-left text-lg text-green'>Developing a Net-Zero Strategy: </p>
                                 <ChevronRightIcon className={open ? 'rotate-90 transform w-[40px]' : 'w-[40px]'} />
                             </Disclosure.Button>
 
@@ -438,7 +412,7 @@ const MyDialog1 = () => {
                         /* Use the `open` state to conditionally change the direction of an icon. */
                         <div className=' rounded-lg'>
                             <Disclosure.Button className='flex bg-white items-center justify-between w-full'>
-                                <p className='text-left text-lg'>Impacts and Risks: </p>
+                                <p className='text-left text-lg text-green'>Impacts and Risks: </p>
                                 <ChevronRightIcon className={open ? 'rotate-90 transform w-[40px]' : 'w-[40px]'} />
                             </Disclosure.Button>
 
@@ -465,7 +439,7 @@ const MyDialog1 = () => {
                         /* Use the `open` state to conditionally change the direction of an icon. */
                         <div className=' rounded-lg'>
                             <Disclosure.Button className='flex bg-white items-center justify-between w-full'>
-                                <p className='text-left text-lg'>Mitigation and Adaptation Strategies: </p>
+                                <p className='text-left text-lg text-green'>Mitigation and Adaptation Strategies: </p>
                                 <ChevronRightIcon className={open ? 'rotate-90 transform w-[40px]' : 'w-[40px]'} />
                             </Disclosure.Button>
 
@@ -492,7 +466,7 @@ const MyDialog1 = () => {
                         /* Use the `open` state to conditionally change the direction of an icon. */
                         <div className=' rounded-lg'>
                             <Disclosure.Button className='flex bg-white items-center justify-between w-full'>
-                                <p className='text-left text-lg'>Corporate Climate Action: </p>
+                                <p className='text-left text-lg text-green'>Corporate Climate Action: </p>
                                 <ChevronRightIcon className={open ? 'rotate-90 transform w-[40px]' : 'w-[40px]'} />
                             </Disclosure.Button>
 
@@ -528,7 +502,7 @@ const MyDialog2 = () => {
                         /* Use the `open` state to conditionally change the direction of an icon. */
                         <div className=' rounded-lg'>
                             <Disclosure.Button className='flex bg-white items-center justify-between w-full'>
-                                <p className='text-left text-lg'>Introduction to Circular Economy: </p>
+                                <p className='text-left text-lg text-green'>Introduction to Circular Economy: </p>
                                 <ChevronRightIcon className={open ? 'rotate-90 transform w-[40px]' : 'w-[40px]'} />
                             </Disclosure.Button>
 
@@ -555,7 +529,7 @@ const MyDialog2 = () => {
                         /* Use the `open` state to conditionally change the direction of an icon. */
                         <div className=' rounded-lg'>
                             <Disclosure.Button className='flex bg-white items-center justify-between w-full'>
-                                <p className='text-left text-lg'>Circular Business Models: </p>
+                                <p className='text-left text-lg text-green'>Circular Business Models: </p>
                                 <ChevronRightIcon className={open ? 'rotate-90 transform w-[40px]' : 'w-[40px]'} />
                             </Disclosure.Button>
 
@@ -582,7 +556,7 @@ const MyDialog2 = () => {
                         /* Use the `open` state to conditionally change the direction of an icon. */
                         <div className=' rounded-lg'>
                             <Disclosure.Button className='flex bg-white items-center justify-between w-full'>
-                                <p className='text-left text-lg'>Circular Supply Chains:  </p>
+                                <p className='text-left text-lg text-green'>Circular Supply Chains:  </p>
                                 <ChevronRightIcon className={open ? 'rotate-90 transform w-[40px]' : 'w-[40px]'} />
                             </Disclosure.Button>
 
@@ -609,7 +583,7 @@ const MyDialog2 = () => {
                         /* Use the `open` state to conditionally change the direction of an icon. */
                         <div className=' rounded-lg'>
                             <Disclosure.Button className='flex bg-white items-center justify-between w-full'>
-                                <p className='text-left text-lg'>Circular Design and Innovation: </p>
+                                <p className='text-left text-lg text-green'>Circular Design and Innovation: </p>
                                 <ChevronRightIcon className={open ? 'rotate-90 transform w-[40px]' : 'w-[40px]'} />
                             </Disclosure.Button>
 

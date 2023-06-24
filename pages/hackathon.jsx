@@ -24,6 +24,7 @@ import heroimg from '@/assets/hero3.svg'
 import { slideIn, textVariant } from '@/utils/motion'
 import { Parser } from 'html-to-react'
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 
 
 const hackathon = () => {
@@ -112,7 +113,7 @@ const hackathon = () => {
                 <p className="sm:text-5xl font-semibold text-3xl text-green mb-10 text-center mt-4 sm:mt-0">What We Offer ?</p>
                 <div className=" rounded-sm grid grid-flow-row	 sm:grid-cols-2 row-span-2 sm:px-20 px-4 gap-2 justify-center items-center w-full md:mt-10 mt-4">
                     <div className='sm:p-4 p-2 flex'>
-                        <Image src={one} className='h-[50px] w-[50px]' />
+                        <Image src={one} className='h-[50px] w-[50px] mx-2' />
                         <div className=' px-4'>
                             <p className="text-2xl   text-black mt-1">Community Hub</p>
                             <p className='mt-2 text-[#5D6180]'>With our dedicated registration platform and cutting-edge technology, we empower organizations to efficiently capture participants&apos; and mentors&apos; skills and roles.</p>
@@ -199,8 +200,8 @@ const Hero = ({ Title, Desc, SuperTitle }) => {
 
                     <motion.p variants={textVariant(0.6)} className=" leading-6 mt-4 text-center sm:text-left">{Parser().parse(Desc)}</motion.p>
                     <div className="flex items-center mt-8 sm:justify-start justify-center">
-                        <button className="rounded-full bg-green text-white px-12 text-lg py-3">Explore</button>
-                    </div>
+            <Link  className="rounded-full bg-green text-white px-12 text-lg py-3" href="https://docs.google.com/forms/d/e/1FAIpQLSeKhKzbkfUpONy24bTzoRY-YELlkcHzMaYCXiI3zNvlZEUosg/viewform">Explore</Link>
+          </div>
                 </div>
             </motion.div>
             <div className="sm:w-[50%] flex justify-end py-20 w-full">

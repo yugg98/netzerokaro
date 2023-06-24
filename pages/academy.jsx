@@ -23,6 +23,7 @@ import five from '@/assets/5.svg'
 import heroimg from '@/assets/hero1.svg'
 import { slideIn, textVariant } from '@/utils/motion'
 import { Parser } from 'html-to-react'
+import Link from 'next/link'
 
 
 const academy = () => {
@@ -172,14 +173,14 @@ const academy = () => {
                 <div className='sm:p-4 p-2 flex'>
                         <Image src={one} className='h-[50px] w-[50px]' />
                         <div className=' px-4'>
-                            <p className="text-2xl   text-black mt-1">Sustainability Managers +</p>
+                            <p className="text-2xl   text-black mt-1">Sustainability Managers </p>
                             <p className='mt-2 text-[#5D6180]'>The Net Zero Karo Academy is particularly beneficial for sustainability managers who are responsible for driving sustainability initiatives within their organizations. The academy provides them with the knowledge and skills necessary to develop and implement effective net-zero strategies, measure carbon footprints, and engage stakeholders in sustainability efforts.</p>
                         </div>
                     </div>
                     <div className='sm:p-4 p-2 flex'>
                         <Image src={two} className='h-[50px] w-[50px]' />
                         <div className=' px-4'>
-                            <p className="text-2xl   text-black mt-1">Corporate Executives and Leaders + </p>
+                            <p className="text-2xl   text-black mt-1">Corporate Executives and Leaders </p>
                             <p className='mt-2 text-[#5D6180]'>Corporate executives and leaders play a crucial role in shaping the sustainability agenda of their organizations. The Net Zero Karo Academy offers valuable insights and guidance to help them understand the business case for net-zero goals, navigate regulatory landscapes, and make informed decisions to transition to a sustainable and low-carbon future.</p>
                         </div>
                     </div>
@@ -187,32 +188,34 @@ const academy = () => {
                     <div className='sm:p-4 p-2 flex'>
                         <Image src={three} className='h-[50px] w-[50px]' />
                         <div className=' px-4'>
-                            <p className="text-2xl   text-black mt-1">HR and Learning & Development Professionals +</p>
+                            <p className="text-2xl   text-black mt-1">HR and Learning & Development Professionals </p>
                             <p className='mt-2 text-[#5D6180]'>Stay informed and engaged with our organization through tailored updates on participant resources, rules, and guidelines. Experience the power of streamlined communication and visually captivating updates.</p>
                         </div>
                     </div>
-                    {/* <div className='sm:p-4 p-2 flex'>
+                    <div className='sm:p-4 p-2 flex'>
                         <Image src={four} className='h-[50px] w-[50px]' />
                         <div className=' px-4'>
-                            <p className="text-2xl   text-black mt-1">Environmental and ESG Specialists +</p>
+                            <p className="text-2xl   text-black mt-1">Environmental and ESG Specialists </p>
                             <p className='mt-2 text-[#5D6180]'>Environmental and ESG specialists focus on measuring and managing environmental impacts and integrating sustainability practices into organizations. The Net Zero Karo Academy offers them specialized training on climate science, environmental management, sustainable finance, and ESG reporting, enabling them to enhance their expertise and contribute to their organization's sustainability goals.</p>
                         </div>
-                    </div> */}
-                    <div className='sm:p-4 p-2 flex justify-self-end	'>
-                        <Image src={four} className='h-[50px] w-[50px]' />
+                    </div>
+                  
+                 
+
+                </div>
+                <div className='sm:p-4 p-2 flex justify-self-end max-w-[700px] mx-auto'>
+                        <Image src={five} className='h-[50px] w-[50px]' />
                         <div className=' px-4'>
-                            <p className="text-2xl   text-black mt-1">Entrepreneurs and Innovators +</p>
+                            <p className="text-2xl   text-black mt-1">Entrepreneurs and Innovators </p>
                             <p className='mt-2 text-[#5D6180]'>Entrepreneurs and innovators seeking to develop sustainable business models and products can benefit from the academy&apos;s courses on circular economy, sustainable innovation, and climate entrepreneurship. They can gain insights into market trends, disruptive technologies, and sustainable business practices to drive innovation and create a positive environmental impact.</p>
                         </div>
                     </div>
-
-                </div>
-
             </div>
             <div className="bg-[#D7FFE4] flex justify-center items-center flex-col sm:m-10 m-4 rounded-xl sm:p-12 p-8">
                 <p className="text-uppercase sm:text-4xl text-3xl text-center font-semibold">Make Contact </p>
                 <p className="font-extralight text-center mt-2"> Connect for a free Introduction Call</p>
-                <button className='bg-green text-white sm:px-20 px-6 py-4 rounded-full mt-6'>Contact us </button>
+                <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeKhKzbkfUpONy24bTzoRY-YELlkcHzMaYCXiI3zNvlZEUosg/viewform" className='bg-green text-white sm:px-20 px-6 py-4 rounded-full mt-6'>Contact us </Link>
+
                 <Image src={img} className='sm:absolute   right-[40px] w-[180px]' />
             </div>
             <Footer />
@@ -231,8 +234,8 @@ const Hero = ({ Title, Desc, SuperTitle }) => {
 
                     <motion.p variants={textVariant(0.6)} className=" leading-6 mt-4 text-center sm:text-left">{Parser().parse(Desc)}</motion.p>
                     <div className="flex items-center mt-8 sm:justify-start justify-center">
-                        <button className="rounded-full bg-green text-white px-12 text-lg py-3">Explore</button>
-                    </div>
+            <Link  className="rounded-full bg-green text-white px-12 text-lg py-3" href="https://docs.google.com/forms/d/e/1FAIpQLSeKhKzbkfUpONy24bTzoRY-YELlkcHzMaYCXiI3zNvlZEUosg/viewform">Explore</Link>
+          </div>
                 </div>
             </motion.div>
             <div className="sm:w-[50%] flex justify-end py-20 w-full">

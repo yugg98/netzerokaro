@@ -6,6 +6,7 @@ import asro from '@/assets/asro.png'
 import aspen from '@/assets/aspen.png'
 import {motion} from 'framer-motion'
 import { rocket, slideIn ,textVariant} from '@/utils/motion'
+import Link from 'next/link'
 const HeroHome = () => {
   return (
     <div    className='linearbggreen w-screen sm:h-[80vh] h-full flex sm:flex-row flex-col justify-center items-center   '>
@@ -14,7 +15,7 @@ const HeroHome = () => {
           <motion.p variants={textVariant(0.8)} className='text-center sm:text-left sm:text-6xl text-4xl font-[800] gradienttextbg '>Empowering the future with climate and sustainability education. </motion.p>
           <motion.p variants={textVariant(0.6)} className=" leading-6 mt-4 sm:text-left text-center text-greyf">Workplace climate action made simple.</motion.p>
           <div className="flex items-center mt-8 sm:justify-start justify-center">
-            <button className="rounded-full bg-green text-white px-12 text-lg py-3">Explore</button>
+            <Link  className="rounded-full bg-green text-white px-12 text-lg py-3" href="https://docs.google.com/forms/d/e/1FAIpQLSeKhKzbkfUpONy24bTzoRY-YELlkcHzMaYCXiI3zNvlZEUosg/viewform">Explore</Link>
           </div>
         </div>
       </motion.div>

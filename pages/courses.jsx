@@ -19,6 +19,7 @@ import el from '@/assets/icons/el.svg'
 import { slideIn, textVariant } from '@/utils/motion'
 import { Parser } from 'html-to-react'
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 
 function marketplace() {
     return (
@@ -151,8 +152,8 @@ const Hero = ({ Title, Desc, SuperTitle }) => {
 
                     <motion.p variants={textVariant(0.6)} className=" leading-6 mt-4 text-center sm:text-left">{Parser().parse(Desc)}</motion.p>
                     <div className="flex items-center mt-8 sm:justify-start justify-center">
-                        <button className="rounded-full bg-green text-white px-12 text-lg py-3">Explore</button>
-                    </div>
+            <Link  className="rounded-full bg-green text-white px-12 text-lg py-3" href="https://docs.google.com/forms/d/e/1FAIpQLSeKhKzbkfUpONy24bTzoRY-YELlkcHzMaYCXiI3zNvlZEUosg/viewform">Explore</Link>
+          </div>
                 </div>
             </motion.div>
             <div className="sm:w-[50%] flex justify-end py-20 w-full">
