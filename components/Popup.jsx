@@ -100,7 +100,7 @@ const Popup = () => {
                             <div className='w-full h-full '>
                                 <div className="flex w-full flex-wrap overflow-y-scroll">
                                     <div className='sm:w-1/2 mt-2 md:border-r-[1px] p-6 border-[#CECECE]'>
-                                        <Image src={modal1} />
+                                        <Image src={img1} className='rounded-xl'/>
                                         <p className="text-green my-2">Course Overview</p>
                                         <p className="text-lg text-greyf ">
                                             The Net Zero Essentials course is designed to provide corporate professionals with a comprehensive understanding of the principles, strategies, and practical steps necessary to transition their organizations toward a net-zero future. Through a combination of theoretical knowledge and practical insights, participants will gain the necessary skills and expertise to drive sustainable change within their organizations.
@@ -150,7 +150,7 @@ const Popup = () => {
                             <div className='w-full h-full '>
                                 <div className="flex w-full flex-wrap overflow-y-scroll">
                                     <div className='sm:w-1/2 mt-2 md:border-r-[1px] p-6 border-[#CECECE]'>
-                                        <Image src={modal1} />
+                                        <Image src={img2} className='rounded-xl' />
                                         <p className="text-green my-2">Course Overview</p>
                                         <p className="text-lg text-greyf ">
                                         The Climate Change 101 course is designed to provide corporate professionals with a comprehensive understanding of the science, impacts, and solutions related to climate change. Participants will gain essential knowledge to effectively address climate change challenges and contribute to sustainability initiatives within their organizations.
@@ -200,7 +200,7 @@ const Popup = () => {
                             <div className='w-full h-full '>
                                 <div className="flex w-full flex-wrap overflow-y-scroll">
                                     <div className='sm:w-1/2 mt-2 md:border-r-[1px] p-6 border-[#CECECE]'>
-                                        <Image src={modal1} />
+                                        <Image src={img3} className='rounded-xl'/>
                                         <p className="text-green my-2">Course Overview</p>
                                         <p className="text-lg text-greyf ">
                                         The ABCs of Circular Economy course is designed to provide corporate professionals with a comprehensive understanding of the principles and practices of the circular economy. Participants will explore how to transition from a linear &quot;take-make-dispose&quot; model to a regenerative and sustainable approach that maximizes resource efficiency and minimizes waste.

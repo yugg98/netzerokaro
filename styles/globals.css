@@ -189,3 +189,16 @@ text-transform: capitalize;
   background: url('../assets/bg/bg2.png');
   }
 }
+.course-list{
+  
+}
+.course-list li{
+  font-size: 1.2rem;
+  margin: 0px ;
+}
+@media screen and (min-width: 768px){
+  .course-list li{
+    font-size: 1.2rem;
+    margin: 12px ;
+ }
+}

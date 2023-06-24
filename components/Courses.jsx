@@ -3,6 +3,10 @@ import Image from "next/image";
 import { Tab } from "@headlessui/react";
 import { CheckIcon } from "@heroicons/react/20/solid";
 import img1 from '@/assets/courses/img1.png';
+import { motion } from "framer-motion";
+import { slideIn } from "@/utils/motion";
+import img from '@/assets/img4.png'
+
 export default function Courses() {
   return (
       <div className="mx-auto ">
@@ -62,7 +66,7 @@ export default function Courses() {
             </Tab.List>
             <Tab.Panels >
               <Tab.Panel>
-               <div className="rounded-lg">
+               {/* <div className="rounded-lg">
                     <div className="flex justify-center items-center flex-wrap mt-8">
                       <div className="max-w-[300px] mx-10 my-2 ">
                         <Image src={img1}/>
@@ -91,7 +95,23 @@ export default function Courses() {
                         <p className="text-greyf text-lg text-center">Climate Risk Assessment and Resilience Planning</p>
                       </div>
                     </div>
-               </div>
+               </div> */}
+               <div className="w-full flex flex-wrap p-10  pb-10 mt-10">
+                <motion.div className="sm:w-1/2 " variants={slideIn('left', 'tween', 0.1, 1)} initial="hidden" whileInView="show">
+                    <Image src={img} className='md:max-w-[80%]  mx-auto rounded-2xl' />
+                </motion.div>
+                <div className="sm:w-1/2 sm:px-10 px-2 sm:pt-0 flex   flex-col">
+                    <p className="text-green sm:text-3xl text-2xl   text-center sm:text-left ml-2 md:mt-0 mt-4">Net Zero Essentials</p>
+                    <ol className="list-decimal course-list mt-4 mx-4">
+                      <li>Energy Transition and Renewable Energy Solutions</li>
+                      <li>Energy Transition and Renewable Energy Solutions</li>
+                      <li>Energy Transition and Renewable Energy Solutions</li>
+                      <li>Energy Transition and Renewable Energy Solutions</li>
+                      <li>Energy Transition and Renewable Energy Solutions</li>
+                      <li>Energy Transition and Renewable Energy Solutions</li>
+                    </ol>
+                </div>
+            </div>
               </Tab.Panel>
               <Tab.Panel>
                <div className="rounded-lg">

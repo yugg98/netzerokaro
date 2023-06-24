@@ -22,6 +22,11 @@ import avi from '@/assets/icons/avi.svg'
 import fmcg from '@/assets/icons/fmcg.svg'
 import manu from '@/assets/icons/manu.svg'
 import ecom from '@/assets/icons/ecom.svg'
+import it from '@/assets/icons/it.svg'
+import edu from '@/assets/icons/edu.svg'
+import pharma from '@/assets/icons/pharma.svg'
+
+
 import img3 from '@/assets/media/img1.png'
 
 import CallToAction from '@/components/CallToAction'
@@ -85,7 +90,7 @@ const aboutus = () => {
 
             <div className='linearbggreen sm:py-20  sm:pt-4'>
                 <Heading text="Who we are ?" />
-                <p className=" text-greyf sm:px-[100px] px- text-center mt-3">      These are some of the values and expertise that define us</p>
+                <p className=" text-greyf sm:px-[100px] px- text-center mt-3">  These are some of the values and expertise that define us</p>
                 <div className=" rounded-sm grid sm:grid-cols-2 row-span-2 sm:px-20 px-4 gap-2 justify-center items-center w-full md:mt-20 mt-10">
                     <div className='sm:p-4 p-2 flex'>
                         <Image src={icon1} className='h-[80px] md:flex hidden' />
@@ -155,11 +160,11 @@ const aboutus = () => {
                                 <p className="ml-4 md:text-xl text-md">Automobile</p>
                             </div>
                             <div className='flex items-center my-4 '>
-                                <Image src={icon} className='md:w-[50px] w-[35px]' />
+                                <Image src={edu} className='md:w-[50px] w-[35px]' />
                                 <p className="ml-4 md:text-xl text-md">Education</p>
                             </div>
                             <div className='flex items-center my-4 '>
-                                <Image src={icon} className='md:w-[50px] w-[35px]' />
+                                <Image src={pharma} className='md:w-[50px] w-[35px]' />
                                 <p className="ml-4 md:text-xl text-md">Pharma</p>
                             </div>
                         </div>
@@ -181,7 +186,7 @@ const aboutus = () => {
                                 <p className="ml-4 md:text-xl text-md">Ecommerce</p>
                             </div>
                             <div className='flex items-center my-4 ml-10'>
-                                <Image src={ecom} className='md:w-[50px] w-[35px]' />
+                                <Image src={it} className='md:w-[50px] w-[35px]' />
                                 <p className="ml-4 md:text-xl text-md">I.T</p>
                             </div>
 
@@ -198,7 +203,7 @@ const aboutus = () => {
                             <div className="flex justify-between px-8 py-5">
                                 <div >
                                     <p className="font-semibold text-lg ">Sunil Batra</p>
-                                    <p className="text-green">Founder, Net Zero Karo, Ex-Samsung / Ex-Bharti Group </p>
+                                    <p className="text-green">Founder, Net Zero Karo,<br/> Ex-Samsung / Ex-Bharti Group </p>
                                     <p className="text-greyf mb-4 mt-2">Results-driven professional with over 20 years of experience in corporate roles, including successful entrepreneurship.</p>
                                     <Link href={'https://www.linkedin.com/in/sunilbatra81/'}>
                                     <Image src={linkedin} />
@@ -214,7 +219,7 @@ const aboutus = () => {
                             <div className="flex justify-between px-8 py-5">
                                 <div >
                                     <p className="font-semibold text-lg ">Sonia Batra</p>
-                                    <p className="text-green">Co-Founder, Net Zero Karo , Psychologist & Mental Health Professional</p>
+                                    <p className="text-green">Co-Founder, Net Zero Karo,<br/> Psychologist & Mental Health Professional</p>
                                     <p className="text-greyf mb-4 mt-2">Sensitive and motivated professional with 15+ yrs of extensive experience in psychology assistance.</p>
                                     <Link href={'https://www.linkedin.com/in/sonia-batra-a98b8b11/'}>
                                     <Image src={linkedin} />
@@ -230,9 +235,9 @@ const aboutus = () => {
                             <div className="flex justify-between px-8 py-5">
                                 <div >
                                     <p className="font-semibold text-lg ">Raghav Kumar Sharma</p>
-                                    <p className="text-green">Strategic Advisor, Net Zero Karo , Angel Investor & Entrepreneur</p>
+                                    <p className="text-green">Strategic Advisor, Net Zero Karo,<br/> Angel Investor & Entrepreneur</p>
                                     <p className="text-greyf mb-4 mt-2">A serial entrepreneur & Next-Gen business professional with 13+ years of developing business strategies, hatching new business models, and building out business processes.</p>
-                                    <Link href={'https://www.linkedin.com/in/sunilbatra81/'}>
+                                    <Link href={'https://www.linkedin.com/in/raghavsharmanift/'}>
                                     <Image src={linkedin} />
                                     </Link>
                                 </div>
