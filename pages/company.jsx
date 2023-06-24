@@ -2,33 +2,27 @@ import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import React from 'react'
 import { motion } from 'framer-motion'
-import { textVariant, staggerContainer,slideIn } from '@/utils/motion'
+import { textVariant, staggerContainer } from '@/utils/motion'
 import approach from '@/assets/approach.png'
 import Image from 'next/image'
-import tech from '@/assets/company/tech.jpg'
-import dia from '@/assets/company/dia.svg'
-import note from '@/assets/company/note.png'
-import learn from '@/assets/company/learn.svg'
+import tech from '@/assets/tech.svg'
 import { Footer } from '@/components/Footer'
 import img1 from '@/assets/img1.png'
 import CallToAction from '@/components/CallToAction'
 import icon1 from '@/assets/icon1.png'
 import icon2 from '@/assets/icon2.png'
 import icon3 from '@/assets/icon3.png'
-import Platform from '@/components/Platform'
-
-import Heading from '@/components/Heading'
-import HeroCompany from '@/components/HeroCompany'
 
 const company = () => {
     return (
         <div>
             <Navbar />
-            <HeroCompany/>
+            <Hero Title="Net Zero Karo (NZK)" Desc="a platform dedicated to driving India&apos;s transition towards a net-zero economy."/>
             <Platform />
-            <Vision />
+            {/* <Vision /> */}
             <Approach />
             <CoreValues />
+            <OurApproach />
             <CallToAction />
             <Footer />
         </div>
@@ -37,65 +31,69 @@ const company = () => {
 
 function Vision() {
     return (
-        <div className='bg-img2  flex sm:flex-row flex-col '>
-            <div className='sm:w-[40%]'  initial="hidden" whileInView="show">
-                <div className='sm:px-[80px] p-8 flex  flex-col justify-center '>
-                    <div className=' mt-10'>
-                        <p className="text-3xl text-white sm:text-left text-center">Our Vision</p>
-                        <p className="text-xl text-white mt-4 sm:text-left text-center">Our vision is to create a world that is sustainable, carbon-neutral, and resilient to the impacts of climate change, by empowering individuals and businesses with the tools and knowledge to transition to a net-zero economy.</p>
+        <div className='bs'>Vision</div>
+    )
+}
+function OurApproach() {
+    return (
+        <div className="w-full flex flex-row-reverse linearbggreen">
+            <div className="w-[35%] approach-bg h-[100vh] flex justify-center flex-col items-center">
+                <p className="text-4xl text-white text-center font-semibold leading-12 ">Our Approach<br />
+                    Towards<br />
+                    Net Zero </p>
+                <button className="rounded-full bg-green text-white px-6 py-3">Explore</button>
 
-                    </div>
-                    <div className='  sm:mt-40 mt-10 '  >
-                        <p className="text-3xl text-white sm:text-left text-center" >Our Mission</p>
-                        <p className="text-xl text-white mt-4 sm:text-left text-center">Our mission is to accelerate the transition to a sustainable & net-zero economy by enabling stakeholders to reduce their carbon footprint, embrace sustainable practices, and embrace a more resilient future for our planet and future generations.</p>
-                    </div>
-                </div>
             </div>
-            <div className="sm:w-[60%]  sm:px-24 flex flex-col justify-center p-6 px-4"  initial="hidden" whileInView="show">
+            <div className="w-[65%]  sm:px-24 flex flex-col justify-center">
                 <ul>
-                    <li className='sm:my-10 my-4'>
-                        <div className='sm:flex justify-center '>
-                            <div className='sm:p-0 p-4'>
-                                <div className="flex">
-
-                                    <p className="text-3xl text-semibold mt-2 text-white">Why Now ?</p>
-                                </div>
-
-                                <p className=' mt-2 text-white sm:text-xl  '>
-                                Now is the time to act on the climate crisis. With growing global awareness and a sense of urgency, organizations and individuals need to embrace sustainability and climate action. Regulatory shifts and evolving policies demand swift adaptation. Embracing sustainability practices is not only a business imperative but also an opportunity for future-proofing. 
+                    <li className='my-10'>
+                        <div className='flex justify-center '>
+                            <Image src={icon1} className='h-[84px] w-[84px]' />
+                            <div>
+                                <p className="text-2xl text-semibold mt-2">Why Now ?</p>
+                                <p className=' mt-2 text-greyf text-sm '>
+                                    They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
                                 </p>
-                                
-                              
+                                <p className=' mt-2 text-greyf text-sm '>
+                                    They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
+                                </p>
+                                <p className=' mt-2 text-greyf text-sm '>
+                                    They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
+                                </p>
                             </div>
                         </div>
                     </li>
-                    <li className='sm:my-10 my-4'>
-                        <div className='sm:flex justify-center '>
-                            <div className='sm:p-0 p-4'>
-                                <div className="flex">
-
-                                    <p className="text-3xl text-semibold mt-2 text-white">Why You ?</p>
-                                </div>
-
-                                <p className=' mt-2 text-white sm:text-xl  '>
-                                Bridge the gap between your professional skills and the urgent need for climate action within your company. Unleash your passion and dedication to drive meaningful change, leveraging your existing expertise and experience. Empower yourself to become a catalyst for transformation and lead the way toward a sustainable future.                                </p>
-                               
-                              
+                    <li className='my-10'>
+                        <div className='flex justify-center '>
+                            <Image src={icon2} className='h-[84px] w-[84px]' />
+                            <div>
+                                <p className="text-2xl text-semibold mt-2">Why Now ?</p>
+                                <p className=' mt-2 text-greyf text-sm '>
+                                    They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
+                                </p>
+                                <p className=' mt-2 text-greyf text-sm '>
+                                    They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
+                                </p>
+                                <p className=' mt-2 text-greyf text-sm '>
+                                    They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
+                                </p>
                             </div>
                         </div>
                     </li>
-                    <li className='sm:my-10 my-4'>
-                        <div className='sm:flex justify-center '>
-                            <div className='sm:p-0 p-4'>
-                                <div className="flex">
-
-                                    <p className="text-3xl text-semibold mt-2 text-white">Why Us ?</p>
-                                </div>
-
-                                <p className=' mt-2 text-white sm:text-xl  '>
-                                Experience a transformative learning journey with us, where we go beyond theoretical knowledge to empower you with practical skills for driving change within your company. Our comprehensive curriculum blends technical expertise with leadership development, equipping you to lead sustainable initiatives with confidence.                                </p>
-                              
-                               
+                    <li className='my-10'>
+                        <div className='flex justify-center '>
+                            <Image src={icon3} className='h-[64px] w-[84px]' />
+                            <div>
+                                <p className="text-2xl text-semibold mt-2">Why Now ?</p>
+                                <p className=' mt-2 text-greyf text-sm '>
+                                    They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
+                                </p>
+                                <p className=' mt-2 text-greyf text-sm '>
+                                    They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
+                                </p>
+                                <p className=' mt-2 text-greyf text-sm '>
+                                    They have the power to rapidly reduce emissions, and can mobilise significant resources. They also define the political space for climate policy around the world.
+                                </p>
                             </div>
                         </div>
                     </li>
@@ -104,38 +102,36 @@ function Vision() {
         </div>
     )
 }
-
-
 function CoreValues() {
     return (
-        <div className="w-full flex bg-img2 flex-wrap mb-0">
-            <div className="sm:w-[40%]" variants={slideIn('left', 'tween', 0.2, 1)} initial="hidden" whileInView="show">
+        <div className="w-full flex bs">
+            <div className="w-[40%]">
                 <Image src={img1} />
             </div>
-            <div className="sm:w-[60%]  list-values sm:px-24  p-4 py-8 pt-4 flex flex-col justify-center " variants={slideIn('right', 'tween', 0.1, 1)} initial="hidden" whileInView="show">
-                <p className="sm:text-5xl text-3xl text-white font-semibold">Our Core Values</p>
-                <ul className=''>
+            <div className="w-[60%] bs list-values sm:px-24 flex flex-col justify-center">
+                <p className="text-5xl text-white font-semibold">Our Core Values</p>
+                <ul>
 
                     <li className=''>
                         <p>Sustainability</p>
-                        <p className=''> We are deeply committed to promoting sustainable practices and solutions that contribute to a resilient and thriving plane</p>
+                        <p>196 countries adopted the historic Paris. Its overall goal: limit warming to no more than 1.5 degrees Celsius.</p>
                     </li>
 
                     <li className=''>
-                        <p>Integrity</p>
-                        <p> We uphold the highest standards of honesty, transparency, and ethical conduct in all our operations and interactions.</p>
+                        <p>Sustainability</p>
+                        <p>196 countries adopted the historic Paris. Its overall goal: limit warming to no more than 1.5 degrees Celsius.</p>
                     </li>
                     <li className=''>
-                        <p>Innovation</p>
-                        <p>We embrace innovation as a driving force for finding creative and impactful solutions to climate and sustainability challenges.</p>
+                        <p>Sustainability</p>
+                        <p>196 countries adopted the historic Paris. Its overall goal: limit warming to no more than 1.5 degrees Celsius.</p>
                     </li>
                     <li className=''>
-                        <p>Collaboration</p>
-                        <p>We believe in the power of collaboration and partnerships to foster collective action and maximize our impact in creating a sustainable future</p>
+                        <p>Sustainability</p>
+                        <p>196 countries adopted the historic Paris. Its overall goal: limit warming to no more than 1.5 degrees Celsius.</p>
                     </li>
                     <li className=''>
-                        <p>Empowerment</p>
-                        <p>We empower individuals and organizations with the knowledge, skills, and resources to take meaningful action toward achieving net-zero emissions and sustainability goals</p>
+                        <p>Sustainability</p>
+                        <p>196 countries adopted the historic Paris. Its overall goal: limit warming to no more than 1.5 degrees Celsius.</p>
                     </li>
 
                 </ul>
@@ -145,37 +141,79 @@ function CoreValues() {
 }
 function Approach() {
     return (
-        <div className='sm:h-screen  bg-img linearbggreen'>
-            <Heading text="Our Approach"/>
-        <div className="   flex sm:items-end items-center justify-center my-10 md:h-[80%]">
-            <div className="flex flex-wrap items-center justify-center w-full">
-                
-                <div className="border-green bg-gradientg border-[1px] bg-white rounded-lg mx-10 w-[250px] h-[300px] p-4 flex flex-col justify-center items-center mt-4">
-                    <Image src={learn} alt="" />
-                    <p className="text-lg font-[550] mt-8 text-green">Learning</p>
-                    <p className="text-sm text-center mt-2">Empowering Individuals through Education</p>
-                </div>
-                <div className="border-green bg-gradientg border-[1px] bg-white rounded-lg mx-10 w-[250px] h-[300px] p-4 flex flex-col justify-center items-center mt-4">
-                    <Image src={dia} alt="" />
-                    <p className="text-lg font-[550] mt-8 text-green">Engagement</p>
-                    <p className="text-sm text-center mt-2">Cultivating collaborative engagement for impactful solutions</p>
-                </div>
-                <div className="border-green bg-gradientg border-[1px] bg-white rounded-lg mx-10 w-[250px] h-[300px] p-4 flex flex-col justify-center items-center mt-4">
-                    <Image src={tech} alt="" />
-                    <p className="text-lg font-[550] mt-8 text-green">Innovation</p>
-                    <p className="text-sm text-center mt-2">Embracing technology’s potential for an environmentally resilient future</p>
-                </div>
-                <div className="border-green bg-gradientg border-[1px] bg-white rounded-lg mx-10 w-[250px] h-[300px] p-4 flex flex-col justify-center items-center mt-4">
-                    <Image src={note} alt="" />
-                    <p className="text-lg font-[550] mt-8 text-green">Knowledge</p>
-                    <p className="text-sm text-center mt-2">Enabling informed decision-making and driving sustainable outcomes.</p>
+        <div className="linearbggreen  flex items-end justify-center my-10">
+            <div className="flex">
+            <div className="border-green bg-gradientg border-[1px] bg-white rounded-lg mx-10 max-w-[250px] min-h-[300px] p-4 flex flex-col justify-center items-center">
+                <Image src={tech} alt="" />
+                <p className="text-lg font-[550] mt-8">Learning</p>
+                <p className="text-sm text-center mt-2">Empowering Individuals through Education</p>
+            </div>
+            <div className="border-green bg-gradientg border-[1px] bg-white rounded-lg mx-10 max-w-[250px] min-h-[300px] p-4 flex flex-col justify-center items-center">
+                <Image src={tech} alt="" />
+                <p className="text-lg font-[550] mt-8">Learning</p>
+                <p className="text-sm text-center mt-2">Empowering Individuals through Education</p>
+            </div>
+            <div className="border-green bg-gradientg border-[1px] bg-white rounded-lg mx-10 max-w-[250px] min-h-[300px] p-4 flex flex-col justify-center items-center">
+                <Image src={tech} alt="" />
+                <p className="text-lg font-[550] mt-8">Learning</p>
+                <p className="text-sm text-center mt-2">Empowering Individuals through Education</p>
+            </div>
+            <div className="border-green bg-gradientg border-[1px] bg-white rounded-lg mx-10 max-w-[250px] min-h-[300px] p-4 flex flex-col justify-center items-center">
+                <Image src={tech} alt="" />
+                <p className="text-lg font-[550] mt-8">Learning</p>
+                <p className="text-sm text-center mt-2">Empowering Individuals through Education</p>
+            </div>
+            </div>
+        </div>
+    )
+}
+const Platform = () => {
+    return (
+        <div>
+            <div className='flex justify-center items-center flex-col w-[90%] mx-auto my-10 mt-12 mb-0 sm:px-20 pb-0'>
+                <p className="text-4xl mb-6 text-green font-semibold">The Platform</p>
+                <motion.p variants={textVariant(0.2)} initial="hidden" whileInView="show" className="text-fblack text-center " >
+                    Net Zero Karo (NZK), a platform dedicated to driving India&apos;s transition towards a net-zero economy.
+                    KARO which means TO DO in Hindi, reflects our commitment to action and direction towards achieving carbon neutrality.
+                    <br />
+                    <br />
+                    Net Zero Karo is a leading climate and sustainability education platform. Our comprehensive curriculum and specialized training programs address the urgent need for climate and ESG skills.
+                    <br />
+                    <br />
+
+                    We empower individuals and organizations to navigate the transition to a net-zero future by providing in-depth knowledge, practical tools, and industry insights. With a focus on innovative learning, collaborative engagement, and cutting-edge technology, we inspire and equip climate leaders to drive meaningful change.
+                </motion.p>
+                <div className='bs w-full px-10 py-6 rounded-lg mt-10 relative bottom-[-10px] z-[-1]'>
+                    <p className="text-center text-2xl font-semibold text-white">The Carbon Clock is ticking! Time to meet the <br /> two-degree target</p>
+                    <div className="flex justify-between  w-[50%] mx-auto mt-10">
+                        <div className="rounded-full bg-white px-3.5 py-3">
+                            <p className="text-sm text-center text-greyf">Years</p>
+                            <p className="text-sm text-center">7</p>
+                        </div>
+                        <div className="rounded-full bg-white px-3 py-2">
+                            <p className="text-sm text-center">Years</p>
+                            <p className="text-sm text-center">7</p>
+                        </div>
+                        <div className="rounded-full bg-white px-3 py-2">
+                            <p className="text-sm text-center">Years</p>
+                            <p className="text-sm text-center">7</p>
+                        </div>
+                        <div className="rounded-full bg-white px-3 py-2">
+                            <p className="text-sm text-center">Years</p>
+                            <p className="text-sm text-center">7</p>
+                        </div>
+                        <div className="rounded-full bg-white px-3 py-2">
+                            <p className="text-sm text-center">Years</p>
+                            <p className="text-sm text-center">7</p>
+                        </div>
+                        <div className="rounded-full bg-white px-3 py-2">
+                            <p className="text-sm text-center">Years</p>
+                            <p className="text-sm text-center">7</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
-
     )
 }
-
-
 export default company

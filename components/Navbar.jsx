@@ -1,40 +1,36 @@
 import React, { useState } from 'react'
-import logo from '../assets/logo.svg'
+import logo from '../assets/logo.png'
 import Image from 'next/image'
 import { motion } from 'framer-motion';
-import { navVariants, item } from '@/utils/motion';
+import { navVariants,item } from '@/utils/motion';
 import Link from 'next/link'
-import { AcademicCapIcon, Bars3Icon, BookmarkSquareIcon, HomeIcon, XMarkIcon } from '@heroicons/react/20/solid';
 const Navbar = () => {
-    const [open, setOpen] = useState(false);
+    const [open,setOpen] = useState(false);
     return (
         <motion.nav
             variants={navVariants}
             initial="hidden"
             whileInView="show"
         >
-            <div className='flex justify-between px-4 py-3 items-center nav 	 top-0 left-0'>
-                <Link href="/"><Image className='w-[180px]' src={logo} /></Link>
+            <div className='flex justify-between px-4 items-center nav'>
+                <Link href="/"><Image className='' src={logo} /></Link>
                 <ul className='sm:flex hidden'>
-                    <li className='text-[1.15rem] text-green'><Link href="/">Home</Link></li>
-                    <li className='text-[1.15rem] text-green'><Link href="/company">Company</Link></li>
-                    <li className='text-[1.15rem] text-green'><Link href="/academy">Academy</Link></li>
-                    <li className='text-[1.15rem] text-green'><Link href="/courses"> Courses</Link></li>
-                    <li className='text-[1.15rem] text-green'><Link href="/marketplace">Marketplace</Link></li>
-                    <li className='text-[1.15rem] text-green'><Link href="/aboutus">Aboutus </Link></li>
-                    <li className='text-[1.15rem] text-green'><Link href="/hackathon">Hackathon</Link></li>
+                    <motion.li variants={item} initial="hidden"  whileInView="show"><Link  href="/company">Company</Link></motion.li>
+                    <li><Link href="academy">Academy</Link></li>
+                    <li><Link href="marketplace">Market Place</Link></li>
+                    <li><Link href="greenstore">Green Store</Link></li>
+                    <li><Link href="mediacenter">Media Center </Link></li>
+                    <li><Link href="/">Get Envolved</Link></li>
                 </ul>
-                {open ? <XMarkIcon className='sm:hidden relative w-[35px] z-[2010]' onClick={() => setOpen(false)} /> : <Bars3Icon className='sm:hidden relative w-[35px] z-[100]' onClick={() => setOpen(true)} />}
-                <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeKhKzbkfUpONy24bTzoRY-YELlkcHzMaYCXiI3zNvlZEUosg/viewform" className="  text-white bg-black px-5 py-2 rounded-full md:flex hidden text-lg">Get Started</Link>
-                <div className={open ? "sidebar z-[200] w-[90%] py-12 px-5  bg-white" : "hidden"}>
+                <button className= "bg-[#363636] hidden text-white px-5 py-2 rounded-full sm:block ">Get Started</button>
+                <div className={open ?"sidebar z-[20] w-[90%]":"hidden"}>
                     <ul className='sm:hidden flex flex-col'>
-                        <li className='text-[1.15rem] text-green'><Link href="/">Home</Link></li>
-                        <li className='text-[1.15rem] text-green'><Link href="/company">Company</Link></li>
-                        <li className='text-[1.15rem] text-green'><Link href="/academy">Academy</Link></li>
-                        <li className='text-[1.15rem] text-green'><Link href="/courses"> Courses</Link></li>
-                        <li className='text-[1.15rem] text-green'><Link href="/marketplace">Marketplace</Link></li>
-                        <li className='text-[1.15rem] text-green'><Link href="/aboutus">Aboutus </Link></li>
-                        <li className='text-[1.15rem] text-green'><Link href="/hackathon">Hackathon</Link></li>
+                         <li><Link href="/">Company</Link></li>
+                         <li><Link href="/">Academy</Link></li>
+                         <li><Link href="/">Market Place</Link></li>
+                         <li><Link href="/">Green Store</Link></li>
+                         <li><Link href="/">Media Center </Link></li>
+                         <li><Link href="/">Get Envolved</Link></li>
                     </ul>
                 </div>
             </div>
