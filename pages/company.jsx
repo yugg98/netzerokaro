@@ -26,8 +26,8 @@ const company = () => {
             <Navbar />
             <HeroCompany/>
             <Platform />
-            {/* <Vision />
-            <Approach /> */}
+            <Vision />
+            <Approach />
             <CoreValues />
             <CallToAction />
             <Footer />
@@ -38,7 +38,7 @@ const company = () => {
 function Vision() {
     return (
         <div className='bg-img2  flex sm:flex-row flex-col '>
-            <motion.div className='sm:w-[40%]' variants={slideIn('left', 'tween', 0.2, 1)} initial="hidden" whileInView="show">
+            <div className='sm:w-[40%]'  initial="hidden" whileInView="show">
                 <div className='sm:px-[80px] p-8 flex  flex-col justify-center '>
                     <div className=' mt-10'>
                         <p className="text-3xl text-white sm:text-left text-center">Our Vision</p>
@@ -50,8 +50,8 @@ function Vision() {
                         <p className="text-xl text-white mt-4 sm:text-left text-center">Our mission is to accelerate the transition to a sustainable & net-zero economy by enabling stakeholders to reduce their carbon footprint, embrace sustainable practices, and embrace a more resilient future for our planet and future generations.</p>
                     </div>
                 </div>
-            </motion.div>
-            <motion.div className="sm:w-[60%]  sm:px-24 flex flex-col justify-center p-6 px-4" variants={slideIn('right', 'tween', 0.2, 1)} initial="hidden" whileInView="show">
+            </div>
+            <div className="sm:w-[60%]  sm:px-24 flex flex-col justify-center p-6 px-4"  initial="hidden" whileInView="show">
                 <ul>
                     <li className='sm:my-10 my-4'>
                         <div className='sm:flex justify-center '>
@@ -100,7 +100,7 @@ function Vision() {
                         </div>
                     </li>
                 </ul>
-            </motion.div>
+            </div>
         </div>
     )
 }
