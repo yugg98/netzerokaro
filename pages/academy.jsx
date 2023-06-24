@@ -196,7 +196,7 @@ const academy = () => {
                         <Image src={four} className='h-[50px] w-[50px]' />
                         <div className=' px-4'>
                             <p className="text-2xl   text-black mt-1">Environmental and ESG Specialists </p>
-                            <p className='mt-2 text-[#5D6180]'>Environmental and ESG specialists focus on measuring and managing environmental impacts and integrating sustainability practices into organizations. The Net Zero Karo Academy offers them specialized training on climate science, environmental management, sustainable finance, and ESG reporting, enabling them to enhance their expertise and contribute to their organization's sustainability goals.</p>
+                            <p className='mt-2 text-[#5D6180]'>Environmental and ESG specialists focus on measuring and managing environmental impacts and integrating sustainability practices into organizations. The Net Zero Karo Academy offers them specialized training on climate science, environmental management, sustainable finance, and ESG reporting, enabling them to enhance their expertise and contribute to their organization&apos;s sustainability goals.</p>
                         </div>
                     </div>
                   
