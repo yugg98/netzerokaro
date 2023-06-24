@@ -27,7 +27,7 @@ const company = () => {
     return (
         <div>
             <Navbar />
-            <HeroCompany/>
+            {/* <HeroCompany/> */}
             <Platform />
             <Vision />
             <Approach />

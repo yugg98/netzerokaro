@@ -15,20 +15,14 @@ const HeroCompany = () => {
                     <motion.div variants={textVariant(0.8)} className='text-black text-center sm:text-left sm:text-6xl text-4xl font-[800] gradienttextbg'>Accelerating the transition to a greener world </motion.div>
 
                     <motion.p variants={textVariant(0.6)} className=" leading-6 mt-4 text-center sm:text-left">A platform designed for Net Zero Transition
-                        Helping to create a better world ! 
+                        Helping to create a better world !
                     </motion.p>
-                   {/* <Typewriter
-                        options={{
-                            strings: ['You', 'Me','Us','Earth'],
-                            autoStart: true,
-                            loop: true,
-                        }}
-                    /> */}
+
                     <div className="flex items-center mt-8 sm:justify-start justify-center">
-                    <div className="flex items-center mt-8 sm:justify-start justify-center">
-            <Link  className="rounded-full bg-green text-white px-12 text-lg py-3" href="https://docs.google.com/forms/d/e/1FAIpQLSeKhKzbkfUpONy24bTzoRY-YELlkcHzMaYCXiI3zNvlZEUosg/viewform">Explore</Link>
-          </div>
-          </div>
+                        <div className="flex items-center mt-8 sm:justify-start justify-center">
+                            <Link className="rounded-full bg-green text-white px-12 text-lg py-3" href="https://docs.google.com/forms/d/e/1FAIpQLSeKhKzbkfUpONy24bTzoRY-YELlkcHzMaYCXiI3zNvlZEUosg/viewform">Explore</Link>
+                        </div>
+                    </div>
                 </div>
             </motion.div>
             <div className="sm:w-[50%] flex justify-end py-20 w-full">
