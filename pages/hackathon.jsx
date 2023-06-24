@@ -205,7 +205,7 @@ const Hero = ({ Title, Desc, SuperTitle }) => {
                 </div>
             </motion.div>
             <div className="sm:w-[50%] flex justify-end py-20 w-full ">
-                <Image src={heroimg} className='w-[80%] mx-auto absolute bottom-0' />
+                <Image src={heroimg} className='w-[80%] mx-auto ' />
             </div>
         </div>
     )
