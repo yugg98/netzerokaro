@@ -36,7 +36,7 @@ function marketplace() {
             <div className='bg-img2 flex flex-wrap   overflow-hidden p-8 pt-4'>
                 <div className="md:w-[40%] md:p-14 p-4 ">
                     <p className="sm:text-5xl text-3xl text-white font-semibold md:mt-10">Platform Features</p>
-                    <p className="text-white text-xl mt-10">Net Zero Karo Platform is a leading online platform dedicated to helping businesses and organizations achieve their net-zero carbon goals. The platform's user-friendly interface and customizable features make it easy for users to track their progress, identify areas for improvement, and develop tailored strategies for carbon reduction.</p>
+                    <p className="text-white text-xl mt-10">Net Zero Karo Platform is a leading online platform dedicated to helping businesses and organizations achieve their net-zero carbon goals. The platform&apos;s user-friendly interface and customizable features make it easy for users to track their progress, identify areas for improvement, and develop tailored strategies for carbon reduction.</p>
                 </div>
                 <div className="sm:w-[60%]  list-values sm:px-24   py-8 pt-4 flex flex-col justify-center">
                     <ul>

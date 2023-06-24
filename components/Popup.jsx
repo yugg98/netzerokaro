@@ -203,7 +203,7 @@ const Popup = () => {
                                         <Image src={modal1} />
                                         <p className="text-green my-2">Course Overview</p>
                                         <p className="text-lg text-greyf ">
-                                        The ABCs of Circular Economy course is designed to provide corporate professionals with a comprehensive understanding of the principles and practices of the circular economy. Participants will explore how to transition from a linear "take-make-dispose" model to a regenerative and sustainable approach that maximizes resource efficiency and minimizes waste.
+                                        The ABCs of Circular Economy course is designed to provide corporate professionals with a comprehensive understanding of the principles and practices of the circular economy. Participants will explore how to transition from a linear &quot;take-make-dispose&quot; model to a regenerative and sustainable approach that maximizes resource efficiency and minimizes waste.
                                         </p>
                                     </div>
                                     <div className='sm:w-1/2 md:p-10 py-5 p-6'>
@@ -280,7 +280,7 @@ const MyDialog = () => {
                                 leaveTo="transform scale-95 opacity-0"
                             >
                                 <Disclosure.Panel className={' bg-white rounded-lg text-black'}>
-                                    <p>Participants will learn how to develop a robust net-zero strategy tailored to their organization's unique needs. Topics covered include stakeholder engagement, risk assessment, carbon footprint analysis, and goal-setting frameworks.</p>
+                                    <p>Participants will learn how to develop a robust net-zero strategy tailored to their organization&apos;s unique needs. Topics covered include stakeholder engagement, risk assessment, carbon footprint analysis, and goal-setting frameworks.</p>
                                 </Disclosure.Panel>
                             </Transition>
                         </div>
@@ -334,7 +334,7 @@ const MyDialog = () => {
                                 leaveTo="transform scale-95 opacity-0"
                             >
                                 <Disclosure.Panel className={' bg-white rounded-lg text-black'}>
-                                    <p>Participants will learn how to effectively measure, track, and report progress towards their organization's net-zero goals. The module will cover key performance indicators, data collection methodologies, and reporting frameworks such as the Greenhouse Gas Protocol and CDP</p>
+                                    <p>Participants will learn how to effectively measure, track, and report progress towards their organization&apos;s net-zero goals. The module will cover key performance indicators, data collection methodologies, and reporting frameworks such as the Greenhouse Gas Protocol and CDP</p>
                                 </Disclosure.Panel>
                             </Transition>
                         </div>
@@ -361,7 +361,7 @@ const MyDialog = () => {
                                 leaveTo="transform scale-95 opacity-0"
                             >
                                 <Disclosure.Panel className={' bg-white rounded-lg text-black'}>
-                                    <p>Participants will learn how to effectively measure, track, and report progress towards their organization's net-zero goals. The module will cover key performance indicators, data collection methodologies, and reporting frameworks such as the Greenhouse Gas Protocol and CDP</p>
+                                    <p>Participants will learn how to effectively measure, track, and report progress towards their organization&apos;s net-zero goals. The module will cover key performance indicators, data collection methodologies, and reporting frameworks such as the Greenhouse Gas Protocol and CDP</p>
                                 </Disclosure.Panel>
                             </Transition>
                         </div>
@@ -424,7 +424,7 @@ const MyDialog1 = () => {
                                 leaveTo="transform scale-95 opacity-0"
                             >
                                 <Disclosure.Panel className={' bg-white rounded-lg text-black'}>
-                                    <p>Participants will learn how to develop a robust net-zero strategy tailored to their organization's unique needs. Topics covered include stakeholder engagement, risk assessment, carbon footprint analysis, and goal-setting frameworks.</p>
+                                    <p>Participants will learn how to develop a robust net-zero strategy tailored to their organization&apos;s unique needs. Topics covered include stakeholder engagement, risk assessment, carbon footprint analysis, and goal-setting frameworks.</p>
                                 </Disclosure.Panel>
                             </Transition>
                         </div>

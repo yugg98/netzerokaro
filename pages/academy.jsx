@@ -202,7 +202,7 @@ const academy = () => {
                         <Image src={four} className='h-[50px] w-[50px]' />
                         <div className=' px-4'>
                             <p className="text-2xl   text-black mt-1">Entrepreneurs and Innovators +</p>
-                            <p className='mt-2 text-[#5D6180]'>Entrepreneurs and innovators seeking to develop sustainable business models and products can benefit from the academy's courses on circular economy, sustainable innovation, and climate entrepreneurship. They can gain insights into market trends, disruptive technologies, and sustainable business practices to drive innovation and create a positive environmental impact.</p>
+                            <p className='mt-2 text-[#5D6180]'>Entrepreneurs and innovators seeking to develop sustainable business models and products can benefit from the academy&apos;s courses on circular economy, sustainable innovation, and climate entrepreneurship. They can gain insights into market trends, disruptive technologies, and sustainable business practices to drive innovation and create a positive environmental impact.</p>
                         </div>
                     </div>
 
