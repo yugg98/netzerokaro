@@ -25,7 +25,9 @@ const HeroHome = () => {
          className=" ">
         <Image src={asro} width={200} height={64} className='px-6 pr-0'  />
         </motion.div>
-        <Image src={earth} width={500} height={64} className='px-6 pr-0' />
+        <Image src={aspen} className='px-6 pr-0 w-[100px] h-[120px] absolute top-[10%] right-[10%]' />
+
+        <Image src={earth} width={500} height={64} className='px-6 pr-0 md:mt-10 ' />
       </div>
     </div>
   )

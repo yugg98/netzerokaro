@@ -36,32 +36,44 @@ const hackathon = () => {
                 <p className=" text-greyf sm:px-[100px] md:max-w-[80%] text-center mt-3 mx-auto">Innovation Hackathons are extensively used by some of the most innovative organizations across the globe to innovate faster where an idea or a business problem involving niche skill sets is given to the technology professionals and students to solve within 24-48 hours.
                     Over 80% of Fortune 500 companies have hosted or sponsored hackathons to accelerate their innovation processes.
                     Net Zero Karo specializes in conducting personalized innovation hackathons for organizations, thereby enabling them to accelerate their innovation reliably and with agility.</p>
-                <div className=" rounded-sm grid sm:grid-cols-2 row-span-2 sm:px-20 px-4 gap-2 justify-center items-center w-full md:mt-20 mt-10">
-                    <div className='sm:p-4 p-2 flex'>
-                        <Image src={bulb} className='h-[80px]' />
+                <div className=" rounded-sm grid sm:grid-cols-2 row-span-2 sm:px-20  gap-2 justify-center items-center w-full md:mt-20 mt-10">
+                    <div className='sm:p-4 flex'>
+                        <Image src={bulb} className='h-[80px] md:flex hidden' />
                         <div className=' px-4'>
-                            <p className="text-2xl   text-black mt-1">Innovation & IP <br /> Development</p>
+                        <div className='md:block flex  items-center '>
+                                <Image src={bulb} className='md:hidden flex h-[50px] w-[50px] mr-2' />
+                                <p className="md:text-2xl text-xl   text-black mt-1">Innovation & IP <br /> Development</p>
+                            </div>
                             <p className='mt-2 text-[#5D6180]'>Hackathons are an experimental playground for ideation, prototyping and developing new innovations to solve problems.</p>
                         </div>
                     </div>
                     <div className='sm:p-4 p-2 flex'>
-                        <Image src={company} className='h-[80px]' />
+                        <Image src={company} className='h-[80px] md:flex hidden' />
                         <div className=' px-4'>
-                            <p className="text-2xl  text-black mt-1">Cultivate Community </p>
+                        <div className='md:block flex  items-center '>
+                                <Image src={company} className='md:hidden flex h-[50px] w-[50px] mr-2' />
+                                <p className="md:text-2xl text-xl   text-black mt-1">Cultivate <br/> Community </p>
+                            </div>
                             <p className='mt-2 text-[#5D6180]'>Build a vibrant community by bringing together diverse talent, cutting-edge technologies, and collaborative processes, inspiring out-of-the-box thinking and driving impactful solutions.</p>
                         </div>
                     </div>
                     <div className='sm:p-4 p-2 flex'>
-                        <Image src={group} className='h-[60px]' />
+                        <Image src={group} className='h-[60px] md:flex hidden' />
                         <div className=' px-4'>
-                            <p className="text-2xl   text-black mt-1">Branding </p>
+                        <div className='md:block flex  items-center '>
+                                <Image src={group} className='md:hidden flex h-[40px] w-[50px] mr-2' />
+                                <p className="md:text-2xl text-xl   text-black mt-1">Branding</p>
+                            </div>
                             <p className='mt-2 text-[#5D6180]'> Elevate your company&apos;s brand by associating with hackathons, positioning yourself as an industry expert committed to driving positive social change.</p>
                         </div>
                     </div>
                     <div className='sm:p-4 p-2 flex'>
-                        <Image src={recur} className='h-[80px]' />
+                        <Image src={recur} className='h-[80px] md:flex hidden' />
                         <div className=' px-4'>
-                            <p className="text-2xl   text-black mt-1">Recruitment</p>
+                        <div className='md:block flex  items-center '>
+                                <Image src={recur} className='md:hidden flex h-[50px] w-[50px] mr-2' />
+                                <p className="md:text-2xl text-xl   text-black mt-1">Recruitment</p>
+                            </div>
                             <p className='mt-2 text-[#5D6180]'>Discover top talent and assess their capabilities in handling real-world challenges through project-based hackathon challenges, providing valuable insights for recruitment and talent identification.</p>
                         </div>
                     </div>
@@ -69,7 +81,7 @@ const hackathon = () => {
 
                 </div>
             </div>
-            <div className="bg-img2 flex flex-wrap sm:p-20 p-4 sm:pb-0 pb-4">
+            <div className="bg-img2 flex flex-wrap sm:p-20 p-4 pb-0 ">
                 <div className="sm:w-1/2">
                     <p className="text-5xl text-white font-semibold">Hire</p>
                     <p className='text-lg text-white font-extralight mt-10 '>Attract and hire diverse, innovative talent with a customizable platform that assesses varied skill sets. Engage a large pool of participants and identify the top performers for your teams.</p>
@@ -92,7 +104,7 @@ const hackathon = () => {
                 </div>
                 <div className="sm:w-1/2  pb-0">
                     <div className='flex justify-end'>
-                        <Image src={hire} className='sm:h-[600px] sm:w-[400px] w-full h-full' />
+                        <Image src={hire} className='sm:h-[600px] sm:w-[400px] w-full h-full mt-4' />
                     </div>
                 </div>
             </div>
