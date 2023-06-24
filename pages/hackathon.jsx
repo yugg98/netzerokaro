@@ -169,7 +169,7 @@ const hackathon = () => {
                     </div>
                 </div>
                 <div className='md:mx-0 mx-auto mt-4'>
-                    <button className="rounded-full px-8 py-4 text-green bg-white mx-auto">Let&apos;s connect together</button>
+                    <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeKhKzbkfUpONy24bTzoRY-YELlkcHzMaYCXiI3zNvlZEUosg/viewform" className="rounded-full px-8 py-4 text-green bg-white mx-auto">Let&apos;s&nbsp;connect&nbsp;together</Link>
 
 
                 </div>
