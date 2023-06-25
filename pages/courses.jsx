@@ -43,24 +43,36 @@ function marketplace() {
                     <ul>
 
                         <li className=''>
-                            <div className='flex'>
-                                <Image src={el} className='w-[40px]' />
+                            <div className='flex flex-col'>
+
+                            <div className='flex flex-col'>
+                                <Image src={el} className='w-[40px] md:hidden block' />
                                 <p className='ml-2 text-2xl'>Next generation E-learning </p>
                             </div>
-
                             <p className=''> The academy aims to address the existing skills gap in climate and Environmental, Social, and Governance (ESG) areas by providing comprehensive training and upskilling opportunities.</p>
+                            </div>
+
                         </li>
 
                         <li className=''>
-                            <p className='ml-2 text-2xl'>Tailored learning paths</p>
+                        <div className='flex'>
+                                <Image src={el} className='w-[40px] md:hidden block' />
+                                <p className='ml-2 text-2xl'>Tailored learning paths </p>
+                            </div>
                             <p> Younger talent is increasingly seeking purpose, values-alignment, and engagement in their learning and development (L&D) experiences. The academy recognizes this and strives to provide a platform that appeals to younger individuals who are passionate about addressing climate change.</p>
                         </li>
                         <li className=''>
-                            <p className='ml-2 text-2xl'>Train all your staff </p>
+                        <div className='flex'>
+                                <Image src={el} className='w-[40px] md:hidden block' />
+                                <p className='ml-2 text-2xl'>Train all your staff</p>
+                            </div>
                             <p>The academy focuses on aligning skills development with the goal of achieving net-zero emissions. It aims to equip individuals with the knowledge and tools necessary to contribute to sustainability efforts and the transition to a net-zero future.</p>
                         </li>
                         <li className=''>
-                            <p className='ml-2 text-2xl'> Flexible learning</p>
+                        <div className='flex'>
+                                <Image src={el} className='w-[40px] md:hidden block' />
+                                <p className='ml-2 text-2xl'>Flexible learning </p>
+                            </div>
                             <p>The academy recognizes that climate skilling is the next wave in learning and development. By offering a platform that addresses this emerging trend, it seeks to stay ahead and provide relevant and impactful learning opportunities.</p>
                         </li>
 
@@ -102,7 +114,7 @@ function marketplace() {
                 <Heading text="We’ve Got your back, every step of the way" />
                 <div className="flex flex-wrap md:mt-20 justify-between ">
                     <div className="bg-white p-6 w-[300px] h-[400px] rounded-lg my-4">
-                        <Image src={icon} className='mx-auto w-[120px]' />
+                        <Image src={icon} className='mx-auto w-[120px]  ' />
                         <p className="text-xl text-center mt-6 ">Onboarding Support</p>
                         <p className="text-center mt-2">Our in-house team make sure everything is set up and configured for you to use. From data availability and completeness through to portal logins and training, we’ve got it covered.</p>
                     </div>
