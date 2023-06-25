@@ -71,7 +71,7 @@ export default function Courses() {
             <Tab.Panels >
               <Tab.Panel>
               
-               <div className="w-full flex flex-wrap p-10  pb-10 mt-10">
+               <div className="w-full flex flex-wrap md:p-10 p-4   pb-10 mt-10">
                 <motion.div className="sm:w-1/2 " variants={slideIn('left', 'tween', 0.1, 1)} initial="hidden" whileInView="show">
                     <Image src={img} className='md:max-w-[80%]  mx-auto rounded-2xl' />
                 </motion.div>
@@ -90,7 +90,7 @@ export default function Courses() {
               </Tab.Panel>
               <Tab.Panel>
               
-               <div className="w-full flex flex-wrap p-10  pb-10 mt-10">
+               <div className="w-full flex flex-wrap md:p-10 p-4  pb-10 mt-10">
                 <motion.div className="sm:w-1/2 " variants={slideIn('left', 'tween', 0.1, 1)} initial="hidden" whileInView="show">
                     <Image src={img2} className='md:max-w-[80%]  mx-auto rounded-2xl' />
                 </motion.div>
@@ -109,7 +109,7 @@ export default function Courses() {
               </Tab.Panel>
                <Tab.Panel>
               
-              <div className="w-full flex flex-wrap p-10  pb-10 mt-10">
+              <div className="w-full flex flex-wrap md:p-10 p-4  pb-10 mt-10">
                <motion.div className="sm:w-1/2 " variants={slideIn('left', 'tween', 0.1, 1)} initial="hidden" whileInView="show">
                    <Image src={img3} className='md:max-w-[80%]  mx-auto rounded-2xl' />
                </motion.div>
