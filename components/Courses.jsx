@@ -95,7 +95,7 @@ export default function Courses() {
                     <Image src={img2} className='md:max-w-[80%]  mx-auto rounded-2xl' />
                 </motion.div>
                 <div className="sm:w-1/2 sm:px-10 px-2 sm:pt-0 flex   flex-col">
-                    <p className="text-green sm:text-3xl text-2xl   text-center sm:text-left ml-2 md:mt-0 mt-4">Net Zero Essentials</p>
+                    <p className="text-green sm:text-3xl text-2xl   text-center sm:text-left ml-2 md:mt-0 mt-4">Climate Change 101</p>
                     <ol className="list-decimal course-list mt-4 mx-4">
                       <li>Fundamentals of Climate Change Science</li>
                       <li>Climate Policy and International Agreements</li>
@@ -114,7 +114,7 @@ export default function Courses() {
                    <Image src={img3} className='md:max-w-[80%]  mx-auto rounded-2xl' />
                </motion.div>
                <div className="sm:w-1/2 sm:px-10 px-2 sm:pt-0 flex   flex-col">
-                   <p className="text-green sm:text-3xl text-2xl   text-center sm:text-left ml-2 md:mt-0 mt-4">Net Zero Essentials</p>
+                   <p className="text-green sm:text-3xl text-2xl   text-center sm:text-left ml-2 md:mt-0 mt-4">ABCs of Circular Economy</p>
                    <ol className="list-decimal course-list mt-4 mx-4">
                      <li>Introduction to Circular Economy Principles</li>
                      <li>Designing for Circular Economy</li>

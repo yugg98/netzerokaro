@@ -4,7 +4,7 @@ import { ChevronRightIcon } from '@heroicons/react/20/solid'
 function Accordian() {
     return (
         <div>
-            <Disclosure className="md:bg-white   my-10" defaultOpen>
+            <Disclosure className="md:bg-white my-10" defaultOpen>
                 {({ open }) => (
                     /* Use the `open` state to conditionally change the direction of an icon. */
                     <div className='my-4 rounded-lg'>
