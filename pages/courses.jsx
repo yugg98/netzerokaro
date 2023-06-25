@@ -16,6 +16,9 @@ import icon2 from '@/assets/customer/icon3.png'
 import icon3 from '@/assets/customer/icon4.png'
 import heroimg from '@/assets/hero4.svg'
 import el from '@/assets/icons/el.svg'
+import flex from '@/assets/icons/flex.svg'
+import learn from '@/assets/icons/learn.svg'
+import train from '@/assets/icons/train.svg'
 import { slideIn, textVariant } from '@/utils/motion'
 import { Parser } from 'html-to-react'
 import { motion } from 'framer-motion'
@@ -43,38 +46,58 @@ function marketplace() {
                     <ul>
 
                         <li className=''>
-                            <div className='flex flex-col'>
-
-                            <div className='flex flex-col'>
-                                <Image src={el} className='w-[40px] md:hidden block' />
-                                <p className='ml-2 text-2xl'>Next generation E-learning </p>
+                          
+                            <div className='sm:p-4 flex'>
+                                <Image src={el} className='h-[50px] md:flex hidden' />
+                                <div className=' px-4'>
+                                    <div className='md:block flex  items-center '>
+                                        <Image src={el} className='md:hidden flex h-[50px] w-[50px] mr-2' />
+                                        <p className=" text-xl   text-black mt-1">Next generation E-learning</p>
+                                    </div>
+                                    <p className='mt-2 text-[#5D6180]'>The academy aims to address the existing skills gap in climate and Environmental, Social, and Governance (ESG) areas by providing comprehensive training and upskilling opportunities.</p>
+                                </div>
                             </div>
-                            <p className=''> The academy aims to address the existing skills gap in climate and Environmental, Social, and Governance (ESG) areas by providing comprehensive training and upskilling opportunities.</p>
-                            </div>
-
-                        </li>
-
-                        <li className=''>
-                        <div className='flex'>
-                                <Image src={el} className='w-[40px] md:hidden block' />
-                                <p className='ml-2 text-2xl'>Tailored learning paths </p>
-                            </div>
-                            <p> Younger talent is increasingly seeking purpose, values-alignment, and engagement in their learning and development (L&D) experiences. The academy recognizes this and strives to provide a platform that appeals to younger individuals who are passionate about addressing climate change.</p>
                         </li>
                         <li className=''>
-                        <div className='flex'>
-                                <Image src={el} className='w-[40px] md:hidden block' />
-                                <p className='ml-2 text-2xl'>Train all your staff</p>
+                          
+                          <div className='sm:p-4 flex'>
+                              <Image src={learn} className='h-[60px] md:flex hidden' />
+                              <div className=' px-4'>
+                                  <div className='md:block flex  items-center '>
+                                      <Image src={learn} className='md:hidden flex h-[50px] w-[50px] mr-2' />
+                                      <p className=" text-xl   text-black mt-1">Tailored learning paths</p>
+                                  </div>
+                                  <p className='mt-2 text-[#5D6180]'>Younger talent is increasingly seeking purpose, values-alignment, and engagement in their learning and development (L&D) experiences. The academy recognizes this and strives to provide a platform that appeals to younger individuals who are passionate about addressing climate change.</p>
+                              </div>
+                          </div>
+                      </li>
+                      <li className=''>
+                          
+                            <div className='sm:p-4 flex'>
+                                <Image src={train} className='h-[60px] md:flex hidden' />
+                                <div className=' px-4'>
+                                    <div className='md:block flex  items-center '>
+                                        <Image src={train} className='md:hidden flex h-[50px] w-[50px] mr-2' />
+                                        <p className=" text-xl   text-black mt-1">Train all your staff</p>
+                                    </div>
+                                    <p className='mt-2 text-[#5D6180]'>The academy focuses on aligning skills development with the goal of achieving net-zero emissions. It aims to equip individuals with the knowledge and tools necessary to contribute to sustainability efforts and the transition to a net-zero future.</p>
+                                </div>
                             </div>
-                            <p>The academy focuses on aligning skills development with the goal of achieving net-zero emissions. It aims to equip individuals with the knowledge and tools necessary to contribute to sustainability efforts and the transition to a net-zero future.</p>
                         </li>
                         <li className=''>
-                        <div className='flex'>
-                                <Image src={el} className='w-[40px] md:hidden block' />
-                                <p className='ml-2 text-2xl'>Flexible learning </p>
+                          
+                            <div className='sm:p-4 flex'>
+                                <Image src={flex} className='h-[60px] md:flex hidden' />
+                                <div className=' px-4'>
+                                    <div className='md:block flex  items-center '>
+                                        <Image src={flex} className='md:hidden flex h-[50px] w-[50px] mr-2' />
+                                        <p className=" text-xl   text-black mt-1">Flexible learning</p>
+                                    </div>
+                                    <p className='mt-2 text-[#5D6180]'>The academy recognizes that climate skilling is the next wave in learning and development. By offering a platform that addresses this emerging trend, it seeks to stay ahead and provide relevant and impactful learning opportunities.</p>
+                                </div>
                             </div>
-                            <p>The academy recognizes that climate skilling is the next wave in learning and development. By offering a platform that addresses this emerging trend, it seeks to stay ahead and provide relevant and impactful learning opportunities.</p>
                         </li>
+                      
 
                     </ul>
                 </div>
@@ -164,8 +187,8 @@ const Hero = ({ Title, Desc, SuperTitle }) => {
 
                     <motion.p variants={textVariant(0.6)} className=" leading-6 mt-4 text-center sm:text-left">{Parser().parse(Desc)}</motion.p>
                     <div className="flex items-center mt-8 sm:justify-start justify-center">
-            <Link  className="rounded-full bg-green text-white px-12 text-lg py-3" href="https://docs.google.com/forms/d/e/1FAIpQLSeKhKzbkfUpONy24bTzoRY-YELlkcHzMaYCXiI3zNvlZEUosg/viewform">Explore</Link>
-          </div>
+                        <Link className="rounded-full bg-green text-white px-12 text-lg py-3" href="https://docs.google.com/forms/d/e/1FAIpQLSeKhKzbkfUpONy24bTzoRY-YELlkcHzMaYCXiI3zNvlZEUosg/viewform">Explore</Link>
+                    </div>
                 </div>
             </motion.div>
             <div className="sm:w-[50%] flex justify-end py-20 w-full">
