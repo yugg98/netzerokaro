@@ -33,7 +33,6 @@ const academy = () => {
             <Navbar />
             <Head>
       <title>Net Zero Karo - Academy</title>
-      <meta name='viewport' content='This is a net zero website'/>
     </Head>
             <Hero Title="Climate education with a difference." Desc="A platform dedicated to driving India's transition towards a net-zero economy." />
             <div className="w-full flex flex-wrap p-10  pb-10 mt-10">
