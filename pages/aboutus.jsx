@@ -25,7 +25,7 @@ import ecom from '@/assets/icons/ecom.svg'
 import it from '@/assets/icons/it.svg'
 import edu from '@/assets/icons/edu.svg'
 import pharma from '@/assets/icons/pharma.svg'
-
+import Head from 'next/head'
 
 import img3 from '@/assets/media/img1.png'
 
@@ -47,6 +47,10 @@ const aboutus = () => {
     return (
         <div>
             <Navbar />
+            <Head>
+      <title>Net Zero Karo - Abouts</title>
+      <meta name='viewport' content='This is a net zero website'/>
+    </Head>
             <Hero Title={"Our purpose lies in our name"} Desc={"NET ZERO: It is a state where we add no incremental greenhouse gases to the atmosphere. <br/> <br/> KARO = TO DO, means to act. It reflects our commitment to action and direction towards achieving carbon neutrality."} />
             {/* <div className='linearbggreen py-20'>
                 <div className="text-5xl text-green font-semibold text-center"></div>

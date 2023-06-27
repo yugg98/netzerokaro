@@ -25,11 +25,16 @@ import { slideIn, textVariant } from '@/utils/motion'
 import { Parser } from 'html-to-react'
 import Link from 'next/link'
 
+import Head from 'next/head'
 
 const academy = () => {
     return (
         <div>
             <Navbar />
+            <Head>
+      <title>Net Zero Karo - Academy</title>
+      <meta name='viewport' content='This is a net zero website'/>
+    </Head>
             <Hero Title="Climate education with a difference." Desc="A platform dedicated to driving India's transition towards a net-zero economy." />
             <div className="w-full flex flex-wrap p-10  pb-10 mt-10">
                 <motion.div className="sm:w-1/2 " variants={slideIn('left', 'tween', 0.1, 1)} initial="hidden" whileInView="show">

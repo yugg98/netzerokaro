@@ -26,11 +26,16 @@ import { Parser } from 'html-to-react'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 
+import Head from 'next/head'
 
 const hackathon = () => {
     return (
         <div>
             <Navbar />
+            <Head>
+      <title>Net Zero Karo - Hackathon</title>
+      <meta name='viewport' content='This is a net zero website'/>
+    </Head>
             <Hero Title="Virtual Hackathon Specialists" Desc="Hire, engage and innovate with top diverse talent to accelerate your business roadmap" />
             <div className='linearbggreen sm:py-20 p-4 sm:pt-4'>
                 <Heading text="Ignite innovation, collaborate, and elevate your brand through impactful hackathons." />

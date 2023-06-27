@@ -19,11 +19,16 @@ import Platform from '@/components/Platform'
 
 import Heading from '@/components/Heading'
 import HeroCompany from '@/components/HeroCompany'
+import Head from 'next/head'
 
 const company = () => {
     return (
         <div>
             <Navbar />
+            <Head>
+      <title>Net Zero Karo - Company</title>
+      <meta name='viewport' content='This is a net zero website'/>
+    </Head>
             <HeroCompany/>
             <Platform />
             <Vision />
