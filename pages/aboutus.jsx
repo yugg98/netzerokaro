@@ -355,9 +355,8 @@ const Hero = ({ Title, Desc, CalltoAction, SuperTitle, showQues }) => {
                     </div>
                 </div>
             </motion.div>
-            <div className="sm:w-[50%] flex justify-end ">
-
-                <Image src={zero} className='px-6 pr-0 mx-auto mr-5 my-4 w-[75%]' />
+            <div className="sm:w-[50%] flex justify-end w-full  ">
+                <Image src={zero} className='px-6 pr-0 mx-auto my-4 w-[75%]' />
             </div>
         </div>
     )
