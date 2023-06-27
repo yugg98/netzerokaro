@@ -37,6 +37,12 @@ import linkedin from '@/assets/faces/icon.svg'
 import zero from '@/assets/zero.png'
 import { Parser } from 'html-to-react'
 
+
+import p1 from '@/assets/p1.png'
+import p2 from '@/assets/p2.png'
+import p4 from '@/assets/p4.png'
+import p3 from '@/assets/p3.png'
+
 const aboutus = () => {
     return (
         <div>
@@ -198,12 +204,12 @@ const aboutus = () => {
                 <Heading text="Leadership Team" />
                 <div className="flex justify-between flex-wrap sm:mt-20 mt-10 sm:px-10 ">
                     <div className="flex flex-row justify-center max-w-[320px]  items-center md:mb-0 mb-4">
-                        <div className=" rounded-lg  overflow-hidden h-[600px]">
-                            <Image src={base1} className='mx-auto' />
-                            <div className="flex justify-between px-8 py-5">
+                        <div className=" rounded-lg  overflow-hidden h-[700px]">
+                            <Image src={p1} className='mx-auto ' />
+                            <div className="flex justify-between px-4 py-5">
                                 <div >
                                     <p className="font-semibold text-lg ">Sunil Batra</p>
-                                    <p className="text-green">Founder, Net Zero Karo,<br/> Ex-Samsung / Ex-Bharti Group </p>
+                                    <p className="text-green">Founder, <span className='font-semibold'> Net Zero Karo</span><br/> Ex-Samsung / Ex-Bharti Group </p>
                                     <p className="text-greyf mb-4 mt-2">Results-driven professional with over 20 years of experience in corporate roles, including successful entrepreneurship.</p>
                                     <Link href={'https://www.linkedin.com/in/sunilbatra81/'}>
                                     <Image src={linkedin} />
@@ -214,12 +220,12 @@ const aboutus = () => {
                         </div>
                     </div>
                     <div className="flex flex-row justify-center max-w-[320px]  items-center md:mb-0 mb-4">
-                        <div className=" rounded-lg  overflow-hidden h-[600px]">
-                            <Image src={base1} className='mx-auto' />
-                            <div className="flex justify-between px-8 py-5">
+                        <div className=" rounded-lg  overflow-hidden h-[700px]">
+                            <Image src={p2} className='mx-auto' />
+                            <div className="flex justify-between px-4 py-5">
                                 <div >
                                     <p className="font-semibold text-lg ">Sonia Batra</p>
-                                    <p className="text-green">Co-Founder, Net Zero Karo,<br/> Psychologist & Mental Health Professional</p>
+                                    <p className="text-green">Co-Founder, <span className='font-semibold'> Net Zero Karo</span><br/> Psychologist & Mental Health Professional</p>
                                     <p className="text-greyf mb-4 mt-2">Sensitive and motivated professional with 15+ yrs of extensive experience in psychology assistance.</p>
                                     <Link href={'https://www.linkedin.com/in/sonia-batra-a98b8b11/'}>
                                     <Image src={linkedin} />
@@ -230,12 +236,12 @@ const aboutus = () => {
                         </div>
                     </div>
                     <div className="flex flex-row justify-center max-w-[320px]  items-center md:mb-0 mb-4">
-                        <div className=" rounded-lg  overflow-hidden h-[600px]">
-                            <Image src={base1} className='mx-auto' />
-                            <div className="flex justify-between px-8 py-5">
+                        <div className=" rounded-lg  overflow-hidden h-[700px]">
+                            <Image src={p3} className='mx-auto' />
+                            <div className="flex justify-between px-4 py-5">
                                 <div >
                                     <p className="font-semibold text-lg ">Raghav Kumar Sharma</p>
-                                    <p className="text-green">Strategic Advisor, Net Zero Karo,<br/> Angel Investor & Entrepreneur</p>
+                                    <p className="text-green">Strategic Advisor,<span className='font-semibold'> Net Zero Karo</span><br/> Angel Investor & Entrepreneur</p>
                                     <p className="text-greyf mb-4 mt-2">A serial entrepreneur & Next-Gen business professional with 13+ years of developing business strategies, hatching new business models, and building out business processes.</p>
                                     <Link href={'https://www.linkedin.com/in/raghavsharmanift/'}>
                                     <Image src={linkedin} />
@@ -246,9 +252,9 @@ const aboutus = () => {
                         </div>
                     </div>
                     <div className="flex flex-row justify-center max-w-[320px]  items-center md:mb-0 mb-4">
-                        <div className=" rounded-lg  overflow-hidden h-[600px]">
-                            <Image src={base1} className='mx-auto' />
-                            <div className="flex justify-between px-8 py-5">
+                        <div className=" rounded-lg  overflow-hidden h-[700px]">
+                            <Image src={p4} className='mx-auto' />
+                            <div className="flex justify-between px-4 py-5">
                                 <div >
                                     <p className="font-semibold text-lg ">Manpreet Sethi</p>
                                     <p className="text-green">Marketing and Sustainability Strategist, Ex-Jaguar</p>

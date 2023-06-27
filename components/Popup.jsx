@@ -12,6 +12,7 @@ import modal1 from '@/assets/modal1.png'
 import { XMarkIcon } from '@heroicons/react/20/solid'
 import { Disclosure, Transition } from '@headlessui/react'
 import { ChevronRightIcon } from '@heroicons/react/20/solid'
+import Link from 'next/link'
 const Popup = () => {
     let [isOpen, setIsOpen] = useState(false)
     let [isOpen1, setIsOpen1] = useState(false)
@@ -112,14 +113,13 @@ const Popup = () => {
                                         <p className=" text-greyf mt-4">
                                         By completing the Net Zero Essentials course, participants will be equipped with the knowledge and tools to drive sustainable change within their organizations, contribute to the global net-zero agenda, and position their companies as leaders in the transition to a sustainable future.
                                         </p>
-                                        <button className='text-green text-lg mt-6'>Get your Certificate of Completion</button>
 
                                         <p className=" text-greyf mt-4">You can earn a skill badge. To do so, make sure to successfully complete the quiz at the end of each module within every chapter, as well as the 5-part quiz at the end of each chapter. Then, upon completion of the entire Core Learning Experience, you will gain your certificate of completion.</p>
                                     </div>
                                 </div>
-                                <div className="flex justify-center">
+                                <Link className="flex justify-center" href="https://docs.google.com/forms/d/e/1FAIpQLSeKhKzbkfUpONy24bTzoRY-YELlkcHzMaYCXiI3zNvlZEUosg/viewform">
                                     <button className=" bg-green rounded-full px-8 text-white py-4 mx-auto mt-4">Get Started Now</button>
-                                </div>
+                                </Link>
                             </div>
                             {/* ... */}
                         </Dialog.Panel>
@@ -162,14 +162,13 @@ const Popup = () => {
                                         <p className=" text-greyf mt-4">
                                         By completing the Climate Change 101 course, participants will be equipped with a solid understanding of climate change science, its impacts, and the strategies to address it. They will be empowered to drive sustainability initiatives within their organizations and contribute to a more resilient and sustainable future.
                                         </p>
-                                        <button className='text-green text-lg mt-6'>Get your Certificate of Completion</button>
 
                                         <p className=" text-greyf mt-4">You can earn a skill badge. To do so, make sure to successfully complete the quiz at the end of each module within every chapter. You will gain your certificate of completion once you complete the entire course. </p>
                                     </div>
                                 </div>
-                                <div className="flex justify-center">
+                                <Link className="flex justify-center" href="https://docs.google.com/forms/d/e/1FAIpQLSeKhKzbkfUpONy24bTzoRY-YELlkcHzMaYCXiI3zNvlZEUosg/viewform">
                                     <button className=" bg-green rounded-full px-8 text-white py-4 mx-auto mt-4">Get Started Now</button>
-                                </div>
+                                </Link>
                             </div>
                             {/* ... */}
                         </Dialog.Panel>
@@ -212,14 +211,13 @@ const Popup = () => {
                                         <p className=" text-greyf mt-4">
                                         By completing the ABCs of Circular Economy course, participants will gain the knowledge and tools to incorporate circular economy principles into their business strategies. They will understand how to identify circular opportunities, implement circular business models, and drive the transition to a more sustainable and circular future.
                                         </p>
-                                        <button className='text-green text-lg mt-6'>Get your Certificate of Completion</button>
 
                                         <p className=" text-greyf mt-4">You can earn a skill badge. To do so, make sure to successfully complete the quiz at the end of each module within every chapter. You will gain your certificate of completion once you complete the entire course. </p>
                                     </div>
                                 </div>
-                                <div className="flex justify-center">
+                                <Link className="flex justify-center" href="https://docs.google.com/forms/d/e/1FAIpQLSeKhKzbkfUpONy24bTzoRY-YELlkcHzMaYCXiI3zNvlZEUosg/viewform">
                                     <button className=" bg-green rounded-full px-8 text-white py-4 mx-auto mt-4">Get Started Now</button>
-                                </div>
+                                </Link>
                             </div>
                             {/* ... */}
                         </Dialog.Panel>
