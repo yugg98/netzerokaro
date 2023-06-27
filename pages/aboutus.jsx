@@ -213,10 +213,10 @@ const aboutus = () => {
                             <div className="flex justify-between px-4 py-5">
                                 <div >
                                     <p className="font-semibold text-lg ">Sunil Batra</p>
-                                    <p className="text-green">Founder, <span className='font-semibold'> Net Zero Karo</span><br/> Ex-Samsung / Ex-Bharti Group </p>
+                                    <p className="text-green font-semibold">Founder, <span className='font-semibold'> Net Zero Karo</span><br/> Ex-Samsung / Ex-Bharti Group </p>
                                     <p className="text-greyf mb-4 mt-2">Results-driven professional with over 20 years of experience in corporate roles, including successful entrepreneurship.</p>
                                     <Link href={'https://www.linkedin.com/in/sunilbatra81/'}>
-                                    <Image src={linkedin} />
+                                    <Image src={linkedin} className='' />
                                     </Link>
                                 </div>
 
@@ -229,9 +229,25 @@ const aboutus = () => {
                             <div className="flex justify-between px-4 py-5">
                                 <div >
                                     <p className="font-semibold text-lg ">Sonia Batra</p>
-                                    <p className="text-green">Co-Founder, <span className='font-semibold'> Net Zero Karo</span><br/> Psychologist & Mental Health Professional</p>
+                                    <p className="text-green font-semibold">Co-Founder, <span className='font-semibold'> Net Zero Karo</span><br/> Psychologist & Mental Health Professional</p>
                                     <p className="text-greyf mb-4 mt-2">Sensitive and motivated professional with 15+ yrs of extensive experience in psychology assistance.</p>
                                     <Link href={'https://www.linkedin.com/in/sonia-batra-a98b8b11/'}>
+                                    <Image src={linkedin} className='' />
+                                    </Link>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flex flex-row justify-center max-w-[320px]  items-center md:mb-0 mb-4">
+                        <div className=" rounded-lg  overflow-hidden h-[700px]">
+                            <Image src={p4} className='mx-auto' />
+                            <div className="flex justify-between px-4 py-5">
+                                <div >
+                                    <p className="font-semibold text-lg ">Raghav Kumar Sharma</p>
+                                    <p className="text-green font-semibold">Strategic Advisor,<span className=''> Net Zero Karo</span><br/> Angel Investor & Entrepreneur</p>
+                                    <p className="text-greyf mb-4 mt-2">A serial entrepreneur & Next-Gen business professional with 13+ years of developing business strategies, hatching new business models, and building out business processes.</p>
+                                    <Link href={'https://www.linkedin.com/in/raghavsharmanift/'}>
                                     <Image src={linkedin} />
                                     </Link>
                                 </div>
@@ -244,24 +260,8 @@ const aboutus = () => {
                             <Image src={p3} className='mx-auto' />
                             <div className="flex justify-between px-4 py-5">
                                 <div >
-                                    <p className="font-semibold text-lg ">Raghav Kumar Sharma</p>
-                                    <p className="text-green">Strategic Advisor,<span className='font-semibold'> Net Zero Karo</span><br/> Angel Investor & Entrepreneur</p>
-                                    <p className="text-greyf mb-4 mt-2">A serial entrepreneur & Next-Gen business professional with 13+ years of developing business strategies, hatching new business models, and building out business processes.</p>
-                                    <Link href={'https://www.linkedin.com/in/raghavsharmanift/'}>
-                                    <Image src={linkedin} />
-                                    </Link>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-row justify-center max-w-[320px]  items-center md:mb-0 mb-4">
-                        <div className=" rounded-lg  overflow-hidden h-[700px]">
-                            <Image src={p4} className='mx-auto' />
-                            <div className="flex justify-between px-4 py-5">
-                                <div >
                                     <p className="font-semibold text-lg ">Manpreet Sethi</p>
-                                    <p className="text-green">Marketing and Sustainability Strategist, Ex-Jaguar</p>
+                                    <p className="text-green font-semibold">Marketing and Sustainability Strategist, Ex-Jaguar</p>
                                     <p className="text-greyf mb-4 mt-2">A passionate entrepreneur with 15 Years of rich experience in driving innovative and sustainable strategies. Skilled in forming partnerships and alliances across industries and verticals.</p>
                                     <Link href={'https://www.linkedin.com/in/manpreetsethi1/'}>
                                     <Image src={linkedin} />
