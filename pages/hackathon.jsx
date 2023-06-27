@@ -34,7 +34,6 @@ const hackathon = () => {
             <Navbar />
             <Head>
       <title>Net Zero Karo - Hackathon</title>
-      <meta name='viewport' content='This is a net zero website'/>
     </Head>
             <Hero Title="Virtual Hackathon Specialists" Desc="Hire, engage and innovate with top diverse talent to accelerate your business roadmap" />
             <div className='linearbggreen sm:py-20 p-4 sm:pt-4'>

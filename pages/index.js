@@ -16,7 +16,6 @@ export default function Home() {
    <div className='max-w-full overflow-x-hidden'>
     <Head>
       <title>Net Zero Karo - Home</title>
-      <meta name='viewport' content='This is a net zero website'/>
     </Head>
       <Navbar/>
       <HeroHome/>

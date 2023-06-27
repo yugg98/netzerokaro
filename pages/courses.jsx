@@ -31,7 +31,6 @@ function marketplace() {
             <Navbar />
             <Head>
       <title>Net Zero Karo - Courses</title>
-      <meta name='viewport' content='This is a net zero website'/>
     </Head>
             <Hero Title="Innovating for a Net Zero Economy" Desc="A Platform dedicated to driving India’s transition to a Net Zero Economy" />
             <div className='p-20 pt-4 sm:px-[120px] px-4 linearbggreen pb-0 '>

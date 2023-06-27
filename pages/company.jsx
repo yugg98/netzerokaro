@@ -27,7 +27,6 @@ const company = () => {
             <Navbar />
             <Head>
       <title>Net Zero Karo - Company</title>
-      <meta name='viewport' content='This is a net zero website'/>
     </Head>
             <HeroCompany/>
             <Platform />

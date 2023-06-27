@@ -49,7 +49,6 @@ const aboutus = () => {
             <Navbar />
             <Head>
       <title>Net Zero Karo - Abouts</title>
-      <meta name='viewport' content='This is a net zero website'/>
     </Head>
             <Hero Title={"Our purpose lies in our name"} Desc={"NET ZERO: It is a state where we add no incremental greenhouse gases to the atmosphere. <br/> <br/> KARO = TO DO, means to act. It reflects our commitment to action and direction towards achieving carbon neutrality."} />
             {/* <div className='linearbggreen py-20'>
