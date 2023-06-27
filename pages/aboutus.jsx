@@ -48,8 +48,8 @@ const aboutus = () => {
         <div>
             <Navbar />
             <Head>
-      <title>Net Zero Karo - Abouts</title>
-    </Head>
+                <title>Net Zero Karo - Abouts</title>
+            </Head>
             <Hero Title={"Our purpose lies in our name"} Desc={"NET ZERO: It is a state where we add no incremental greenhouse gases to the atmosphere. <br/> <br/> KARO = TO DO, means to act. It reflects our commitment to action and direction towards achieving carbon neutrality."} />
             {/* <div className='linearbggreen py-20'>
                 <div className="text-5xl text-green font-semibold text-center"></div>
@@ -212,10 +212,10 @@ const aboutus = () => {
                             <div className="flex justify-between px-4 py-5">
                                 <div >
                                     <p className="font-semibold text-lg ">Sunil Batra</p>
-                                    <p className="text-green font-semibold">Founder, <span className='font-semibold'> Net Zero Karo</span><br/> Ex-Samsung / Ex-Bharti Group </p>
+                                    <p className="text-green font-semibold">Founder, <span className='font-semibold'> Net Zero Karo</span><br /> Ex-Samsung / Ex-Bharti Group </p>
                                     <p className="text-greyf mb-4 mt-2">Results-driven professional with over 20 years of experience in corporate roles, including successful entrepreneurship.</p>
                                     <Link href={'https://www.linkedin.com/in/sunilbatra81/'}>
-                                    <Image src={linkedin} className='' />
+                                        <Image src={linkedin} className='' />
                                     </Link>
                                 </div>
 
@@ -228,10 +228,10 @@ const aboutus = () => {
                             <div className="flex justify-between px-4 py-5">
                                 <div >
                                     <p className="font-semibold text-lg ">Sonia Batra</p>
-                                    <p className="text-green font-semibold">Co-Founder, <span className='font-semibold'> Net Zero Karo</span><br/> Psychologist & Mental Health Professional</p>
+                                    <p className="text-green font-semibold">Co-Founder, <span className='font-semibold'> Net Zero Karo</span><br /> Psychologist & Mental Health Professional</p>
                                     <p className="text-greyf mb-4 mt-2">Sensitive and motivated professional with 15+ yrs of extensive experience in psychology assistance.</p>
                                     <Link href={'https://www.linkedin.com/in/sonia-batra-a98b8b11/'}>
-                                    <Image src={linkedin} className='' />
+                                        <Image src={linkedin} className='' />
                                     </Link>
                                 </div>
 
@@ -244,10 +244,10 @@ const aboutus = () => {
                             <div className="flex justify-between px-4 py-5">
                                 <div >
                                     <p className="font-semibold text-lg ">Raghav Kumar Sharma</p>
-                                    <p className="text-green font-semibold">Strategic Advisor,<span className=''> Net Zero Karo</span><br/> Angel Investor & Entrepreneur</p>
-                                    <p className="text-greyf mb-4 mt-2">A serial entrepreneur & Next-Gen business professional with 13+ years of developing business strategies, hatching new business models, and building out business processes.</p>
+                                    <p className="text-green font-semibold">Strategic Advisor,<span className=''> Net Zero Karo</span><br /> Angel Investor & Entrepreneur</p>
+                                    <p className="text-greyf mb-4 mt-2">A serial entrepreneur & Next-Gen business professional with 15+ years of developing business strategies, hatching new business models, and building out business processes.</p>
                                     <Link href={'https://www.linkedin.com/in/raghavsharmanift/'}>
-                                    <Image src={linkedin} />
+                                        <Image src={linkedin} />
                                     </Link>
                                 </div>
 
@@ -263,7 +263,7 @@ const aboutus = () => {
                                     <p className="text-green font-semibold">Marketing and Sustainability Strategist, Ex-Jaguar</p>
                                     <p className="text-greyf mb-4 mt-2">A passionate entrepreneur with 15 Years of rich experience in driving innovative and sustainable strategies. Skilled in forming partnerships and alliances across industries and verticals.</p>
                                     <Link href={'https://www.linkedin.com/in/manpreetsethi1/'}>
-                                    <Image src={linkedin} />
+                                        <Image src={linkedin} />
                                     </Link>
                                 </div>
 
@@ -351,13 +351,13 @@ const Hero = ({ Title, Desc, CalltoAction, SuperTitle, showQues }) => {
 
                     <motion.p variants={textVariant(0.6)} className=" leading-6 mt-4 text-center sm:text-left">{Parser().parse(Desc)}</motion.p>
                     <div className="flex items-center mt-8 sm:justify-start justify-center">
-            <Link  className="rounded-full bg-green text-white px-12 text-lg py-3" href="https://docs.google.com/forms/d/e/1FAIpQLSeKhKzbkfUpONy24bTzoRY-YELlkcHzMaYCXiI3zNvlZEUosg/viewform">Explore</Link>
-          </div>
+                        <Link className="rounded-full bg-green text-white px-12 text-lg py-3" href="https://docs.google.com/forms/d/e/1FAIpQLSeKhKzbkfUpONy24bTzoRY-YELlkcHzMaYCXiI3zNvlZEUosg/viewform">Explore</Link>
+                    </div>
                 </div>
             </motion.div>
             <div className="sm:w-[50%] flex justify-end ">
 
-                <Image src={zero}  className='px-6 pr-0 mx-auto mr-5 my-4 w-[75%]' />
+                <Image src={zero} className='px-6 pr-0 mx-auto mr-5 my-4 w-[75%]' />
             </div>
         </div>
     )

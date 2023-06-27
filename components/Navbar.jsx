@@ -21,7 +21,7 @@ const Navbar = () => {
                     <li ><Link href="/academy" className='text-[1rem] text-green'>Academy</Link></li>
                     <li ><Link href="/courses" className='text-[1rem] text-green'> Courses</Link></li>
                     <li ><Link href="/marketplace" className='text-[1rem] text-green'>Marketplace</Link></li>
-                    <li ><Link href="/aboutus" className='text-[1rem] text-green'>Aboutus</Link></li>
+                    <li ><Link href="/aboutus" className='text-[1rem] text-green'>About Us</Link></li>
                     <li ><Link href="/hackathon" className='text-[1rem] text-green'>Hackathon</Link></li>
                 </ul>
                 {open ? <XMarkIcon className='sm:hidden relative w-[35px] z-[2010]' onClick={() => setOpen(false)} /> : <Bars3Icon className='sm:hidden relative w-[35px] z-[100]' onClick={() => setOpen(true)} />}
@@ -33,7 +33,7 @@ const Navbar = () => {
                         <li className='text-[1.15rem] text-green'><Link href="/academy">Academy</Link></li>
                         <li className='text-[1.15rem] text-green'><Link href="/courses"> Courses</Link></li>
                         <li className='text-[1.15rem] text-green'><Link href="/marketplace">Marketplace</Link></li>
-                        <li className='text-[1.15rem] text-green'><Link href="/aboutus">Aboutus </Link></li>
+                        <li className='text-[1.15rem] text-green'><Link href="/aboutus">About Us </Link></li>
                         <li className='text-[1.15rem] text-green'><Link href="/hackathon">Hackathon</Link></li>
                     </ul>
                 </div>

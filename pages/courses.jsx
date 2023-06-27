@@ -165,7 +165,7 @@ function marketplace() {
             <div className="flex flex-wrap sm:p-20 sm:pt-6 p-4 pt-8 linearbggreen">
                 <div className="sm:w-1/2 sm:px-[100px]">
                     <p className="sm:text-5xl text-3xl text-green sm:leading-[60px] sm:text-left text-center">
-                        <span className='font-semibold'> Frequently Asked  Us  ?</span></p>
+                        <span className='font-semibold'> FAQ&apos;s ?</span></p>
                     <p className="text-l sm:mt-0 mt-3">Your questions answered on our approach, our team, our values, our process, costs, timeline and more.</p>
                 </div>
                 <div className="sm:w-1/2">
